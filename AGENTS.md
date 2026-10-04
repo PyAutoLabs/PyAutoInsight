@@ -1,0 +1,73 @@
+# PyAutoInsight — agent instructions
+
+Insight owns inference campaign intent, pending domain tasks, the instance registry,
+the inference-summary read contract, ingest receipts and this evidence dashboard.
+Read CHECKIN.md for single-chat operation, REFERENCE.md for contracts, campaigns.yaml
+and tasks/ for intent. Mind owns bounded implementation issues/PRs and repository
+claims. Cortex owns authoritative science runs, observations and human conclusions.
+Projects own exporters, raw results, samples and execution drivers. Do not create
+an inference conductor, select defaults or turn process completion into scientific
+acceptance. Refreshing the board neither checks in nor changes task status.
+
+Before edits fetch and read current instructions. Before PR run ruff check .,
+ruff format --check ., python -m pytest tests -q and bin/pyauto-insight check --offline.
+No scientific libraries are imported by this reader. No automatic compute submission.
+
+<!-- repos_sync:map:begin -->
+**You are one organ of the PyAuto organism** — an agentic ecosystem for
+human-led, natural-language software development. The organs below are
+peer repositories; this repo is one of them, not a part of another.
+Canonical boundaries live in `PyAutoBrain/ORGANISM.md`; the full body map
+(every repo, not just organs) is `PyAutoMind/repos.yaml`.
+
+| Organ | Repo | Role |
+|-------|------|------|
+| **Brain** | PyAutoBrain | Reasoning/orchestration layer; how work is decomposed and routed; the specialist agents. |
+| **Mind** | PyAutoMind | Intent, goals, priorities, workflow state; every task starts as a markdown prompt here. |
+| **Cortex** | PyAutoCortex | The Cortex — where the organism keeps track of what is true: the science body map (`projects.yaml`) and one ledger per science project (what was run, what came back, what was learned, where to pick up); the science mirror of the Mind (runs and a dated log, not prompts and PRs). |
+| **Memory** | PyAutoMemory | Long-term scientific/software/project knowledge (see science pointer below). |
+| **Eyes** | PyAutoEyes | The Eyes — where the organism sees what its figures look like: the cross-project visualization dashboard over the `<lib>_visualization` project repos (autolens_visualization, autogalaxy_visualization, autofit_visualization and autocti_visualization) — the registry of those repos, the tracked-manifest read contract (`gallery/viz_manifest.yaml`) and the Pages board that links to their PNGs as the single point of contact for the visual behaviour of the whole ecosystem. Renders nothing and copies no figures (the project repos render and hold them); never judges them (the Brain's Eyes conductor does) and never edits library plot code (critiques route through intake). |
+| **Ears** | PyAutoEars | The Ears — the community listening organ: owns read-only public conversation collection, the versioned community snapshot contract, coverage receipts and the dashboard. GitHub conversations remain authoritative; Brain’s Community conductor owns judgement, reply drafts and development routing, and Mind owns task state. Never posts replies, labels or issues, exports raw transcripts or private sources, or treats unknown coverage as no work. |
+| **Heart** | PyAutoHeart | Health/readiness — the authoritative "is it safe to release?" verdict. |
+| **Hands** | PyAutoHands | Packaging, tagging, notebook generation, PyPI release execution. |
+| **Pulse** | PyAutoPulse | The Pulse — where the organism feels how fast it runs: the cross-project profiling dashboard over the `<lib>_profiling` project repos (today autolens_profiling) — campaign intent and pending domain tasks, the instance registry, the versioned `profiling-summary` read contract (v1 live at `autolens_profiling/dashboard/summary.json`), the ingest receipts (resolved commit per project per render) and the Pages board. Validates the exchange contract only; never moves pins, combines unmatched timings, applies the compile threshold to runtime, computes an ecosystem-wide speed score or issues a Heart verdict, and never judges (the Brain's profiling conductor does); the project repos keep their producers, results, drift policy and their own Pages page. |
+| **Insight** | PyAutoInsight | Owns inference campaign intent and pending domain tasks, the cross-project inference instance registry, versioned `inference-summary` read contract, ingest receipts and evidence dashboard. Projects own execution, producers and raw samples; Cortex owns scientific run records, observations and human conclusions; Mind owns bounded implementation lifecycle and repository claims. Never infers scientific acceptance from execution, ranks incompatible runs or submits compute on refresh. |
+| **Nerves** | PyAutoNerves | The Nerves — the configuration/serialization layer connecting workspace conventions to libraries (layered config, version handshake, test_mode), delivered as the `autonerves` package. |
+| **Gut** | PyAutoGut | Owns the lifecycle of condemned self-material (stale branches, stashes, dead code/tests): holds it as durable, recoverable git refs through a transit window and voids it on a sweep. The storage mirror of Memory (retention vs release). |
+
+Call chain (always this order): **Brain → Heart (gate) → Build (execute)**. Brain agents are **conductors** (front-door; a human drives them; they decide *and* act) or **faculties** (read-only opinions the conductors consult; they judge and stop). New capability grows as a faculty, not a new organ, unless it owns state or effects no existing organ can.
+
+Generated from `PyAutoMind/repos.yaml` + `PyAutoBrain/ORGANISM.md`; edit there, then run `python3 PyAutoMind/scripts/repos_sync.py --write`.
+<!-- repos_sync:map:end -->
+<!-- repos_sync:history:begin -->
+## Never rewrite history
+
+Never rewrite pushed history on any repo with a remote — no `git init` over a
+tracked repo, no force-push to `main`, no fresh-start "Initial commit", no
+`filter-repo` / `filter-branch` / `rebase -i` on pushed branches. To get a
+clean tree: `git fetch origin && git reset --hard origin/main && git clean -fd`.
+<!-- repos_sync:history:end -->
+<!-- repos_sync:deliverable:begin -->
+## Sessions end at their deliverable
+
+A session ends when it reports its deliverable — never arm anything that
+outlives the turn to wait for CI, a review or a merge: no `send_later`, no
+`subscribe_pr_activity`, no `CronCreate`, no `ScheduleWakeup`, no `/loop`, no
+`RemoteTrigger` create/update/run. Judge once, report, stop; the human re-runs
+`/prm` (or the batch review) when it is green. Measured: five batch members
+armed hourly check-ins on 2026-08-31, and a mobile `/prm` re-armed a 60-minute
+`send_later` hourly all night on 2026-09-03 with no task active, draining usage.
+<!-- repos_sync:deliverable:end -->
+<!-- repos_sync:filing:begin -->
+## Where to file
+
+Questions, help with code or an analysis, ideas, bug reports and results from a
+user or collaborator — or an agent acting for one — go to
+<https://github.com/orgs/PyAutoLabs/discussions> in the matching category
+(Help & Questions, Ideas & Proposals, Bugs & Errors, Show and tell;
+Announcements is maintainers-only), never to this repo's Issues. An agent never
+runs `gh issue create` for such a report: it drafts the title, category and
+body and hands them to the human (sessions cannot create Discussions). Only the
+development flow — Mind prompt → `/start_dev` → `/create_issue` → one issue per
+task → PR — opens issues here. Why: `PyAutoMind/policy/community_surface.md`.
+<!-- repos_sync:filing:end -->

@@ -1,0 +1,1 @@
+- [from: research jax-autodiff-gradients-audit (#87) · validated-likelihood set] NUTS/HMC sampler trial on the FD-validated likelihoods (weak lensing, point-source source-plane, imaging with RectangularUniform or parametric sources) via the sampler pipeline — gradients are now certified correct end-to-end, removing the main risk that stalled gradient-based inference.

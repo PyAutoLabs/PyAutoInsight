@@ -1,0 +1,16 @@
+{
+  "instance": "lens",
+  "repo": "autolens_inference",
+  "github": "PyAutoLabs/autolens_inference",
+  "branch": "feature/insight-producer",
+  "resolved_commit": "9c362a7a298238d766f61e812c694813e94830d1",
+  "summary_path": "dashboard/summary.json",
+  "source": "remote",
+  "fetched_at": "2026-10-04T07:45:10Z",
+  "outcome": "ok",
+  "schema": "inference-summary",
+  "version": 1,
+  "record_count": 56,
+  "errors": [],
+  "cached_from": null
+}

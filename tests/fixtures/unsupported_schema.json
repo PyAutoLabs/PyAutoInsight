@@ -1,0 +1,225 @@
+{
+  "comparison_policy": {
+    "id": "declared-target-seed-stage-v1",
+    "note": "Targets/seeds/stages retained; no automatic parity certification or best-seed selection",
+    "ranking": "none"
+  },
+  "comparisons": [],
+  "coverage": {
+    "excluded": [],
+    "expected": {
+      "reason": "No complete expected-run manifest; unrecorded jobs cannot be enumerated",
+      "runs": null
+    },
+    "observed": {
+      "records": 1,
+      "runs": 1,
+      "archived_records": 0,
+      "execution_complete": 1
+    }
+  },
+  "evidence_updated_at": null,
+  "evidence_updated_at_reason": "Legacy result rows do not record measurement timestamps",
+  "generated_at": "2026-10-04T07:35:14Z",
+  "generation_basis": "Source commit timestamp; not a measurement or check-in time",
+  "limitations": [
+    "No scientific acceptance or convergence inferred from process completion",
+    "Sample archives remain in project storage; current availability unknown",
+    "No evidence from the retired inference programme is imported",
+    "Archived rows belong to this project's September 2026 runs and are historical, not current baselines"
+  ],
+  "producer_revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "project": "autolens_inference",
+  "records": [
+    {
+      "archived": false,
+      "backend": "jax_cpu",
+      "comparison": {
+        "declared_target": "simple/source_plane_solved/seed0",
+        "group": null,
+        "note": "Declared target is not a verified comparison group; no ranking"
+      },
+      "configuration": {
+        "config_name": "hpc_a100_jax_cpu_dense_fp64",
+        "cores": 8,
+        "fit_positions_cls": "FitPositionsSourceSolved",
+        "free_parameters": 5,
+        "inversion": "dense",
+        "n_batch": 50,
+        "n_live": 100,
+        "priors": {
+          "einstein_radius": "U(0.5, 4.0)",
+          "others": "library-default Isothermal priors"
+        },
+        "resumed": false,
+        "test_mode": false,
+        "use_jax": true,
+        "variant": "source_plane_solved"
+      },
+      "dataset": {
+        "class": "point_source",
+        "id": null,
+        "instrument": "simple"
+      },
+      "dependency_revisions": {
+        "autoarray": "9428eca2",
+        "autofit": "404b3e5f7",
+        "autogalaxy": "c9609825",
+        "autolens": "21b520be4",
+        "autonerves": "bf10410"
+      },
+      "diagnostics": {
+        "status": "available",
+        "values": {
+          "inversion_applies": false,
+          "likelihood_evals": 4850,
+          "likelihood_share": 0.00040501777436034486,
+          "log_evidence": -7.153937371523832,
+          "log_evidence_err_note": "nautilus 1.0.5 exposes no log_z_err; samples_info carries only log_evidence, total_samples, time and number_live_points.",
+          "log_likelihood_at_truth": 15.902398430038737,
+          "max_log_likelihood": 16.48568552789147,
+          "per_call_s": 4.723259480670094e-06,
+          "positions_info_present": false,
+          "posterior": {
+            "centre_0": {
+              "lower_1": -0.04216816245874099,
+              "median": -0.017453424264998282,
+              "sigma": 0.025797484788372172,
+              "upper_1": 0.00942680711800335
+            },
+            "centre_1": {
+              "lower_1": -0.04336377661022216,
+              "median": -0.018067299498348146,
+              "sigma": 0.025791414665263836,
+              "upper_1": 0.00821905272030551
+            },
+            "einstein_radius": {
+              "lower_1": 1.5945063508229387,
+              "median": 1.6056260743312727,
+              "sigma": 0.01115243788494824,
+              "upper_1": 1.6168112265928352
+            },
+            "ell_comps_0": {
+              "lower_1": 0.047688746799381704,
+              "median": 0.06559594956905983,
+              "sigma": 0.01762818058418965,
+              "upper_1": 0.082945107967761
+            },
+            "ell_comps_1": {
+              "lower_1": -0.00019838121507798336,
+              "median": 2.4804878302780597e-05,
+              "sigma": 0.00022114345613303182,
+              "upper_1": 0.0002439056971880803
+            }
+          },
+          "timing": {
+            "batched": {
+              "median_s": 0.00023616297403350472,
+              "min_s": 0.00019111903384327888,
+              "n": 200,
+              "p16_s": 0.00021696899784728885,
+              "p84_s": 0.00025908800307661295,
+              "warmup": 10
+            },
+            "compile_s": 1.9011598539655097,
+            "compile_single_s": 1.3180420650169253,
+            "single": {
+              "median_s": 0.0002068985195364803,
+              "min_s": 0.00016070902347564697,
+              "n": 200,
+              "p16_s": 0.00019189901649951935,
+              "p84_s": 0.00022341799922287464,
+              "warmup": 10
+            },
+            "vector": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.25
+            ]
+          },
+          "truth_delta_sigma": {
+            "centre_0": -0.6765552691735727,
+            "centre_1": -0.7005160334489673,
+            "einstein_radius": 0.5044703578995735,
+            "ell_comps_0": 0.7354344119505386,
+            "ell_comps_1": 0.112166458535656
+          },
+          "truths": {
+            "centre_0": 0.0,
+            "centre_1": 0.0,
+            "einstein_radius": 1.6,
+            "ell_comps_0": 0.05263157894736841,
+            "ell_comps_1": 3.2227547345982974e-18
+          }
+        }
+      },
+      "evidence_paths": [
+        "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json"
+      ],
+      "execution": {
+        "completed": true,
+        "reason": null,
+        "status": "complete"
+      },
+      "hardware": {
+        "cores": 8,
+        "device": {
+          "backend": "cpu",
+          "cpu_count": 124,
+          "device": "cpu:0",
+          "omp_num_threads": null,
+          "xla_flags": "--xla_disable_hlo_passes=constant_folding --xla_gpu_autotune_level=0 --xla_gpu_enable_triton_gemm=false"
+        },
+        "host": "euclid-ral-gpu-2",
+        "slurm_array_job_id": null,
+        "slurm_array_task_id": null,
+        "slurm_job_id": "366937"
+      },
+      "id": "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json",
+      "library_version": "2026.8.17.1",
+      "measured_at": null,
+      "model": "L5: Isothermal (5 free) + PointSolved source",
+      "parent_run_id": null,
+      "pipeline": null,
+      "precision": "fp64",
+      "sampler": "nautilus",
+      "samples": {
+        "access": "project-storage-not-published",
+        "availability": "unknown",
+        "note": "Committed results do not verify current archive/sample availability; unsafe absolute paths omitted",
+        "path": "output/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/seed_0/nautilus/b39f17cc6d57dba03e090e4d9682ce2b"
+      },
+      "scientific": {
+        "acceptance": "not_assessed",
+        "convergence": "not_assessed",
+        "reason": "Exporter does not make scientific rulings; consult Cortex"
+      },
+      "seed": 0,
+      "stage": null,
+      "target": "simple/source_plane_solved/seed0",
+      "timings": {
+        "compile_s": 1.9011598539655097,
+        "definitions": {
+          "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+          "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
+          "setup_s": "Not measured separately; unknown, not total minus sampling",
+          "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
+        },
+        "sampling_s": 56.56000781059265,
+        "setup_s": null,
+        "total_s": 65.21035292901797
+      },
+      "unknown_reasons": {
+        "dataset.id": "Dataset content identity not recorded",
+        "measured_at": "Not recorded in source result"
+      }
+    }
+  ],
+  "schema": "inference-summary",
+  "scope": "inference",
+  "source_commit": "e60fd387cd5d112782888671d5a9471432abcc93",
+  "valid_until": null,
+  "version": 77
+}

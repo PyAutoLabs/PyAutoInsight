@@ -1,0 +1,108 @@
+name: Dashboard Refresh
+
+# Re-ingests every registered instance (resolve its branch to one commit, read
+# its summary at that SHA, validate, write receipts/ and the last-good
+# snapshots/), re-renders dashboard.md / dashboard.html / badge.json /
+# state.json, and commits them to main as github-actions[bot] when they
+# changed. (Eyes/Cortex pattern.)
+#
+# Triggers:
+#   - repository_dispatch `insight-refresh`: to be fired by each project repo's
+#     pages_dashboard.yml after it publishes a new summary (sender is implemented by autolens_inference/inference-summary.yml). The payload is only logged: the board
+#     always re-resolves the branch itself, so a dispatch can never make the
+#     dashboard disagree with the project's main.
+#   - a nightly cron: catches any dispatch that did not arrive.
+#   - push to main touching the registry or the reader, and workflow_dispatch.
+#   - pull_request: a dry run (ingest + render, no commit) so a reader change
+#     is exercised against the live feeds before it merges.
+#
+# Receipts and snapshots carry their `fetched_at` while nothing changes, the
+# pages carry no wall-clock stamp, and state.json's `updated` moves only when
+# the feed's content does, so a night with no new project commit commits
+# nothing. A failed fetch keeps the committed snapshot (shown as cached, never
+# re-aged). The body map is read from a checkout of PyAutoMind (public). The
+# bot commit uses GITHUB_TOKEN, which never triggers other workflows, so after
+# a commit this workflow dispatches pages_dashboard.yml explicitly.
+
+on:
+  repository_dispatch:
+    types: [insight-refresh]
+  schedule:
+    - cron: "55 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "registry.yaml"
+      - "campaigns.yaml"
+      - "tasks/**"
+      - "migration.yaml"
+      - "insight/**"
+  pull_request:
+
+permissions:
+  contents: write
+  actions: write
+
+# Every workflow in this repo that pushes to main shares one queue.
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('insight-refresh-pr-{0}', github.ref) || 'insight-main-writers' }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Log the trigger
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          echo "event: ${GITHUB_EVENT_NAME}"
+          if [ "${GITHUB_EVENT_NAME}" = "repository_dispatch" ]; then echo "payload: ${PAYLOAD}"; fi
+
+      - name: PyAutoMind (the body map that resolves each instance's repo)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/PyAutoMind
+          path: _mind
+
+      - name: Dependencies
+        run: python3 -m pip install --quiet pyyaml
+
+      - name: Dry run (pull request)
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bin/pyauto-insight board --mind _mind
+          git status --short
+
+      - name: Ingest, render and commit the dashboard (only when changed)
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          FILES="dashboard.md dashboard.html badge.json state.json receipts snapshots"
+          for attempt in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            bin/pyauto-insight board --mind _mind
+            git add $FILES
+            if git diff --cached --quiet; then
+              echo "dashboard unchanged: nothing to commit"
+              exit 0
+            fi
+            git commit -q -m "insight: refresh dashboard (${GITHUB_EVENT_NAME}) [skip ci]"
+            if git push -q origin HEAD:main; then
+              gh workflow run pages_dashboard.yml --ref main \
+                || echo "::warning::could not dispatch pages_dashboard.yml; Pages lags until its next trigger"
+              exit 0
+            fi
+            echo "push rejected (main moved); retrying on the new tip"
+          done
+          echo "::error::could not push the refreshed dashboard after 3 attempts"
+          exit 1

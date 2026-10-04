@@ -1,0 +1,92 @@
+# lint.yml: the PR / push-to-main gate for the PyAutoInsight organ.
+#
+#   1. ruff check + ruff format --check
+#   2. pytest tests/ (hermetic: registry, summary reader, ingest + receipts,
+#      board, CLI — every network call is refused; state.json is validated
+#      against the Brain contract because PyAutoBrain is checked out below)
+#   3. `bin/pyauto-insight check --offline`: registry valid against the Mind body
+#      map, every committed snapshot still validates under this reader, each
+#      receipt records its snapshot's commit, the committed dashboard was
+#      built from those receipts, and state.json meets the Brain contract.
+#      Offline on purpose: a project commit landing mid-PR must not redden an
+#      unrelated organ PR (dashboard_refresh.yml re-reads the network nightly).
+#   4. lychee link-rot over the prose *.md. raw.githubusercontent.com,
+#      github.com blob pages (GitHub answers non-browser page views with 503;
+#      a token does not help — the links stay for humans, only the gate skips them),
+#      dashboard.md (hundreds of commit-pinned evidence links), the organ's own
+#      Pages URL (until Pages is enabled and the first deploy lands) and
+#      GitHub issue/pull/commit URLs are excluded.
+
+name: lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: PyAutoMind (the body map that resolves each instance's repo)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/PyAutoMind
+          path: _mind
+
+      - name: PyAutoBrain (the state.json contract validator)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/PyAutoBrain
+          path: _brain
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install tools
+        run: |
+          python -m pip install --quiet ruff pytest pyyaml
+          curl -sSfL https://github.com/lycheeverse/lychee/releases/latest/download/lychee-x86_64-unknown-linux-gnu.tar.gz \
+            | tar -xz -C /usr/local/bin --strip-components=1 lychee-x86_64-unknown-linux-gnu/lychee
+
+      - name: ruff check
+        run: ruff check --exclude _mind --exclude _brain .
+
+      - name: ruff format --check
+        run: ruff format --check --exclude _mind --exclude _brain .
+
+      - name: pytest (hermetic)
+        env:
+          PYAUTO_BRAIN: ${{ github.workspace }}/_brain
+        run: python -m pytest tests -q
+
+      - name: pyauto-insight check --offline
+        env:
+          PYAUTO_BRAIN: ${{ github.workspace }}/_brain
+        run: bin/pyauto-insight check --offline --mind _mind
+
+      - name: lychee (markdown link-rot)
+        env:
+          # github.com serves 503 to unauthenticated page fetches (rate limit);
+          # with a token lychee checks github.com links through the API instead.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          lychee \
+            --github-token "${GITHUB_TOKEN}" \
+            --exclude '^https://raw\.githubusercontent\.com/' \
+            --exclude '^https://github\.com/.*/blob/' \
+            --exclude '^https://pyautolabs\.github\.io/PyAutoInsight' \
+            --exclude '^https://github\.com/.*/(issues|pull|commit|releases)/' \
+            --no-progress \
+            --accept '200..=299,429' \
+            --max-redirects 5 \
+            $(find . -name '*.md' -not -name 'dashboard.md' -not -path './.claude/*' -not -path './.git/*' -not -path './_mind/*' -not -path './_brain/*')
