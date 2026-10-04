@@ -3,16 +3,14 @@
   "repo": "autolens_inference",
   "github": "PyAutoLabs/autolens_inference",
   "branch": "main",
-  "resolved_commit": "146a84346eaa51eda158634cae520d677f3e6213",
+  "resolved_commit": "26778b158538711a5a79acbadb0699a103446bd7",
   "summary_path": "dashboard/summary.json",
   "source": "remote",
-  "fetched_at": "2026-10-04T08:01:53Z",
-  "outcome": "unavailable",
-  "schema": null,
-  "version": null,
-  "record_count": null,
-  "errors": [
-    "GET https://raw.githubusercontent.com/PyAutoLabs/autolens_inference/146a84346eaa51eda158634cae520d677f3e6213/dashboard/summary.json: HTTP Error 404: Not Found"
-  ],
-  "cached_from": "2026-10-04T07:45:10Z"
+  "fetched_at": "2026-10-04T08:08:31Z",
+  "outcome": "ok",
+  "schema": "inference-summary",
+  "version": 1,
+  "record_count": 56,
+  "errors": [],
+  "cached_from": null
 }

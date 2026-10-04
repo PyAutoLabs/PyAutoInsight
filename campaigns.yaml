@@ -103,13 +103,14 @@ tasks:
 - id: reconcile_cortex_ledger_references
   campaign: slam-hst-base
   title: Reconcile inference documentation with the current Cortex ledger contract
-  status: ready
+  status: complete
   priority: normal
   path: tasks/reconcile_cortex_ledger_references.md
   updated: '2026-10-04'
-  next: Reconcile Now/Runs/Log documentation via the bounded organ implementation PR; do not alter scientific
-    records.
+  next: 'Completed in autolens_inference PR #18; original migration text remains immutable evidence.'
   evidence: https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/docs/autolens_inference/reconcile_cortex_ledger_references.md
+  completion_evidence: https://github.com/PyAutoLabs/autolens_inference/pull/18
+  completion_commit: 26778b158538711a5a79acbadb0699a103446bd7
 - id: ep_campaign
   campaign: graphical-ep
   title: EP campaign — phase map for the 2026 Q3 graphical/EP push
