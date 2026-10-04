@@ -1,0 +1,547 @@
+version: 1
+date: '2026-10-04'
+source_repo: PyAutoLabs/PyAutoMind
+source_commit: 8dd1edc7e04c960daae3663513c61395823eddb0
+tasks:
+- source: draft/feature/autolens_inference/drop_1e3_prior_centring_after_631.md
+  destination: tasks/drop_1e3_prior_centring_after_631.md
+  sha256: 2f938772103cee135fa8007d32d19de5d9c46b7777c0ddf3dc73707dccc55825
+  source_commit: 8dd1edc7e04c960daae3663513c61395823eddb0
+  disposition: migrated-byte-for-byte
+  original_headers: preserved; historical task headers are not independent scheduling authority
+- source: draft/docs/autolens_inference/reconcile_cortex_ledger_references.md
+  destination: tasks/reconcile_cortex_ledger_references.md
+  sha256: a6205dedbdf1b5ccf5d722dce73c2f51fbeb7a56e72293871b95bf4af6876e16
+  source_commit: 8dd1edc7e04c960daae3663513c61395823eddb0
+  disposition: migrated-byte-for-byte
+  original_headers: preserved; historical task headers are not independent scheduling authority
+- source: draft/research/graphical_ep/ep_campaign.md
+  destination: tasks/ep_campaign.md
+  sha256: 5347c08c256bf0968b736d2b48871462c54f25f852d4f02b7a14c07a0851b723
+  source_commit: 8dd1edc7e04c960daae3663513c61395823eddb0
+  disposition: migrated-byte-for-byte
+  original_headers: preserved; historical task headers are not independent scheduling authority
+- source: draft/research/graphical_ep/ep_scoping.md
+  destination: tasks/ep_scoping.md
+  sha256: cccb1905347882af600f05d260f1d9861c9a8abae1f98a6cfd9df12667037a3b
+  source_commit: 8dd1edc7e04c960daae3663513c61395823eddb0
+  disposition: migrated-byte-for-byte
+  original_headers: preserved; historical task headers are not independent scheduling authority
+- source: draft/research/graphical_ep/graphical_scoping.md
+  destination: tasks/graphical_scoping.md
+  sha256: f19c26607778e42d9ef7bf1a54d1ee1eb0a2ab43fa238be307584b3da0d5da8d
+  source_commit: 8dd1edc7e04c960daae3663513c61395823eddb0
+  disposition: migrated-byte-for-byte
+  original_headers: preserved; historical task headers are not independent scheduling authority
+- source: ideas.md
+  source_selector: single original line containing NUTS/HMC sampler trial
+  source_file_sha256: 53f98ede715716d6b345aca23c76f80dea4fc3580a27ebb5278a238f7b4aff03
+  destination: tasks/gradient_sampler_validated_likelihoods.md
+  sha256: 515c1f62a1b442c1a806ba80983350929192442c95f5b18a0761520aa4593a73
+  source_commit: 8dd1edc7e04c960daae3663513c61395823eddb0
+  disposition: migrated-verbatim-fragment
+audit:
+  scope: All tracked draft and active Markdown plus active/planned/parked/epics/ideas/bundles/condemned registries.
+    Full inventory hashed; candidate screen includes inference, samplers, posterior, graphical and EP.
+  files_examined: 249
+  inventory_sha256: e9f2edb76e53b5c3a24a79ef633c47fca5f75807d97b81f31456b9b5a8ee9d6f
+  candidates:
+  - source: active/evaluation_grid_cap_preserves_field.md
+    sha256: 27544a665919883e4b422cbc4ce32dca0849464ad5b8851946dd2a793d63ea73
+    disposition: retained-issued-implementation
+    reason: Issued bounded development phase with lifecycle/claim in Mind; inference terminology does not transfer
+      PR ownership.
+  - source: condemned.md
+    sha256: 116a8865e8b144307d413808c42582f881f624f352b7437be2a9eee81f5e0f1b
+    disposition: retained-registry
+    reason: Preserve historical epic/claim/lifecycle records; rewrite migrated task links after destination
+      lands; remove only migrated idea line.
+  - source: draft/bug/autoarray/adaptive_mesh_degenerate_pixel_pair.md
+    sha256: 662e9c6e9e416975f2c5948100f042f8c8915a724160c8b8a4916fc0137265e9
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autoarray/batched_jit_vmap_b50_wrong_log_likelihood_a100.md
+    sha256: 24c4a2264307b237d90a2f574239a6f316ce332e8ca3f264f638974fbb4868c9
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autoarray/interferometer_log_evidence_large_regularization_coefficient_cholesky.md
+    sha256: e267ba5beb7ee2685eed8803380f8600f5045143670632f7efa1709bc91dbfad
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autoarray/non_uniform_over_sample_jax_compile_cost.md
+    sha256: 94ed589de0be00ba5ae2a3e21560bd0ccb3bf969b9aa1a8caadfdfd04b1be869
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autoarray/reconstruction_noise_map_truncated_posterior.md
+    sha256: a3c67b38d90b02f4507019979d92b11891468a6ff1c51182b1a6c1d60fd88b8e
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/dataset_model_free_grid_offset_pytree_roundtrip.md
+    sha256: acd43bc687880e6c4d461b44f945161f849c5a8c9831fc9f7a2d883ba4ca9893
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/ep_factors_end_the_run_with_zero.md
+    sha256: 2499e141e6c997a583f7ad5f50316f539d92aa8bf8724c0d149019475a63e82c
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/ep_moments_loggaussian_transformed_scatter.md
+    sha256: 70d013318d56c9fa4dee719f5efda2864769ba2f0ab1cb6c8bf982175ead505c
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/ep_test_suite_is_not_xdist_safe.md
+    sha256: 4244e04c4be7bb8f4848a11fd9ae300e3fba026e2594876bbb4cbad68b739649
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/multistartgradient_searches_ignore_iterations_pe.md
+    sha256: 4486e0f2b3d17f49601743996f488fceab301bdc286f799ab178fd730a768fcf
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/nan_in_ep_evidence_accumulation_invalid_value.md
+    sha256: ebd0cc546ed389155afb61a207e78387b610bec1e9d2a717df28392c360d80f0
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/nautilus_ep_default_optimiser_reads_use_jax_unguarded.md
+    sha256: 72807e4a9df35e681535df4c38454f6942ee9ec617c6f30f1711fc125503b136
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/pyautofit_prior_model_summary_header_prints_wron.md
+    sha256: f4428af83b2e66e343466b4347a553f1faa4c23642420fc31b4e189c3d8e5feb
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/stale_enable_pytrees_register_model_advice_in.md
+    sha256: 99860081dc05c3319fee5589f67e2d20cfe0973116b01cf14ae3924c4d9988be
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autofit/vmap_jit_recompiles_per_nautilus_batch_length.md
+    sha256: 81906d97f53e947eec85e58fe7e5c09a4b45baefac045b91d4c29e1b3608e5d4
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autogalaxy/mge_deflections_reverse_mode_nan_at_grid_centre.md
+    sha256: 4bedb41080026be4cb9b7ef130d58efa0ccbf43d60e0436c4b64b008d8882c9f
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autolens_workspace/delaunay_smoke_300s_cap.md
+    sha256: b7c29aca03ba9b04a32123a5f280c9b576b59d290623ad5abba9c966ca064393
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autolens_workspace/multi_galaxy_start_here_release_cost.md
+    sha256: 10c20b483b7769feb406e41054de79d4f906d40d1ff864c1a00fd830da35a412
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autolens_workspace/start_here_multistart_compile_time.md
+    sha256: 84ed8956af2d5ecfd9dfd6f8fd24db4afa88f4ff08d4fa5c95d40466329a972e
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/autonerves/nautilus_sampler_pin_drifts_from_pyautofit.md
+    sha256: 5d31abc68d389a4871ee3a1eca66dd4c042398e14f3e8cccb35fa8799c3cd925
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/euclid/gpu_per_lens_time_vs_documented_10_min.md
+    sha256: a65a609d3ca540eec3555a5eba2c1885f777d4c0cf628d66d5f8b07e44a776aa
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/euclid/sed_chain_waveband_fit_can_spin_forever.md
+    sha256: 66117b0d7b2ef3ee30fc17d48e8d0239e05253533b80845e012eb9edaf0e2b2d
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/euclid/vis_lp_batch_size_kwarg_silently_ignored.md
+    sha256: 96ea513b7d2bd5968c7b4c0693f6ef71456e67ed87176b7c2fed19f94ae8ec8d
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/health_fixes/README.md
+    sha256: e4e77e9b09838783fe82b3f180d02be17fd90000c9835aee8b05f8c2c90eff58
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/health_fixes/release_timeout_policy.md
+    sha256: 7beaaf648b513e3773c835d9fa552a61fe4ae2133444f643adb3303618391562
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/health_fixes/samples_parameter_paths.md
+    sha256: e118083620ca7f2ff6da2d4448732816e8acd6d80012397ae00485c5c7b4b51d
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/howtofit/tutorial_5_ep_shared_centre_never_assigned.md
+    sha256: ea18012ff4cb6efec9058dddd6609c9d2afbfd6c38e301e100cf979f86e49eb9
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/priors/12_single_source_density_refactor.md
+    sha256: bbf6174c1fde2eb7e006e384e58f321b4afd7af7dafd6e75cf7f1c8bdaf63165
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/priors/13_collapse_prior_and_message.md
+    sha256: 7d16aa83a5fe23df497109a2875fb614956f594e189cb8373c9f1d6f33a401cd
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/priors/14_replace_transform_stack_with_bijectors.md
+    sha256: 9005e323ca1810b56ea891f76c51a339bf55c1e7639aa8c47fe3c40c953eb267
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/priors/15_transformed_message_logpdf_jacobian.md
+    sha256: a5db2297ae9c499cc29be81548b74f5cea69b129589b718f13336dbc16e367ad
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/priors/z_features.md
+    sha256: cca2f499e3d59bd5fc8240a60ef3eb7741753e2cd378192a1bfc858251bab297
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/pyautobrain/worktree_sh_clobbers_root_activate.md
+    sha256: a19f3562ed5eab93b088bf6ef92da4d614ab529eae6a093d1cd95dcde9f7fbc1
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/bug/workspaces/rectangular_parity_absolute_bound_and_x64_import_order.md
+    sha256: 6b93fdde43453554e80dc184d22513385c52e886a98494c7fff2d8255392fca7
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/docs/autofit/howtofit_chapter_3_prose_references.md
+    sha256: 8da0c09a7b1c11198c143a3194a381a3eab4d82cb068d401463959f4620fb417
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/docs/autolens_inference/reconcile_cortex_ledger_references.md
+    sha256: a6205dedbdf1b5ccf5d722dce73c2f51fbeb7a56e72293871b95bf4af6876e16
+    disposition: migrated (only identified fragment for ideas.md)
+    reason: See exact mapping and original bytes.
+  - source: draft/docs/autolens_workspace/sampler_cli_output_workspace_sweep.md
+    sha256: 68e3c7d5e4dd3a1baa7cffdba2f2403f2797cd57a755a4e1b94bb02e54d18207
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/docs/workspaces/demo_subplot_ellipse_errors.md
+    sha256: 300051af8715bf112ab0c5668dfb80846b80aa1b62d59da73a0f419b3ab31e68
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autoarray/adapt_linear_default_flip.md
+    sha256: 98c758a4b7b4269f0a758f0e32ab78c289f28bc83167857f67a7894ec0277ea7
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autoarray/interferometer_direct_conv_prange_load_balance.md
+    sha256: 031d0f2b33f92e590a197db32dfa3ff82457a6d7f5eeb226afa263ce3c5e9e2e
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/certified_solver_batched_guard_c2.md
+    sha256: 66bf210156a7aa5a2f028f296f87c6f599b8b2df63da44c456785c2fc23db54f
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/ep_analytic_updates.md
+    sha256: 930c902fbcb37f9eb6ada81b4a4295442be0801daee41d83258af349948583e3
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/ep_lbfgs_jax.md
+    sha256: f585eeb29f8cf5ecf3e081ed54b71c674f90fbfcb26014f3af5bba4b4d415829
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/model_figure_tuple_component_relations.md
+    sha256: 228eb2731aee144c764905089e4e613e030dcc5525eecba8c830e8517b941c73
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/model_figures_ep_overlays.md
+    sha256: faa21d1632738988aa905844af552bb329727beeec94fe25b79bd56b4c4a134e
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/model_figures_epic.md
+    sha256: b4e3f26c95797f0a3e0466477ec4a0f0002f83d7005232cf87858edb4a287621
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/prior_exit_sampler_coverage.md
+    sha256: 54e7b1a014067dade6b67173afcdff856f79ced434e6dd7602111b255d3f8d46
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/search_seed_reproducibility.md
+    sha256: 40925dd5d59171e4b0269c2ce469e6b6514dbe0b081f2f69890848d19287060c
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autofit/skip_the_likelihood_for_assertion_violating_samp.md
+    sha256: cc576a096ac2b6c1b34ea2d838360690f2cff9f403bfd7d13eb63ae8f6bbe817
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autogalaxy/dpie_sigma0_parameterization.md
+    sha256: 282d9afe0244564b2024e5ffd961531d7b106459754625bb0a4b89bd67bbbe0a
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autogalaxy/ell_comps_joint_disk_constraint.md
+    sha256: e72b3ef289cee7474c04cd26d3c223ae9ab7f1a5de4511b6eab576ddfcbe409b
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autolens/magnification_errors_posterior_draws.md
+    sha256: 197c616c5af18ef4d997f381a14d8c3391f885bd384fe57bfb1d012c96791339
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autolens/magnification_maps_visualization.md
+    sha256: ab4e93161674da24b7740a66b1c6bb38638d42e2da7d5bf40db8f1777d9a0961
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autolens/point_magnification_api.md
+    sha256: d4adb8e28bb900474d872d6031cf8b79ed2682192a3fe3b3fb6d954c9bb7a082
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autolens/source_cluster_arc.md
+    sha256: 0e31127fee47d754bb981a60deca005e9302fb696f63e7091ae4d8143202f790
+    disposition: retained-mixed-implementation
+    reason: Library/workspace Source and Cluster implementation arc; Pulse owns PointSolver optimisation, Cortex
+      retains science. No independent inference campaign to move.
+  - source: draft/feature/autolens_inference/drop_1e3_prior_centring_after_631.md
+    sha256: 2f938772103cee135fa8007d32d19de5d9c46b7777c0ddf3dc73707dccc55825
+    disposition: migrated (only identified fragment for ideas.md)
+    reason: See exact mapping and original bytes.
+  - source: draft/feature/autolens_jax_joss/autolens_jax_joss_benchmark_repo.md
+    sha256: 7cae55c2a888e70b4de652190a7d155ae78df3ec3ff02ee3b03d96becec59e0c
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autolens_workspace/joss_cluster_benchmark_tuning.md
+    sha256: b2b4fb96d3dd7632d104188aa6f896a6371f9c0302c92fa7e2a5922caa9cb488
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autolens_workspace/oversampled_psf_dataset_adoption.md
+    sha256: c5e0114f72c1a2feec66c8e6aabf2e3e1f9892c5424278455901c54a71a5ceff
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/autolens_workspace/pointsolver_grid_extent_per_package.md
+    sha256: 2607320c66f70fb2f9dabd540d4f7c7d02e069571509362b68aa1dbefff3a27c
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/euclid/euclid_dr1_prep_epic.md
+    sha256: 71cbc3ae1734ffc7b79b2c03729533cd0c871d220ba538ff9d67251c684596ab
+    disposition: retained-mixed-implementation
+    reason: Science half already moved to Cortex; Mind retains software phases 0–4,8,9. Do not duplicate Cortex
+      production science programme.
+  - source: draft/feature/euclid/single_process_cpu_route_jax_vis_lp_numba_vis_pix.md
+    sha256: e27220146fcd1860685ea2b5999ede0b84600c1666baa5fa01aec25d8ac766f9
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/jax_substructure/5_prng_key_vmap_noise.md
+    sha256: fa2c9768e2d2a66e180b4f37f7c1b3d1e4e5892c587c5355ba53f27b19c21207
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/pyautoears/community_organ_birth.md
+    sha256: ed3fba8a98700491c856871bef87e0412ef9a46abfbcaaeba1ccd079722dcd46
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/pyautohands/smoke_profile_cannot_see_a_missing_sampler.md
+    sha256: 58f81a12cb5270c4d1e48cf04c1894a4d05d52efffe6e63a07b074b1db2b281b
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/pyautoheart/howto_real_settings_nightly.md
+    sha256: ed31272cedce3e1f7a5a0f0bc843929893810c8df7c75b1a3b37a5b80cddd011
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/feature/workspaces/cluster_pixelized_analysisfactor.md
+    sha256: 69e785e07e8177baf29e7e09a5c8609a13d3483a8c1c29a1049d19ad3d4f4344
+    disposition: retained-mixed-implementation
+    reason: Library/workspace Source and Cluster implementation arc; Pulse owns PointSolver optimisation, Cortex
+      retains science. No independent inference campaign to move.
+  - source: draft/feature/workspaces/cluster_source_science.md
+    sha256: f4eb6ab2bafa0973bb21f89b43945ec26a55300bdca2a2d4c44b443d4b00cc1d
+    disposition: retained-mixed-implementation
+    reason: Library/workspace Source and Cluster implementation arc; Pulse owns PointSolver optimisation, Cortex
+      retains science. No independent inference campaign to move.
+  - source: draft/feature/workspaces/model_figures_6_rollout.md
+    sha256: 93ff766aa4c4c72a4f85c9b475770606e21d2b9d0edb790b51e843a6fa9cadd0
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/maintenance/autofit_visualization/seed_samplers_for_byte_stable_rerenders.md
+    sha256: 767ae13be6aaf9bca1ce19256d4ac3d6fdd53acc11d4cbc064f82d8211389e6d
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/maintenance/ci/wiki_currency_check_version_gate.md
+    sha256: 8094c0c21ddb5676f1acfc95d88ea725b9df8ab047be5510a1e654a337bb1d78
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/maintenance/libraries/dep_cap_refresh_2026_08.md
+    sha256: e7e97f850a621daaf3bddedb181b8ec07869aaeee7f082041c6a397ed1440b9e
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/maintenance/pyautomind/session_start_hook_copies_regen.md
+    sha256: eaae74075390cb9de2e68094e5e87c1febd0d39b427b362bc285dc1286ba9890
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/maintenance/workspaces/hpc_cache_off_home_phase2_euclid.md
+    sha256: 5c4faac04e44f9e86fb3ee7e5e828ddc05dcb7d6bcfe20d80bf0b79056b3d6ea
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/maintenance/workspaces/read_through_issues.md
+    sha256: 47f48df9d337082f8f1449de487496a54186b619d36820a3717ed28178d3effa
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/maintenance/workspaces/sync_remaining_workspace_config_priors_copies.md
+    sha256: 3382810e12699be1f9e7e4b545bd7c16b5f12c7b615ee62fd5beacef3e035249
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/refactor/autofit/ep_analysis_level_compile_cache.md
+    sha256: 6574c767342695780eae6efdc8e1b996d3c971c2694128c98ee27906b0149f98
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/refactor/autofit/split_fitness_batch_size_lh_vs_latent.md
+    sha256: 2726b1c9a503576f35f13cf724c3b0c94231c3c95ed10a6f4bc973318fa0babc
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/research/autoarray/delaunay_interpolator_pure_callback_vmap_memory.md
+    sha256: f1620965526fe17afb7a8f00b286605ad8ff3f06f55fbaed93ed90f1d1d289cd
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/research/autoarray/delaunay_research.md
+    sha256: 2dd027550d7ed5a42d76f5df89d2d20714e1832fb32b84a61a09392b261f30f1
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/research/autofit/hpc_campaign_epic.md
+    sha256: 118ea513700bd8e57ef3813bcdb19fc776638f1a3f1b971ea61efc0eb4193f61
+    disposition: retained-mixed-implementation
+    reason: Cross-organ HPC platform/submit tooling, policies and research evidence; not a domain inference
+      campaign queue. Mind owns implementation phases.
+  - source: draft/research/autofit/hpc_campaign_epic_report.md
+    sha256: 17f3fde3362f09969551120ea0808b0d15048b01090ce2c17b5f5f4bdbc6d975
+    disposition: retained-mixed-implementation
+    reason: Cross-organ HPC platform/submit tooling, policies and research evidence; not a domain inference
+      campaign queue. Mind owns implementation phases.
+  - source: draft/research/autofit/hpc_campaign_epic_surveys/codebase.md
+    sha256: 290feb92da486683a465ce7d28c85575de215835bbbd3a5ff20bef3d26b6cb2c
+    disposition: retained-mixed-implementation
+    reason: Cross-organ HPC platform/submit tooling, policies and research evidence; not a domain inference
+      campaign queue. Mind owns implementation phases.
+  - source: draft/research/autofit/hpc_campaign_epic_surveys/euclid_hpc.md
+    sha256: c140e1a9ea500365104a336b03812dbcbc7096bc69317a295dabd81d2a016494
+    disposition: retained-mixed-implementation
+    reason: Cross-organ HPC platform/submit tooling, policies and research evidence; not a domain inference
+      campaign queue. Mind owns implementation phases.
+  - source: draft/research/autofit/hpc_campaign_epic_surveys/prior_art.md
+    sha256: 7053807a77bc6da0befe08bb0ac580533b0051035173ecbc9ff29310e73bc086
+    disposition: retained-mixed-implementation
+    reason: Cross-organ HPC platform/submit tooling, policies and research evidence; not a domain inference
+      campaign queue. Mind owns implementation phases.
+  - source: draft/research/graphical_ep/ep_campaign.md
+    sha256: 5347c08c256bf0968b736d2b48871462c54f25f852d4f02b7a14c07a0851b723
+    disposition: migrated (only identified fragment for ideas.md)
+    reason: See exact mapping and original bytes.
+  - source: draft/research/graphical_ep/ep_scoping.md
+    sha256: cccb1905347882af600f05d260f1d9861c9a8abae1f98a6cfd9df12667037a3b
+    disposition: migrated (only identified fragment for ideas.md)
+    reason: See exact mapping and original bytes.
+  - source: draft/research/graphical_ep/graphical_scoping.md
+    sha256: f19c26607778e42d9ef7bf1a54d1ee1eb0a2ab43fa238be307584b3da0d5da8d
+    disposition: migrated (only identified fragment for ideas.md)
+    reason: See exact mapping and original bytes.
+  - source: draft/research/graphical_ep/transformed_message_declares_support.md
+    sha256: 92899093528898dcbd51037aef259f0d2b51ffac99207624ee6180e9f6ef4c6f
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: draft/research/pyautomemory/checkerboard_psf_mismatch_residual_diagnostic.md
+    sha256: dfc740d15ff3078627366ef871c8434aa48c353a8814a2d4b6de3ad1f6a3bded
+    disposition: retained-literature
+    reason: Literature ingestion/assistant diagnostic guidance; Memory ownership.
+  - source: draft/research/pyautoreduce/acceptance_noise_rebaseline.md
+    sha256: 40e71cfbcd26228ea525a49810c435cdb65f07314c8a9090e9fe7f83915106f9
+    disposition: retained-reduction
+    reason: Reduction calibration/parity scope owned by Reduce, not inference sampler campaign.
+  - source: draft/research/pyautoreduce/legacy_flux_scale_parity.md
+    sha256: 2e96ea6032f9a09b33548989b4594358f9d5ad0b1b662dc6ef889a55063e9eae
+    disposition: retained-reduction
+    reason: Reduction calibration/parity scope owned by Reduce, not inference sampler campaign.
+  - source: draft/test/workspaces/smoke_workspace_fixes.md
+    sha256: 852e8f05c931d2d5576797c0f42bfa98b670efa1ea7d1877433f7529fdd7c45d
+    disposition: retained-implementation
+    reason: Bounded library/workspace/platform code, docs, tests or profiling task; may be an inference dependency
+      but is not campaign scheduling intent.
+  - source: epics.md
+    sha256: 6bee9b4bfd9e68f9f009454c991cce7b5aca30d44653a1d8b7bf02b43fdd82ca
+    disposition: retained-registry
+    reason: Preserve historical epic/claim/lifecycle records; rewrite migrated task links after destination
+      lands; remove only migrated idea line.
+  - source: ideas.md
+    sha256: 53f98ede715716d6b345aca23c76f80dea4fc3580a27ebb5278a238f7b4aff03
+    disposition: migrated (only identified fragment for ideas.md)
+    reason: See exact mapping and original bytes.
+  - source: parked.md
+    sha256: 34f8479af4fa80c1e359461a2c018cc9572dd102bd3ec26d20b01c26651f6fe5
+    disposition: retained-registry
+    reason: Preserve historical epic/claim/lifecycle records; rewrite migrated task links after destination
+      lands; remove only migrated idea line.
+  - source: planned.md
+    sha256: 833a69053b6602a40f816ea008319277e61186067a0358812bd2d6e114dcd2b7
+    disposition: retained-registry
+    reason: Preserve historical epic/claim/lifecycle records; rewrite migrated task links after destination
+      lands; remove only migrated idea line.
+  ownership_notes:
+  - Cortex Now/Runs/Log is scientific/run authority. Archived tasks/rulings are historical references, never
+    a resurrected live workflow.
+  - Insight coordinates linked EP science campaigns but does not create new producers for them; autolens_inference
+    is the only registered real producer.
+  - Mind source epics retain lifecycle and history, with canonical Insight campaign/task links; no independent
+    domain schedule survives cleanup.
+  - Pulse owns profiling campaign tasks already migrated there; EP phase 6 and optimisation references resolve
+    to Pulse, not a second Insight profiling queue.
+  - Retired inference_programme stays retired; none of its archived baselines, tasks or results were migrated.
+reviewed_sources:
+  PyAutoCortex: d45f198804615c090e6b6694cf725ddb0be2354e
+  autolens_inference: 420572fc7d055a3c1fe2c68ec1aafdbf1ed28361

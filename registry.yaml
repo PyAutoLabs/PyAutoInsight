@@ -1,0 +1,9 @@
+schema: 1
+instances:
+  - instance: lens
+    repo: autolens_inference
+    summary_path: dashboard/summary.json
+    supported_schema: inference-summary@1
+    dashboard_url: https://github.com/PyAutoLabs/autolens_inference#readme
+    library_refs: [PyAutoLens, PyAutoGalaxy, PyAutoArray, PyAutoFit]
+    cortex_project: autolens_inference

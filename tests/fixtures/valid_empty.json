@@ -1,0 +1,37 @@
+{
+  "comparison_policy": {
+    "id": "declared-target-seed-stage-v1",
+    "note": "Targets/seeds/stages retained; no automatic parity certification or best-seed selection",
+    "ranking": "none"
+  },
+  "comparisons": [],
+  "coverage": {
+    "excluded": [],
+    "expected": {
+      "reason": "No complete expected-run manifest; unrecorded jobs cannot be enumerated",
+      "runs": null
+    },
+    "observed": {
+      "records": 0,
+      "runs": 0
+    }
+  },
+  "evidence_updated_at": null,
+  "evidence_updated_at_reason": "Legacy result rows do not record measurement timestamps",
+  "generated_at": "2026-10-04T07:35:14Z",
+  "generation_basis": "Source commit timestamp; not a measurement or check-in time",
+  "limitations": [
+    "No scientific acceptance or convergence inferred from process completion",
+    "Sample archives remain in project storage; current availability unknown",
+    "No evidence from the retired inference programme is imported",
+    "Archived rows belong to this project's September 2026 runs and are historical, not current baselines"
+  ],
+  "producer_revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "project": "autolens_inference",
+  "records": [],
+  "schema": "inference-summary",
+  "scope": "inference",
+  "source_commit": "e60fd387cd5d112782888671d5a9471432abcc93",
+  "valid_until": null,
+  "version": 1
+}
