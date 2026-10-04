@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:ada394edce225dd7e23df87b2f9d64ba99997dbf911c3884a5741a85b7728ca1 -->
+<!-- insight-inputs:bac63ad767864743dcacd01461c260d3ed4bdbf40084750246784512dee2486a -->
 
 | Where | Count |
 |---|---:|
@@ -54,7 +54,7 @@ Completed and superseded tasks remain in the [ledger](https://github.com/PyAutoL
 <!-- insight:instance name=lens receipt=26778b158538711a5a79acbadb0699a103446bd7 outcome=ok shown=26778b158538711a5a79acbadb0699a103446bd7 -->
 ## autolens_inference
 Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/56 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: 26778b158538711a5a79acbadb0699a103446bd7; fetched 2026-10-04T08:08:31Z; latest attempt 2026-10-04T08:08:31Z.
+Capture source branch: main; revision: 26778b158538711a5a79acbadb0699a103446bd7; fetched 2026-10-04T08:09:22Z; latest attempt 2026-10-04T08:09:22Z.
 
 Coverage: {"excluded": [], "expected": {"reason": "No complete expected-run manifest; unrecorded jobs cannot be enumerated", "runs": null}, "observed": {"archived_records": 50, "execution_complete": 55, "execution_stopped_early": 1, "records": 56, "runs": 15}}
 No scientific acceptance or convergence inferred from process completion
