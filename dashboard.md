@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:69d7e67b862fe0b326f34b4a1df829b92f1aa8e88291f67777993359ad14618a -->
+<!-- insight-inputs:bac63ad767864743dcacd01461c260d3ed4bdbf40084750246784512dee2486a -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 0 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:7abb8c24d01ecfad79cd8f9fd7d318d201be6e66abc0eec0c0ed8386425b168a -->
+<!-- insight-campaigns:cebf9dfa86c60986e2ae3381ae314259f7e491233af2ec497ff330f710f3e901 -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -25,7 +25,7 @@ Last check-in: not recorded yet. Ledger dates are review dates, not measurement 
 
 | Campaign | Status | Open tasks | Recent progress | Blockers | Job status | Next step | Reviewed |
 |---|---|---:|---|---|---|---|---|
-| [HST SLaM base backend parity](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/autolens_inference.md) | active | 2 | Project and Cortex ledgers retain the 24 September rerun submissions; published rows require coverage reconciliation. | Live RAL status and output/archive availability unverified. | unknown — live scheduler not queried; historical ledger states are not current job evidence | Reconcile all seeds and stages with current project rows and Cortex before proposing another run. | 2026-10-04 |
+| [HST SLaM base backend parity](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/autolens_inference.md) | active | 1 | Project and Cortex ledgers retain the 24 September rerun submissions; published rows require coverage reconciliation. | Live RAL status and output/archive availability unverified. | unknown — live scheduler not queried; historical ledger states are not current job evidence | Reconcile all seeds and stages with current project rows and Cortex before proposing another run. | 2026-10-04 |
 | [HST SLaM Delaunay variant](https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md) | active | 0 | Delaunay is a separate target/recipe; pre-speedup runs are archived, reruns recorded on 24 September. | Do not merge the Delaunay target with rectangular comparisons; current job status unknown. | unknown — live scheduler not queried; historical ledger states are not current job evidence | Retrieve or account for every rerun, failed seed and missing stage; preserve the archived comparison context. | 2026-10-04 |
 | [Point-source sampler admission](https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md) | needs-decision | 1 | 2 October project record reports five Nautilus seeds; no gradient-sampler admission measurement. | Gradient cost share and sampler admission remain unmeasured; Pulse owns likelihood optimisation. | unknown — live scheduler not queried; historical ledger states are not current job evidence | Assess a bounded gradient-sampler admission proposal with the human; no new job is authorized. | 2026-10-04 |
 | [Graphical and EP inference coordination](https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md) | needs-slicing | 3 | Mind campaign map and two scoping contracts preserved verbatim; implementation work remains in Mind. | Old scoping contains completed phases and decision gates; not a bulk runnable queue. | unknown — live scheduler not queried; historical ledger states are not current job evidence | Reconcile current Cortex observations and shipped fixes, then select one bounded phase. | 2026-10-04 |
@@ -41,7 +41,6 @@ Open means tracked, not necessarily running. Blockers and decisions still apply.
 | Task | Campaign | Status | Priority | Next step |
 |---|---|---|---|---|
 | [Drop the 1e-3 prior centring for shear / multipole / ell_comps in the benchmark](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/drop_1e3_prior_centring_after_631.md) | slam-hst-base | blocked | normal | Verify the release containing Galaxy#634 and Lens#754 before changing priors; retain zero-centre gradient witness. |
-| [Reconcile inference documentation with the current Cortex ledger contract](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/reconcile_cortex_ledger_references.md) | slam-hst-base | ready | normal | Reconcile Now/Runs/Log documentation via the bounded organ implementation PR; do not alter scientific records. |
 | [EP campaign — phase map for the 2026 Q3 graphical/EP push](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/ep_campaign.md) | graphical-ep | needs-decision | high | Reconcile current Cortex records and human gates; this campaign map is never issued or bulk scheduled. |
 | [Expectation Propagation Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/ep_scoping.md) | graphical-ep | needs-slicing | high | Reconcile completed wrapper work and Pulse profiling ownership before selecting a bounded remaining inference phase. |
 | [Graphical Model Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/graphical_scoping.md) | graphical-ep | needs-slicing | high | Reconcile current Cortex scale results and library dependencies; select one bounded inference phase with a witness. |

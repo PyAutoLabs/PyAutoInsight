@@ -545,3 +545,13 @@ audit:
 reviewed_sources:
   PyAutoCortex: d45f198804615c090e6b6694cf725ddb0be2354e
   autolens_inference: 420572fc7d055a3c1fe2c68ec1aafdbf1ed28361
+landing:
+  status: source-removal-merged
+  destination_pr: https://github.com/PyAutoLabs/PyAutoInsight/pull/2
+  destination_commit: aabc4869410824a62cf1816925cda7f88994b95a
+  source_removal_pr: https://github.com/PyAutoLabs/PyAutoMind/pull/472
+  source_removal_commit: 9aeabfe99b1e511a0d48ca6a9db415ced117c654
+  producer_pr: https://github.com/PyAutoLabs/autolens_inference/pull/18
+  producer_commit: 26778b158538711a5a79acbadb0699a103446bd7
+  report: docs/migration-landed-2026-10-04.md
+  checkin_performed: false
