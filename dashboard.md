@@ -1,13 +1,13 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:7f5bc088cc7139965946427f5a59dfc3093839334797d80a8cf8f02e86f801b8 -->
+<!-- insight-inputs:7d0070b7f918f4cdc17fa09b012ea482747ab8a9371ecbfa1dcb685c04ae1a0a -->
 
 | Where | Count |
 |---|---:|
 | [Projects](#evidence) | 1 |
 | [Records](#evidence) | 56 |
 | [Comparisons](#evidence) | 0 |
-| [Cached](#evidence) | 0 |
+| [Cached](#evidence) | 1 |
 | [Failed](#evidence) | 0 |
 
 <!-- insight-campaigns:7abb8c24d01ecfad79cd8f9fd7d318d201be6e66abc0eec0c0ed8386425b168a -->
@@ -52,10 +52,12 @@ Completed and superseded tasks remain in the [ledger](https://github.com/PyAutoL
 ## Inference evidence
 
 
-<!-- insight:instance name=lens receipt=9c362a7a298238d766f61e812c694813e94830d1 outcome=ok shown=9c362a7a298238d766f61e812c694813e94830d1 -->
+<!-- insight:instance name=lens receipt=146a84346eaa51eda158634cae520d677f3e6213 outcome=unavailable shown=9c362a7a298238d766f61e812c694813e94830d1 -->
 ## autolens_inference
-Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/56 accepted by producer; remaining assessments shown below.
-Capture source branch: feature/insight-producer; revision: 9c362a7a298238d766f61e812c694813e94830d1; fetched 2026-10-04T07:45:10Z; latest attempt 2026-10-04T07:45:10Z.
+Integrity: cached · latest fetch unavailable. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/56 accepted by producer; remaining assessments shown below.
+Capture source branch: main; revision: 9c362a7a298238d766f61e812c694813e94830d1; fetched 2026-10-04T07:45:10Z; latest attempt 2026-10-04T08:01:53Z.
+GET https://raw.githubusercontent.com/PyAutoLabs/autolens_inference/146a84346eaa51eda158634cae520d677f3e6213/dashboard/summary.json: HTTP Error 404: Not Found
+Cached: original evidence and capture times retained.
 
 Coverage: {"excluded": [], "expected": {"reason": "No complete expected-run manifest; unrecorded jobs cannot be enumerated", "runs": null}, "observed": {"archived_records": 50, "execution_complete": 55, "execution_stopped_early": 1, "records": 56, "runs": 15}}
 No scientific acceptance or convergence inferred from process completion
