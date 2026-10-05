@@ -36,8 +36,6 @@ Last check-in: not recorded yet. Ledger dates are review dates, not measurement 
 
 ## Active tasks
 
-Open means tracked, not necessarily running. Blockers and decisions still apply.
-
 | Task | Campaign | Status | Priority | Next step |
 |---|---|---|---|---|
 | [Drop the 1e-3 prior centring for shear / multipole / ell_comps in the benchmark](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/drop_1e3_prior_centring_after_631.md) | slam-hst-base | blocked | normal | Verify the release containing Galaxy#634 and Lens#754 before changing priors; retain zero-centre gradient witness. |
@@ -46,7 +44,7 @@ Open means tracked, not necessarily running. Blockers and decisions still apply.
 | [Graphical Model Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/graphical_scoping.md) | graphical-ep | needs-slicing | high | Reconcile current Cortex scale results and library dependencies; select one bounded inference phase with a witness. |
 | [NUTS/HMC trial on validated likelihoods](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gradient_sampler_validated_likelihoods.md) | point-source-admission | needs-decision | normal | An unscoped idea, not permission to submit: reconcile point-source admission with imaging and weak-lensing candidate targets. |
 
-Completed and superseded tasks remain in the [ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml).
+[Ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml)
 
 ## Inference evidence
 
