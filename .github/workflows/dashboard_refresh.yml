@@ -56,6 +56,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: PyAutoBrain (shared board presentation)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/PyAutoBrain
+          path: _brain
+
       - name: Log the trigger
         env:
           PAYLOAD: ${{ toJson(github.event.client_payload) }}

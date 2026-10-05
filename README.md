@@ -20,3 +20,11 @@ bin/pyauto-insight census
 
 The first real producer is autolens_inference. A second-producer fixture tests
 interoperability; it is not a claim of a second adopter.
+
+### Shared board presentation
+
+Rendering the HTML board requires a current PyAutoBrain checkout beside this
+repo, at `_brain/`, or selected with `PYAUTO_BRAIN`. The banner, logo, responsive
+layout and section navigation come from its `board/_theme.py`; CI and dashboard
+refresh workflows check it out automatically. Counts and section links remain
+owned by this board.

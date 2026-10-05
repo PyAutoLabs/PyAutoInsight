@@ -10,7 +10,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from insight import ORGAN_ROOT, campaigns, summary
-from insight.theme import CSS, JS
+from insight.theme import CSS, JS, theme
 
 PAGES_URL = "https://pyautolabs.github.io/PyAutoInsight/"
 REPO_URL = "https://github.com/PyAutoLabs/PyAutoInsight"
@@ -244,18 +244,32 @@ def _detail(s, now=None):
 
 def render_html(views, now=None, campaign_data=None):
     data = campaign_data if campaign_data is not None else campaigns.load()
+    shared = theme()
     return (
         '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         "<title>PyAutoInsight dashboard</title><style>"
+        + shared.css("insight")
         + CSS
         + "pre{white-space:pre-wrap;overflow-wrap:anywhere}details{margin:1rem 0}dd{margin-left:1rem}</style></head><body>"
-        '<header class="hero"><h1>PyAuto<span>Insight</span></h1><p>Question. Infer. Understand.</p></header><main>'
+        + shared.hero(
+            "insight",
+            "Inference dashboard",
+            navigation=[
+                {"href": "#campaigns", "label": "Active campaigns"},
+                {"href": "#evidence", "label": "Inference evidence"},
+                *(
+                    {
+                        "href": "#" + v.instance.instance,
+                        "label": v.instance.instance.title() + " project",
+                    }
+                    for v in views
+                ),
+            ],
+        )
+        + "<main>"
         + input_marker(views, data)
         + campaigns.render_html(data)
         + "<p>Execution completion is separate from convergence and scientific acceptance. Cortex retains scientific conclusions. Evidence remains in project storage.</p>"
-        + '<div class="stats">'
-        + "".join(f"<div><b>{n}</b><span>{label}</span></div>" for label, n in counts(views))
-        + "</div>"
         + "".join(_detail(s, now) for s in views)
         + "</main><script>"
         + JS
