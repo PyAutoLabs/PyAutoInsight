@@ -145,8 +145,6 @@ def markdown(data: dict) -> str:
         "",
         "## Active tasks",
         "",
-        "Open means tracked, not necessarily running. Blockers and decisions still apply.",
-        "",
         "| Task | Campaign | Status | Priority | Next step |",
         "|---|---|---|---|---|",
     ]
@@ -157,7 +155,7 @@ def markdown(data: dict) -> str:
             )
     rows += [
         "",
-        "Completed and superseded tasks remain in the [ledger](" + URL + "campaigns.yaml).",
+        "[Ledger](" + URL + "campaigns.yaml)",
         "",
         "## Inference evidence",
         "",
@@ -202,10 +200,9 @@ def render_html(data: dict) -> str:
 
     return (
         marker(data) + '<section class="checkin"><h2>Check in on all inference work</h2>'
-        "<p>One prompt, one ongoing chat. Add a campaign focus or idea here, or tell the chat before or afterwards.</p>"
         f'<label for="checkin-prompt">Your check-in prompt</label><textarea id="checkin-prompt" rows="8">{e(PROMPT)}</textarea>'
         '<button type="button" id="copy-checkin">Copy check-in prompt</button><span id="copy-status" role="status" aria-live="polite"></span>'
-        f'<p class="muted">Last check-in: {e(data.get("last_checkin") or "not recorded yet")}. Ledger dates are review dates, not measurement freshness.</p></section>'
+        f'<p class="muted">Last check-in: {e(data.get("last_checkin") or "not recorded yet")}.</p></section>'
         '<h2 id="campaigns">Active campaigns</h2>'
         + table(
             [
@@ -220,9 +217,9 @@ def render_html(data: dict) -> str:
             ],
             campaigns,
         )
-        + '<h2 id="tasks">Active tasks</h2><p>Open means tracked, not necessarily running. Blockers and decisions still apply.</p>'
+        + '<h2 id="tasks">Active tasks</h2>'
         + table(["Task", "Campaign", "Status", "Priority", "Next step"], tasks)
-        + f'<p>Completed and superseded tasks remain in the <a href="{URL}campaigns.yaml">ledger</a>.</p><h2 id="evidence">Inference evidence</h2>'
+        + f'<p><a href="{URL}campaigns.yaml">Ledger</a></p><h2 id="evidence">Inference evidence</h2>'
     )
 
 
