@@ -164,7 +164,7 @@ def markdown(data: dict) -> str:
     return "\n".join(rows)
 
 
-def render_html(data: dict) -> str:
+def render_html(data: dict, work_links=()) -> str:
     def e(value):
         return html.escape(str(value), quote=True)
 
@@ -201,11 +201,10 @@ def render_html(data: dict) -> str:
 
     return (
         marker(data)
-        + '<section class="checkin">'
-        + theme().prompt_heading("insight")
-        + f'<label for="checkin-prompt">Your check-in prompt</label><textarea id="checkin-prompt" rows="8">{e(PROMPT)}</textarea>'
-        '<button type="button" id="copy-checkin">Copy check-in prompt</button><span id="copy-status" role="status" aria-live="polite"></span>'
-        f'<p class="muted">Last check-in: {e(data.get("last_checkin") or "not recorded yet")}.</p></section>'
+        + theme().orchestration_panel(
+            "insight", "", "", PROMPT, work_links=work_links, organ="insight"
+        )
+        + f'<p class="muted">Last check-in: {e(data.get("last_checkin") or "not recorded yet")}.</p>'
         '<h2 id="campaigns">Active campaigns</h2>'
         + table(
             [

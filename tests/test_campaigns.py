@@ -10,8 +10,8 @@ from pathlib import Path
 import pytest
 import yaml
 
-from insight import campaigns
-from insight.theme import JS
+from insight import board, campaigns
+from insight.theme import theme
 
 
 def copied_ledger(tmp_path):
@@ -70,20 +70,42 @@ def test_closed_tasks_hidden_but_parked_stays_visible():
 
 
 @pytest.mark.parametrize("mode", ["clipboard", "fallback", "rejected", "failed-fallback"])
-def test_copy_button_copies_edited_text_or_selects_manual_fallback(mode):
+def test_checkin_copies_complete_shared_preview_or_selects_manual_fallback(mode):
     node = os.environ.get("CODEX_PRIMARY_RUNTIME_NODE") or shutil.which("node")
     if not node:
         pytest.fail("Node runtime required to verify actual copy behavior")
     harness = r"""
 const assert=require('node:assert/strict');
 let callback,copied=null,focused=false,selected=false;
-let field={value:'USER EDITED: focus seed 4',focus(){focused=true},select(){selected=true}};
-let status={textContent:''};
+let field={value:'',defaultValue:'BASE\n\nWork on GitHub:\n- Trusted: https://github.com/example/work',focus(){focused=true},select(){selected=true}};
+let status={textContent:''},details={open:false},direction={value:'focus seed 4\nUnicode α'};
 let mode=MODE;
-global.document={getElementById(id){return id==='copy-checkin'?{addEventListener(_,cb){callback=cb}}:id==='checkin-prompt'?field:status},querySelectorAll(){return []},execCommand(command){assert.equal(command,'copy');if(mode==='failed-fallback')return false;copied=field.value;return true}};
-global.window={isSecureContext:mode!=='fallback'&&mode!=='failed-fallback'};
-Object.defineProperty(global,'navigator',{value:{clipboard:{async writeText(t){if(mode==='rejected')throw Error('denied');copied=t}}},configurable:true});
+let panel={querySelector(s){return s==='[data-orchestration-prompt]'?field:s==='[data-orchestration-direction]'?direction:s==='[data-orchestration-preview]'?details:status}};
+let button={closest(){return panel}};
+global.document={addEventListener(event,cb){if(event==='click')callback=cb},execCommand(){if(mode==='failed-fallback'||mode==='rejected')return false;copied=field.value;return true}};
+global.guardPrompt=()=>true;
+Object.defineProperty(global,'navigator',{value:{clipboard:{async writeText(t){if(mode!=='clipboard')throw Error('denied');copied=t}}},configurable:true});
 SCRIPT
-(async()=>{await callback(); if(mode==='rejected'||mode==='failed-fallback'){assert.equal(copied,null);assert.ok(focused&&selected);assert.match(status.textContent,/Select and copy/)}else{assert.equal(copied,field.value);assert.equal(status.textContent,'Copied')}})().catch(e=>{console.error(e);process.exitCode=1});
-""".replace("MODE", json.dumps(mode)).replace("SCRIPT", JS)
+(async()=>{await callback({target:{closest(){return button}}});assert.ok(field.value.startsWith(field.defaultValue));assert.ok(field.value.endsWith(direction.value));if(mode==='rejected'||mode==='failed-fallback'){assert.equal(copied,null);assert.ok(focused&&selected&&details.open);assert.match(status.textContent,/copy it manually/)}else{assert.equal(copied,field.value);assert.match(status.textContent,/Prompt copied/);if(mode==='fallback')assert.ok(focused&&selected&&details.open)}})().catch(e=>{console.error(e);process.exitCode=1});
+""".replace("MODE", json.dumps(mode)).replace("SCRIPT", theme().ORCHESTRATION_JS)
     subprocess.run([node, "-e", harness], check=True, capture_output=True, text=True)
+
+
+def test_shared_panel_keeps_owner_prompt_and_all_trusted_destinations():
+    import html
+    import re
+
+    links = [
+        {"label": "First project", "href": "https://github.com/example/first"},
+        {"label": "Second project", "href": "https://github.com/example/second"},
+    ]
+    page = campaigns.render_html(campaigns.load(), work_links=links)
+    preview = html.unescape(
+        re.search(r'data-orchestration-prompt readonly rows="8">(.*?)</textarea>', page, re.S)[1]
+    )
+    assert preview.startswith(campaigns.PROMPT + "\n\nWork on GitHub:\n")
+    for link in links:
+        assert f"- {link['label']}: {link['href']}" in preview
+    assert page.count("data-orchestration-panel") == 1
+    assert "data-orchestration-direction" in page
+    assert "orchestrationSync" in board.render_html([])
