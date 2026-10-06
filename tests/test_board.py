@@ -24,7 +24,7 @@ def test_controlroom_order_and_domain_labels(registry_file, fake_mind):
     s = view(registry_file, fake_mind)
     html = board.render_html([s], now="2026-10-04T00:00:00Z")
     assert (
-        html.index('id="checkin-prompt"')
+        html.index('id="orchestration-insight-prompt"')
         < html.index('id="campaigns"')
         < html.index('id="tasks"')
         < html.index('id="evidence"')

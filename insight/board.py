@@ -268,10 +268,17 @@ def render_html(views, now=None, campaign_data=None):
         )
         + "<main>"
         + input_marker(views, data)
-        + campaigns.render_html(data)
+        + campaigns.render_html(
+            data,
+            work_links=[
+                {"label": "PyAutoInsight", "href": REPO_URL},
+                *({"label": v.instance.repo, "href": v.instance.github_url} for v in views),
+            ],
+        )
         + "<p>Execution completion is separate from convergence and scientific acceptance. Cortex retains scientific conclusions. Evidence remains in project storage.</p>"
         + "".join(_detail(s, now) for s in views)
         + "</main><script>"
+        + shared.JS
         + JS
         + "</script></body></html>\n"
     )
