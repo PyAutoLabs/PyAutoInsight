@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 import yaml
 
 from insight import ORGAN_ROOT
+from insight.theme import theme
 
 URL = "https://github.com/PyAutoLabs/PyAutoInsight/blob/main/"
 STATUSES = {
@@ -199,8 +200,10 @@ def render_html(data: dict) -> str:
         )
 
     return (
-        marker(data) + '<section class="checkin"><h2>Check in on all inference work</h2>'
-        f'<label for="checkin-prompt">Your check-in prompt</label><textarea id="checkin-prompt" rows="8">{e(PROMPT)}</textarea>'
+        marker(data)
+        + '<section class="checkin">'
+        + theme().prompt_heading("insight")
+        + f'<label for="checkin-prompt">Your check-in prompt</label><textarea id="checkin-prompt" rows="8">{e(PROMPT)}</textarea>'
         '<button type="button" id="copy-checkin">Copy check-in prompt</button><span id="copy-status" role="status" aria-live="polite"></span>'
         f'<p class="muted">Last check-in: {e(data.get("last_checkin") or "not recorded yet")}.</p></section>'
         '<h2 id="campaigns">Active campaigns</h2>'
