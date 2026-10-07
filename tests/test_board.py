@@ -17,6 +17,7 @@ def view(registry_file, fake_mind, name="lens_summary_v1.json"):
         doc=fixture_doc(name),
         commit="a" * 40,
         fetched_at="2026-10-04T00:00:00Z",
+        refreshed_at="2026-10-04T00:00:00Z",
     )
 
 
@@ -80,3 +81,19 @@ def test_render_respects_supplied_clock_for_freshness(registry_file, fake_mind):
     s.doc["valid_until"] = "2020-01-03T00:00:00Z"
     assert "valid · deadline" in board.render_html([s], now="2020-01-02T00:00:00Z")
     assert "stale · deadline" in board.render_html([s], now="2020-01-04T00:00:00Z")
+
+
+def test_capture_freshness_is_conservative(registry_file, fake_mind):
+    s = view(registry_file, fake_mind)
+    html = board.render_html([s])
+    assert 'data-refreshed-at="' + s.refreshed_at + '"' in html
+    assert (
+        "https://github.com/PyAutoLabs/PyAutoInsight/actions/workflows/dashboard_refresh.yml"
+        in html
+    )
+    s.outcome = "unavailable"
+    s.cached = True
+    assert "Last updated unavailable" in board.render_html([s])
+    s.outcome = "ok"
+    s.refreshed_at = None
+    assert "Last updated unavailable" in board.render_html([s])

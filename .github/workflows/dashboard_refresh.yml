@@ -16,10 +16,11 @@ name: Dashboard Refresh
 #   - pull_request: a dry run (ingest + render, no commit) so a reader change
 #     is exercised against the live feeds before it merges.
 #
-# Receipts and snapshots carry their `fetched_at` while nothing changes, the
-# pages carry no wall-clock stamp, and state.json's `updated` moves only when
-# the feed's content does, so a night with no new project commit commits
-# nothing. A failed fetch keeps the committed snapshot (shown as cached, never
+# Successful refreshes update receipt observation metadata and panel freshness.
+# Snapshot capture/evidence dates remain unchanged on identical input; state.json
+# `updated` still moves only when feed content changes. A refresh can commit
+# observation metadata even when project evidence is unchanged. A failed fetch
+# keeps the committed snapshot (shown as cached, never
 # re-aged). The body map is read from a checkout of PyAutoMind (public). The
 # bot commit uses GITHUB_TOKEN, which never triggers other workflows, so after
 # a commit this workflow dispatches pages_dashboard.yml explicitly.
