@@ -242,6 +242,17 @@ def _detail(s, now=None):
     return "".join(parts)
 
 
+def _captured_at(views):
+    """Oldest successful observation of displayed inputs; failed or missing inputs stay unknown.
+
+    Capture time is separate from producer evidence and content-only state.updated.
+    """
+    if not views or any(v.outcome != "ok" or not v.refreshed_at for v in views):
+        return None
+    times = [summary.parse_utc(v.refreshed_at) for v in views]
+    return min(times) if all(times) else None
+
+
 def render_html(views, now=None, campaign_data=None):
     data = campaign_data if campaign_data is not None else campaigns.load()
     shared = theme()
@@ -270,6 +281,7 @@ def render_html(views, now=None, campaign_data=None):
         + input_marker(views, data)
         + campaigns.render_html(
             data,
+            refreshed_at=_captured_at(views),
             work_links=[
                 {"label": "PyAutoInsight", "href": REPO_URL},
                 *({"label": v.instance.repo, "href": v.instance.github_url} for v in views),

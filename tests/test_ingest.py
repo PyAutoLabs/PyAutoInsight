@@ -36,12 +36,19 @@ def test_ok_reads_the_file_at_the_resolved_commit(lens, web, tmp_path, monkeypat
     assert snap["commit"] == SHA_A and snap["fetched_at"] == "2026-10-02T00:00:00Z"
 
 
-def test_unchanged_reingest_rewrites_nothing(lens, web, tmp_path):
+def test_unchanged_refresh_advances_observation_not_capture(lens, web, tmp_path):
     web.publish(GH, SHA_A, PATH, fixture_doc("lens_summary_v1.json"))
     ingest.ingest(lens, tmp_path, now="2026-10-02T00:00:00Z")
     before = {p: p.read_bytes() for p in tmp_path.glob("*s/lens.json")}
     ingest.ingest(lens, tmp_path, now="2026-10-03T00:00:00Z")
-    assert {p: p.read_bytes() for p in tmp_path.glob("*s/lens.json")} == before
+    assert (
+        ingest.snapshot_path(tmp_path, "lens").read_bytes()
+        == before[ingest.snapshot_path(tmp_path, "lens")]
+    )
+    replay = ingest.ingest(lens, tmp_path, offline=True)
+    assert replay.fetched_at == "2026-10-02T00:00:00Z"
+    assert replay.refreshed_at == "2026-10-03T00:00:00Z"
+    assert ingest.read_receipt(tmp_path, "lens")["fetched_at"] == "2026-10-02T00:00:00Z"
     web.publish(GH, SHA_B, PATH, fixture_doc("lens_summary_v1.json"))
     s = ingest.ingest(lens, tmp_path, now="2026-10-04T00:00:00Z")
     assert s.commit == SHA_B and s.fetched_at == "2026-10-04T00:00:00Z"
@@ -53,6 +60,7 @@ def test_unavailable_keeps_the_cached_snapshot_with_its_original_times(lens, web
     web.down = True
     s = ingest.ingest(lens, tmp_path, now="2026-10-09T00:00:00Z")
     assert s.outcome == "unavailable" and s.cached
+    assert s.refreshed_at is None
     assert s.commit == SHA_A and s.fetched_at == "2026-10-02T00:00:00Z"
     assert s.doc["evidence_updated_at"] == good.doc["evidence_updated_at"]
     assert "connection reset" in s.errors[0]

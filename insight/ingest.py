@@ -10,9 +10,11 @@ the summary plus the commit and time it was captured). A failed read keeps
 that snapshot and the board shows it labelled **cached**, with its original
 evidence and fetch times and the new error: nothing re-ages it.
 
-Receipts and snapshots are written only when their content changes (the
-``fetched_at`` of an unchanged outcome at the same commit is carried), so a
-nightly refresh against an unchanged project commits nothing. A local
+Snapshots preserve capture history for unchanged input. Receipts separately
+record ``refreshed_at`` for each successful observation, so real refreshes
+can commit metadata even when evidence is unchanged. Offline replay retains
+the recorded observation time; a failed attempt exposes no successful refresh.
+A local
 ``--from`` read reports the checkout's revision and dirty state, is labelled
 "local checkout", and writes no receipt or snapshot: it cannot masquerade as
 a published capture.
@@ -110,6 +112,7 @@ class Snapshot:
     dirty: bool | None = None
     checkout: str | None = None
     source_branch: str | None = None
+    refreshed_at: str | None = None  # latest successful observation, independent of capture
 
     @property
     def failed(self) -> bool:
@@ -180,6 +183,7 @@ def _from_files(inst: Instance, out_dir: Path) -> Snapshot:
             errors=[str(e) for e in receipt.get("errors") or []],
             attempt_commit=receipt.get("resolved_commit"),
             attempt_at=receipt.get("fetched_at"),
+            refreshed_at=receipt.get("refreshed_at") if receipt.get("outcome") == "ok" else None,
             source_branch=receipt.get("branch"),
         )
     if receipt is not None:
@@ -296,7 +300,13 @@ def ingest(
         "errors": errors,
         "cached_from": last_good.get("fetched_at") if last_good and outcome != "ok" else None,
     }
-    _carry(receipt_path(out_dir, inst.instance), receipt)
+    # Preserve capture history while recording a real successful observation.
+    prior = read_receipt(out_dir, inst.instance)
+    strip = lambda d: {k: v for k, v in d.items() if k not in ("fetched_at", "refreshed_at")}  # noqa: E731
+    if prior is not None and strip(prior) == strip(receipt):
+        receipt["fetched_at"] = prior["fetched_at"]
+    receipt["refreshed_at"] = now if outcome == "ok" else None
+    _carry(receipt_path(out_dir, inst.instance), receipt, keys=())
     return _from_files(inst, out_dir)
 
 
@@ -337,4 +347,6 @@ def _ingest_local(inst: Instance, path: Path, wanted) -> Snapshot:
         view.outcome, view.errors = "invalid", ["project identity differs from registry"]
     if view.failed:
         view.doc = None
+    else:
+        view.refreshed_at = view.fetched_at
     return view

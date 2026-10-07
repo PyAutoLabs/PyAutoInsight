@@ -198,7 +198,7 @@ def markdown(data: dict) -> str:
     return "\n".join(rows)
 
 
-def render_html(data: dict, work_links=()) -> str:
+def render_html(data: dict, work_links=(), refreshed_at=None) -> str:
     def e(value):
         return html.escape(str(value), quote=True)
 
@@ -236,7 +236,14 @@ def render_html(data: dict, work_links=()) -> str:
     return (
         marker(data)
         + theme().orchestration_panel(
-            "insight", "", "", PROMPT, work_links=work_links, organ="insight"
+            "insight",
+            "",
+            "",
+            PROMPT,
+            work_links=work_links,
+            organ="insight",
+            refreshed_at=refreshed_at,
+            refresh_url="https://github.com/PyAutoLabs/PyAutoInsight/actions/workflows/dashboard_refresh.yml",
         )
         + f'<p class="muted">Last check-in: {e(data.get("last_checkin") or "not recorded yet")}.</p>'
         '<h2 id="campaigns">Active campaigns</h2>'
