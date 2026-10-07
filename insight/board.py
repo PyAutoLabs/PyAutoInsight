@@ -256,7 +256,7 @@ def _captured_at(views):
 def render_html(views, now=None, campaign_data=None):
     data = campaign_data if campaign_data is not None else campaigns.load()
     shared = theme()
-    return (
+    return shared.section_layout(
         '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         "<title>PyAutoInsight dashboard</title><style>"
         + shared.css("insight")
