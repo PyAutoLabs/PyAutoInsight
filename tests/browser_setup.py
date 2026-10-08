@@ -58,7 +58,7 @@ def main():
         detail.wait_for_load_state()
         assert "view=setup" in detail.url
         assert not detail.locator("#inference-home").is_visible()
-        assert detail.locator(".setup-page:not([hidden]) h1").inner_text() == "Delaunay"
+        assert detail.locator(".setup-page:not([hidden]) h1").inner_text() == "Delaunay (JAX)"
         assert (
             detail.locator(".setup-page:not([hidden])")
             .get_by_text("No accepted baseline selected", exact=True)
@@ -76,7 +76,7 @@ def main():
         active.locator("[data-instrument]").select_option(label="EUCLID")
         assert "euclid" in detail.url and "implementation=jax" in detail.url
         assert (
-            "No recorded Delaunay results"
+            "No recorded Delaunay (JAX) results"
             in detail.locator(".setup-page:not([hidden])").inner_text()
         )
         detail.go_back()
@@ -100,7 +100,7 @@ def main():
         detail.set_viewport_size({"width": 390, "height": 844})
         assert detail.evaluate("document.documentElement.scrollWidth <= innerWidth")
         detail.goto(path.as_uri() + "?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fhst")
-        assert detail.locator(".setup-page:not([hidden]) h1").inner_text() == "Delaunay"
+        assert detail.locator(".setup-page:not([hidden]) h1").inner_text() == "Delaunay (JAX)"
         detail.goto(path.as_uri() + "?view=setup&instance=lens&setup=missing")
         assert detail.locator("#inference-home").is_visible()
         assert "unavailable" in detail.locator("#setup-route-status").inner_text()
