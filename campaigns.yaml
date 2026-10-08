@@ -89,6 +89,20 @@ campaigns:
   job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
   evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/ic50_workspace.md
   project: ic50_workspace
+- id: gaussian-x3-search-benchmark
+  title: PyAutoFit search benchmark on gaussian_x3 (autofit_inference)
+  status: blocked
+  updated: '2026-10-08'
+  next: Run the 297 deferred wave-1 runs (and the JAX blend reference seed 1) on RAL partition ral on a PyAutoFit
+    revision after A2, then freeze gaussian_x3@2 before any wave-2 row.
+  recent_progress: Wave-1 pilot stopped at 223 of 520 expected runs by the B3 wrap-up ruling (2026-10-08);
+    pilot ranks nothing; catalogue, calibration record and inference-summary@1 published.
+  blockers: Phase A2 (PyAutoFit#1679, gradients under JAX) must merge first; NSS waits on A3b; no compute
+    submission is authorized by this ledger.
+  job_status: unknown — live scheduler not queried; the local pilot was stopped and this ledger records no
+    RAL submission
+  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/4
+  project: autofit_inference
 tasks:
 - id: drop_1e3_prior_centring_after_631
   campaign: slam-hst-base
@@ -150,3 +164,13 @@ tasks:
   next: 'An unscoped idea, not permission to submit: reconcile point-source admission with imaging and weak-lensing
     candidate targets.'
   evidence: https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/ideas.md
+- id: gaussian_x3_search_wave1
+  campaign: gaussian-x3-search-benchmark
+  title: gaussian_x3 search benchmark — wave 1 (the pilot)
+  status: blocked
+  priority: normal
+  path: tasks/gaussian_x3_search_wave1.md
+  updated: '2026-10-08'
+  next: Pilot partial (223 of 520 runs); run the deferred cells on RAL partition ral after A2, then freeze
+    gaussian_x3@2.
+  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/4

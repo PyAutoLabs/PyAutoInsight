@@ -1,0 +1,17 @@
+{
+  "instance": "fit",
+  "repo": "autofit_inference",
+  "github": "PyAutoLabs/autofit_inference",
+  "branch": "main",
+  "resolved_commit": "ec35be493712d693b8cab4d071d97d9a242137b6",
+  "summary_path": "dashboard/summary.json",
+  "source": "remote",
+  "fetched_at": "2026-10-08T19:29:28Z",
+  "outcome": "ok",
+  "schema": "inference-summary",
+  "version": 1,
+  "record_count": 0,
+  "errors": [],
+  "cached_from": null,
+  "refreshed_at": "2026-10-08T19:30:00Z"
+}
