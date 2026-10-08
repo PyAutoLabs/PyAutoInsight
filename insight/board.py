@@ -142,20 +142,14 @@ def _detail(s, now=None):
         warnings = []
         if s.cached or s.errors:
             warnings.append(
-                "Latest refresh failed; see Evidence details"
-                + (". Showing cached evidence." if s.cached else ".")
+                "Latest refresh failed" + (". Showing cached evidence." if s.cached else ".")
             )
         if s.source == "local":
             warnings.append("Local preview, not a published capture.")
         if freshness(s, now).startswith("stale"):
             warnings.append("Evidence is past its declared freshness deadline.")
         alerts = "".join('<p class="warn">' + e(message) + "</p>" for message in warnings)
-        return (
-            marker(s)
-            + alerts
-            + nav
-            + setup_browser.disclosure("Evidence details", "".join(parts[2:]))
-        )
+        return marker(s) + alerts + nav
     if not d:
         return "".join(parts)
     parts += [

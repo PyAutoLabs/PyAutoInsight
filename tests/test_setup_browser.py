@@ -94,8 +94,9 @@ def test_direct_page_retains_failed_refresh_and_local_preview_qualifications(
     snapshot.errors = ["latest refresh failed <network>"]
     snapshot.doc["valid_until"] = "2026-01-01T00:00:00Z"
     _, pages = setup_browser.render(snapshot, now="2026-10-08T00:00:00Z")
-    assert "stale · deadline" in pages
-    assert "Freshness:" in pages and "Integrity:" in pages
+    assert "past its declared freshness deadline" in pages
+    assert "Evidence details" not in pages
+    assert "Integrity:" not in pages
     assert "latest refresh failed &lt;network&gt;" in pages
     assert "original capture and evidence times retained" in pages
     snapshot.source = "local"

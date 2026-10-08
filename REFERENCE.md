@@ -281,6 +281,7 @@ explicitly unspecified. Imaging Delaunay/Rectangular also expose empty Numba/JAX
 filters when there are no measurements; these links claim neither runtime nor
 implementation availability. Instrument selection updates the URL within the
 opened tab and supports browser history. Existing setup links still resolve.
-Routine capture/integrity metadata is in Evidence details; actual stale, failed,
-cached and local-preview warnings remain visible. Campaign tables display only
+Routine capture/integrity metadata is available in the machine-readable receipts
+and snapshots, not an Evidence details disclosure. Actual stale, failed, cached
+and local-preview warnings remain visible. JAX choices carry an explicit (JAX) label. Campaign tables display only
 name, recent progress and next steps; the complete ledger remains authoritative.

@@ -55,6 +55,8 @@ def model_label(model, impl):
         if impl == "numba"
         else " (implementation unspecified)"
         if impl == "unknown"
+        else " (JAX)"
+        if impl == "jax"
         else ""
     )
 
@@ -113,7 +115,7 @@ def record(snapshot, row):
 
 
 def page(snapshot, setup, rows, now=None, impl=None, instruments=()):
-    from insight.board import freshness, integrity, qualification
+    from insight.board import freshness
 
     doc = snapshot.doc
     sid = setup["id"]
@@ -139,10 +141,6 @@ def page(snapshot, setup, rows, now=None, impl=None, instruments=()):
         out.append(
             f'<div class="selectors"><label>Instrument<select data-instrument>{options}</select></label></div>'
         )
-    evidence = (
-        f"<p>Integrity: {e(integrity(snapshot))} · Freshness: {e(freshness(snapshot, now))} · Scientific qualification: {e(qualification(snapshot))}</p>"
-        f"<p>Captured source branch: {e(snapshot.source_branch)}. Revision: {e(snapshot.commit)}. Capture time: {e(snapshot.fetched_at)}. Latest attempt: {e(snapshot.attempt_at)}.</p>"
-    )
     if freshness(snapshot, now).startswith("stale"):
         out.append('<p class="warn">This evidence is past its declared freshness deadline.</p>')
     if snapshot.errors:
@@ -251,7 +249,6 @@ def page(snapshot, setup, rows, now=None, impl=None, instruments=()):
             + "</ul>",
         )
     )
-    out.append(disclosure("Evidence details", evidence))
     out.append("</details>")
     return "".join(out)
 
