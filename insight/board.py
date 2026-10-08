@@ -9,7 +9,7 @@ import re
 from datetime import UTC, datetime
 from pathlib import Path
 
-from insight import ORGAN_ROOT, campaigns, candidates, setup_browser, summary
+from insight import ORGAN_ROOT, campaigns, candidates, decisions, setup_browser, summary
 from insight.theme import CSS, JS, theme
 
 PAGES_URL = "https://pyautolabs.github.io/PyAutoInsight/"
@@ -285,6 +285,7 @@ def render_html(views, now=None, campaign_data=None):
             navigation=[
                 {"href": "#campaigns", "label": "Active campaigns"},
                 {"href": "#evidence", "label": "Inference Results"},
+                {"href": "#decision-history", "label": "Decision History"},
                 {"href": "#sampler-candidates", "label": "Sampler candidates"},
             ],
         )
@@ -299,6 +300,7 @@ def render_html(views, now=None, campaign_data=None):
             ],
         )
         + "".join(_detail(s, now) for s in views)
+        + decisions.render_html()
         + candidates.render(candidates.load())
         + '</div><div id="inference-pages">'
         + "".join(setup_browser.render(s, now)[1] for s in views)
@@ -386,6 +388,7 @@ def render_markdown(views, now=None, campaign_data=None):
                 + md(summary.comparison_refusals(s.doc, c) or c["protocol"])
             )
         out += ["", "</details>", ""]
+    out += ["", decisions.markdown()]
     out += [
         "## Sampler candidates",
         "",

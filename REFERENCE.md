@@ -285,3 +285,12 @@ Routine capture/integrity metadata is available in the machine-readable receipts
 and snapshots, not an Evidence details disclosure. Actual stale, failed, cached
 and local-preview warnings remain visible. JAX choices carry an explicit (JAX) label. Campaign tables display only
 name, recent progress and next steps; the complete ledger remains authoritative.
+
+## Decision History
+
+`decisions.yaml` indexes human-authored campaign summaries; `decisions/README.md`
+defines capture, ownership, record format and supersession. The flat list follows
+Results in HTML and Markdown. Both boards can link to one canonical record.
+The reader validates IDs, dates, GitHub destinations and owned record metadata;
+it never makes a scientific decision. Remote record existence is checked when
+publishing the cross-dashboard link, not by offline rendering.

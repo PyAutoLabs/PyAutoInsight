@@ -9,7 +9,7 @@ import os
 import sys
 from pathlib import Path
 
-from insight import ORGAN_ROOT, board, campaigns, ingest, registry
+from insight import ORGAN_ROOT, board, campaigns, decisions, ingest, registry
 from insight import summary as summary_mod
 
 
@@ -158,6 +158,12 @@ def _check_state(path: Path) -> list[str]:
 def cmd_check(args) -> int:
     problems = []
     try:
+        decision_rows = decisions.load()
+    except ValueError as exc:
+        print(f"FAIL decisions: {exc}")
+        return 1
+
+    try:
         campaign_data = campaigns.load()
         campaigns.validate_migration()
     except campaigns.CampaignError as exc:
@@ -211,6 +217,12 @@ def cmd_check(args) -> int:
         problems.append("dashboard.md / dashboard.html missing")
         print("FAIL dashboard: dashboard.md / dashboard.html missing — run `pyauto-insight board`")
     else:
+        if (
+            decisions.marker(decision_rows) not in md.read_text()
+            or decisions.marker(decision_rows) not in page.read_text()
+        ):
+            problems.append("decision history stale — regenerate board")
+            print("FAIL decisions: dashboard does not match the decision index")
         expected = campaigns.marker(campaign_data)
         digest = board.input_marker(views, campaign_data)
         if digest not in md.read_text() or digest not in page.read_text():

@@ -36,3 +36,33 @@ def test_check_rejects_receipt_revision_different_from_snapshot(
     doc["resolved_commit"] = SHA_B
     path.write_text(json.dumps(doc))
     assert cli.main([*base, "check", *flags]) == 1
+
+
+def test_decision_only_change_requires_regeneration(
+    tmp_path, registry_file, fake_mind, web, monkeypatch, capsys
+):
+    from insight import decisions
+
+    inst = registry.load(registry_file, mind=fake_mind)[0]
+    web.publish(inst.github, SHA_A, inst.summary_path, fixture_doc("lens_summary_v1.json"))
+    ingest.ingest(inst, tmp_path, now="2026-10-04T00:00:00Z")
+    base = ["--registry", str(registry_file)]
+    flags = ["--mind", str(fake_mind), "--out", str(tmp_path), "--offline"]
+    monkeypatch.setattr(decisions, "load", lambda: [])
+    assert cli.main([*base, "board", *flags]) == 0
+    monkeypatch.setattr(
+        decisions,
+        "load",
+        lambda: [
+            {
+                "id": "solver",
+                "title": "Solver choice",
+                "date": "2026-10-08",
+                "url": "https://github.com/PyAutoLabs/PyAutoPulse/blob/main/decisions/solver.md",
+            }
+        ],
+    )
+    assert cli.main([*base, "check", *flags]) == 1
+    assert "FAIL decisions" in capsys.readouterr().out
+    assert cli.main([*base, "board", *flags]) == 0
+    assert cli.main([*base, "check", *flags]) == 0
