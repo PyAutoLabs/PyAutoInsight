@@ -5,6 +5,7 @@ import sys
 import tempfile
 from copy import deepcopy
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -126,6 +127,33 @@ def main():
         assert fallback.locator("#inference-pages").is_visible()
         fallback.locator(".setup-page>summary").first.click()
         assert fallback.locator(".setup-page h1").first.is_visible()
+        with patch(
+            "insight.decisions.load",
+            return_value=[
+                {
+                    "id": "solver",
+                    "title": "NNLS Solver Setup",
+                    "date": "2026-10-08",
+                    "url": "https://github.com/PyAutoLabs/PyAutoPulse/blob/main/decisions/solver.md",
+                }
+            ],
+        ):
+            history_path = Path(tmp) / "history.html"
+            history_path.write_text(board.render_html([snapshot]))
+        page.goto(history_path.as_uri())
+        history = page.locator("#decision-history")
+        disclosure = history.locator("xpath=ancestor-or-self::details[1]")
+        assert disclosure.get_attribute("open") is None
+        disclosure.locator("summary").first.click()
+        link = history.get_by_role("link", name="NNLS Solver Setup", exact=True)
+        assert link.is_visible()
+        assert link.get_attribute("target") == "_blank"
+        assert (
+            link.get_attribute("href")
+            == "https://github.com/PyAutoLabs/PyAutoPulse/blob/main/decisions/solver.md"
+        )
+        page.set_viewport_size({"width": 390, "height": 844})
+        assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
         assert not errors, errors
         browser.close()
     print(
