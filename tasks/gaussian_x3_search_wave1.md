@@ -48,8 +48,10 @@ a missing run is never silently absent.
   `dashboard/summary.json`, instance `fit` in this registry).
 - **Science record**: PyAutoCortex row `autofit_inference` (ledger
   `wiki/project/state.md` in the project repo).
-- **Verdict commentary**: autofit_assistant `wiki/project/2026-10-08-gaussian-x3-search-wave1.md`,
-  one row per (model × task) verdict.
+- **Verdict commentary**: autofit_inference `wiki/project/state.md` (journal entry
+  2026-10-08). The planned autofit_assistant campaign page is not made in B3:
+  autofit_assistant gitignores dated `wiki/project/` entries (they are per-clone memory,
+  never shipped with the template), so its home needs a human decision.
 - **Bounded implementation work**: PyAutoMind (the search-extensibility epic).
 
 ## Boundaries
