@@ -3,15 +3,15 @@
   "repo": "autolens_inference",
   "github": "PyAutoLabs/autolens_inference",
   "branch": "main",
-  "resolved_commit": "e81d296bff98687c33fdc5ec57e36342e502a241",
+  "resolved_commit": "f8073e6f3d333364598a25d1fb91cd0f95781bae",
   "summary_path": "dashboard/summary.json",
   "source": "remote",
-  "fetched_at": "2026-10-06T14:44:00Z",
+  "fetched_at": "2026-10-08T08:13:22Z",
   "outcome": "ok",
   "schema": "inference-summary",
   "version": 1,
   "record_count": 56,
   "errors": [],
   "cached_from": null,
-  "refreshed_at": "2026-10-07T11:23:41Z"
+  "refreshed_at": "2026-10-08T08:13:22Z"
 }
