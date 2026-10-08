@@ -13,9 +13,17 @@ def _doc(*rows):
 
 def test_the_committed_registry_is_valid_against_a_body_map(body_map):
     data = yaml.safe_load((ORGAN_ROOT / "registry.yaml").read_text())
-    body_map.update({"PyAutoArray": {"github": "PyAutoLabs/PyAutoArray"}})
+    body_map.update(
+        {
+            "PyAutoArray": {"github": "PyAutoLabs/PyAutoArray"},
+            "autofit_inference": {
+                "path": "fit/autofit_inference",
+                "github": "PyAutoLabs/autofit_inference",
+            },
+        }
+    )
     assert registry.validate(data, body_map) == []
-    assert [r["instance"] for r in data["instances"]] == ["lens"]
+    assert [r["instance"] for r in data["instances"]] == ["lens", "fit"]
 
 
 def test_load_resolves_path_and_github_from_the_body_map(registry_file, fake_mind):

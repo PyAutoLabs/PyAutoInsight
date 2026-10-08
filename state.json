@@ -3,8 +3,8 @@
   "organ": "insight",
   "repo": "PyAutoInsight",
   "status": "yellow",
-  "headline": "1 projects \u00b7 56 records \u00b7 0 cached",
-  "updated": "2026-10-04T08:09:23Z",
+  "headline": "2 projects \u00b7 56 records \u00b7 0 cached",
+  "updated": "2026-10-08T19:29:29Z",
   "pages_url": "https://pyautolabs.github.io/PyAutoInsight/",
   "items": [
     {
@@ -12,6 +12,13 @@
       "severity": "yellow",
       "text": "lens: ok \u00b7 56 records \u00b7 0/56 accepted by producer; remaining assessments shown below \u00b7 freshness policy unspecified \u00b7 evidence time unknown",
       "url": "https://pyautolabs.github.io/PyAutoInsight/#lens",
+      "prompt": null
+    },
+    {
+      "id": "insight:fit",
+      "severity": "yellow",
+      "text": "fit: ok \u00b7 0 records \u00b7 no measurements \u00b7 freshness policy unspecified \u00b7 evidence time unknown",
+      "url": "https://pyautolabs.github.io/PyAutoInsight/#fit",
       "prompt": null
     }
   ]

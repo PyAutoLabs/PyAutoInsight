@@ -1,16 +1,16 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:f70051ff43253519801b4a7d148faab5708eee5feeb4f55c4f6efca3a0b2c865 -->
+<!-- insight-inputs:4d0d489a4e3ad725a1cce864a9cb930eb030864e01ae55fc468b4eb68df27e08 -->
 
 | Where | Count |
 |---|---:|
-| [Projects](#evidence) | 1 |
+| [Projects](#evidence) | 2 |
 | [Records](#evidence) | 56 |
 | [Comparisons](#evidence) | 0 |
 | [Cached](#evidence) | 0 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:cebf9dfa86c60986e2ae3381ae314259f7e491233af2ec497ff330f710f3e901 -->
+<!-- insight-campaigns:b76456132d7495bee180722f43f437e05e473221388e08c82463a9dd7dbb4481 -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -46,6 +46,7 @@ After taking action, report what changed, what the evidence supports and what re
 | [N=50 NUTS versus three EP repeats](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/ep_toy_gaussian.md) | Cortex records failed wave 1 (EMFILE/OOM), wave-2 preparation and no submission. | Present the existing wave-2 proposal with current dependency evidence for decision. |
 | [Hierarchical slope recovery at scale](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/slope_hierarchy_scale.md) | Cortex retains graphical baseline, post-processing OOM and stale EP hierarchical factor; Mind records later moments fix. | Verify the moments fix release and project mirror; recover missing summaries from existing samples before a proposed rerun. |
 | [IC50 EP and graphical scale ladder](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/ic50_workspace.md) | Cortex records N=5/10/25 results, failed N=50 EP rung and width-interpretation caveat. | Check implementation close-outs, then propose a seeded ladder with appropriate output and mean-field diagnostics. |
+| [PyAutoFit search benchmark on gaussian_x3 (autofit_inference)](https://github.com/PyAutoLabs/autofit_inference/issues/4) | Wave-1 pilot stopped at 223 of 520 expected runs by the B3 wrap-up ruling (2026-10-08); pilot ranks nothing; catalogue, calibration record and inference-summary@1 published. | Run the 297 deferred wave-1 runs (and the JAX blend reference seed 1) on RAL partition ral on a PyAutoFit revision after A2, then freeze gaussian_x3@2 before any wave-2 row. |
 
 ## Active tasks
 
@@ -56,6 +57,7 @@ After taking action, report what changed, what the evidence supports and what re
 | [Expectation Propagation Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/ep_scoping.md) | graphical-ep | needs-slicing | high | Reconcile completed wrapper work and Pulse profiling ownership before selecting a bounded remaining inference phase. |
 | [Graphical Model Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/graphical_scoping.md) | graphical-ep | needs-slicing | high | Reconcile current Cortex scale results and library dependencies; select one bounded inference phase with a witness. |
 | [NUTS/HMC trial on validated likelihoods](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gradient_sampler_validated_likelihoods.md) | point-source-admission | needs-decision | normal | An unscoped idea, not permission to submit: reconcile point-source admission with imaging and weak-lensing candidate targets. |
+| [gaussian_x3 search benchmark — wave 1 (the pilot)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave1.md) | gaussian-x3-search-benchmark | blocked | normal | Pilot partial (223 of 520 runs); run the deferred cells on RAL partition ral after A2, then freeze gaussian_x3@2. |
 
 [Ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml)
 
@@ -12122,6 +12124,27 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
+
+</details>
+
+
+<!-- insight:instance name=fit receipt=ec35be493712d693b8cab4d071d97d9a242137b6 outcome=ok shown=ec35be493712d693b8cab4d071d97d9a242137b6 -->
+## autofit_inference
+Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: no measurements.
+Capture source branch: main; revision: ec35be493712d693b8cab4d071d97d9a242137b6; fetched 2026-10-08T19:29:28Z; latest attempt 2026-10-08T19:29:28Z.
+
+<details><summary>Full captured evidence and provenance</summary>
+
+
+Coverage: {"excluded": [], "expected": {"reason": "No expected-run manifest yet; wave 1 (B3) defines one", "runs": null}, "observed": {"records": 0, "runs": 0}}
+Verdicts are producer-asserted under protocol gaussian_x3@1, whose PLACEHOLDER thresholds are calibrated in the wave-1 pilot and then frozen
+Rows are judged only against a reference with the same dataset, backend, data seed and assertion mechanism; log evidences are compared only within one backend and one assertion mechanism
+Nested-search convergence needs the search's own termination condition: Nautilus is read from its sampler; other nested searches are not_assessed until PyAutoFit exposes it (phase A3)
+Completion is execution, not convergence; convergence is reported separately from acceptance
+Sample archives remain in project storage; current availability unknown
+
+| Target | Stage | Seed | Execution | Convergence | Acceptance | Sampling s | Total s | Archive | Evidence |
+|---|---|---|---|---|---|---:|---:|---|---|
 
 </details>
 
