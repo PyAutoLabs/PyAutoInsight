@@ -139,7 +139,23 @@ def _detail(s, now=None):
         )
     if d.get("version") == 2:
         nav, _ = setup_browser.render(s, now)
-        return "".join(parts) + nav
+        warnings = []
+        if s.cached or s.errors:
+            warnings.append(
+                "Latest refresh failed; see Evidence details"
+                + (". Showing cached evidence." if s.cached else ".")
+            )
+        if s.source == "local":
+            warnings.append("Local preview, not a published capture.")
+        if freshness(s, now).startswith("stale"):
+            warnings.append("Evidence is past its declared freshness deadline.")
+        alerts = "".join('<p class="warn">' + e(message) + "</p>" for message in warnings)
+        return (
+            marker(s)
+            + alerts
+            + nav
+            + setup_browser.disclosure("Evidence details", "".join(parts[2:]))
+        )
     if not d:
         return "".join(parts)
     parts += [
@@ -274,15 +290,8 @@ def render_html(views, now=None, campaign_data=None):
             "Inference dashboard",
             navigation=[
                 {"href": "#campaigns", "label": "Active campaigns"},
-                {"href": "#evidence", "label": "Inference evidence"},
+                {"href": "#evidence", "label": "Inference Results"},
                 {"href": "#sampler-candidates", "label": "Sampler candidates"},
-                *(
-                    {
-                        "href": "#" + v.instance.instance,
-                        "label": v.instance.instance.title() + " project",
-                    }
-                    for v in views
-                ),
             ],
         )
         + '<main><p id="setup-route-status" role="status"></p><div id="inference-home">'
@@ -295,7 +304,6 @@ def render_html(views, now=None, campaign_data=None):
                 *({"label": v.instance.repo, "href": v.instance.github_url} for v in views),
             ],
         )
-        + "<p>Execution completion is separate from convergence and scientific acceptance. Cortex retains scientific conclusions. Evidence remains in project storage.</p>"
         + "".join(_detail(s, now) for s in views)
         + candidates.render(candidates.load())
         + '</div><div id="inference-pages">'

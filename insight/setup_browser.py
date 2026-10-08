@@ -24,8 +24,39 @@ def link(snapshot, path, label="Original evidence"):
     return f'<a href="{e(snapshot.instance.blob_url(snapshot.commit, path))}">{e(label)}</a>'
 
 
-def route(instance, setup):
-    return "?" + urlencode({"view": "setup", "instance": instance, "setup": setup})
+def route(instance, setup, implementation=None):
+    params = {"view": "setup", "instance": instance, "setup": setup}
+    if implementation:
+        params["implementation"] = implementation
+    return "?" + urlencode(params)
+
+
+def implementation(row):
+    backend = row.get("backend") or ""
+    return (
+        "numba"
+        if backend in {"numba", "numba_cpu"}
+        else "jax"
+        if backend in {"jax", "jax_cpu", "jax_gpu"}
+        else "unknown"
+    )
+
+
+def project_label(snapshot):
+    return {"autolens_inference": "PyAutoLens", "autofit_inference": "PyAutoFit"}.get(
+        snapshot.instance.repo, snapshot.instance.repo
+    )
+
+
+def model_label(model, impl):
+    name = model.replace("_", " ").title()
+    return name + (
+        " (Numba)"
+        if impl == "numba"
+        else " (implementation unspecified)"
+        if impl == "unknown"
+        else ""
+    )
 
 
 def metrics(items):
@@ -81,30 +112,39 @@ def record(snapshot, row):
     return disclosure(heading, body)
 
 
-def page(snapshot, setup, rows, now=None):
+def page(snapshot, setup, rows, now=None, impl=None, instruments=()):
     from insight.board import freshness, integrity, qualification
 
     doc = snapshot.doc
     sid = setup["id"]
     ref = next((r for r in rows if r["id"] == setup.get("reference_record_id")), None)
-    baseline_ids = {
-        p["baseline_record_id"]
+    problem_ids = {row.get("problem_id") for row in rows}
+    problems = [
+        p
         for p in doc["prepared_problems"]
-        if p["setup_id"] == sid and p.get("baseline_record_id")
-    }
-    out = [
-        f'<details class="setup-page" data-instance="{e(snapshot.instance.instance)}" data-setup="{e(sid)}">',
-        f'<summary>{e(setup["label"])}</summary><a href="?">← All inference setups</a>',
-        f"<h1>{e(setup['label'])}</h1>",
-        f"<p>{e(snapshot.instance.repo.removesuffix('_inference'))} / {e(setup['dataset_family'])} / {e(setup['model_family'])} · {e(setup.get('instrument'))}</p>",
-        f'<p class="muted">Captured revision {e(snapshot.commit)} · evidence {e(doc.get("evidence_updated_at"))} · {"cached evidence" if snapshot.cached else e(snapshot.outcome)}.</p>',
+        if p["setup_id"] == sid and (impl is None or p["id"] in problem_ids)
     ]
-    out.append(
-        f"<p><b>Integrity:</b> {e(integrity(snapshot))} · <b>Freshness:</b> {e(freshness(snapshot, now))} · <b>Scientific qualification:</b> {e(qualification(snapshot))}</p>"
+    baseline_ids = {p["baseline_record_id"] for p in problems if p.get("baseline_record_id")}
+    out = [
+        f'<details class="setup-page" data-instance="{e(snapshot.instance.instance)}" data-setup="{e(sid)}" data-implementation="{e(impl or "jax")}">',
+        f'<summary>{e(setup["label"])}</summary><a href="?">← All inference setups</a>',
+        f"<h1>{e(model_label(setup['model_family'], impl) if impl else setup['label'])}</h1>",
+        f"<p>{e(project_label(snapshot))} / {e(setup['dataset_family'].replace('_', ' ').title())}</p>",
+    ]
+    if instruments:
+        options = "".join(
+            f'<option value="{e(route(snapshot.instance.instance, item["id"], impl))}"{" selected" if item["id"] == sid else ""}>{e((item.get("instrument") or "unspecified").upper())}</option>'
+            for item in instruments
+        )
+        out.append(
+            f'<div class="selectors"><label>Instrument<select data-instrument>{options}</select></label></div>'
+        )
+    evidence = (
+        f"<p>Integrity: {e(integrity(snapshot))} · Freshness: {e(freshness(snapshot, now))} · Scientific qualification: {e(qualification(snapshot))}</p>"
+        f"<p>Captured source branch: {e(snapshot.source_branch)}. Revision: {e(snapshot.commit)}. Capture time: {e(snapshot.fetched_at)}. Latest attempt: {e(snapshot.attempt_at)}.</p>"
     )
-    out.append(
-        f"<p>Capture time: {e(snapshot.fetched_at)} · latest attempt: {e(snapshot.attempt_at)} · branch: {e(snapshot.source_branch)}.</p>"
-    )
+    if freshness(snapshot, now).startswith("stale"):
+        out.append('<p class="warn">This evidence is past its declared freshness deadline.</p>')
     if snapshot.errors:
         out.append('<p class="warn">' + e("; ".join(snapshot.errors)) + "</p>")
     if snapshot.cached:
@@ -114,6 +154,10 @@ def page(snapshot, setup, rows, now=None):
     if snapshot.source == "local":
         out.append(
             f'<p class="warn">Local preview, not a published capture. No receipt written. Dirty checkout: {e(snapshot.dirty)}.</p>'
+        )
+    if impl and not rows:
+        out.append(
+            f"<p>No recorded {e(model_label(setup['model_family'], impl))} results for this instrument.</p>"
         )
     if ref:
         out += [
@@ -140,7 +184,7 @@ def page(snapshot, setup, rows, now=None):
     else:
         out += [
             "<h3>No accepted baseline selected</h3>",
-            f"<p>{e(setup.get('reference_record_id_reason'))}</p>",
+            f"<p>{e(setup.get('reference_record_id_reason') or 'No accepted reference for this implementation and instrument')}</p>",
         ]
     image = setup.get("image_path")
     if (
@@ -161,7 +205,7 @@ def page(snapshot, setup, rows, now=None):
             "Baseline runs and prepared problems",
             "".join(record(snapshot, r) for r in baseline)
             + "<pre>"
-            + e(json.dumps([p for p in doc["prepared_problems"] if p["setup_id"] == sid], indent=2))
+            + e(json.dumps(problems, indent=2))
             + "</pre>",
         )
     )
@@ -207,6 +251,7 @@ def page(snapshot, setup, rows, now=None):
             + "</ul>",
         )
     )
+    out.append(disclosure("Evidence details", evidence))
     out.append("</details>")
     return "".join(out)
 
@@ -216,28 +261,44 @@ def render(snapshot, now=None):
     doc = snapshot.doc or {}
     if doc.get("version") != 2:
         return "", ""
-    project = snapshot.instance.repo.removesuffix("_inference")
-    families = defaultdict(list)
+    families = defaultdict(lambda: defaultdict(list))
     for setup in doc["setups"]:
-        families[setup["dataset_family"]].append(setup)
+        families[setup["dataset_family"]][setup["model_family"]].append(setup)
     choices, pages = [], []
-    for family, setups in sorted(families.items()):
+    for family, models in sorted(families.items()):
         links = []
-        for setup in sorted(setups, key=lambda s: (s["model_family"], s["label"])):
-            label = f"{setup['model_family']} · {setup.get('instrument') or 'instrument unspecified'} · {setup['label']}"
-            links.append(
-                f'<a class="setup-choice" href="{e(route(snapshot.instance.instance, setup["id"]))}" target="_blank" rel="noopener">{e(label)} ↗<span class="sr-only"> (opens in a new tab)</span></a>'
+        for model, setups in sorted(models.items()):
+            setups = sorted(
+                setups,
+                key=lambda item: (
+                    item.get("instrument") != "hst",
+                    item.get("instrument") or "",
+                    item["id"],
+                ),
             )
-            pages.append(
-                page(
-                    snapshot,
-                    setup,
-                    [r for r in doc["records"] if r.get("setup_id") == setup["id"]],
-                    now,
+            ids = {item["id"] for item in setups}
+            rows = [row for row in doc["records"] if row.get("setup_id") in ids]
+            implementations = {implementation(row) for row in rows} or {"unknown"}
+            # These are explicit result filters, not claims of measured support.
+            if family == "imaging" and model in {"delaunay", "rectangular"}:
+                implementations |= {"jax", "numba"}
+            for impl in sorted(implementations):
+                label = model_label(model, impl)
+                links.append(
+                    f'<a class="model-choice setup-choice" href="{e(route(snapshot.instance.instance, setups[0]["id"], impl))}" target="_blank" rel="noopener">{e(label)}<span class="sr-only"> (opens in a new tab)</span></a>'
                 )
-            )
+                for setup in setups:
+                    selected = [
+                        row
+                        for row in rows
+                        if row.get("setup_id") == setup["id"] and implementation(row) == impl
+                    ]
+                    pages.append(page(snapshot, setup, selected, now, impl, setups))
         choices.append(
-            disclosure(family, '<div class="setup-choices">' + "".join(links) + "</div>")
+            disclosure(
+                family.replace("_", " ").title(),
+                '<div class="setup-choices">' + "".join(links) + "</div>",
+            )
         )
     unmapped = [r for r in doc["records"] if r.get("setup_id") is None]
     if unmapped:
@@ -249,7 +310,9 @@ def render(snapshot, now=None):
         )
     if not doc["records"]:
         choices.append("<p>No measurements. Declared setups may still be explored.</p>")
-    return disclosure(project, "".join(choices)), "".join(pages)
+    return '<div class="setup-navigation">' + disclosure(
+        project_label(snapshot), "".join(choices)
+    ) + "</div>", "".join(pages)
 
 
 def assets():

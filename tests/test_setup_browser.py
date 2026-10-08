@@ -103,3 +103,41 @@ def test_direct_page_retains_failed_refresh_and_local_preview_qualifications(
     _, pages = setup_browser.render(snapshot)
     assert "Local preview, not a published capture" in pages
     assert "Dirty checkout: True" in pages
+
+
+def test_likelihood_choices_group_instruments_and_keep_implementations_separate(
+    registry_file, fake_mind
+):
+    snapshot = view(registry_file, fake_mind, "lens_summary_v2.json")
+    setup = deepcopy(snapshot.doc["setups"][0])
+    setup.update(id="imaging/delaunay/euclid", instrument="euclid")
+    snapshot.doc["setups"].append(setup)
+    nav, pages = setup_browser.render(snapshot)
+    assert nav.count('class="model-choice setup-choice"') == 2
+    assert "PyAutoLens" in nav and ">Imaging<" in nav
+    assert "Delaunay (Numba)" in nav
+    assert "EUCLID" in pages
+    row = snapshot.doc["records"][0]
+    assert setup_browser.implementation(row) == "jax"
+    assert setup_browser.implementation({"backend": None}) == "unknown"
+    assert setup_browser.implementation({"backend": "jax_unrecognized"}) == "unknown"
+    assert setup_browser.implementation({"backend": "numba_cpu"}) == "numba"
+    original = snapshot.doc["setups"][0]
+    original["reference_record_id"] = row["id"]
+    numba = setup_browser.page(snapshot, original, [], impl="numba", instruments=[original, setup])
+    assert "<h3>Accepted baseline</h3>" not in numba
+    assert row["id"] not in numba
+    assert "No recorded Delaunay (Numba) results" in numba
+
+
+def test_home_keeps_actionable_warnings_outside_collapsed_provenance(registry_file, fake_mind):
+    snapshot = view(registry_file, fake_mind, "lens_summary_v2.json")
+    snapshot.cached = True
+    snapshot.errors = ["transport error"]
+    snapshot.doc["valid_until"] = "2026-01-01T00:00:00Z"
+    detail = board._detail(snapshot, "2026-10-08T00:00:00Z")
+    prefix = detail.split("<details>")[0]
+    assert "Showing cached evidence" in prefix
+    assert "past its declared freshness" in prefix
+    assert "Integrity:" not in prefix
+    assert '<h2 id="lens">' not in detail

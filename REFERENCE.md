@@ -273,3 +273,14 @@ The required Chromium navigation check (`python tests/browser_setup.py`, after
 installing Playwright and Chromium) covers new-tab routing, mobile width,
 unknown routes, history, editable clipboard payloads and the no-JavaScript
 fallback alongside the full Python suite.
+
+The results browser groups instrument-specific setup IDs beneath one likelihood
+choice, matching Pulse's model list. Implementation is an independent view filter:
+JAX and Numba records never share a result panel, and unrecognized backends remain
+explicitly unspecified. Imaging Delaunay/Rectangular also expose empty Numba/JAX
+filters when there are no measurements; these links claim neither runtime nor
+implementation availability. Instrument selection updates the URL within the
+opened tab and supports browser history. Existing setup links still resolve.
+Routine capture/integrity metadata is in Evidence details; actual stale, failed,
+cached and local-preview warnings remain visible. Campaign tables display only
+name, recent progress and next steps; the complete ledger remains authoritative.

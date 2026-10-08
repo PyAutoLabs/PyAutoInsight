@@ -30,10 +30,11 @@ def test_controlroom_order_and_domain_labels(registry_file, fake_mind):
         < html.index('id="tasks"')
         < html.index('id="evidence"')
     )
-    assert "Inference evidence" in html
+    assert "Inference Results" in html
     assert "Profiling evidence" not in html
-    assert "Recent progress" in html and "Blockers" in html and "Job status" in html
-    assert "Execution completion is separate" in html
+    assert "Recent progress" in html and "Next steps" in html
+    assert "<th>Blockers</th>" not in html and "<th>Job status</th>" not in html
+    assert "Last check-in: not recorded yet" not in html
 
 
 def test_cached_stale_evidence_keeps_age_and_separate_qualification(registry_file, fake_mind):

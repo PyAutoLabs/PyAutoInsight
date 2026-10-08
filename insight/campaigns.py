@@ -161,21 +161,18 @@ def markdown(data: dict) -> str:
         PROMPT,
         "```",
         "",
-        f"Last check-in: {data.get('last_checkin') or 'not recorded yet'}. Ledger dates are review dates, not measurement freshness.",
+        *([f"Last check-in: {data['last_checkin']}."] if data.get("last_checkin") else []),
         "",
         "## Active campaigns",
         "",
-        "| Campaign | Status | Open tasks | Recent progress | Blockers | Job status | Next step | Reviewed |",
-        "|---|---|---:|---|---|---|---|---|",
+        "| Campaign | Recent progress | Next steps |",
+        "|---|---|---|",
     ]
     for c in data["campaigns"]:
         if c["status"] in CLOSED:
             continue
-        n = sum(t["campaign"] == c["id"] and t["status"] not in CLOSED for t in data["tasks"])
         title = f"[{_md(c['title'])}]({c['evidence']})" if c.get("evidence") else _md(c["title"])
-        rows.append(
-            f"| {title} | {c['status']} | {n} | {_md(c.get('recent_progress', 'unknown'))} | {_md(c.get('blockers', 'unknown'))} | {_md(c.get('job_status', 'unknown'))} | {_md(c['next'])} | {c['updated']} |"
-        )
+        rows.append(f"| {title} | {_md(c.get('recent_progress', 'unknown'))} | {_md(c['next'])} |")
     rows += [
         "",
         "## Active tasks",
@@ -192,7 +189,7 @@ def markdown(data: dict) -> str:
         "",
         "[Ledger](" + URL + "campaigns.yaml)",
         "",
-        "## Inference evidence",
+        "## Inference Results",
         "",
     ]
     return "\n".join(rows)
@@ -206,14 +203,13 @@ def render_html(data: dict, work_links=(), refreshed_at=None) -> str:
     for c in data["campaigns"]:
         if c["status"] in CLOSED:
             continue
-        n = sum(t["campaign"] == c["id"] and t["status"] not in CLOSED for t in data["tasks"])
         title = (
             f'<a href="{e(c["evidence"])}">{e(c["title"])}</a>'
             if c.get("evidence")
             else e(c["title"])
         )
         campaigns.append(
-            f"<tr><td>{title}</td><td>{e(c['status'])}</td><td>{n}</td><td>{e(c.get('recent_progress', 'unknown'))}</td><td>{e(c.get('blockers', 'unknown'))}</td><td>{e(c.get('job_status', 'unknown'))}</td><td>{e(c['next'])}</td><td>{e(c['updated'])}</td></tr>"
+            f"<tr><td>{title}</td><td>{e(c.get('recent_progress', 'unknown'))}</td><td>{e(c['next'])}</td></tr>"
         )
     tasks = []
     for t in data["tasks"]:
@@ -224,9 +220,9 @@ def render_html(data: dict, work_links=(), refreshed_at=None) -> str:
             f'<tr><td><a href="{URL}{e(t["path"])}">{e(t["title"])}</a>{issue}</td><td>{e(t["campaign"])}</td><td>{e(t["status"])}</td><td>{e(t.get("priority", "normal"))}</td><td>{e(t["next"])}</td></tr>'
         )
 
-    def table(headers, rows):
+    def table(headers, rows, kind="campaign-table"):
         return (
-            '<div class="tablewrap"><table><thead><tr>'
+            f'<div class="tablewrap"><table class="{kind}"><thead><tr>'
             + "".join(f"<th>{h}</th>" for h in headers)
             + "</tr></thead><tbody>"
             + "".join(rows)
@@ -245,24 +241,19 @@ def render_html(data: dict, work_links=(), refreshed_at=None) -> str:
             refreshed_at=refreshed_at,
             refresh_url="https://github.com/PyAutoLabs/PyAutoInsight/actions/workflows/dashboard_refresh.yml",
         )
-        + f'<p class="muted">Last check-in: {e(data.get("last_checkin") or "not recorded yet")}.</p>'
-        '<h2 id="campaigns">Active campaigns</h2>'
+        + (
+            f'<p class="muted">Last check-in: {e(data["last_checkin"])}.</p>'
+            if data.get("last_checkin")
+            else ""
+        )
+        + '<h2 id="campaigns">Active campaigns</h2>'
         + table(
-            [
-                "Campaign",
-                "Status",
-                "Open tasks",
-                "Recent progress",
-                "Blockers",
-                "Job status",
-                "Next step",
-                "Reviewed",
-            ],
+            ["Campaign", "Recent progress", "Next steps"],
             campaigns,
         )
         + '<h2 id="tasks">Active tasks</h2>'
-        + table(["Task", "Campaign", "Status", "Priority", "Next step"], tasks)
-        + f'<p><a href="{URL}campaigns.yaml">Ledger</a></p><h2 id="evidence">Inference evidence</h2>'
+        + table(["Task", "Campaign", "Status", "Priority", "Next steps"], tasks, "task-table")
+        + f'<p><a href="{URL}campaigns.yaml">Ledger</a></p><h2 id="evidence">Inference Results</h2>'
     )
 
 
