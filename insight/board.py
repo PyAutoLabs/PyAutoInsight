@@ -9,7 +9,7 @@ import re
 from datetime import UTC, datetime
 from pathlib import Path
 
-from insight import ORGAN_ROOT, campaigns, summary
+from insight import ORGAN_ROOT, campaigns, candidates, setup_browser, summary
 from insight.theme import CSS, JS, theme
 
 PAGES_URL = "https://pyautolabs.github.io/PyAutoInsight/"
@@ -89,7 +89,9 @@ def input_marker(views, data):
     ]
     return (
         "<!-- insight-inputs:"
-        + hashlib.sha256(json.dumps([body, data], sort_keys=True).encode()).hexdigest()
+        + hashlib.sha256(
+            json.dumps([body, data, candidates.load()], sort_keys=True).encode()
+        ).hexdigest()
         + " -->"
     )
 
@@ -135,6 +137,9 @@ def _detail(s, now=None):
         parts.append(
             '<p class="warn">Local preview, not a published capture. No receipt written.</p>'
         )
+    if d.get("version") == 2:
+        nav, _ = setup_browser.render(s, now)
+        return "".join(parts) + nav
     if not d:
         return "".join(parts)
     parts += [
@@ -256,11 +261,13 @@ def _captured_at(views):
 def render_html(views, now=None, campaign_data=None):
     data = campaign_data if campaign_data is not None else campaigns.load()
     shared = theme()
+    browser_css, browser_js = setup_browser.assets()
     return shared.section_layout(
         '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         "<title>PyAutoInsight dashboard</title><style>"
         + shared.css("insight")
         + CSS
+        + browser_css
         + "pre{white-space:pre-wrap;overflow-wrap:anywhere}details{margin:1rem 0}dd{margin-left:1rem}</style></head><body>"
         + shared.hero(
             "insight",
@@ -268,6 +275,7 @@ def render_html(views, now=None, campaign_data=None):
             navigation=[
                 {"href": "#campaigns", "label": "Active campaigns"},
                 {"href": "#evidence", "label": "Inference evidence"},
+                {"href": "#sampler-candidates", "label": "Sampler candidates"},
                 *(
                     {
                         "href": "#" + v.instance.instance,
@@ -277,7 +285,7 @@ def render_html(views, now=None, campaign_data=None):
                 ),
             ],
         )
-        + "<main>"
+        + '<main><p id="setup-route-status" role="status"></p><div id="inference-home">'
         + input_marker(views, data)
         + campaigns.render_html(
             data,
@@ -289,9 +297,14 @@ def render_html(views, now=None, campaign_data=None):
         )
         + "<p>Execution completion is separate from convergence and scientific acceptance. Cortex retains scientific conclusions. Evidence remains in project storage.</p>"
         + "".join(_detail(s, now) for s in views)
+        + candidates.render(candidates.load())
+        + '</div><div id="inference-pages">'
+        + "".join(setup_browser.render(s, now)[1] for s in views)
+        + "</div>"
         + "</main><script>"
         + shared.JS
         + JS
+        + browser_js
         + "</script></body></html>\n"
     )
 
@@ -321,6 +334,13 @@ def render_markdown(views, now=None, campaign_data=None):
             out.append("Cached: original evidence and capture times retained.")
         if not s.doc:
             continue
+        if s.doc.get("version") == 2:
+            for setup in s.doc["setups"]:
+                out.append(
+                    f"- [{md(setup['dataset_family'])} / {md(setup['model_family'])} / {md(setup['label'])}]"
+                    f"({PAGES_URL}{setup_browser.route(s.instance.instance, setup['id'])})"
+                )
+        out += ["", "<details><summary>Full captured evidence and provenance</summary>", ""]
         out += [
             "",
             "Coverage: " + _dump(s.doc["coverage"]),
@@ -363,6 +383,17 @@ def render_markdown(views, now=None, campaign_data=None):
                 f"Comparison {md(c['id'])}: "
                 + md(summary.comparison_refusals(s.doc, c) or c["protocol"])
             )
+        out += ["", "</details>", ""]
+    out += [
+        "## Sampler candidates",
+        "",
+        f"[Browse candidates and copy investigation prompts]({PAGES_URL}#sampler-candidates)",
+        "",
+    ]
+    for candidate in candidates.load():
+        out.append(
+            f"- [{md(candidate['name'])}]({candidate['paper_url']}): {md(candidate['integration_status'])}. {md(candidate['benchmark_status'])}."
+        )
     return "\n".join(out) + "\n"
 
 

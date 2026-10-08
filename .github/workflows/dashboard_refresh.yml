@@ -36,6 +36,7 @@ on:
     paths:
       - "registry.yaml"
       - "campaigns.yaml"
+      - "sampler_candidates.json"
       - "tasks/**"
       - "migration.yaml"
       - "insight/**"

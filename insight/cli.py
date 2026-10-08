@@ -300,7 +300,7 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
     try:
         return args.func(args)
-    except registry.RegistryError as exc:
+    except (registry.RegistryError, ValueError) as exc:
         print(f"pyauto-insight: {exc}", file=sys.stderr)
         return 1
 

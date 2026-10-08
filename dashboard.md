@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:3ad7a49a47d9cf00198404b59935d9b797ecc0099a34bc59d6b518d16732dce1 -->
+<!-- insight-inputs:f70051ff43253519801b4a7d148faab5708eee5feeb4f55c4f6efca3a0b2c865 -->
 
 | Where | Count |
 |---|---:|
@@ -63,10 +63,24 @@ Last check-in: not recorded yet. Ledger dates are review dates, not measurement 
 ## Inference evidence
 
 
-<!-- insight:instance name=lens receipt=f8073e6f3d333364598a25d1fb91cd0f95781bae outcome=ok shown=f8073e6f3d333364598a25d1fb91cd0f95781bae -->
+<!-- insight:instance name=lens receipt=de37acfe797465205128d45973af5e853c74a684 outcome=ok shown=de37acfe797465205128d45973af5e853c74a684 -->
 ## autolens_inference
 Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/56 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: f8073e6f3d333364598a25d1fb91cd0f95781bae; fetched 2026-10-08T08:13:22Z; latest attempt 2026-10-08T08:13:22Z.
+Capture source branch: main; revision: de37acfe797465205128d45973af5e853c74a684; fetched 2026-10-08T08:44:26Z; latest attempt 2026-10-08T08:44:26Z.
+- [imaging / rectangular / HST rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fhst)
+- [imaging / delaunay / HST Delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fhst)
+- [point_source / simple / Simple point source](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=point_source%2Fsimple%2Fsimple)
+- [imaging / rectangular / EUCLID rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Feuclid)
+- [imaging / delaunay / EUCLID delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Feuclid)
+- [imaging / rectangular / JWST rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fjwst)
+- [imaging / delaunay / JWST delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fjwst)
+- [imaging / rectangular / JWST_LW rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fjwst_lw)
+- [imaging / delaunay / JWST_LW delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fjwst_lw)
+- [imaging / rectangular / AO rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fao)
+- [imaging / delaunay / AO delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fao)
+
+<details><summary>Full captured evidence and provenance</summary>
+
 
 Coverage: {"excluded": [], "expected": {"reason": "No complete expected-run manifest; unrecorded jobs cannot be enumerated", "runs": null}, "observed": {"archived_records": 50, "execution_complete": 55, "execution_stopped_early": 1, "records": 56, "runs": 15}}
 No scientific acceptance or convergence inferred from process completion
@@ -76,7 +90,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 | Target | Stage | Seed | Execution | Convergence | Acceptance | Sampling s | Total s | Archive | Evidence |
 |---|---|---|---|---|---|---:|---:|---|---|
-| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json</summary>
 
@@ -120,6 +134,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -128,6 +150,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -140,12 +164,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -159,16 +191,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": null,
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -181,13 +220,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 820.3699300289154 | 965.2785516558215 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 820.3699300289154 | 965.2785516558215 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -358,6 +416,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -366,6 +432,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -378,12 +446,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -397,16 +473,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 11.454642791766673,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 820.3699300289154,
     "setup_s": null,
     "total_s": 965.2785516558215
@@ -417,13 +500,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2047.43035531044 | 2128.72460657591 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2047.43035531044 | 2128.72460657591 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -552,6 +654,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -560,6 +670,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -572,12 +684,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -591,16 +711,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 21.742441596928984,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 2047.43035531044,
     "setup_s": null,
     "total_s": 2128.72460657591
@@ -611,13 +738,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 111.54320764541626 | 176.4244288089685 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 111.54320764541626 | 176.4244288089685 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -693,6 +839,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -701,6 +855,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -713,12 +869,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -732,16 +896,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 9.793207644950598,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 111.54320764541626,
     "setup_s": null,
     "total_s": 176.4244288089685
@@ -752,13 +923,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 406.49094557762146 | 472.91616048291326 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 406.49094557762146 | 472.91616048291326 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -852,6 +1042,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -860,6 +1058,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -872,12 +1072,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -891,16 +1099,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "light[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 3.2584053240716457,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 406.49094557762146,
     "setup_s": null,
     "total_s": 472.91616048291326
@@ -911,13 +1126,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1383.843026638031 | 1475.3449251349084 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1383.843026638031 | 1475.3449251349084 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -1035,6 +1269,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -1043,6 +1285,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -1055,12 +1299,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -1074,16 +1326,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 3.3110593240708113,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 1383.843026638031,
     "setup_s": null,
     "total_s": 1475.3449251349084
@@ -1094,13 +1353,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json</summary>
 
@@ -1144,6 +1422,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -1152,6 +1438,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -1164,12 +1452,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -1183,16 +1479,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": null,
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -1205,13 +1508,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 882.9330096244812 | 1023.6260516527109 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 882.9330096244812 | 1023.6260516527109 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -1382,6 +1704,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -1390,6 +1720,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -1402,12 +1734,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -1421,16 +1761,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 10.974624747410417,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 882.9330096244812,
     "setup_s": null,
     "total_s": 1023.6260516527109
@@ -1441,13 +1788,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2589.473468542099 | 2668.5737252449617 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2589.473468542099 | 2668.5737252449617 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -1576,6 +1942,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -1584,6 +1958,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -1596,12 +1972,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -1615,16 +1999,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 21.81813602289185,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 2589.473468542099,
     "setup_s": null,
     "total_s": 2668.5737252449617
@@ -1635,13 +2026,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 116.28890442848206 | 176.19057126017287 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 116.28890442848206 | 176.19057126017287 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -1717,6 +2127,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -1725,6 +2143,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -1737,12 +2157,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -1756,16 +2184,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 8.251005443744361,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 116.28890442848206,
     "setup_s": null,
     "total_s": 176.19057126017287
@@ -1776,13 +2211,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.26988673210144 | 530.5928531419486 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.26988673210144 | 530.5928531419486 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -1876,6 +2330,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -1884,6 +2346,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -1896,12 +2360,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -1915,16 +2387,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "light[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 3.2410381459631026,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 457.26988673210144,
     "setup_s": null,
     "total_s": 530.5928531419486
@@ -1935,13 +2414,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1048.9292471408844 | 1138.162050106097 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1048.9292471408844 | 1138.162050106097 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -2059,6 +2557,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -2067,6 +2573,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -2079,12 +2587,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -2098,16 +2614,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 3.179320426657796,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 1048.9292471408844,
     "setup_s": null,
     "total_s": 1138.162050106097
@@ -2118,13 +2641,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -2168,6 +2710,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -2176,6 +2726,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -2188,12 +2740,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -2207,16 +2767,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": null,
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -2229,13 +2796,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 749.7595109939575 | 888.2430416657589 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 749.7595109939575 | 888.2430416657589 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -2406,6 +2992,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -2414,6 +3008,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -2426,12 +3022,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -2445,16 +3049,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 10.573504409752786,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 749.7595109939575,
     "setup_s": null,
     "total_s": 888.2430416657589
@@ -2465,13 +3076,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 6124.670238494873 | 6221.422692308202 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 6124.670238494873 | 6221.422692308202 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -2600,6 +3230,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -2608,6 +3246,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -2620,12 +3260,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -2639,16 +3287,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 23.97823385708034,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 6124.670238494873,
     "setup_s": null,
     "total_s": 6221.422692308202
@@ -2659,13 +3314,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 112.84573483467102 | 178.6054911534302 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 112.84573483467102 | 178.6054911534302 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -2741,6 +3415,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -2749,6 +3431,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -2761,12 +3445,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -2780,16 +3472,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 9.265917625278234,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 112.84573483467102,
     "setup_s": null,
     "total_s": 178.6054911534302
@@ -2800,13 +3499,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 353.50146985054016 | 426.6312530930154 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 353.50146985054016 | 426.6312530930154 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -2900,6 +3618,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -2908,6 +3634,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -2920,12 +3648,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -2939,16 +3675,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "light[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 3.0349121638573706,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 353.50146985054016,
     "setup_s": null,
     "total_s": 426.6312530930154
@@ -2959,13 +3702,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1771.1247885227203 | 1861.7668606671505 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1771.1247885227203 | 1861.7668606671505 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -3083,6 +3845,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -3091,6 +3861,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -3103,12 +3875,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -3122,16 +3902,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5_delaunay_1250/seed0",
   "timings": {
     "compile_s": 3.2871260661631823,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 1771.1247885227203,
     "setup_s": null,
     "total_s": 1861.7668606671505
@@ -3142,13 +3929,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -3192,6 +3998,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -3200,6 +4014,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -3212,12 +4028,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -3231,16 +4055,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": null,
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -3253,13 +4084,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 831.8062770366669 | 973.6843929146416 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 831.8062770366669 | 973.6843929146416 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -3430,6 +4280,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -3438,6 +4296,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -3450,12 +4310,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -3469,16 +4337,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 10.928813580889255,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 831.8062770366669,
     "setup_s": null,
     "total_s": 973.6843929146416
@@ -3489,13 +4364,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 5258.141222238541 | 5348.343995480798 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 5258.141222238541 | 5348.343995480798 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -3624,6 +4518,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -3632,6 +4534,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -3644,12 +4548,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -3663,16 +4575,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 26.09571358980611,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 5258.141222238541,
     "setup_s": null,
     "total_s": 5348.343995480798
@@ -3683,13 +4602,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 115.64004683494568 | 182.61417358601466 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 115.64004683494568 | 182.61417358601466 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -3765,6 +4703,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -3773,6 +4719,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -3785,12 +4733,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -3804,16 +4760,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 9.218201531097293,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 115.64004683494568,
     "setup_s": null,
     "total_s": 182.61417358601466
@@ -3824,13 +4787,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 379.8856680393219 | 453.2077537388541 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 379.8856680393219 | 453.2077537388541 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -3924,6 +4906,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -3932,6 +4922,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -3944,12 +4936,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -3963,16 +4963,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "light[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 3.221272853203118,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 379.8856680393219,
     "setup_s": null,
     "total_s": 453.2077537388541
@@ -3983,13 +4990,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1900.1771788597107 | 1995.9051318671554 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1900.1771788597107 | 1995.9051318671554 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -4107,6 +5133,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -4115,6 +5149,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -4127,12 +5163,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -4146,16 +5190,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/delaunay/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5_delaunay_1250/seed1",
   "timings": {
     "compile_s": 3.3759442511945963,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 1900.1771788597107,
     "setup_s": null,
     "total_s": 1995.9051318671554
@@ -4166,13 +5217,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json</summary>
 
@@ -4209,6 +5279,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -4217,6 +5295,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -4229,12 +5309,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -4248,16 +5336,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": null,
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -4270,13 +5365,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 923.2988793849945 | 1110.2745820698328 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 923.2988793849945 | 1110.2745820698328 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -4440,6 +5554,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -4448,6 +5570,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -4460,12 +5584,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -4479,16 +5611,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 12.766160851810127,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 923.2988793849945,
     "setup_s": null,
     "total_s": 1110.2745820698328
@@ -4499,13 +5638,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 761.8690450191498 | 1096.6811571302824 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 761.8690450191498 | 1096.6811571302824 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -4627,6 +5785,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -4635,6 +5801,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -4647,12 +5815,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -4666,16 +5842,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 20.18864746298641,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 761.8690450191498,
     "setup_s": null,
     "total_s": 1096.6811571302824
@@ -4686,13 +5869,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 131.4924976825714 | 457.5962234721519 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 131.4924976825714 | 457.5962234721519 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -4773,6 +5975,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -4781,6 +5991,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -4793,12 +6005,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -4812,16 +6032,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 8.859329219907522,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 131.4924976825714,
     "setup_s": null,
     "total_s": 457.5962234721519
@@ -4832,13 +6059,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 237.3431966304779 | 585.0465070647188 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 237.3431966304779 | 585.0465070647188 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -4925,6 +6171,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -4933,6 +6187,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -4945,12 +6201,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -4964,16 +6228,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "light[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 2.803400441072881,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 237.3431966304779,
     "setup_s": null,
     "total_s": 585.0465070647188
@@ -4984,13 +6255,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 516.6248600482941 | 894.5935196429491 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 516.6248600482941 | 894.5935196429491 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -5101,6 +6391,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json"
   ],
@@ -5109,6 +6407,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -5121,12 +6421,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -5140,16 +6448,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 2.8257059240713716,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 516.6248600482941,
     "setup_s": null,
     "total_s": 894.5935196429491
@@ -5160,13 +6475,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json</summary>
 
@@ -5203,6 +6537,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -5211,6 +6553,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -5223,12 +6567,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -5242,16 +6594,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": null,
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -5264,13 +6623,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 834.8256509304047 | 1005.474559458904 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 834.8256509304047 | 1005.474559458904 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -5434,6 +6812,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -5442,6 +6828,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -5454,12 +6842,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -5473,16 +6869,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 11.619808046612889,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 834.8256509304047,
     "setup_s": null,
     "total_s": 1005.474559458904
@@ -5493,13 +6896,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 748.7339024543762 | 1097.2968472116627 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 748.7339024543762 | 1097.2968472116627 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -5621,6 +7043,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -5629,6 +7059,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -5641,12 +7073,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -5660,16 +7100,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 17.360391543246806,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 748.7339024543762,
     "setup_s": null,
     "total_s": 1097.2968472116627
@@ -5680,13 +7127,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 362.2842011451721 | 719.2182216290385 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 362.2842011451721 | 719.2182216290385 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -5767,6 +7233,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -5775,6 +7249,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -5787,12 +7263,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -5806,16 +7290,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 7.912892768159509,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 362.2842011451721,
     "setup_s": null,
     "total_s": 719.2182216290385
@@ -5826,13 +7317,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 267.35919713974 | 618.7239170190878 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 267.35919713974 | 618.7239170190878 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -5919,6 +7429,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -5927,6 +7445,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -5939,12 +7459,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -5958,16 +7486,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "light[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 2.847682393155992,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 267.35919713974,
     "setup_s": null,
     "total_s": 618.7239170190878
@@ -5978,13 +7513,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 650.228832244873 | 1043.753492906224 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 650.228832244873 | 1043.753492906224 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -6095,6 +7649,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json"
   ],
@@ -6103,6 +7665,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -6115,12 +7679,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -6134,16 +7706,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 2.9197389110922813,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 650.228832244873,
     "setup_s": null,
     "total_s": 1043.753492906224
@@ -6154,13 +7733,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json</summary>
 
@@ -6197,6 +7795,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json"
   ],
@@ -6205,6 +7811,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "stopped_early"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -6217,12 +7825,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -6236,16 +7852,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": null,
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -6258,13 +7881,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 855.3723487854004 | 1041.4455565372482 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 855.3723487854004 | 1041.4455565372482 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -6428,6 +8070,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json"
   ],
@@ -6436,6 +8086,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -6448,12 +8100,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -6467,16 +8127,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 11.759456879924983,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 855.3723487854004,
     "setup_s": null,
     "total_s": 1041.4455565372482
@@ -6487,13 +8154,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -6530,6 +8216,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -6538,6 +8232,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -6550,12 +8246,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -6569,16 +8273,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": null,
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -6591,13 +8302,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 808.1857154369354 | 960.966922598891 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 808.1857154369354 | 960.966922598891 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -6761,6 +8491,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -6769,6 +8507,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -6781,12 +8521,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -6800,16 +8548,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 11.69923901092261,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 808.1857154369354,
     "setup_s": null,
     "total_s": 960.966922598891
@@ -6820,13 +8575,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1930.764386177063 | 2279.775213385001 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1930.764386177063 | 2279.775213385001 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -6948,6 +8722,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -6956,6 +8738,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -6968,12 +8752,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -6987,16 +8779,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 20.21704276604578,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 1930.764386177063,
     "setup_s": null,
     "total_s": 2279.775213385001
@@ -7007,13 +8806,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 178.61591696739197 | 535.9517216398381 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 178.61591696739197 | 535.9517216398381 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -7094,6 +8912,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -7102,6 +8928,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -7114,12 +8942,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -7133,16 +8969,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 9.113326458726078,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 178.61591696739197,
     "setup_s": null,
     "total_s": 535.9517216398381
@@ -7153,13 +8996,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 267.51912546157837 | 621.3747416636907 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 267.51912546157837 | 621.3747416636907 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -7246,6 +9108,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -7254,6 +9124,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -7266,12 +9138,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -7285,16 +9165,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "light[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 3.147912166081369,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 267.51912546157837,
     "setup_s": null,
     "total_s": 621.3747416636907
@@ -7305,13 +9192,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 800.279230594635 | 1168.8711764230393 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 800.279230594635 | 1168.8711764230393 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -7422,6 +9328,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json"
   ],
@@ -7430,6 +9344,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -7442,12 +9358,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -7461,16 +9385,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5/seed0",
   "timings": {
     "compile_s": 3.259830947034061,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 800.279230594635,
     "setup_s": null,
     "total_s": 1168.8711764230393
@@ -7481,13 +9412,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -7524,6 +9474,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "status": "missing",
     "values": {}
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -7532,6 +9490,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -7544,12 +9504,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": null,
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -7563,16 +9531,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": null,
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": null,
     "definitions": {
       "compile_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "setup_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed",
       "total_s": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": null,
     "setup_s": null,
     "total_s": null
@@ -7585,13 +9560,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result",
     "timings": "Pipeline aggregate not measured; stage clocks may overlap and are never summed"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 798.179591178894 | 944.8778721541166 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 798.179591178894 | 944.8778721541166 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -7755,6 +9749,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -7763,6 +9765,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -7775,12 +9779,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -7794,16 +9806,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_lp[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 11.664846658241004,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 798.179591178894,
     "setup_s": null,
     "total_s": 944.8778721541166
@@ -7814,13 +9833,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1904.31116771698 | 2245.7180267861113 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1904.31116771698 | 2245.7180267861113 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -7942,6 +9980,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -7950,6 +9996,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -7962,12 +10010,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -7981,16 +10037,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 19.77601555129513,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 1904.31116771698,
     "setup_s": null,
     "total_s": 2245.7180267861113
@@ -8001,13 +10064,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 187.7734875679016 | 523.5104860081337 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 187.7734875679016 | 523.5104860081337 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -8088,6 +10170,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -8096,6 +10186,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -8108,12 +10200,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -8127,16 +10227,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "source_pix[2]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 8.781606091186404,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 187.7734875679016,
     "setup_s": null,
     "total_s": 523.5104860081337
@@ -8147,13 +10254,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 253.89728569984436 | 606.7501009167172 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 253.89728569984436 | 606.7501009167172 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -8240,6 +10366,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       "truth_delta_sigma": {}
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -8248,6 +10382,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -8260,12 +10396,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -8279,16 +10423,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "light[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 3.146366816945374,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 253.89728569984436,
     "setup_s": null,
     "total_s": 606.7501009167172
@@ -8299,13 +10450,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 868.1189360618591 | 1255.2648063716479 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 868.1189360618591 | 1255.2648063716479 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -8416,6 +10586,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json"
   ],
@@ -8424,6 +10602,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 4,
     "device": {
@@ -8436,12 +10616,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     }
   },
   "id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": null,
   "parent_run_id": "results/archive/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json",
   "pipeline": "slam",
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": null,
   "samples": {
     "access": "project-storage-not-published",
@@ -8455,16 +10643,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "imaging/rectangular/hst",
   "stage": "mass_total[1]",
   "target": "hst/slam5/seed1",
   "timings": {
     "compile_s": 3.209078643936664,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 868.1189360618591,
     "setup_s": null,
     "total_s": 1255.2648063716479
@@ -8475,13 +10670,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "measured_at": "Not recorded in source result",
     "model": "Not recorded in source result",
     "sampler": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 56.56000781059265 | 65.21035292901797 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 56.56000781059265 | 65.21035292901797 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json) |
 
 <details><summary>Provenance: results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json</summary>
 
@@ -8610,6 +10824,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json"
   ],
@@ -8618,6 +10840,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -8633,12 +10857,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "slurm_job_id": "366937"
   },
   "id": "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": "L5: Isothermal (5 free) + PointSolved source",
   "parent_run_id": null,
   "pipeline": null,
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": "nautilus",
   "samples": {
     "access": "project-storage-not-published",
@@ -8652,16 +10884,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "point_source/simple/simple",
   "stage": null,
   "target": "simple/source_plane_solved/seed0",
   "timings": {
     "compile_s": 1.9011598539655097,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 56.56000781059265,
     "setup_s": null,
     "total_s": 65.21035292901797
@@ -8669,13 +10908,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
   "unknown_reasons": {
     "dataset.id": "Dataset content identity not recorded",
     "measured_at": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 54.18134164810181 | 62.80253079999238 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json) |
+| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 54.18134164810181 | 62.80253079999238 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json) |
 
 <details><summary>Provenance: results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json</summary>
 
@@ -8804,6 +11062,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json"
   ],
@@ -8812,6 +11078,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -8827,12 +11095,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "slurm_job_id": "367142"
   },
   "id": "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": "L5: Isothermal (5 free) + PointSolved source",
   "parent_run_id": null,
   "pipeline": null,
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": "nautilus",
   "samples": {
     "access": "project-storage-not-published",
@@ -8846,16 +11122,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 1,
+  "setup_id": "point_source/simple/simple",
   "stage": null,
   "target": "simple/source_plane_solved/seed1",
   "timings": {
     "compile_s": 1.9216195569606498,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 54.18134164810181,
     "setup_s": null,
     "total_s": 62.80253079999238
@@ -8863,13 +11146,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
   "unknown_reasons": {
     "dataset.id": "Dataset content identity not recorded",
     "measured_at": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 53.764665603637695 | 62.157571617048234 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json) |
+| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 53.764665603637695 | 62.157571617048234 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json) |
 
 <details><summary>Provenance: results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json</summary>
 
@@ -8998,6 +11300,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json"
   ],
@@ -9006,6 +11316,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -9021,12 +11333,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "slurm_job_id": "367445"
   },
   "id": "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": "L5: Isothermal (5 free) + PointSolved source",
   "parent_run_id": null,
   "pipeline": null,
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": "nautilus",
   "samples": {
     "access": "project-storage-not-published",
@@ -9040,16 +11360,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 2,
+  "setup_id": "point_source/simple/simple",
   "stage": null,
   "target": "simple/source_plane_solved/seed2",
   "timings": {
     "compile_s": 1.9320949129760265,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 53.764665603637695,
     "setup_s": null,
     "total_s": 62.157571617048234
@@ -9057,13 +11384,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
   "unknown_reasons": {
     "dataset.id": "Dataset content identity not recorded",
     "measured_at": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 50.38304305076599 | 58.97957983799279 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json) |
+| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 50.38304305076599 | 58.97957983799279 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json) |
 
 <details><summary>Provenance: results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json</summary>
 
@@ -9192,6 +11538,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json"
   ],
@@ -9200,6 +11554,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -9215,12 +11571,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "slurm_job_id": "367446"
   },
   "id": "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": "L5: Isothermal (5 free) + PointSolved source",
   "parent_run_id": null,
   "pipeline": null,
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": "nautilus",
   "samples": {
     "access": "project-storage-not-published",
@@ -9234,16 +11598,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 3,
+  "setup_id": "point_source/simple/simple",
   "stage": null,
   "target": "simple/source_plane_solved/seed3",
   "timings": {
     "compile_s": 1.9380113480146974,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 50.38304305076599,
     "setup_s": null,
     "total_s": 58.97957983799279
@@ -9251,13 +11622,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
   "unknown_reasons": {
     "dataset.id": "Dataset content identity not recorded",
     "measured_at": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 58.50750803947449 | 67.16032414801884 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json) |
+| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 58.50750803947449 | 67.16032414801884 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json) |
 
 <details><summary>Provenance: results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json</summary>
 
@@ -9386,6 +11776,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json"
   ],
@@ -9394,6 +11792,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -9409,12 +11809,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "slurm_job_id": "367140"
   },
   "id": "results/searches/point_source/nautilus/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": "L5: Isothermal (5 free) + PointSolved source",
   "parent_run_id": null,
   "pipeline": null,
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": "nautilus",
   "samples": {
     "access": "project-storage-not-published",
@@ -9428,16 +11836,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 4,
+  "setup_id": "point_source/simple/simple",
   "stage": null,
   "target": "simple/source_plane_solved/seed4",
   "timings": {
     "compile_s": 1.940513722016476,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 58.50750803947449,
     "setup_s": null,
     "total_s": 67.16032414801884
@@ -9445,13 +11860,32 @@ Archived rows belong to this project's September 2026 runs and are historical, n
   "unknown_reasons": {
     "dataset.id": "Dataset content identity not recorded",
     "measured_at": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 60.43147277832031 | 69.44111120000161 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/f8073e6f3d333364598a25d1fb91cd0f95781bae/results/searches/point_source/nautilus/simple/source_plane_solved/local_jax_cpu_dense_fp64/search_seed0.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 60.43147277832031 | 69.44111120000161 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/de37acfe797465205128d45973af5e853c74a684/results/searches/point_source/nautilus/simple/source_plane_solved/local_jax_cpu_dense_fp64/search_seed0.json) |
 
 <details><summary>Provenance: results/searches/point_source/nautilus/simple/source_plane_solved/local_jax_cpu_dense_fp64/search_seed0.json</summary>
 
@@ -9580,6 +12014,14 @@ Archived rows belong to this project's September 2026 runs and are historical, n
       }
     }
   },
+  "environment": {
+    "cache": "unknown",
+    "cache_reason": "Cache state not recorded",
+    "compilation": "unknown",
+    "compilation_reason": "Separate compile probe does not establish fit compilation state",
+    "hardware_id": null,
+    "hardware_id_reason": "Resource/concurrency identity not recorded"
+  },
   "evidence_paths": [
     "results/searches/point_source/nautilus/simple/source_plane_solved/local_jax_cpu_dense_fp64/search_seed0.json"
   ],
@@ -9588,6 +12030,8 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": null,
     "status": "complete"
   },
+  "experiment_protocol": null,
+  "experiment_protocol_reason": "Exact prepared scientific identity/protocol not recorded",
   "hardware": {
     "cores": 8,
     "device": {
@@ -9603,12 +12047,20 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "slurm_job_id": null
   },
   "id": "results/searches/point_source/nautilus/simple/source_plane_solved/local_jax_cpu_dense_fp64/search_seed0.json",
+  "initialization": {
+    "mode": "unknown",
+    "reason": "No pinned sampler start or checkpoint provenance",
+    "recipe": "Historical sampler initialization was not recorded",
+    "sources": []
+  },
   "library_version": "2026.8.17.1",
   "measured_at": null,
   "model": "L5: Isothermal (5 free) + PointSolved source",
   "parent_run_id": null,
   "pipeline": null,
   "precision": "fp64",
+  "problem_id": null,
+  "problem_id_reason": "Exact prepared scientific identity/protocol not recorded",
   "sampler": "nautilus",
   "samples": {
     "access": "project-storage-not-published",
@@ -9622,16 +12074,23 @@ Archived rows belong to this project's September 2026 runs and are historical, n
     "reason": "Exporter does not make scientific rulings; consult Cortex"
   },
   "seed": 0,
+  "setup_id": "point_source/simple/simple",
   "stage": null,
   "target": "simple/source_plane_solved/seed0",
   "timings": {
     "compile_s": 2.3335995999987063,
     "definitions": {
       "compile_s": "Separate likelihood warm-up probe; not added to total_s",
+      "initialization_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
+      "preparation_s": "Not measured separately; inclusion in fit/sampling clocks and resumed segment scope unknown; never inferred or summed",
       "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
       "setup_s": "Not measured separately; unknown, not total minus sampling",
       "total_s": "total_wall_s: elapsed search.fit call; excludes prior compile probe and dataset/model setup"
     },
+    "initialization_s": null,
+    "initialization_s_reason": "Not measured separately",
+    "preparation_s": null,
+    "preparation_s_reason": "Not measured separately",
     "sampling_s": 60.43147277832031,
     "setup_s": null,
     "total_s": 69.44111120000161
@@ -9639,9 +12098,40 @@ Archived rows belong to this project's September 2026 runs and are historical, n
   "unknown_reasons": {
     "dataset.id": "Dataset content identity not recorded",
     "measured_at": "Not recorded in source result"
+  },
+  "work": {
+    "definitions": {
+      "effective_sample_size": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "gradient_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "iterations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "likelihood_evaluations": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations",
+      "retained_samples": "Not recorded with warmup/burn-in and aggregation scope; no conversion from sampler iterations"
+    },
+    "effective_sample_size": null,
+    "effective_sample_size_reason": "Work count/estimator scope not recorded",
+    "gradient_evaluations": null,
+    "gradient_evaluations_reason": "Work count/estimator scope not recorded",
+    "iterations": null,
+    "iterations_reason": "Work count/estimator scope not recorded",
+    "likelihood_evaluations": null,
+    "likelihood_evaluations_reason": "Work count/estimator scope not recorded",
+    "retained_samples": null,
+    "retained_samples_reason": "Work count/estimator scope not recorded"
   }
 }
 ```
 
 </details>
 
+
+</details>
+
+## Sampler candidates
+
+[Browse candidates and copy investigation prompts](https://pyautolabs.github.io/PyAutoInsight/#sampler-candidates)
+
+- [dynesty](https://arxiv.org/abs/1904.02180): integrated: DynestyStatic and DynestyDynamic. not_assessed: this literature review establishes no benchmark result.
+- [Nautilus](https://arxiv.org/abs/2306.16923): integrated: Nautilus. not_assessed: this literature review establishes no benchmark result.
+- [BlackJAX NUTS](https://arxiv.org/abs/2402.10797): integrated: BlackJAXNUTS. not_assessed: this literature review establishes no benchmark result.
+- [UltraNest](https://arxiv.org/abs/2101.09604): prospective: no PyAutoFit search wrapper found. not_assessed: this literature review establishes no benchmark result.
+- [pocoMC](https://arxiv.org/abs/2207.05660): prospective: no PyAutoFit search wrapper found. not_assessed: this literature review establishes no benchmark result.

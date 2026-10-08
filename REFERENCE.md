@@ -245,3 +245,31 @@ and state; links continue to point into project repositories.
 Before shipping: Ruff, formatting, full pytest and offline contract validation.
 Integration CI validates Brain's feed contract. Actual sender/receiver success and
 receipt revision are deployment evidence, distinct from mocked workflow tests.
+
+## Setup browser and candidate handoff
+
+Version 2 captures expose project → dataset family → model setup navigation.
+Each setup opens a new tab with a stable `?view=setup&instance=…&setup=…`
+address. The headline shows only the producer-selected, validator-qualified
+reference baseline. Missing acceptance remains explicit; historical runtime is
+never promoted into an expected runtime. Sampler records show initialization,
+hardware, compilation/cache state and measured clock/work units separately.
+Baseline manifests, archived results, comparison refusals and provenance remain
+available in disclosures. Unmapped records remain reachable from the project.
+Without JavaScript, setup content remains accessible as ordinary disclosures.
+Images, when declared, resolve at the captured producer revision.
+
+`sampler_candidates.json` is a manually reviewed public handoff from literature
+curation. Each entry records primary paper and official code URLs, review date,
+expected uses and limitations, separately stated integration/benchmark status,
+and an editable investigation prompt. Update it after an on-demand literature
+review; verify source claims and installed search coverage before changing status.
+Do not copy private notes or infer measured superiority from a paper. Candidate
+prompts propose work through the sampler pipeline; they do not authorize compute.
+The candidate file participates in the dashboard input digest. Regenerate the
+board after changing it and run the offline check.
+
+The required Chromium navigation check (`python tests/browser_setup.py`, after
+installing Playwright and Chromium) covers new-tab routing, mobile width,
+unknown routes, history, editable clipboard payloads and the no-JavaScript
+fallback alongside the full Python suite.

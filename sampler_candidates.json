@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dynesty",
+    "name": "dynesty",
+    "family": "dynamic nested sampling",
+    "paper_url": "https://arxiv.org/abs/1904.02180",
+    "code_url": "https://github.com/joshspeagle/dynesty",
+    "expected_uses": [
+      "Evidence and posterior baseline with adjustable effort allocation."
+    ],
+    "limitations": [
+      "Prior transforms and likelihood-contour exploration need validation; no universal dimensional scaling advantage."
+    ],
+    "integration_status": "integrated: DynestyStatic and DynestyDynamic",
+    "benchmark_status": "not_assessed: this literature review establishes no benchmark result",
+    "reviewed_at": "2026-10-08",
+    "investigation_prompt": "Investigate dynesty on a normalized Gaussian and a separated-mode target using repeated seeds. Check posterior coverage and evidence accuracy. Record package version, initialization, total wall time including setup, evaluations and uncertainty before proposing a science campaign."
+  },
+  {
+    "id": "nautilus",
+    "name": "Nautilus",
+    "family": "neural-network importance nested sampling",
+    "paper_url": "https://arxiv.org/abs/2306.16923",
+    "code_url": "https://github.com/johannesulf/nautilus",
+    "expected_uses": [
+      "Evidence and posterior estimation for expensive gradient-free likelihoods."
+    ],
+    "limitations": [
+      "Learned proposal coverage and importance-weight stability need checking on unseen modes."
+    ],
+    "integration_status": "integrated: Nautilus",
+    "benchmark_status": "not_assessed: this literature review establishes no benchmark result",
+    "reviewed_at": "2026-10-08",
+    "investigation_prompt": "Investigate Nautilus on a normalized Gaussian and a separated-mode target using repeated seeds. Check posterior coverage and evidence accuracy. Record package version, initialization, total wall time including setup, evaluations and uncertainty before proposing a science campaign."
+  },
+  {
+    "id": "blackjax-nuts",
+    "name": "BlackJAX NUTS",
+    "family": "gradient Hamiltonian Monte Carlo",
+    "paper_url": "https://arxiv.org/abs/2402.10797",
+    "code_url": "https://github.com/blackjax-devs/blackjax",
+    "expected_uses": [
+      "Posterior refinement for differentiable JAX targets."
+    ],
+    "limitations": [
+      "Requires gradients, warmup and convergence diagnostics; NUTS alone supplies no evidence and can miss isolated modes."
+    ],
+    "integration_status": "integrated: BlackJAXNUTS",
+    "benchmark_status": "not_assessed: this literature review establishes no benchmark result",
+    "reviewed_at": "2026-10-08",
+    "investigation_prompt": "Investigate BlackJAX NUTS on a normalized Gaussian and a separated-mode target using repeated seeds. Check posterior coverage, divergences and effective sample size. Record package version, initialization, total wall time including setup, evaluations and uncertainty before proposing a science campaign."
+  },
+  {
+    "id": "ultranest",
+    "name": "UltraNest",
+    "family": "reactive nested sampling",
+    "paper_url": "https://arxiv.org/abs/2101.09604",
+    "code_url": "https://github.com/JohannesBuchner/UltraNest",
+    "expected_uses": [
+      "Independent evidence cross-check for non-Gaussian and multimodal targets."
+    ],
+    "limitations": [
+      "Contour coverage and stopping settings still require repeated-seed checks; robustness can cost evaluations."
+    ],
+    "integration_status": "prospective: no PyAutoFit search wrapper found",
+    "benchmark_status": "not_assessed: this literature review establishes no benchmark result",
+    "reviewed_at": "2026-10-08",
+    "investigation_prompt": "Investigate UltraNest on a normalized Gaussian and a separated-mode target using repeated seeds. Check posterior coverage and evidence accuracy. Record package version, initialization, total wall time including setup, evaluations and uncertainty before proposing a science campaign."
+  },
+  {
+    "id": "pocomc",
+    "name": "pocoMC",
+    "family": "flow-preconditioned Monte Carlo",
+    "paper_url": "https://arxiv.org/abs/2207.05660",
+    "code_url": "https://github.com/minaskar/pocomc",
+    "expected_uses": [
+      "Posterior and evidence investigation for strongly correlated nonlinear targets."
+    ],
+    "limitations": [
+      "Flow training, population coverage and evidence uncertainty need validation; check the pinned implementation against the 2022 method."
+    ],
+    "integration_status": "prospective: no PyAutoFit search wrapper found",
+    "benchmark_status": "not_assessed: this literature review establishes no benchmark result",
+    "reviewed_at": "2026-10-08",
+    "investigation_prompt": "Investigate pocoMC on a normalized Gaussian and a separated-mode target using repeated seeds. Check posterior coverage and evidence accuracy. Record package version, initialization, total wall time including setup, evaluations and uncertainty before proposing a science campaign."
+  }
+]

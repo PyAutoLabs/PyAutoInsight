@@ -54,7 +54,7 @@ jobs:
 
       - name: Install tools
         run: |
-          python -m pip install --quiet ruff pytest pyyaml
+          python -m pip install --quiet ruff pytest pyyaml playwright
           curl -sSfL https://github.com/lycheeverse/lychee/releases/latest/download/lychee-x86_64-unknown-linux-gnu.tar.gz \
             | tar -xz -C /usr/local/bin --strip-components=1 lychee-x86_64-unknown-linux-gnu/lychee
 
@@ -73,6 +73,13 @@ jobs:
         env:
           PYAUTO_BRAIN: ${{ github.workspace }}/_brain
         run: bin/pyauto-insight check --offline --mind _mind
+
+      - name: Chromium setup navigation and responsive layout
+        env:
+          PYAUTO_BRAIN: ${{ github.workspace }}/_brain
+        run: |
+          python -m playwright install --with-deps chromium
+          python tests/browser_setup.py
 
       - name: lychee (markdown link-rot)
         env:
