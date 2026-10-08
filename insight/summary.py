@@ -1,4 +1,4 @@
-"""Validate inference-summary v1 without interpreting scientific quality."""
+"""Validate inference-summary v1/v2 without interpreting scientific quality."""
 
 from __future__ import annotations
 
@@ -50,7 +50,7 @@ def supported(doc, wanted=None):
     if not isinstance(doc, dict):
         return "summary is not an object"
     got = doc.get("schema"), doc.get("version")
-    if got[0] != "inference-summary" or type(got[1]) is not int or got[1] != 1:
+    if got[0] != "inference-summary" or type(got[1]) is not int or got[1] not in (1, 2):
         return f"unsupported schema {got!r}"
     if wanted is not None and got != tuple(wanted):
         return "summary schema differs from registry"
@@ -302,6 +302,10 @@ def validate(doc):
                 errors.append("comparison endpoints must be distinct")
             if not _text(c.get("protocol")):
                 errors.append("comparison requires declared protocol")
+    if doc.get("version") == 2:
+        from insight import catalogue
+
+        errors.extend(catalogue.validate(doc))
     return errors
 
 
@@ -344,4 +348,8 @@ def comparison_refusals(doc, c):
         reasons.append("timing definitions differ")
     if not c.get("protocol"):
         reasons.append("no declared scientific protocol")
+    if doc.get("version") == 2:
+        from insight import catalogue
+
+        reasons.extend(catalogue.comparison_refusals(doc, rows, c))
     return reasons
