@@ -123,7 +123,7 @@ def _detail(s, now=None):
     inst = s.instance
     parts = [
         marker(s),
-        f'<details id="{e(inst.instance)}"><summary>{e(setup_browser.project_label(s))}</summary>',
+        f'<div class="setup-navigation"><details id="{e(inst.instance)}"><summary>{e(setup_browser.project_label(s))}</summary>',
         f"<p><b>Integrity:</b> {e(integrity(s))} · <b>Freshness:</b> {e(freshness(s, now))} · <b>Scientific qualification:</b> {e(qualification(s))}</p>",
     ]
     if s.errors:
@@ -150,7 +150,7 @@ def _detail(s, now=None):
         alerts = "".join('<p class="warn">' + e(message) + "</p>" for message in warnings)
         return marker(s) + alerts + nav
     if not d:
-        return "".join(parts) + "</details>"
+        return "".join(parts) + "</details></div>"
     parts += [
         f'<p><a href="{e(inst.dashboard_url)}">Project dashboard</a> · <a href="{REPO_URL}/blob/main/receipts/{e(inst.instance)}.json">Ingest receipt</a></p>',
     ]
@@ -247,7 +247,7 @@ def _detail(s, now=None):
         ):
             parts.append("<dt>" + e(k) + "</dt><dd><pre>" + e(_dump(r.get(k))) + "</pre></dd>")
         parts.append("</dl></details>")
-    return "".join(parts) + "</details>"
+    return "".join(parts) + "</details></div>"
 
 
 def _captured_at(views):
