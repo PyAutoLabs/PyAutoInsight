@@ -123,9 +123,8 @@ def _detail(s, now=None):
     inst = s.instance
     parts = [
         marker(s),
-        f'<h2 id="{e(inst.instance)}">{e(inst.repo)}</h2>',
+        f'<details id="{e(inst.instance)}"><summary>{e(setup_browser.project_label(s))}</summary>',
         f"<p><b>Integrity:</b> {e(integrity(s))} · <b>Freshness:</b> {e(freshness(s, now))} · <b>Scientific qualification:</b> {e(qualification(s))}</p>",
-        f'<p>Captured source branch: {e(s.source_branch)}. Revision: <a href="{e(inst.tree_url(s.commit))}">{e(s.commit)}</a>. Capture time: {e(s.fetched_at)}. Latest attempt: {e(s.attempt_at)}.</p>',
     ]
     if s.errors:
         parts.append('<p class="warn">' + e("; ".join(s.errors)) + "</p>")
@@ -151,15 +150,9 @@ def _detail(s, now=None):
         alerts = "".join('<p class="warn">' + e(message) + "</p>" for message in warnings)
         return marker(s) + alerts + nav
     if not d:
-        return "".join(parts)
+        return "".join(parts) + "</details>"
     parts += [
-        f"<p>Scope: {e(d['scope'])}. Producer revision: {e(d.get('producer_revision'))}. Generated: {e(d['generated_at'])}. {e(d.get('generation_basis', 'Producer-declared generation time'))}</p>",
         f'<p><a href="{e(inst.dashboard_url)}">Project dashboard</a> · <a href="{REPO_URL}/blob/main/receipts/{e(inst.instance)}.json">Ingest receipt</a></p>',
-        "<h3>Coverage and limitations</h3><pre>"
-        + e(_dump(d["coverage"]))
-        + "</pre><ul>"
-        + "".join("<li>" + e(x) + "</li>" for x in d["limitations"])
-        + "</ul>",
     ]
     if not records(s):
         parts.append("<p>No measurements. An empty feed does not mean scientific success.</p>")
@@ -254,7 +247,7 @@ def _detail(s, now=None):
         ):
             parts.append("<dt>" + e(k) + "</dt><dd><pre>" + e(_dump(r.get(k))) + "</pre></dd>")
         parts.append("</dl></details>")
-    return "".join(parts)
+    return "".join(parts) + "</details>"
 
 
 def _captured_at(views):
