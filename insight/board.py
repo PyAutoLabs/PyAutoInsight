@@ -305,6 +305,9 @@ def render_html(views, now=None, campaign_data=None):
         + '</div><div id="inference-pages">'
         + "".join(setup_browser.render(s, now)[1] for s in views)
         + "</div>"
+        + shared.boards_footer(
+            shared.board_links(PAGES_URL.rstrip("/").rsplit("/", 1)[0], "insight"), "insight"
+        )
         + "</main><script>"
         + shared.JS
         + JS
