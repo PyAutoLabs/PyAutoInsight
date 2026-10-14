@@ -104,6 +104,19 @@ def md(v):
     return e(v).replace("|", "\\|").replace("\n", " ")
 
 
+def total_value(r):
+    """The record's ``total_s`` as the producer stated it. When the producer declares a
+    warm-start provider (additive ``warm_start`` / ``provider_wall_s`` fields) the total
+    is its combined attempt cost and the provider's share is named; the reader never
+    sums clocks itself."""
+    total = r["timings"]["total_s"]
+    provider = r.get("provider_wall_s")
+    if total is None or type(provider) not in (int, float):
+        return total
+    name = (r.get("warm_start") or {}).get("provider") or "unnamed"
+    return f"{total} (incl. {name} warm-start provider {provider})"
+
+
 def _dump(v):
     return json.dumps(v, sort_keys=True, ensure_ascii=False)
 
@@ -174,7 +187,7 @@ def _detail(s, now=None):
                     e(r["execution"]["status"]),
                     e(r["scientific"]["convergence"]) + " / " + e(r["scientific"]["acceptance"]),
                     e(r["timings"]["sampling_s"]),
-                    e(r["timings"]["total_s"]),
+                    e(total_value(r)),
                     e(r["diagnostics"]["status"]),
                     e(r["samples"]["availability"]),
                     paths,
@@ -359,7 +372,7 @@ def render_markdown(views, now=None, campaign_data=None):
                 r["scientific"]["convergence"],
                 r["scientific"]["acceptance"],
                 r["timings"]["sampling_s"],
-                r["timings"]["total_s"],
+                total_value(r),
                 r["archived"],
             ]
             out.append(
