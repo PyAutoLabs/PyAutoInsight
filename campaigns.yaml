@@ -92,13 +92,14 @@ campaigns:
 - id: gaussian-x3-search-benchmark
   title: PyAutoFit search benchmark on gaussian_x3 (autofit_inference)
   status: blocked
-  updated: '2026-10-08'
-  next: Run the 297 deferred wave-1 runs (and the JAX blend reference seed 1) on RAL partition ral on a PyAutoFit
-    revision after A2, then freeze gaussian_x3@2 before any wave-2 row.
+  updated: '2026-10-14'
+  next: Freeze gaussian_x3@2 from the existing 17-row wave-1 calibration before any scored run (protocol §7;
+    the pilot is not restarted); then run scored wave 2, which absorbs the 297 deferred runs, and the JAX blend
+    reference seed 1 on RAL partition ral on a PyAutoFit revision frozen after A2 and A4.
   recent_progress: Wave-1 pilot stopped at 223 of 520 expected runs by the B3 wrap-up ruling (2026-10-08);
     pilot ranks nothing; catalogue, calibration record and inference-summary@1 published.
-  blockers: Phase A2 (PyAutoFit#1679, gradients under JAX) must merge first; NSS waits on A3b; no compute
-    submission is authorized by this ledger.
+  blockers: Scored wave 2 waits for phases A2 (PyAutoFit#1679, gradients under JAX) and A4; NSS waits on A3b;
+    no compute submission is authorized by this ledger.
   job_status: unknown — live scheduler not queried; the local pilot was stopped and this ledger records no
     RAL submission
   evidence: https://github.com/PyAutoLabs/autofit_inference/issues/4
@@ -170,7 +171,7 @@ tasks:
   status: blocked
   priority: normal
   path: tasks/gaussian_x3_search_wave1.md
-  updated: '2026-10-08'
-  next: Pilot partial (223 of 520 runs); run the deferred cells on RAL partition ral after A2, then freeze
-    gaussian_x3@2.
+  updated: '2026-10-14'
+  next: Pilot stopped at 223 of 520 runs and is not restarted; freeze gaussian_x3@2 from its 17-row calibration
+    before any scored run; the deferred cells move to scored wave 2 (after A2 and A4).
   evidence: https://github.com/PyAutoLabs/autofit_inference/issues/4
