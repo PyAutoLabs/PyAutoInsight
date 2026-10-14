@@ -100,7 +100,8 @@ campaigns:
     calibration before any scored run and scored wave 2 (11,750 runs + 20-run probe) submitted 2026-10-14 (B5a,
     autofit_inference#9).
   blockers: none for the running wave; the JAX blend realisation-1 reference is built on the laptop in B5b.
-  job_status: submitted 2026-10-14 17:19 BST per the Cortex ledger; live scheduler not queried by this ledger
+  job_status: unknown — live scheduler not queried; the Cortex ledger records the submission of 2026-10-14
+    17:19 BST
   evidence: https://github.com/PyAutoLabs/autofit_inference/issues/8
   project: autofit_inference
 tasks:

@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:930ea056475341ee9b9c9a524b22f8ffc8bbe41df850a730e885f6170bca855c -->
+<!-- insight-inputs:44ec3f024d9897431ed767e8de12a04c20a02191ed95e2f7601e48743b45fc24 -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 0 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:2d239d341c63949b3f0a7aa1caa7ba9d52db99af9a0fa5d609e9d93cf06d6391 -->
+<!-- insight-campaigns:556d7bd7c6ba37cf390a2fe0725e6c9ef38a5a5148cc89ca6c31ff907549989d -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
