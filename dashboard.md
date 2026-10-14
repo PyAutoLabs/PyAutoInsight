@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:9ff40732fd208b02a9c7268eba39441cdfe111880e458e011ab8ef2dc8e47872 -->
+<!-- insight-inputs:afc75c3ec125af4643504d7240cd14d3c71ca5b5a1a58d8f420fdcbb69ebbb4d -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 0 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:b76456132d7495bee180722f43f437e05e473221388e08c82463a9dd7dbb4481 -->
+<!-- insight-campaigns:bb69e4de57970bae4b598caa845c9fe20ff48bf4c5ce429383766ff00a613ba8 -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -46,7 +46,7 @@ After taking action, report what changed, what the evidence supports and what re
 | [N=50 NUTS versus three EP repeats](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/ep_toy_gaussian.md) | Cortex records failed wave 1 (EMFILE/OOM), wave-2 preparation and no submission. | Present the existing wave-2 proposal with current dependency evidence for decision. |
 | [Hierarchical slope recovery at scale](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/slope_hierarchy_scale.md) | Cortex retains graphical baseline, post-processing OOM and stale EP hierarchical factor; Mind records later moments fix. | Verify the moments fix release and project mirror; recover missing summaries from existing samples before a proposed rerun. |
 | [IC50 EP and graphical scale ladder](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/ic50_workspace.md) | Cortex records N=5/10/25 results, failed N=50 EP rung and width-interpretation caveat. | Check implementation close-outs, then propose a seeded ladder with appropriate output and mean-field diagnostics. |
-| [PyAutoFit search benchmark on gaussian_x3 (autofit_inference)](https://github.com/PyAutoLabs/autofit_inference/issues/4) | Wave-1 pilot stopped at 223 of 520 expected runs by the B3 wrap-up ruling (2026-10-08); pilot ranks nothing; catalogue, calibration record and inference-summary@1 published. | Run the 297 deferred wave-1 runs (and the JAX blend reference seed 1) on RAL partition ral on a PyAutoFit revision after A2, then freeze gaussian_x3@2 before any wave-2 row. |
+| [PyAutoFit search benchmark on gaussian_x3 (autofit_inference)](https://github.com/PyAutoLabs/autofit_inference/issues/4) | Wave-1 pilot stopped at 223 of 520 expected runs by the B3 wrap-up ruling (2026-10-08); pilot ranks nothing; catalogue, calibration record and inference-summary@1 published. | Freeze gaussian_x3@2 from the existing 17-row wave-1 calibration before any scored run (protocol §7; the pilot is not restarted); then run scored wave 2, which absorbs the 297 deferred runs, and the JAX blend reference seed 1 on RAL partition ral on a PyAutoFit revision frozen after A2 and A4. |
 
 ## Active tasks
 
@@ -57,7 +57,7 @@ After taking action, report what changed, what the evidence supports and what re
 | [Expectation Propagation Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/ep_scoping.md) | graphical-ep | needs-slicing | high | Reconcile completed wrapper work and Pulse profiling ownership before selecting a bounded remaining inference phase. |
 | [Graphical Model Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/graphical_scoping.md) | graphical-ep | needs-slicing | high | Reconcile current Cortex scale results and library dependencies; select one bounded inference phase with a witness. |
 | [NUTS/HMC trial on validated likelihoods](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gradient_sampler_validated_likelihoods.md) | point-source-admission | needs-decision | normal | An unscoped idea, not permission to submit: reconcile point-source admission with imaging and weak-lensing candidate targets. |
-| [gaussian_x3 search benchmark — wave 1 (the pilot)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave1.md) | gaussian-x3-search-benchmark | blocked | normal | Pilot partial (223 of 520 runs); run the deferred cells on RAL partition ral after A2, then freeze gaussian_x3@2. |
+| [gaussian_x3 search benchmark — wave 1 (the pilot)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave1.md) | gaussian-x3-search-benchmark | blocked | normal | Pilot stopped at 223 of 520 runs and is not restarted; freeze gaussian_x3@2 from its 17-row calibration before any scored run; the deferred cells move to scored wave 2 (after A2 and A4). |
 
 [Ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml)
 
