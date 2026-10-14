@@ -44,6 +44,11 @@ setup nor sums stages. Diagnostics carry `status` and `values`. Samples carry
 availability and access limitations; safe output paths are hints, not verified
 public archive links. Large samples remain in project storage.
 
+Warm starts (additive, v1 and v2): a record may carry `warm_start` (provider
+provenance), `provider_wall_s` and `consumer_total_s`. Its `total_s` is then the
+producer's combined attempt cost, with a `total_s` definition saying so; the board
+shows that total and names the provider's share. The reader still sums nothing.
+
 Comparisons declare id, records and protocol. The reader refuses changed scientific
 target/dataset/model/pipeline/stage/seed identities and incompatible clock definitions.
 Unknown controls are not proof of parity. It displays refusals without ratios or

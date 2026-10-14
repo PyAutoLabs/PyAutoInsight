@@ -69,5 +69,12 @@ pilot ran on PyAutoFit main `0dbf258c4f5e`, before phase A2 (PyAutoFit#1679, gra
 under JAX); BFGS/LBFGS non-finite results are expected to change once A2 merges and are
 not a judgement on those searches. The JAX blend reference is pending (2 of 3 Nautilus
 runs), so JAX blend rows are `not_assessed`. The calibration record keeps `@1` (17
-calibration rows < 20); the `gaussian_x3@2` freeze is deferred and still precedes any
-wave-2 row.
+calibration rows < 20).
+
+**Freeze gate (2026-10-14, autofit_inference protocol §7).** `gaussian_x3@2` is frozen
+from that existing 17-row calibration before any scored run. The pilot is not
+restarted: its 297 deferred runs move to the scored wave 2 and are never calibration
+input. Scored wave 2 still waits for a PyAutoFit revision frozen after phases A2 and
+A4. Seventeen rows suffice because the pre-declared < 20 rule already keeps the
+σ-ratio band and ppc tolerance at `@1`, and the 3 missing rows cannot be recovered from
+the pilot output on disk without new compute.

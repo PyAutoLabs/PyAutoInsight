@@ -98,3 +98,19 @@ def test_capture_freshness_is_conservative(registry_file, fake_mind):
     s.outcome = "ok"
     s.refreshed_at = None
     assert "Last updated unavailable" in board.render_html([s])
+
+
+def test_warm_start_total_shows_combined_cost_and_names_the_provider(registry_file, fake_mind):
+    """autofit_inference#6 (review 06 finding 4): a warm-start record's total is the
+    producer's combined attempt cost, and the board says the provider is included."""
+    s = view(registry_file, fake_mind)
+    r = s.doc["records"][0]
+    r["timings"]["total_s"] = 1150.1580484
+    r["warm_start"] = {"provider": "nautilus", "provider_settings": "n_live_100"}
+    r["provider_wall_s"] = 1076.469658
+    r["consumer_total_s"] = 73.6883904
+    md = board.render_markdown([s], now="2026-10-04T00:00:00Z")
+    html = board.render_html([s], now="2026-10-04T00:00:00Z")
+    for text in (md, html):
+        assert "1150.1580484 (incl. nautilus warm-start provider 1076.469658)" in text
+    assert "73.6883904 |" not in md

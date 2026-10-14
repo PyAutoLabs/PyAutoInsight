@@ -3,8 +3,8 @@
   "repo": "autofit_inference",
   "github": "PyAutoLabs/autofit_inference",
   "summary_path": "dashboard/summary.json",
-  "commit": "900648b5c66514167dd79a4859aed400fcc9551e",
-  "fetched_at": "2026-10-08T19:54:10Z",
+  "commit": "6df69441bba42917bcb000f4170299361029dacf",
+  "fetched_at": "2026-10-14T09:49:29Z",
   "summary": {
     "comparison_policy": {
       "id": "gaussian_x3-task-groups-v1",
@@ -582,16 +582,17 @@
       }
     },
     "evidence_updated_at": "2026-10-08T18:53:07Z",
-    "generated_at": "2026-10-08T19:27:05Z",
+    "generated_at": "2026-10-14T08:35:19Z",
     "generation_basis": "Source commit timestamp; not a measurement or check-in time",
     "limitations": [
       "Verdicts are producer-asserted under protocol gaussian_x3@1, whose PLACEHOLDER thresholds are calibrated in the wave-1 pilot and then frozen",
       "Rows are judged only against a reference with the same dataset, backend, data seed and assertion mechanism; log evidences are compared only within one backend and one assertion mechanism",
       "Nested-search convergence needs the search's own termination condition: Nautilus is read from its sampler; other nested searches are not_assessed until PyAutoFit exposes it (phase A3)",
       "Completion is execution, not convergence; convergence is reported separately from acceptance",
+      "A warm-start record's total_s is its whole attempt cost (provider_wall_s + consumer_total_s, combined by the producer, protocol §8); cold records' total_s is the search.fit call alone",
       "Sample archives remain in project storage; current availability unknown"
     ],
-    "producer_revision": "0c87bf1add74ebec24c0dda6cd6684d1c8005f95",
+    "producer_revision": "162644e5c41a507e68914cd34e6fcc42d2c5ed03",
     "project": "autofit_inference",
     "protocol_id": "gaussian_x3@1",
     "records": [
@@ -629,6 +630,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 13.88767320000261,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -896,6 +898,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -936,7 +939,8 @@
           "setup_s": null,
           "total_s": 13.88767320000261
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -972,6 +976,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 15.443632700000308,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -1239,6 +1244,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -1279,7 +1285,8 @@
           "setup_s": null,
           "total_s": 15.443632700000308
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -1315,6 +1322,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 13.512804099998903,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -1582,6 +1590,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -1622,7 +1631,8 @@
           "setup_s": null,
           "total_s": 13.512804099998903
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -1658,6 +1668,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 49.19529500000135,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -1927,6 +1938,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -1967,7 +1979,8 @@
           "setup_s": null,
           "total_s": 49.19529500000135
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -2003,6 +2016,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 14.05181679999805,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -2270,6 +2284,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -2310,7 +2325,8 @@
           "setup_s": null,
           "total_s": 14.05181679999805
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -2346,6 +2362,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 18.110931600000185,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -2613,6 +2630,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -2653,7 +2671,8 @@
           "setup_s": null,
           "total_s": 18.110931600000185
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -2689,6 +2708,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 14.935181099997862,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -2956,6 +2976,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -2996,7 +3017,8 @@
           "setup_s": null,
           "total_s": 14.935181099997862
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -3032,6 +3054,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 15.270657600001869,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -3299,6 +3322,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -3339,7 +3363,8 @@
           "setup_s": null,
           "total_s": 15.270657600001869
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -3375,6 +3400,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 40.309002100002544,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -3644,6 +3670,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -3684,7 +3711,8 @@
           "setup_s": null,
           "total_s": 40.309002100002544
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -3720,6 +3748,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 12.118992199997592,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -3987,6 +4016,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -4027,7 +4057,8 @@
           "setup_s": null,
           "total_s": 12.118992199997592
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -4063,6 +4094,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 7.736843099999533,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -4327,6 +4359,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -4369,7 +4402,8 @@
           "setup_s": null,
           "total_s": 7.736843099999533
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -4405,6 +4439,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 8.733155400001124,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -4669,6 +4704,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -4711,7 +4747,8 @@
           "setup_s": null,
           "total_s": 8.733155400001124
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -4747,6 +4784,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 9.3094577999982,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -5011,6 +5049,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -5053,7 +5092,8 @@
           "setup_s": null,
           "total_s": 9.3094577999982
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -5089,6 +5129,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 10.495542200002092,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -5353,6 +5394,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -5395,7 +5437,8 @@
           "setup_s": null,
           "total_s": 10.495542200002092
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -5431,6 +5474,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 7.982328100002633,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -5695,6 +5739,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -5737,7 +5782,8 @@
           "setup_s": null,
           "total_s": 7.982328100002633
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -5773,6 +5819,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 8.159760599999572,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -6037,6 +6084,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -6079,7 +6127,8 @@
           "setup_s": null,
           "total_s": 8.159760599999572
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -6115,6 +6164,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 9.973385900000721,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -6379,6 +6429,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -6421,7 +6472,8 @@
           "setup_s": null,
           "total_s": 9.973385900000721
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -6457,6 +6509,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 7.853619100002106,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -6721,6 +6774,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -6763,7 +6817,8 @@
           "setup_s": null,
           "total_s": 7.853619100002106
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -6799,6 +6854,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 9.719483400000172,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -7063,6 +7119,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -7105,7 +7162,8 @@
           "setup_s": null,
           "total_s": 9.719483400000172
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -7141,6 +7199,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 9.515777500000695,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -7405,6 +7464,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -7447,7 +7507,8 @@
           "setup_s": null,
           "total_s": 9.515777500000695
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -7486,6 +7547,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 42.179321799998434,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -7555,6 +7617,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "blackjax_nuts",
         "samples": {
           "access": "project-storage-not-published",
@@ -7595,7 +7658,8 @@
           "setup_s": null,
           "total_s": 42.179321799998434
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -7634,6 +7698,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 9.702254300005734,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -7703,6 +7768,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "blackjax_nuts",
         "samples": {
           "access": "project-storage-not-published",
@@ -7743,7 +7809,8 @@
           "setup_s": null,
           "total_s": 9.702254300005734
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -7782,6 +7849,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 67.55193340000187,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -7851,6 +7919,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": 1166.1726357000007,
         "sampler": "blackjax_nuts_warm",
         "samples": {
           "access": "project-storage-not-published",
@@ -7885,13 +7954,22 @@
             "compile_s": "First jitted likelihood call of a separate warm-up probe, in a cold- or warm-cache run (compile_cache); not added to total_s; null on numpy",
             "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
             "setup_s": "Not measured separately; unknown, not total minus sampling",
-            "total_s": "total_wall_s: elapsed search.fit call; excludes the admission-bar probe and dataset/model setup"
+            "total_s": "Attempt cost: warm-start provider search.fit (provider_wall_s) + consumer search.fit (consumer_total_s); excludes the admission-bar probe and dataset/model setup; null when either part is unknown"
           },
           "sampling_s": null,
           "setup_s": null,
-          "total_s": 67.55193340000187
+          "total_s": 1233.7245691000026
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": {
+          "mass_matrix": "provider covariance",
+          "provider": "nautilus",
+          "provider_settings": "n_live_100",
+          "provider_settings_kwargs": {
+            "n_live": 100
+          },
+          "start": "provider max-log-likelihood point, jitter 0.05"
+        }
       },
       {
         "archived": false,
@@ -7927,6 +8005,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1217.4585422000018,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -8204,6 +8283,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -8244,7 +8324,8 @@
           "setup_s": null,
           "total_s": 1217.4585422000018
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -8280,6 +8361,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 466.02419519999967,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -8557,6 +8639,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -8597,7 +8680,8 @@
           "setup_s": null,
           "total_s": 466.02419519999967
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -8633,6 +8717,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 771.8162669000012,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -8909,6 +8994,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -8976,7 +9062,8 @@
           "setup_s": null,
           "total_s": 771.8162669000012
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -9012,6 +9099,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 343.018189800001,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -9288,6 +9376,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -9355,7 +9444,8 @@
           "setup_s": null,
           "total_s": 343.018189800001
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -9393,6 +9483,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 240.3866175999974,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -9670,6 +9761,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -9710,7 +9802,8 @@
           "setup_s": null,
           "total_s": 240.3866175999974
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -9748,6 +9841,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 93.20188630000484,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -10025,6 +10119,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -10065,7 +10160,8 @@
           "setup_s": null,
           "total_s": 93.20188630000484
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -10103,6 +10199,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 234.44073229999776,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -10379,6 +10476,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -10446,7 +10544,8 @@
           "setup_s": null,
           "total_s": 234.44073229999776
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -10484,6 +10583,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 111.4136942000041,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -10760,6 +10860,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -10827,7 +10928,8 @@
           "setup_s": null,
           "total_s": 111.4136942000041
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -10866,6 +10968,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1795.8331753999992,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -10935,6 +11038,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -10975,7 +11079,8 @@
           "setup_s": null,
           "total_s": 1795.8331753999992
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -11014,6 +11119,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1203.6711538000018,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -11285,6 +11391,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -11325,7 +11432,8 @@
           "setup_s": null,
           "total_s": 1203.6711538000018
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -11364,6 +11472,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 330.9503074000022,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -11632,6 +11741,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -11695,7 +11805,8 @@
           "setup_s": null,
           "total_s": 330.9503074000022
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -11734,6 +11845,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 137.76389390000259,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -12002,6 +12114,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -12065,7 +12178,8 @@
           "setup_s": null,
           "total_s": 137.76389390000259
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -12101,6 +12215,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 14.374400400000013,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -12368,6 +12483,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -12408,7 +12524,8 @@
           "setup_s": null,
           "total_s": 14.374400400000013
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -12444,6 +12561,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 14.289665199998126,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -12711,6 +12829,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -12751,7 +12870,8 @@
           "setup_s": null,
           "total_s": 14.289665199998126
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -12787,6 +12907,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 12.529035600000498,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -13054,6 +13175,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -13094,7 +13216,8 @@
           "setup_s": null,
           "total_s": 12.529035600000498
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -13130,6 +13253,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 13.62152530000094,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -13397,6 +13521,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -13437,7 +13562,8 @@
           "setup_s": null,
           "total_s": 13.62152530000094
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -13473,6 +13599,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 13.009582200000295,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -13740,6 +13867,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -13780,7 +13908,8 @@
           "setup_s": null,
           "total_s": 13.009582200000295
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -13816,6 +13945,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 12.173313899998902,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -14083,6 +14213,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -14123,7 +14254,8 @@
           "setup_s": null,
           "total_s": 12.173313899998902
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -14159,6 +14291,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 44.38298600000053,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -14428,6 +14561,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -14468,7 +14602,8 @@
           "setup_s": null,
           "total_s": 44.38298600000053
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -14504,6 +14639,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 11.868792099998245,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -14771,6 +14907,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -14811,7 +14948,8 @@
           "setup_s": null,
           "total_s": 11.868792099998245
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -14847,6 +14985,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 12.047185200000968,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -15114,6 +15253,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -15154,7 +15294,8 @@
           "setup_s": null,
           "total_s": 12.047185200000968
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -15190,6 +15331,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 13.176392600002146,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -15457,6 +15599,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -15497,7 +15640,8 @@
           "setup_s": null,
           "total_s": 13.176392600002146
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -15533,6 +15677,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 5.31315320000067,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -15797,6 +15942,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -15839,7 +15985,8 @@
           "setup_s": null,
           "total_s": 5.31315320000067
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -15875,6 +16022,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 47.26345769999898,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -16141,6 +16289,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -16192,7 +16341,8 @@
           "setup_s": null,
           "total_s": 47.26345769999898
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -16228,6 +16378,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 6.865790799998649,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -16492,6 +16643,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -16534,7 +16686,8 @@
           "setup_s": null,
           "total_s": 6.865790799998649
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -16570,6 +16723,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 47.91288179999901,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -16836,6 +16990,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -16887,7 +17042,8 @@
           "setup_s": null,
           "total_s": 47.91288179999901
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -16923,6 +17079,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 9.059081399998831,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -17187,6 +17344,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -17229,7 +17387,8 @@
           "setup_s": null,
           "total_s": 9.059081399998831
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -17265,6 +17424,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 6.557287499999802,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -17529,6 +17689,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -17571,7 +17732,8 @@
           "setup_s": null,
           "total_s": 6.557287499999802
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -17607,6 +17769,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 7.540862599998945,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -17871,6 +18034,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -17913,7 +18077,8 @@
           "setup_s": null,
           "total_s": 7.540862599998945
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -17949,6 +18114,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 7.6342595999994955,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -18213,6 +18379,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -18255,7 +18422,8 @@
           "setup_s": null,
           "total_s": 7.6342595999994955
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -18291,6 +18459,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 7.215508900000714,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -18555,6 +18724,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -18597,7 +18767,8 @@
           "setup_s": null,
           "total_s": 7.215508900000714
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -18633,6 +18804,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 6.717486000001372,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -18897,6 +19069,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -18939,7 +19112,8 @@
           "setup_s": null,
           "total_s": 6.717486000001372
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -18978,6 +19152,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 66.62464159999945,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -19247,6 +19422,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -19287,7 +19463,8 @@
           "setup_s": null,
           "total_s": 66.62464159999945
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -19326,6 +19503,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 84.93421459999809,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -19595,6 +19773,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -19635,7 +19814,8 @@
           "setup_s": null,
           "total_s": 84.93421459999809
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -19674,6 +19854,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 85.02850259999832,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -19943,6 +20124,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -19983,7 +20165,8 @@
           "setup_s": null,
           "total_s": 85.02850259999832
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -20022,6 +20205,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 86.50476509999862,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -20291,6 +20475,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -20331,7 +20516,8 @@
           "setup_s": null,
           "total_s": 86.50476509999862
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -20370,6 +20556,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 77.74526429999969,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -20639,6 +20826,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -20679,7 +20867,8 @@
           "setup_s": null,
           "total_s": 77.74526429999969
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -20718,6 +20907,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 87.0768444000023,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -20987,6 +21177,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -21027,7 +21218,8 @@
           "setup_s": null,
           "total_s": 87.0768444000023
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -21066,6 +21258,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 89.26296160000129,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -21335,6 +21528,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -21375,7 +21569,8 @@
           "setup_s": null,
           "total_s": 89.26296160000129
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -21414,6 +21609,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 96.53807249999954,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -21683,6 +21879,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -21723,7 +21920,8 @@
           "setup_s": null,
           "total_s": 96.53807249999954
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -21762,6 +21960,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 89.89449640000021,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -22031,6 +22230,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -22071,7 +22271,8 @@
           "setup_s": null,
           "total_s": 89.89449640000021
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -22110,6 +22311,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 97.28379209999912,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -22379,6 +22581,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -22419,7 +22622,8 @@
           "setup_s": null,
           "total_s": 97.28379209999912
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -22458,6 +22662,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 73.01708489999874,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -22727,6 +22932,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -22767,7 +22973,8 @@
           "setup_s": null,
           "total_s": 73.01708489999874
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -22806,6 +23013,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 101.33558860000267,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -23075,6 +23283,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -23115,7 +23324,8 @@
           "setup_s": null,
           "total_s": 101.33558860000267
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -23154,6 +23364,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 93.01852740000322,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -23423,6 +23634,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -23463,7 +23675,8 @@
           "setup_s": null,
           "total_s": 93.01852740000322
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -23502,6 +23715,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 105.02813040000183,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -23771,6 +23985,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -23811,7 +24026,8 @@
           "setup_s": null,
           "total_s": 105.02813040000183
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -23850,6 +24066,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 118.99275859999761,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -24119,6 +24336,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -24159,7 +24377,8 @@
           "setup_s": null,
           "total_s": 118.99275859999761
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -24198,6 +24417,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 121.24009080000178,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -24467,6 +24687,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -24507,7 +24728,8 @@
           "setup_s": null,
           "total_s": 121.24009080000178
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -24546,6 +24768,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 101.3846784999987,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -24815,6 +25038,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -24855,7 +25079,8 @@
           "setup_s": null,
           "total_s": 101.3846784999987
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -24894,6 +25119,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 104.5712495000007,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -25163,6 +25389,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -25203,7 +25430,8 @@
           "setup_s": null,
           "total_s": 104.5712495000007
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -25242,6 +25470,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 88.50154900000052,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -25511,6 +25740,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -25551,7 +25781,8 @@
           "setup_s": null,
           "total_s": 88.50154900000052
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -25590,6 +25821,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 103.19699949999995,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -25859,6 +26091,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -25899,7 +26132,8 @@
           "setup_s": null,
           "total_s": 103.19699949999995
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -25938,6 +26172,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 40.01358629999959,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -26207,6 +26442,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -26247,7 +26483,8 @@
           "setup_s": null,
           "total_s": 40.01358629999959
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -26286,6 +26523,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 64.74037789999784,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -26555,6 +26793,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -26595,7 +26834,8 @@
           "setup_s": null,
           "total_s": 64.74037789999784
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -26634,6 +26874,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 63.29675309999948,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -26903,6 +27144,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -26943,7 +27185,8 @@
           "setup_s": null,
           "total_s": 63.29675309999948
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -26982,6 +27225,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 56.37117980000039,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -27251,6 +27495,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -27291,7 +27536,8 @@
           "setup_s": null,
           "total_s": 56.37117980000039
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -27330,6 +27576,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 56.04738290000023,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -27599,6 +27846,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -27639,7 +27887,8 @@
           "setup_s": null,
           "total_s": 56.04738290000023
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -27678,6 +27927,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 55.27895879999778,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -27947,6 +28197,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -27987,7 +28238,8 @@
           "setup_s": null,
           "total_s": 55.27895879999778
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -28026,6 +28278,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 58.40842210000119,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -28295,6 +28548,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -28335,7 +28589,8 @@
           "setup_s": null,
           "total_s": 58.40842210000119
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -28374,6 +28629,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 55.071547499999724,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -28643,6 +28899,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -28683,7 +28940,8 @@
           "setup_s": null,
           "total_s": 55.071547499999724
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -28722,6 +28980,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 58.25300219999917,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -28991,6 +29250,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -29031,7 +29291,8 @@
           "setup_s": null,
           "total_s": 58.25300219999917
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -29070,6 +29331,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 55.998511300000246,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -29339,6 +29601,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -29379,7 +29642,8 @@
           "setup_s": null,
           "total_s": 55.998511300000246
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -29418,6 +29682,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 62.796811200001684,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -29687,6 +29952,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -29727,7 +29993,8 @@
           "setup_s": null,
           "total_s": 62.796811200001684
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -29766,6 +30033,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 84.69817429999966,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -30035,6 +30303,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -30075,7 +30344,8 @@
           "setup_s": null,
           "total_s": 84.69817429999966
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -30114,6 +30384,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 72.76758209999753,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -30383,6 +30654,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -30423,7 +30695,8 @@
           "setup_s": null,
           "total_s": 72.76758209999753
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -30462,6 +30735,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 75.61778259999846,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -30731,6 +31005,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -30771,7 +31046,8 @@
           "setup_s": null,
           "total_s": 75.61778259999846
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -30810,6 +31086,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 75.63471070000014,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -31079,6 +31356,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -31119,7 +31397,8 @@
           "setup_s": null,
           "total_s": 75.63471070000014
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -31158,6 +31437,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 75.39922420000221,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -31427,6 +31707,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -31467,7 +31748,8 @@
           "setup_s": null,
           "total_s": 75.39922420000221
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -31506,6 +31788,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 77.15030770000158,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -31775,6 +32058,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -31815,7 +32099,8 @@
           "setup_s": null,
           "total_s": 77.15030770000158
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -31854,6 +32139,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 80.35257060000004,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -32123,6 +32409,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -32163,7 +32450,8 @@
           "setup_s": null,
           "total_s": 80.35257060000004
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -32202,6 +32490,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 67.9591193999986,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -32471,6 +32760,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -32511,7 +32801,8 @@
           "setup_s": null,
           "total_s": 67.9591193999986
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -32550,6 +32841,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 66.04237690000082,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -32819,6 +33111,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -32859,7 +33152,8 @@
           "setup_s": null,
           "total_s": 66.04237690000082
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -32897,6 +33191,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1212.1641402999994,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -33182,6 +33477,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -33222,7 +33518,8 @@
           "setup_s": null,
           "total_s": 1212.1641402999994
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -33260,6 +33557,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 870.6330551000065,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -33545,6 +33843,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -33585,7 +33884,8 @@
           "setup_s": null,
           "total_s": 870.6330551000065
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -33623,6 +33923,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1253.6145966999975,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -33907,6 +34208,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -33974,7 +34276,8 @@
           "setup_s": null,
           "total_s": 1253.6145966999975
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -34012,6 +34315,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 871.8810075000001,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -34296,6 +34600,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -34363,7 +34668,8 @@
           "setup_s": null,
           "total_s": 871.8810075000001
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -34401,6 +34707,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1231.3208968000035,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -34686,6 +34993,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -34726,7 +35034,8 @@
           "setup_s": null,
           "total_s": 1231.3208968000035
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -34764,6 +35073,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 811.4343360000057,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -35049,6 +35359,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -35089,7 +35400,8 @@
           "setup_s": null,
           "total_s": 811.4343360000057
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -35127,6 +35439,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1797.7244747000004,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -35195,6 +35508,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -35237,7 +35551,8 @@
           "setup_s": null,
           "total_s": 1797.7244747000004
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -35275,6 +35590,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1113.0054554000017,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -35559,6 +35875,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -35626,7 +35943,8 @@
           "setup_s": null,
           "total_s": 1113.0054554000017
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -35664,6 +35982,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1705.6011811000062,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -35949,6 +36268,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -35989,7 +36309,8 @@
           "setup_s": null,
           "total_s": 1705.6011811000062
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -36027,6 +36348,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1480.9580088000002,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -36312,6 +36634,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -36352,7 +36675,8 @@
           "setup_s": null,
           "total_s": 1480.9580088000002
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -36390,6 +36714,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 3415.3513821000015,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -36674,6 +36999,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -36741,7 +37067,8 @@
           "setup_s": null,
           "total_s": 3415.3513821000015
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -36779,6 +37106,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1572.1778831999982,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -37063,6 +37391,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -37130,7 +37459,8 @@
           "setup_s": null,
           "total_s": 1572.1778831999982
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -37166,6 +37496,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 631.6644508999998,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -37427,6 +37758,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "smc",
         "samples": {
           "access": "project-storage-not-published",
@@ -37467,7 +37799,8 @@
           "setup_s": null,
           "total_s": 631.6644508999998
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -37503,6 +37836,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 126.58793900000455,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -37764,6 +38098,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "smc",
         "samples": {
           "access": "project-storage-not-published",
@@ -37804,7 +38139,8 @@
           "setup_s": null,
           "total_s": 126.58793900000455
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -37843,6 +38179,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1792.2593608999996,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -37912,6 +38249,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "zeus",
         "samples": {
           "access": "project-storage-not-published",
@@ -37952,7 +38290,8 @@
           "setup_s": null,
           "total_s": 1792.2593608999996
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -37991,6 +38330,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1797.1518088000012,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -38059,6 +38399,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "zeus",
         "samples": {
           "access": "project-storage-not-published",
@@ -38101,7 +38442,8 @@
           "setup_s": null,
           "total_s": 1797.1518088000012
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -38140,6 +38482,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 769.202040199998,
         "dataset": {
           "class": "gaussian_x3_blend",
           "id": "gaussian_x3_blend/data_seed1",
@@ -38410,6 +38753,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "zeus",
         "samples": {
           "access": "project-storage-not-published",
@@ -38473,7 +38817,8 @@
           "setup_s": null,
           "total_s": 769.202040199998
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -38511,6 +38856,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 35.51664779999919,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -38780,6 +39126,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -38831,7 +39178,8 @@
           "setup_s": null,
           "total_s": 35.51664779999919
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -38869,6 +39217,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 35.4059699999998,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -39138,6 +39487,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -39189,7 +39539,8 @@
           "setup_s": null,
           "total_s": 35.4059699999998
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -39227,6 +39578,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 35.63130570000067,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -39496,6 +39848,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -39547,7 +39900,8 @@
           "setup_s": null,
           "total_s": 35.63130570000067
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -39585,6 +39939,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 33.614381200000935,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -39854,6 +40209,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -39905,7 +40261,8 @@
           "setup_s": null,
           "total_s": 33.614381200000935
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -39943,6 +40300,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 37.432726700000785,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -40212,6 +40570,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -40263,7 +40622,8 @@
           "setup_s": null,
           "total_s": 37.432726700000785
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -40301,6 +40661,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 35.949477500002104,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -40570,6 +40931,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -40621,7 +40983,8 @@
           "setup_s": null,
           "total_s": 35.949477500002104
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -40659,6 +41022,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 35.63403749999998,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -40928,6 +41292,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -40979,7 +41344,8 @@
           "setup_s": null,
           "total_s": 35.63403749999998
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -41017,6 +41383,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 38.80845849999969,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -41286,6 +41653,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -41337,7 +41705,8 @@
           "setup_s": null,
           "total_s": 38.80845849999969
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -41375,6 +41744,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 37.34510069999669,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -41644,6 +42014,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -41695,7 +42066,8 @@
           "setup_s": null,
           "total_s": 37.34510069999669
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -41733,6 +42105,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 36.24774569999863,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -42002,6 +42375,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -42053,7 +42427,8 @@
           "setup_s": null,
           "total_s": 36.24774569999863
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -42091,6 +42466,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 32.55018890000065,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -42356,6 +42732,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -42407,7 +42784,8 @@
           "setup_s": null,
           "total_s": 32.55018890000065
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -42445,6 +42823,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 31.91465529999914,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -42710,6 +43089,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -42761,7 +43141,8 @@
           "setup_s": null,
           "total_s": 31.91465529999914
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -42799,6 +43180,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 33.129444300000614,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -43064,6 +43446,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -43115,7 +43498,8 @@
           "setup_s": null,
           "total_s": 33.129444300000614
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -43153,6 +43537,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 34.58994910000183,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -43418,6 +43803,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -43469,7 +43855,8 @@
           "setup_s": null,
           "total_s": 34.58994910000183
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -43507,6 +43894,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 32.91801210000267,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -43772,6 +44160,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -43823,7 +44212,8 @@
           "setup_s": null,
           "total_s": 32.91801210000267
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -43861,6 +44251,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 30.714918900001067,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -44126,6 +44517,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -44177,7 +44569,8 @@
           "setup_s": null,
           "total_s": 30.714918900001067
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -44215,6 +44608,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 32.5895182000022,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -44480,6 +44874,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -44531,7 +44926,8 @@
           "setup_s": null,
           "total_s": 32.5895182000022
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -44569,6 +44965,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 30.9177978000007,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -44834,6 +45231,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -44885,7 +45283,8 @@
           "setup_s": null,
           "total_s": 30.9177978000007
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -44923,6 +45322,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 31.769841900000756,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -45188,6 +45588,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -45239,7 +45640,8 @@
           "setup_s": null,
           "total_s": 31.769841900000756
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -45277,6 +45679,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 30.78151880000223,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -45542,6 +45945,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "bfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -45593,7 +45997,8 @@
           "setup_s": null,
           "total_s": 30.78151880000223
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -45634,6 +46039,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 88.30002569999851,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -45905,6 +46311,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "blackjax_nuts",
         "samples": {
           "access": "project-storage-not-published",
@@ -45968,7 +46375,8 @@
           "setup_s": null,
           "total_s": 88.30002569999851
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -46009,6 +46417,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 243.72252129999833,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -46281,6 +46690,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "blackjax_nuts",
         "samples": {
           "access": "project-storage-not-published",
@@ -46344,7 +46754,8 @@
           "setup_s": null,
           "total_s": 243.72252129999833
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -46385,6 +46796,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 73.68839039999875,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -46656,6 +47068,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": 1076.4696579999982,
         "sampler": "blackjax_nuts_warm",
         "samples": {
           "access": "project-storage-not-published",
@@ -46713,13 +47126,22 @@
             "compile_s": "First jitted likelihood call of a separate warm-up probe, in a cold- or warm-cache run (compile_cache); not added to total_s; null on numpy",
             "sampling_s": "wall_s: sampler clock from samples_info.json; includes sampler overhead",
             "setup_s": "Not measured separately; unknown, not total minus sampling",
-            "total_s": "total_wall_s: elapsed search.fit call; excludes the admission-bar probe and dataset/model setup"
+            "total_s": "Attempt cost: warm-start provider search.fit (provider_wall_s) + consumer search.fit (consumer_total_s); excludes the admission-bar probe and dataset/model setup; null when either part is unknown"
           },
           "sampling_s": 28.724010229110718,
           "setup_s": null,
-          "total_s": 73.68839039999875
+          "total_s": 1150.158048399997
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": {
+          "mass_matrix": "provider covariance",
+          "provider": "nautilus",
+          "provider_settings": "n_live_100",
+          "provider_settings_kwargs": {
+            "n_live": 100
+          },
+          "start": "provider max-log-likelihood point, jitter 0.05"
+        }
       },
       {
         "archived": false,
@@ -46757,6 +47179,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 902.1001149999975,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -47034,6 +47457,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -47101,7 +47525,8 @@
           "setup_s": null,
           "total_s": 902.1001149999975
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -47139,6 +47564,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 742.6943207000004,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -47419,6 +47845,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -47486,7 +47913,8 @@
           "setup_s": null,
           "total_s": 742.6943207000004
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -47524,6 +47952,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 960.5190024000003,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -47797,6 +48226,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -47864,7 +48294,8 @@
           "setup_s": null,
           "total_s": 960.5190024000003
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -47902,6 +48333,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 739.827999699999,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -48178,6 +48610,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_dynamic",
         "samples": {
           "access": "project-storage-not-published",
@@ -48245,7 +48678,8 @@
           "setup_s": null,
           "total_s": 739.827999699999
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -48285,6 +48719,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 261.77806319999945,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -48562,6 +48997,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -48629,7 +49065,8 @@
           "setup_s": null,
           "total_s": 261.77806319999945
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -48669,6 +49106,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 148.89553829999932,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -48949,6 +49387,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -49016,7 +49455,8 @@
           "setup_s": null,
           "total_s": 148.89553829999932
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -49056,6 +49496,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 282.2910640000009,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -49329,6 +49770,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -49396,7 +49838,8 @@
           "setup_s": null,
           "total_s": 282.2910640000009
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -49436,6 +49879,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 175.2136848999944,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -49712,6 +50156,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "dynesty_static",
         "samples": {
           "access": "project-storage-not-published",
@@ -49779,7 +50224,8 @@
           "setup_s": null,
           "total_s": 175.2136848999944
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -49820,6 +50266,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 2115.7031529999986,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -50091,6 +50538,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -50154,7 +50602,8 @@
           "setup_s": null,
           "total_s": 2115.7031529999986
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -50195,6 +50644,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1399.974675599995,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -50467,6 +50917,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -50530,7 +50981,8 @@
           "setup_s": null,
           "total_s": 1399.974675599995
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -50571,6 +51023,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 235.45428900000115,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -50838,6 +51291,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -50901,7 +51355,8 @@
           "setup_s": null,
           "total_s": 235.45428900000115
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -50942,6 +51397,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 162.00015110000095,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -51210,6 +51666,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "emcee",
         "samples": {
           "access": "project-storage-not-published",
@@ -51273,7 +51730,8 @@
           "setup_s": null,
           "total_s": 162.00015110000095
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -51311,6 +51769,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 43.526067599999806,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -51569,6 +52028,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -51620,7 +52080,8 @@
           "setup_s": null,
           "total_s": 43.526067599999806
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -51658,6 +52119,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 42.901174400001764,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -51916,6 +52378,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -51967,7 +52430,8 @@
           "setup_s": null,
           "total_s": 42.901174400001764
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -52005,6 +52469,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 38.502016299997194,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -52274,6 +52739,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -52325,7 +52791,8 @@
           "setup_s": null,
           "total_s": 38.502016299997194
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -52363,6 +52830,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 38.706144899999344,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -52621,6 +53089,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -52672,7 +53141,8 @@
           "setup_s": null,
           "total_s": 38.706144899999344
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -52710,6 +53180,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 39.096697799999674,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -52979,6 +53450,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -53030,7 +53502,8 @@
           "setup_s": null,
           "total_s": 39.096697799999674
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -53068,6 +53541,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 39.4540765999991,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -53326,6 +53800,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -53377,7 +53852,8 @@
           "setup_s": null,
           "total_s": 39.4540765999991
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -53415,6 +53891,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 37.866031899997324,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -53684,6 +54161,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -53735,7 +54213,8 @@
           "setup_s": null,
           "total_s": 37.866031899997324
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -53773,6 +54252,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 37.942452800001774,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -54031,6 +54511,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -54082,7 +54563,8 @@
           "setup_s": null,
           "total_s": 37.942452800001774
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -54120,6 +54602,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 36.1579410000013,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -54389,6 +54872,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -54440,7 +54924,8 @@
           "setup_s": null,
           "total_s": 36.1579410000013
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -54478,6 +54963,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 35.33663040000101,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -54747,6 +55233,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -54798,7 +55285,8 @@
           "setup_s": null,
           "total_s": 35.33663040000101
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -54836,6 +55324,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 34.52072530000078,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -55101,6 +55590,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -55152,7 +55642,8 @@
           "setup_s": null,
           "total_s": 34.52072530000078
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -55190,6 +55681,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 35.27510240000265,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -55455,6 +55947,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -55506,7 +55999,8 @@
           "setup_s": null,
           "total_s": 35.27510240000265
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -55544,6 +56038,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 34.57888639999874,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -55809,6 +56304,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -55860,7 +56356,8 @@
           "setup_s": null,
           "total_s": 34.57888639999874
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -55898,6 +56395,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 35.91091159999996,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -56163,6 +56661,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -56214,7 +56713,8 @@
           "setup_s": null,
           "total_s": 35.91091159999996
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -56252,6 +56752,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 35.74183179999818,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -56517,6 +57018,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -56568,7 +57070,8 @@
           "setup_s": null,
           "total_s": 35.74183179999818
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -56606,6 +57109,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 33.06302860000142,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -56871,6 +57375,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -56922,7 +57427,8 @@
           "setup_s": null,
           "total_s": 33.06302860000142
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -56960,6 +57466,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 34.46254409999892,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -57225,6 +57732,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -57276,7 +57784,8 @@
           "setup_s": null,
           "total_s": 34.46254409999892
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -57314,6 +57823,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 33.406229500000336,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -57579,6 +58089,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -57630,7 +58141,8 @@
           "setup_s": null,
           "total_s": 33.406229500000336
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -57668,6 +58180,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 38.17318169999999,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -57933,6 +58446,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -57984,7 +58498,8 @@
           "setup_s": null,
           "total_s": 38.17318169999999
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -58022,6 +58537,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 41.799129099999845,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -58287,6 +58803,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "lbfgs",
         "samples": {
           "access": "project-storage-not-published",
@@ -58338,7 +58855,8 @@
           "setup_s": null,
           "total_s": 41.799129099999845
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -58379,6 +58897,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 67.39908149999974,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -58648,6 +59167,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -58699,7 +59219,8 @@
           "setup_s": null,
           "total_s": 67.39908149999974
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -58740,6 +59261,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 71.6484696999978,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -59009,6 +59531,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -59060,7 +59583,8 @@
           "setup_s": null,
           "total_s": 71.6484696999978
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -59101,6 +59625,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 70.3149568000008,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -59370,6 +59895,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -59421,7 +59947,8 @@
           "setup_s": null,
           "total_s": 70.3149568000008
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -59462,6 +59989,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 69.95025100000203,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -59731,6 +60259,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -59782,7 +60311,8 @@
           "setup_s": null,
           "total_s": 69.95025100000203
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -59823,6 +60353,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 66.09587459999966,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -60092,6 +60623,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -60143,7 +60675,8 @@
           "setup_s": null,
           "total_s": 66.09587459999966
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -60184,6 +60717,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 76.39157249999698,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -60453,6 +60987,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -60504,7 +61039,8 @@
           "setup_s": null,
           "total_s": 76.39157249999698
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -60545,6 +61081,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 69.4737989000023,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -60814,6 +61351,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -60865,7 +61403,8 @@
           "setup_s": null,
           "total_s": 69.4737989000023
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -60906,6 +61445,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 72.52666970000064,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -61175,6 +61715,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -61226,7 +61767,8 @@
           "setup_s": null,
           "total_s": 72.52666970000064
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -61267,6 +61809,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 75.81179469999915,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -61536,6 +62079,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -61587,7 +62131,8 @@
           "setup_s": null,
           "total_s": 75.81179469999915
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -61628,6 +62173,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 72.26421920000212,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -61897,6 +62443,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adabelief",
         "samples": {
           "access": "project-storage-not-published",
@@ -61948,7 +62495,8 @@
           "setup_s": null,
           "total_s": 72.26421920000212
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -61989,6 +62537,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 60.81400339999891,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -62258,6 +62807,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -62309,7 +62859,8 @@
           "setup_s": null,
           "total_s": 60.81400339999891
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -62350,6 +62901,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 73.01839280000058,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -62619,6 +63171,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -62670,7 +63223,8 @@
           "setup_s": null,
           "total_s": 73.01839280000058
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -62711,6 +63265,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 82.4103772999988,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -62980,6 +63535,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -63031,7 +63587,8 @@
           "setup_s": null,
           "total_s": 82.4103772999988
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -63072,6 +63629,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 80.03578670000206,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -63341,6 +63899,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -63392,7 +63951,8 @@
           "setup_s": null,
           "total_s": 80.03578670000206
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -63433,6 +63993,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 65.21333360000062,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -63702,6 +64263,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -63753,7 +64315,8 @@
           "setup_s": null,
           "total_s": 65.21333360000062
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -63794,6 +64357,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 70.18662419999964,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -64063,6 +64627,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -64114,7 +64679,8 @@
           "setup_s": null,
           "total_s": 70.18662419999964
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -64155,6 +64721,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 69.44771910000054,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -64424,6 +64991,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -64475,7 +65043,8 @@
           "setup_s": null,
           "total_s": 69.44771910000054
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -64516,6 +65085,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 68.53761809999924,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -64785,6 +65355,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -64836,7 +65407,8 @@
           "setup_s": null,
           "total_s": 68.53761809999924
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -64877,6 +65449,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 68.20075240000006,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -65146,6 +65719,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -65197,7 +65771,8 @@
           "setup_s": null,
           "total_s": 68.20075240000006
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -65238,6 +65813,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 44.422194700000546,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -65507,6 +66083,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_adam",
         "samples": {
           "access": "project-storage-not-published",
@@ -65558,7 +66135,8 @@
           "setup_s": null,
           "total_s": 44.422194700000546
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -65599,6 +66177,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 42.91295490000266,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -65868,6 +66447,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -65919,7 +66499,8 @@
           "setup_s": null,
           "total_s": 42.91295490000266
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -65960,6 +66541,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 41.49851040000067,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -66229,6 +66811,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -66280,7 +66863,8 @@
           "setup_s": null,
           "total_s": 41.49851040000067
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -66321,6 +66905,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 40.6737910999982,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -66590,6 +67175,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -66641,7 +67227,8 @@
           "setup_s": null,
           "total_s": 40.6737910999982
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -66682,6 +67269,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 45.69898980000289,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -66951,6 +67539,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -67002,7 +67591,8 @@
           "setup_s": null,
           "total_s": 45.69898980000289
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -67043,6 +67633,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 54.98624759999802,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -67312,6 +67903,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -67363,7 +67955,8 @@
           "setup_s": null,
           "total_s": 54.98624759999802
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -67404,6 +67997,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 53.62827560000005,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -67673,6 +68267,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -67724,7 +68319,8 @@
           "setup_s": null,
           "total_s": 53.62827560000005
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -67765,6 +68361,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 59.055008200000884,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -68034,6 +68631,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -68085,7 +68683,8 @@
           "setup_s": null,
           "total_s": 59.055008200000884
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -68126,6 +68725,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 58.15068059999976,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -68395,6 +68995,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -68446,7 +69047,8 @@
           "setup_s": null,
           "total_s": 58.15068059999976
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -68487,6 +69089,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 57.2234529999987,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -68756,6 +69359,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -68807,7 +69411,8 @@
           "setup_s": null,
           "total_s": 57.2234529999987
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -68848,6 +69453,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 57.85879399999976,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -69117,6 +69723,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_lion",
         "samples": {
           "access": "project-storage-not-published",
@@ -69168,7 +69775,8 @@
           "setup_s": null,
           "total_s": 57.85879399999976
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -69209,6 +69817,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 62.29774589999943,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -69478,6 +70087,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -69529,7 +70139,8 @@
           "setup_s": null,
           "total_s": 62.29774589999943
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -69570,6 +70181,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 65.10632629999964,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -69839,6 +70451,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -69890,7 +70503,8 @@
           "setup_s": null,
           "total_s": 65.10632629999964
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -69931,6 +70545,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 62.10333900000114,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -70200,6 +70815,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -70251,7 +70867,8 @@
           "setup_s": null,
           "total_s": 62.10333900000114
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -70292,6 +70909,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 61.99807940000028,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -70561,6 +71179,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -70612,7 +71231,8 @@
           "setup_s": null,
           "total_s": 61.99807940000028
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -70653,6 +71273,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 70.64360240000315,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -70922,6 +71543,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -70973,7 +71595,8 @@
           "setup_s": null,
           "total_s": 70.64360240000315
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -71014,6 +71637,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 72.11290390000067,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -71283,6 +71907,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -71334,7 +71959,8 @@
           "setup_s": null,
           "total_s": 72.11290390000067
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -71375,6 +72001,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 74.53829150000092,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -71644,6 +72271,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -71695,7 +72323,8 @@
           "setup_s": null,
           "total_s": 74.53829150000092
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -71736,6 +72365,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 75.23567380000168,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -72005,6 +72635,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -72056,7 +72687,8 @@
           "setup_s": null,
           "total_s": 75.23567380000168
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -72097,6 +72729,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 59.957627600000706,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -72366,6 +72999,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -72417,7 +73051,8 @@
           "setup_s": null,
           "total_s": 59.957627600000706
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -72458,6 +73093,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 58.49343260000023,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -72727,6 +73363,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "multi_start_prodigy",
         "samples": {
           "access": "project-storage-not-published",
@@ -72778,7 +73415,8 @@
           "setup_s": null,
           "total_s": 58.49343260000023
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -72818,6 +73456,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1774.5028984000019,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -73103,6 +73742,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -73170,7 +73810,8 @@
           "setup_s": null,
           "total_s": 1774.5028984000019
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -73210,6 +73851,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 748.2426526999989,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -73498,6 +74140,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -73565,7 +74208,8 @@
           "setup_s": null,
           "total_s": 748.2426526999989
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -73605,6 +74249,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1677.0303433000008,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -73886,6 +74531,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -73953,7 +74599,8 @@
           "setup_s": null,
           "total_s": 1677.0303433000008
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -73993,6 +74640,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 669.7351828999963,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -74277,6 +74925,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -74344,7 +74993,8 @@
           "setup_s": null,
           "total_s": 669.7351828999963
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -74384,6 +75034,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1814.4274729999997,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -74669,6 +75320,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -74736,7 +75388,8 @@
           "setup_s": null,
           "total_s": 1814.4274729999997
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -74776,6 +75429,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1091.1838473000025,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -75064,6 +75718,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -75131,7 +75786,8 @@
           "setup_s": null,
           "total_s": 1091.1838473000025
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -75171,6 +75827,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1934.5378005999992,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -75452,6 +76109,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -75519,7 +76177,8 @@
           "setup_s": null,
           "total_s": 1934.5378005999992
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -75559,6 +76218,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 952.1634601999976,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -75843,6 +76503,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -75910,7 +76571,8 @@
           "setup_s": null,
           "total_s": 952.1634601999976
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -75950,6 +76612,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 2254.955941400003,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -76235,6 +76898,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -76302,7 +76966,8 @@
           "setup_s": null,
           "total_s": 2254.955941400003
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -76342,6 +77007,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 1459.2848690000028,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -76630,6 +77296,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -76697,7 +77364,8 @@
           "setup_s": null,
           "total_s": 1459.2848690000028
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -76737,6 +77405,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 2358.5320723999976,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -77018,6 +77687,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -77085,7 +77755,8 @@
           "setup_s": null,
           "total_s": 2358.5320723999976
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -77125,6 +77796,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1566.2881358000013,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -77409,6 +78081,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "nautilus",
         "samples": {
           "access": "project-storage-not-published",
@@ -77476,7 +78149,8 @@
           "setup_s": null,
           "total_s": 1566.2881358000013
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -77514,6 +78188,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 322.3606273000041,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -77775,6 +78450,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "smc",
         "samples": {
           "access": "project-storage-not-published",
@@ -77838,7 +78514,8 @@
           "setup_s": null,
           "total_s": 322.3606273000041
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -77879,6 +78556,7 @@
           "use_jax": true,
           "where": "local"
         },
+        "consumer_total_s": 3595.491131699997,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -77948,6 +78626,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "zeus",
         "samples": {
           "access": "project-storage-not-published",
@@ -77990,7 +78669,8 @@
           "setup_s": null,
           "total_s": 3595.491131699997
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -78031,6 +78711,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1577.4509614000017,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -78298,6 +78979,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "zeus",
         "samples": {
           "access": "project-storage-not-published",
@@ -78361,7 +79043,8 @@
           "setup_s": null,
           "total_s": 1577.4509614000017
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       },
       {
         "archived": false,
@@ -78402,6 +79085,7 @@
           "use_jax": false,
           "where": "local"
         },
+        "consumer_total_s": 1596.5888223000002,
         "dataset": {
           "class": "gaussian_x3_separated",
           "id": "gaussian_x3_separated/data_seed2",
@@ -78672,6 +79356,7 @@
         "parent_run_id": null,
         "pipeline": null,
         "precision": "fp64",
+        "provider_wall_s": null,
         "sampler": "zeus",
         "samples": {
           "access": "project-storage-not-published",
@@ -78735,7 +79420,8 @@
           "setup_s": null,
           "total_s": 1596.5888223000002
         },
-        "unknown_reasons": {}
+        "unknown_reasons": {},
+        "warm_start": null
       }
     ],
     "references": {
