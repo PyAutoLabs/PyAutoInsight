@@ -91,7 +91,7 @@ def cmd_fetch(args) -> int:
             f"(receipt {ingest.receipt_path(args.out, inst.instance)})"
             + (
                 f"; {s.shards_fetched} record shard(s) fetched, the rest unchanged"
-                if s.shards_fetched is not None
+                if s.shards_fetched is not None and not s.failed
                 else ""
             )
         )

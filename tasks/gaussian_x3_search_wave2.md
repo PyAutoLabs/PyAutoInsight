@@ -108,8 +108,10 @@ When 409930 finishes:
   (`lens`), so the split took the next version. The registry pins `@3` with
   `migrating_from: inference-summary@1`, so the committed `@1` snapshot stays valid
   until the first `@3` capture.
-- **Insight snapshot.** It is not refreshed in this task. A local read of the B5b-2
-  branch (`check --from fit=<checkout>`) validates all 12,973 records in 101 shards.
+- **Insight snapshot.** It is not refreshed in this task. In a local read of the B5b-2
+  branch (`check --from fit=<checkout>`), the `fit` line validates all 12,973 records in
+  101 shards. The overall result is still `FAIL`, because any `--from` read changes the
+  dashboard input marker; that is expected for a local read.
 
 ## Next
 
