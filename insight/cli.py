@@ -89,6 +89,11 @@ def cmd_fetch(args) -> int:
             f"{inst.instance}: {receipt.get('outcome')} at "
             f"{(receipt.get('resolved_commit') or 'unresolved')[:12]} "
             f"(receipt {ingest.receipt_path(args.out, inst.instance)})"
+            + (
+                f"; {s.shards_fetched} record shard(s) fetched, the rest unchanged"
+                if s.shards_fetched is not None
+                else ""
+            )
         )
         if s.failed:
             print(f"  {'; '.join(s.errors)}", file=sys.stderr)
@@ -198,9 +203,13 @@ def cmd_check(args) -> int:
                 problems.append(f"{key}: receipt does not record the snapshot commit")
                 print(f"FAIL {key}: receipt does not record the snapshot commit")
                 continue
-            # The committed snapshot must still validate under this reader.
+            # The committed snapshot must still validate under this reader (under the
+            # registry's migrating_from schema while a pin migration awaits its refresh).
             outcome, errors = summary_mod.classify(
-                s.doc, (s.instance.schema_name, s.instance.schema_version)
+                s.doc,
+                s.instance.previous_schema
+                if s.migrating
+                else (s.instance.schema_name, s.instance.schema_version),
             )
             if outcome != "ok":
                 problems.append(f"{key}: snapshot {outcome}: {'; '.join(errors)}")
@@ -210,7 +219,14 @@ def cmd_check(args) -> int:
             f"ok   {key}: {s.doc['schema']}@{s.doc['version']} valid, "
             f"{len(board.records(s))} records, {len(board.comparisons(s))} comparisons at "
             f"{(s.commit or 'unknown')[:12]} ({mode if s.source == 'remote' else 'local read'})"
+            + (
+                f" in {len(s.doc['record_shards'])} shards"
+                if s.doc.get("version") == summary_mod.SHARDED
+                else ""
+            )
         )
+        if s.migrating:
+            print(f"note {key}: {s.migrating}")
     out = Path(args.out)
     md, page = out / "dashboard.md", out / "dashboard.html"
     if not md.is_file() or not page.is_file():

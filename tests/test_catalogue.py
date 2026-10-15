@@ -21,7 +21,7 @@ def test_baseline_cold_warm_and_resume_are_valid_but_not_automatically_accepted(
     assert doc["records"][0]["timings"]["initialization_s"] is None
 
 
-@pytest.mark.parametrize("version", [True, 0, 3, "2", None])
+@pytest.mark.parametrize("version", [True, 0, 4, "2", None])
 def test_unsupported_versions(version):
     doc = document()
     doc["version"] = version

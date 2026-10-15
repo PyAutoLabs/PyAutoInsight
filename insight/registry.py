@@ -26,7 +26,11 @@ BODY_MAP = "repos.yaml"
 BRANCH = "main"  # the branch every ingest resolves to one commit
 
 REQUIRED = ("instance", "repo", "summary_path", "supported_schema", "dashboard_url")
-FIELDS = (*REQUIRED, "library_refs", "cortex_project")
+#: ``migrating_from``: the schema an instance's pin moved from. While it is set, a
+#: committed last-good capture made under that older schema is still shown (as a
+#: capture awaiting its first refresh under the new pin) instead of being invalid; a
+#: fresh fetch must still return the pinned schema.
+FIELDS = (*REQUIRED, "library_refs", "cortex_project", "migrating_from")
 
 _KEY = re.compile(r"^[a-z][a-z0-9_-]*$")
 _GITHUB = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
@@ -47,6 +51,7 @@ class Instance:
     dashboard_url: str
     library_refs: tuple[str, ...] = ()
     cortex_project: str | None = None
+    migrating_from: str | None = None
     # Resolved from the body map, never written in registry.yaml.
     path: str = ""
     github: str = ""
@@ -67,6 +72,14 @@ class Instance:
     @property
     def schema_version(self) -> int:
         return int(_SCHEMA.match(self.supported_schema)[2])
+
+    @property
+    def previous_schema(self) -> tuple[str, int] | None:
+        """``(name, version)`` of ``migrating_from``, or None."""
+        if not self.migrating_from:
+            return None
+        m = _SCHEMA.match(self.migrating_from)
+        return (m[1], int(m[2]))
 
     def blob_url(self, commit: str | None, path: str) -> str:
         """The GitHub page of ``path`` at ``commit`` (the branch when unknown)."""
@@ -202,6 +215,18 @@ def validate(data, body_map: dict[str, dict] | None = None) -> list[str]:
         schema = row.get("supported_schema")
         if isinstance(schema, str) and not _SCHEMA.match(schema):
             problems.append(f"{where}: supported_schema must be <name>@<integer version>")
+        previous = row.get("migrating_from")
+        if previous is not None:
+            m, cur = (
+                _SCHEMA.match(previous) if isinstance(previous, str) else None,
+                _SCHEMA.match(schema) if isinstance(schema, str) else None,
+            )
+            if not m:
+                problems.append(f"{where}: migrating_from must be <name>@<integer version>")
+            elif cur and (m[1] != cur[1] or int(m[2]) >= int(cur[2])):
+                problems.append(
+                    f"{where}: migrating_from must be an older version of supported_schema"
+                )
         url = row.get("dashboard_url")
         if isinstance(url, str) and not _https_url(url):
             problems.append(f"{where}: dashboard_url must be an https:// URL")
@@ -266,6 +291,7 @@ def load(
                 dashboard_url=row["dashboard_url"],
                 library_refs=tuple(row.get("library_refs") or ()),
                 cortex_project=row.get("cortex_project"),
+                migrating_from=row.get("migrating_from"),
                 path=str(entry.get("path") or row["repo"]),
                 github=str(entry["github"]),
             )

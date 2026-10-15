@@ -9,11 +9,11 @@ There is no inference conductor and no new scientific execution engine.
 
 `registry.yaml` version `schema: 1` lists instances with `instance`, `repo`,
 `summary_path`, `supported_schema`, `dashboard_url`, `library_refs` and
-`cortex_project`. Repository identity/location resolves from Mind's `repos.yaml`.
+`cortex_project`, plus an optional `migrating_from` (below). Repository identity/location resolves from Mind's `repos.yaml`.
 A source is registered once. A fixture demonstrates generic reading without being
 registered as a real second adopter. Initial real producer: autolens_inference.
 
-The reader supports `schema: inference-summary`, integer `version: 1` or `2`.
+The reader supports `schema: inference-summary`, integer `version: 1`, `2` or `3`.
 Required envelope keys: project, scope, generated_at, evidence_updated_at,
 producer_revision, coverage, records, comparisons, comparison_policy, limitations.
 `project` equals the registry's Mind identity. Times are UTC; unknown evidence time
@@ -190,6 +190,47 @@ migration. Unmapped records retain explicit null bindings and reasons. Empty v2
 lists remain a valid "no measurements" state. The producer and executor must
 validate model/prior/artifact provenance; the dashboard and assistant consume
 the same project-owned catalogue rather than independently reconstructing it.
+
+## Version 3: record shards
+
+V3 is v1's envelope and record contract with the records held in shard files, so
+a producer with many records never commits one large file and a refresh copies
+only what changed. Live producer: `fit` (autofit_inference, 2026-10-15, B5b-2).
+It does not add v2's setups; v1 and v2 remain valid for the instances pinned to
+them.
+
+The summary file is an **index**: every v1 envelope key except `records`, which
+must be absent, plus `record_shards`, a list of
+`{id, protocol_id, path, sha256, records}`. `id` and `path` are unique; `path` is
+a safe path relative to the index's directory; `sha256` is the lowercase hex
+digest of the shard file's exact bytes; `records` is its record count. Each shard
+is an object with `schema: inference-summary-records`, `version: 3`, the index's
+`project`, `shard` (its index `id`), `protocol_id` and `records`. A record that
+names a protocol (`protocol_id` or `scientific.protocol_id`) must name its
+shard's. The producer chooses the split (autofit_inference: one shard per protocol
+× dataset × search × settings × configuration, one record per line).
+
+The reader verifies every shard's digest, header and count, then assembles the
+records in index order and validates the result exactly as v1, with record ids
+unique across shards and comparisons resolved across them. A missing, altered or
+mismatched shard invalidates the whole capture; no partial capture is shown. The
+board lists one row per shard (protocol, records, execution, convergence and
+acceptance counts, a link to the shard at the captured commit), never every
+record; each shard file holds the full record provenance.
+
+A capture keeps the index in `snapshots/<instance>.json` (no inline records) and
+each shard's bytes, unchanged, at `snapshots/<instance>/<path>`. A refresh reuses
+every kept shard whose digest is unchanged and fetches only the others, at the same
+resolved commit; it writes shards only after the whole capture validates and then
+removes kept shards the new index no longer names. Offline reads re-verify the
+kept shards. A local `--from` read takes shards from beside the index.
+
+**Pin migration.** A row moving to a new version may declare `migrating_from:
+<schema>@<older version>`. Until the first capture under the new pin, the
+committed capture made under that older schema remains valid last-good evidence,
+labelled as awaiting its refresh; offline checks pass and say so. A fresh fetch
+must return the pinned version (an older one is `unsupported`, and the old
+capture is shown cached). Remove the field once the new capture is committed.
 
 ## Ingest and output
 
