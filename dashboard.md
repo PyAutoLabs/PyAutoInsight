@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:9db3e6e97a334957005fd43f17fa206ad9c2c62e5e34d489fa51e61d318c92da -->
+<!-- insight-inputs:764835307ab9042d793fc424008db7f4f1b21ca6e672f924e21dd2a696c5d281 -->
 
 | Where | Count |
 |---|---:|

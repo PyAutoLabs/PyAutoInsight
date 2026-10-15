@@ -11,9 +11,6 @@ instances:
     repo: autofit_inference
     summary_path: dashboard/summary.json
     supported_schema: inference-summary@3
-    # Until the first @3 capture: the committed @1 snapshot stays valid last-good
-    # evidence. Remove once snapshots/fit.json is @3 (B5b-2, autofit_inference#12).
-    migrating_from: inference-summary@1
     dashboard_url: https://github.com/PyAutoLabs/autofit_inference#readme
     library_refs: [PyAutoFit]
     cortex_project: autofit_inference

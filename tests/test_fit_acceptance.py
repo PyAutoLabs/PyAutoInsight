@@ -11,6 +11,8 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from insight import summary
+
 ROOT = Path(__file__).resolve().parents[1]
 PILOT_RECORDS = 223
 #: The B3 pilot (autofit_inference 900648b) carries producer revision 0c87bf1; the B3c
@@ -37,14 +39,28 @@ def _load(kind):
     return json.loads((ROOT / kind / "fit.json").read_text())
 
 
+def _records(doc):
+    """The capture's records: inline for v1/v2, assembled from the committed shards
+    under ``snapshots/fit/`` for a v3 index (B5b-2 moved ``fit`` to
+    ``inference-summary@3``; the pilot rows live in the ``gaussian_x3@1`` shards)."""
+    if doc.get("version") != summary.SHARDED:
+        return doc["records"]
+    assembled, errors = summary.load_sharded(
+        doc, lambda path: (ROOT / "snapshots" / "fit" / path).read_bytes()
+    )
+    assert not errors, errors
+    return assembled["records"]
+
+
 def test_fit_capture_holds_the_wave1_pilot():
     snap, receipt = _load("snapshots"), _load("receipts")
     doc = snap["summary"]
     assert receipt["outcome"] == "ok"
     assert receipt["resolved_commit"] == snap["commit"]
     assert not any(snap["commit"].startswith(c) for c in PRE_PILOT_COMMITS)
-    assert receipt["record_count"] == len(doc["records"])
-    pilot = [r for r in doc["records"] if r["configuration"].get("pilot") is True]
+    recs = _records(doc)
+    assert receipt["record_count"] == len(recs)
+    pilot = [r for r in recs if r["configuration"].get("pilot") is True]
     assert len(pilot) == PILOT_RECORDS, "the fit capture lost or never had the B3 pilot"
     assert doc["coverage"]["observed"]["records"] >= PILOT_RECORDS
 
@@ -55,5 +71,5 @@ def test_fit_capture_counts_match_the_known_producer_revision():
     if expected is None:
         # A later producer revision: only the pilot-presence invariant above applies.
         return
-    got = Counter(r["scientific"]["acceptance"] for r in doc["records"])
+    got = Counter(r["scientific"]["acceptance"] for r in _records(doc))
     assert dict(got) == expected
