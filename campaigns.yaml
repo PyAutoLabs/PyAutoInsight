@@ -92,17 +92,18 @@ campaigns:
 - id: gaussian-x3-search-benchmark
   title: PyAutoFit search benchmark on gaussian_x3 (autofit_inference)
   status: running
-  updated: '2026-10-14'
-  next: Scored wave 2 submitted on RAL partition ral 2026-10-14 (gaussian_x3@2 frozen in autofit_inference
-    72d6faaf1717; PyAutoFit pin df6d218f10cd; references 408244/408245, probe 408246, builds 408346/408347,
-    scored arrays 408348/408365/408366/408367); when they finish, B5b pulls, judges under @2 and publishes.
-  recent_progress: Wave-1 pilot stopped at 223 of 520 runs (2026-10-08); gaussian_x3@2 frozen from its 17-row
-    calibration before any scored run and scored wave 2 (11,750 runs + 20-run probe) submitted 2026-10-14 (B5a,
-    autofit_inference#9).
-  blockers: none for the running wave; the JAX blend realisation-1 reference is built on the laptop in B5b.
-  job_status: unknown — live scheduler not queried; the Cortex ledger records the submission of 2026-10-14
-    17:19 BST
-  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/8
+  updated: '2026-10-15'
+  next: B5b-2 — when RAL job 409930 (the 980-run probe-first remainder, Zeus JAX + NSS 50-step) finishes, pull
+    and judge it under gaussian_x3@2 to close wave 2, refresh the fit snapshot from main, and apply the human's
+    choice of form for the wave-2 summary records (autofit_inference#10).
+  recent_progress: Scored wave 2 pulled and judged under gaussian_x3@2 (B5b, 2026-10-15, autofit_inference#10)
+    — 11,770 rows admitted at the pin df6d218f10cd; all 20 per-realisation references complete; catalogue
+    gaussian_x3@2 section orders legs within one task and one dataset; probe-first remainder submitted as 409930.
+  blockers: the wave-2 summary records are withheld on size (~84 MB) pending a human choice of form
+    (autofit_inference#10); the probe-first cells stay open until 409930 is pulled.
+  job_status: unknown — live scheduler not queried; the Cortex ledger records 409930 submitted 2026-10-15 on
+    ral
+  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/10
   project: autofit_inference
 tasks:
 - id: drop_1e3_prior_centring_after_631
@@ -181,7 +182,7 @@ tasks:
   status: running
   priority: high
   path: tasks/gaussian_x3_search_wave2.md
-  updated: '2026-10-14'
-  next: Submitted on RAL ral 2026-10-14 under gaussian_x3@2 (Cortex autofit_inference Runs); B5b pulls, builds the
-    JAX blend realisation-1 reference, sets probe-first timeouts, judges under @2 and publishes.
-  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/8
+  updated: '2026-10-15'
+  next: B5b judged the scored arrays under gaussian_x3@2 and submitted the probe-first remainder (409930); B5b-2
+    pulls and judges it, then refreshes the fit snapshot from main.
+  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/10
