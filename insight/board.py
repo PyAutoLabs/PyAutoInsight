@@ -6,6 +6,7 @@ import hashlib
 import html
 import json
 import re
+from collections import Counter
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -27,6 +28,24 @@ def records(s):
 
 def comparisons(s):
     return (s.doc or {}).get("comparisons", [])
+
+
+def sharded(s):
+    return (s.doc or {}).get("version") == summary.SHARDED
+
+
+def shard_rows(s):
+    """``(shard entry, its records)`` of a v3 capture: the assembled records are
+    the shards' records concatenated in index order with the declared counts."""
+    recs, at = records(s), 0
+    for entry in (s.doc or {}).get("record_shards", []):
+        yield entry, recs[at : at + entry["records"]]
+        at += entry["records"]
+
+
+def _tally(recs, pick):
+    counts = Counter(pick(r) for r in recs)
+    return ", ".join(f"{k} {n}" for k, n in sorted(counts.items(), key=lambda kv: str(kv[0])))
 
 
 def integrity(s):
@@ -75,7 +94,9 @@ def input_marker(views, data):
             "instance": vars(s.instance),
             "outcome": s.outcome,
             "source": s.source,
-            "doc": s.doc,
+            # A v3 index's sha256 digests pin every shard's records.
+            "doc": summary.index_of(s.doc),
+            "migrating": s.migrating,
             "commit": s.commit,
             "fetched_at": s.fetched_at,
             "errors": s.errors,
@@ -149,6 +170,8 @@ def _detail(s, now=None):
         parts.append(
             '<p class="warn">Local preview, not a published capture. No receipt written.</p>'
         )
+    if s.migrating:
+        parts.append('<p class="warn">' + e(s.migrating) + ".</p>")
     if d.get("version") == 2:
         nav, _ = setup_browser.render(s, now)
         warnings = []
@@ -169,6 +192,8 @@ def _detail(s, now=None):
     ]
     if not records(s):
         parts.append("<p>No measurements. An empty feed does not mean scientific success.</p>")
+    if sharded(s):
+        return "".join(parts + [_shard_html(s)]) + "</details></div>"
     for archived, label in [(False, "Current results"), (True, "Historical project results")]:
         rows = []
         for r in records(s):
@@ -263,6 +288,62 @@ def _detail(s, now=None):
     return "".join(parts) + "</details></div>"
 
 
+def _shard_html(s):
+    """A v3 capture, one row per record shard (a protocol × leg): its counts and a
+    link to the shard at the captured commit. Records are not listed one by one;
+    each shard file holds their full provenance."""
+    inst = s.instance
+    rows = []
+    for entry, recs in shard_rows(s):
+        where = summary.shard_location(inst.summary_path, entry["path"])
+        rows.append(
+            [
+                e(entry["protocol_id"]),
+                e(entry["id"]),
+                e(len(recs)),
+                e(_tally(recs, lambda r: str(r["execution"]["status"]).split(":", 1)[0])),
+                e(_tally(recs, lambda r: r["scientific"]["convergence"])),
+                e(_tally(recs, lambda r: r["scientific"]["acceptance"])),
+                f'<a href="{e(inst.blob_url(s.commit, where))}">records</a>',
+            ]
+        )
+    return (
+        "<h3>Record shards</h3><p>inference-summary@3: the records are held in one file per "
+        "protocol and leg, each verified against the index's sha256 at the captured commit. "
+        "Counts are the producer's assertions, shown without ranking; each shard file "
+        "holds every record's diagnostics, timings and provenance.</p>"
+        + table(
+            [
+                "Protocol",
+                "Shard",
+                "Records",
+                "Execution",
+                "Convergence",
+                "Acceptance",
+                "Evidence",
+            ],
+            rows,
+        )
+        + "<h3>Comparisons and parity groups</h3><p>Targets, seeds and stages are retained. No best-seed selection, cross-target ranking or automatic convergence threshold. Declared groups do not themselves certify parity.</p>"
+        + (
+            "<p>No certified comparison pairs supplied by this producer.</p>"
+            if not comparisons(s)
+            else "".join(
+                "<p>"
+                + e(c["id"])
+                + ": "
+                + e(
+                    "refused: " + "; ".join(reasons)
+                    if (reasons := summary.comparison_refusals(s.doc, c))
+                    else "producer-declared protocol " + c["protocol"]
+                )
+                + "</p>"
+                for c in comparisons(s)
+            )
+        )
+    )
+
+
 def _captured_at(views):
     """Oldest successful observation of displayed inputs; failed or missing inputs stay unknown.
 
@@ -345,7 +426,40 @@ def render_markdown(views, now=None, campaign_data=None):
         ]
         if s.cached:
             out.append("Cached: original evidence and capture times retained.")
+        if s.migrating:
+            out.append(s.migrating[0].upper() + s.migrating[1:] + ".")
         if not s.doc:
+            continue
+        if sharded(s):
+            out += [
+                "",
+                "Coverage: " + _dump(s.doc["coverage"]),
+                *s.doc["limitations"],
+                "",
+                "| Protocol | Shard | Records | Execution | Convergence | Acceptance | Evidence |",
+                "|---|---|---:|---|---|---|---|",
+            ]
+            for entry, recs in shard_rows(s):
+                where = summary.shard_location(s.instance.summary_path, entry["path"])
+                vals = [
+                    entry["protocol_id"],
+                    entry["id"],
+                    len(recs),
+                    _tally(recs, lambda r: str(r["execution"]["status"]).split(":", 1)[0]),
+                    _tally(recs, lambda r: r["scientific"]["convergence"]),
+                    _tally(recs, lambda r: r["scientific"]["acceptance"]),
+                ]
+                out.append(
+                    "| "
+                    + " | ".join(md(v) for v in vals)
+                    + f" | [records]({s.instance.blob_url(s.commit, where)}) |"
+                )
+            for c in comparisons(s):
+                out.append(
+                    f"Comparison {md(c['id'])}: "
+                    + md(summary.comparison_refusals(s.doc, c) or c["protocol"])
+                )
+            out.append("")
             continue
         if s.doc.get("version") == 2:
             for setup in s.doc["setups"]:

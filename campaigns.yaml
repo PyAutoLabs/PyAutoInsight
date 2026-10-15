@@ -93,17 +93,16 @@ campaigns:
   title: PyAutoFit search benchmark on gaussian_x3 (autofit_inference)
   status: running
   updated: '2026-10-15'
-  next: B5b-2 — when RAL job 409930 (the 980-run probe-first remainder, Zeus JAX + NSS 50-step) finishes, pull
-    and judge it under gaussian_x3@2 to close wave 2, refresh the fit snapshot from main, and apply the human's
-    choice of form for the wave-2 summary records (autofit_inference#10).
-  recent_progress: Scored wave 2 pulled and judged under gaussian_x3@2 (B5b, 2026-10-15, autofit_inference#10)
-    — 11,770 rows admitted at the pin df6d218f10cd; all 20 per-realisation references complete; catalogue
-    gaussian_x3@2 section orders legs within one task and one dataset; probe-first remainder submitted as 409930.
-  blockers: the wave-2 summary records are withheld on size (~84 MB) pending a human choice of form
-    (autofit_inference#10); the probe-first cells stay open until 409930 is pulled.
-  job_status: unknown — live scheduler not queried; the Cortex ledger records 409930 submitted 2026-10-15 on
-    ral
-  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/10
+  next: After the B5b-2 PRs merge, capture the fit snapshot from main under inference-summary@3, run
+    pyauto-insight check online and drop the registry's migrating_from; then B5c (a second model family).
+  recent_progress: Wave 2 closed (B5b-2, 2026-10-15, autofit_inference#12) — RAL 409930 pulled, 12,750 rows
+    admitted at the pin df6d218f10cd with 0 missing; NSS 50-step leads both evidence rankings; the catalogue
+    ranks only legs with success rate >= 50 % over >= 20 attempts (post-hoc presentation convention); fit
+    records published as inference-summary@3 (101 record shards).
+  blockers: none recorded; the fit snapshot stays the committed @1 capture until the first @3 refresh.
+  job_status: unknown — live scheduler not queried; the Cortex ledger records 409930 COMPLETED (all 20
+    tasks, 2026-10-15)
+  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/12
   project: autofit_inference
 tasks:
 - id: drop_1e3_prior_centring_after_631
@@ -183,6 +182,6 @@ tasks:
   priority: high
   path: tasks/gaussian_x3_search_wave2.md
   updated: '2026-10-15'
-  next: B5b judged the scored arrays under gaussian_x3@2 and submitted the probe-first remainder (409930); B5b-2
-    pulls and judges it, then refreshes the fit snapshot from main.
-  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/10
+  next: Wave 2 is closed and judged (B5b-2); the fit snapshot is captured from main under inference-summary@3
+    after the B5b-2 PRs merge.
+  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/12

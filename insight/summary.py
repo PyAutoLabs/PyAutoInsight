@@ -1,13 +1,28 @@
-"""Validate inference-summary v1/v2 without interpreting scientific quality."""
+"""Validate inference-summary v1/v2/v3 without interpreting scientific quality.
+
+v3 is v1's envelope and record contract with the records held in shard files: the
+summary file is an index whose ``record_shards`` name each shard's path (relative to
+the index's directory), sha256 and record count. :func:`load_sharded` reads and
+verifies the shards and returns the assembled document (index fields plus the
+concatenated ``records``), which :func:`validate` then checks exactly like v1.
+"""
 
 from __future__ import annotations
 
+import hashlib
+import json
 import math
+import posixpath
 import re
 from datetime import datetime
 from urllib.parse import unquote
 
 SHA = re.compile(r"^[0-9a-f]{40}$")
+SHA256 = re.compile(r"^[0-9a-f]{64}$")
+VERSIONS = (1, 2, 3)
+#: The schema of a v3 shard file.
+SHARD_SCHEMA = "inference-summary-records"
+SHARDED = 3
 
 
 def parse_utc(value):
@@ -50,7 +65,7 @@ def supported(doc, wanted=None):
     if not isinstance(doc, dict):
         return "summary is not an object"
     got = doc.get("schema"), doc.get("version")
-    if got[0] != "inference-summary" or type(got[1]) is not int or got[1] not in (1, 2):
+    if got[0] != "inference-summary" or type(got[1]) is not int or got[1] not in VERSIONS:
         return f"unsupported schema {got!r}"
     if wanted is not None and got != tuple(wanted):
         return "summary schema differs from registry"
@@ -306,7 +321,127 @@ def validate(doc):
         from insight import catalogue
 
         errors.extend(catalogue.validate(doc))
+    if doc.get("version") == SHARDED:
+        errors.extend(validate_shard_index(doc))
+        shards = doc.get("record_shards")
+        if isinstance(shards, list) and all(isinstance(x, dict) for x in shards):
+            declared = sum(x.get("records") for x in shards if type(x.get("records")) is int)
+            if declared != len(recs):
+                errors.append(
+                    f"record_shards declare {declared} records but {len(recs)} were assembled"
+                )
     return errors
+
+
+def validate_shard_index(doc):
+    """The v3 ``record_shards`` list: unique ids and paths, safe relative paths,
+    sha256 digests and nonnegative record counts. Index-only: no shard is read."""
+    shards = doc.get("record_shards")
+    if not isinstance(shards, list):
+        return ["record_shards must be a list"]
+    errors, ids, paths = [], set(), set()
+    for i, x in enumerate(shards):
+        if not isinstance(x, dict):
+            errors.append(f"record_shards[{i}] is not an object")
+            continue
+        sid = x.get("id")
+        if not _text(sid):
+            errors.append(f"record_shards[{i}] needs id")
+        elif sid in ids:
+            errors.append(f"duplicate record shard id {sid}")
+        ids.add(sid)
+        if not _text(x.get("protocol_id")):
+            errors.append(f"record shard {sid}: protocol_id must be nonempty text")
+        path = x.get("path")
+        if not safe_relative_path(path):
+            errors.append(f"record shard {sid}: unsafe or missing path")
+        elif path in paths:
+            errors.append(f"record shard {sid}: duplicate path")
+        paths.add(path)
+        if not isinstance(x.get("sha256"), str) or not SHA256.fullmatch(x["sha256"]):
+            errors.append(f"record shard {sid}: sha256 must be 64 lowercase hex")
+        if type(x.get("records")) is not int or x["records"] < 0:
+            errors.append(f"record shard {sid}: records must be a nonnegative integer")
+    return errors
+
+
+def shard_location(summary_path, shard_path):
+    """A shard's path in the producer repository: relative to the index's directory."""
+    return posixpath.join(posixpath.dirname(summary_path), shard_path)
+
+
+def load_sharded(index, read):
+    """Assemble a v3 index with its shards.
+
+    ``read(shard_path) -> bytes`` returns a shard's bytes (``shard_path`` as the
+    index declares it). Each shard must match its declared sha256, be a
+    ``inference-summary-records`` v3 object of this project and declare the
+    index entry's shard id, protocol id and record count; a record that names a
+    protocol must name the shard's. Returns ``(assembled document or None,
+    errors)``; the assembled document still has to pass :func:`validate`.
+    """
+    if not isinstance(index, dict) or index.get("version") != SHARDED:
+        return None, ["not an inference-summary v3 index"]
+    if "records" in index:
+        return None, ["a v3 index carries its records in record_shards, never inline"]
+    errors = validate_shard_index(index)
+    if errors:
+        return None, errors
+    records = []
+    for x in index["record_shards"]:
+        sid = x["id"]
+        try:
+            body = read(x["path"])
+        except Exception as exc:  # noqa: BLE001 - any read failure is reported, never raised
+            errors.append(f"record shard {sid}: unreadable ({exc})")
+            continue
+        if hashlib.sha256(body).hexdigest() != x["sha256"]:
+            errors.append(f"record shard {sid}: sha256 differs from the index")
+            continue
+        try:
+            shard = json.loads(body)
+        except ValueError as exc:
+            errors.append(f"record shard {sid}: not JSON ({exc})")
+            continue
+        if not isinstance(shard, dict):
+            errors.append(f"record shard {sid}: not an object")
+            continue
+        for key, want in (
+            ("schema", SHARD_SCHEMA),
+            ("version", SHARDED),
+            ("project", index.get("project")),
+            ("shard", sid),
+            ("protocol_id", x["protocol_id"]),
+        ):
+            if shard.get(key) != want:
+                errors.append(f"record shard {sid}: {key} {shard.get(key)!r} != {want!r}")
+        recs = shard.get("records")
+        if not isinstance(recs, list):
+            errors.append(f"record shard {sid}: records must be a list")
+            continue
+        if len(recs) != x["records"]:
+            errors.append(f"record shard {sid}: {len(recs)} records, index declares {x['records']}")
+        for r in recs:
+            if isinstance(r, dict):
+                named = {r.get("protocol_id"), (r.get("scientific") or {}).get("protocol_id")}
+                named.discard(None)
+                if named and named != {x["protocol_id"]}:
+                    errors.append(
+                        f"record shard {sid}: record {r.get('id')} names protocol "
+                        f"{sorted(named)}, not the shard's"
+                    )
+        records.extend(recs)
+    if errors:
+        return None, errors
+    return {**index, "records": records}, []
+
+
+def index_of(doc):
+    """A v3 document without its assembled records (what the producer published
+    as the summary file); other versions unchanged."""
+    if isinstance(doc, dict) and doc.get("version") == SHARDED:
+        return {k: v for k, v in doc.items() if k != "records"}
+    return doc
 
 
 def classify(doc, wanted=None):

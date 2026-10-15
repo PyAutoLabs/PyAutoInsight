@@ -18,10 +18,22 @@ A local
 ``--from`` read reports the checkout's revision and dirty state, is labelled
 "local checkout", and writes no receipt or snapshot: it cannot masquerade as
 a published capture.
+
+An ``inference-summary@3`` summary is an index of record shards. Each shard is
+read at the same resolved commit, verified against the index's sha256 and kept
+beside the snapshot (``snapshots/<instance>/<shard path>``, bytes unchanged); a
+refresh reuses every kept shard whose sha256 is unchanged and fetches only the
+rest. Shards are written only after the whole capture validates, and shards the
+new index no longer names are then removed.
+
+While a registry row declares ``migrating_from``, a committed capture made
+under that older schema stays valid as last-good evidence, labelled as awaiting
+its first refresh under the new pin; a fresh fetch must return the pinned schema.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -113,6 +125,8 @@ class Snapshot:
     checkout: str | None = None
     source_branch: str | None = None
     refreshed_at: str | None = None  # latest successful observation, independent of capture
+    migrating: str | None = None  # shown capture predates the pin (registry migrating_from)
+    shards_fetched: int | None = None  # v3 online ingest: shards fetched (rest reused)
 
     @property
     def failed(self) -> bool:
@@ -125,6 +139,40 @@ def receipt_path(out_dir: Path, name: str) -> Path:
 
 def snapshot_path(out_dir: Path, name: str) -> Path:
     return Path(out_dir) / "snapshots" / f"{name}.json"
+
+
+def shard_dir(out_dir: Path, name: str) -> Path:
+    """Where a v3 capture's shards are kept: ``snapshots/<instance>/``."""
+    return Path(out_dir) / "snapshots" / name
+
+
+def _kept_shards(out_dir: Path, name: str):
+    """``read(path) -> bytes`` over the kept shards of a v3 capture."""
+    base = shard_dir(out_dir, name)
+    return lambda path: (base / path).read_bytes()
+
+
+def _cached_classify(doc, inst):
+    """Classify a committed capture: under the pin, or, while the row declares
+    ``migrating_from``, under that older schema. Returns ``(outcome, errors,
+    migrating note or None)``."""
+    outcome, errors = summary_mod.classify(doc, (inst.schema_name, inst.schema_version))
+    previous = inst.previous_schema
+    if (
+        outcome == "unsupported"
+        and previous
+        and isinstance(doc, dict)
+        and (doc.get("schema"), doc.get("version")) == previous
+    ):
+        outcome, errors = summary_mod.classify(doc, previous)
+        if outcome == "ok":
+            return (
+                "ok",
+                [],
+                f"captured under {inst.migrating_from}; the registry pins "
+                f"{inst.supported_schema}, awaiting the first refresh under it",
+            )
+    return outcome, errors, None
 
 
 def _read_json(path: Path) -> dict | None:
@@ -207,9 +255,14 @@ def _from_files(inst: Instance, out_dir: Path) -> Snapshot:
             view.outcome = "invalid"
             view.errors += problems
     if snap is not None:
-        outcome, errors = summary_mod.classify(
-            snap["summary"], (inst.schema_name, inst.schema_version)
-        )
+        doc, errors = snap["summary"], []
+        if doc.get("version") == summary_mod.SHARDED:
+            doc, errors = summary_mod.load_sharded(doc, _kept_shards(out_dir, inst.instance))
+            errors = [f"cached {e}" for e in errors]
+        if errors:
+            view.outcome, view.errors = "invalid", errors
+            return view
+        outcome, errors, migrating = _cached_classify(doc, inst)
         if snap.get("repo") != inst.repo or snap["summary"].get("project") != inst.repo:
             errors.append("cached project identity differs from registry")
         if snap.get("github") != inst.github or snap.get("summary_path") != inst.summary_path:
@@ -221,7 +274,8 @@ def _from_files(inst: Instance, out_dir: Path) -> Snapshot:
         if outcome != "ok" or errors:
             view.outcome, view.errors = "invalid", errors
             return view
-        view.doc = snap["summary"]
+        view.doc = doc
+        view.migrating = migrating
         view.commit = snap.get("commit")
         view.fetched_at = snap.get("fetched_at")
         view.source = "remote"
@@ -253,6 +307,7 @@ def ingest(
 
     now = now or utc_now()
     commit, doc, errors, outcome = None, None, [], "ok"
+    index, shard_bytes, fetched = None, {}, None
     try:
         commit = resolve_commit(inst.github, inst.branch)
         raw = fetch_at(inst.github, commit, inst.summary_path)
@@ -261,13 +316,29 @@ def ingest(
         except ValueError as exc:
             outcome, errors = "invalid", [f"{inst.summary_path} is not JSON ({exc})"]
         else:
-            outcome, errors = summary_mod.classify(doc, wanted)
+            why = summary_mod.supported(doc, wanted)
+            if why is None and doc.get("version") == summary_mod.SHARDED:
+                index = doc
+                shard_bytes, fetched, errors = _fetch_shards(inst, out_dir, commit, index)
+                if errors:
+                    outcome, doc = "invalid", None
+                else:
+                    doc, errors = summary_mod.load_sharded(index, shard_bytes.__getitem__)
+                    outcome = "invalid" if errors else "ok"
+            if outcome == "ok":
+                outcome, errors = summary_mod.classify(doc, wanted)
             if outcome == "ok" and doc.get("project") != inst.repo:
                 outcome, errors = "invalid", ["project identity differs from registry"]
     except FetchError as exc:
         outcome, errors = "unavailable", [str(exc)]
 
     snap_file = snapshot_path(out_dir, inst.instance)
+    # Order: changed shards, then the index, then the pruning of shards the new index
+    # no longer names. An interrupted refresh leaves a capture whose digests no longer
+    # match (offline: invalid, never a silently mixed capture); the next refresh
+    # re-fetches every mismatched shard and repairs it.
+    if outcome == "ok" and index is not None:
+        _keep_shards(out_dir, inst.instance, shard_bytes)
     if outcome == "ok":
         _carry(
             snap_file,
@@ -278,9 +349,11 @@ def ingest(
                 "summary_path": inst.summary_path,
                 "commit": commit,
                 "fetched_at": now,
-                "summary": doc,
+                "summary": summary_mod.index_of(doc),
             },
         )
+    if outcome == "ok" and index is not None:
+        _prune_shards(out_dir, inst.instance, shard_bytes)
     last_good = read_snapshot(out_dir, inst.instance)
     receipt = {
         "instance": inst.instance,
@@ -297,6 +370,11 @@ def ingest(
         "record_count": len(doc["records"])
         if isinstance(doc, dict) and isinstance(doc.get("records"), list)
         else None,
+        **(
+            {"record_shards": len(index["record_shards"])}
+            if outcome == "ok" and index is not None
+            else {}
+        ),
         "errors": errors,
         "cached_from": last_good.get("fetched_at") if last_good and outcome != "ok" else None,
     }
@@ -307,7 +385,64 @@ def ingest(
         receipt["fetched_at"] = prior["fetched_at"]
     receipt["refreshed_at"] = now if outcome == "ok" else None
     _carry(receipt_path(out_dir, inst.instance), receipt, keys=())
-    return _from_files(inst, out_dir)
+    view = _from_files(inst, out_dir)
+    view.shards_fetched = fetched
+    return view
+
+
+def _fetch_shards(inst: Instance, out_dir: Path, commit: str, index: dict):
+    """``({shard path: bytes}, fetched count, errors)`` for a v3 index at
+    ``commit``: a kept shard whose bytes match the declared sha256 is reused,
+    every other shard is fetched at the same commit. Raises FetchError when a
+    shard cannot be fetched (the capture is then unavailable)."""
+    errors = summary_mod.validate_shard_index(index)
+    if "records" in index:
+        errors.append("a v3 index carries its records in record_shards, never inline")
+    if errors:
+        return {}, None, errors
+    base = shard_dir(out_dir, inst.instance)
+    out, fetched = {}, 0
+    for entry in index["record_shards"]:
+        kept = base / entry["path"]
+        try:
+            body = kept.read_bytes()
+        except OSError:
+            body = None
+        if body is None or hashlib.sha256(body).hexdigest() != entry["sha256"]:
+            body = fetch_at(
+                inst.github, commit, summary_mod.shard_location(inst.summary_path, entry["path"])
+            )
+            fetched += 1
+        out[entry["path"]] = body
+    return out, fetched, []
+
+
+def _keep_shards(out_dir: Path, name: str, shards: dict[str, bytes]) -> None:
+    """Write a validated capture's shards (only those that changed)."""
+    base = shard_dir(out_dir, name)
+    for path, body in shards.items():
+        target = base / path
+        try:
+            if target.read_bytes() == body:
+                continue
+        except OSError:
+            pass
+        target.parent.mkdir(parents=True, exist_ok=True)
+        tmp = target.with_name(target.name + ".tmp")
+        tmp.write_bytes(body)
+        tmp.replace(target)
+
+
+def _prune_shards(out_dir: Path, name: str, shards: dict[str, bytes]) -> None:
+    """Remove kept shards (and emptied folders) the current index no longer names."""
+    base = shard_dir(out_dir, name)
+    if base.is_dir():
+        wanted = {(base / p).resolve() for p in shards}
+        for path in sorted(base.rglob("*"), reverse=True):
+            if path.is_file() and path.resolve() not in wanted:
+                path.unlink()
+            elif path.is_dir() and not any(path.iterdir()):
+                path.rmdir()
 
 
 def _git(checkout: Path, *args: str) -> str | None:
@@ -342,6 +477,17 @@ def _ingest_local(inst: Instance, path: Path, wanted) -> Snapshot:
         view.outcome, view.errors = "invalid", [f"{file} is not JSON ({exc})"]
         view.doc = None
         return view
+    if (
+        summary_mod.supported(view.doc, wanted) is None
+        and view.doc.get("version") == summary_mod.SHARDED
+    ):
+        base = file.parent
+        view.doc, errors = summary_mod.load_sharded(
+            view.doc, lambda shard: (base / shard).read_bytes()
+        )
+        if errors:
+            view.outcome, view.errors, view.doc = "invalid", errors, None
+            return view
     view.outcome, view.errors = summary_mod.classify(view.doc, wanted)
     if view.outcome == "ok" and view.doc.get("project") != inst.repo:
         view.outcome, view.errors = "invalid", ["project identity differs from registry"]
