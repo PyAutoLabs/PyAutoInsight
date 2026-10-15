@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:44ec3f024d9897431ed767e8de12a04c20a02191ed95e2f7601e48743b45fc24 -->
+<!-- insight-inputs:c66925a1b5ec0b4ad47713e490361444cfe83910ec89fc23075c5345d2717bdb -->
 
 | Where | Count |
 |---|---:|
@@ -12129,10 +12129,10 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 </details>
 
 
-<!-- insight:instance name=fit receipt=6df69441bba42917bcb000f4170299361029dacf outcome=ok shown=6df69441bba42917bcb000f4170299361029dacf -->
+<!-- insight:instance name=fit receipt=3463aa19014b6bd83563018568f0fb4a2376f8eb outcome=ok shown=3463aa19014b6bd83563018568f0fb4a2376f8eb -->
 ## autofit_inference
 Integrity: ok. Freshness: freshness policy unspecified · evidence 2026-10-08T18:53:07Z. Qualification: 35/223 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: 6df69441bba42917bcb000f4170299361029dacf; fetched 2026-10-14T09:49:29Z; latest attempt 2026-10-14T09:49:29Z.
+Capture source branch: main; revision: 3463aa19014b6bd83563018568f0fb4a2376f8eb; fetched 2026-10-15T12:25:54Z; latest attempt 2026-10-15T12:25:54Z.
 
 <details><summary>Full captured evidence and provenance</summary>
 
@@ -12147,7 +12147,7 @@ Sample archives remain in project storage; current availability unknown
 
 | Target | Stage | Seed | Execution | Convergence | Acceptance | Sampling s | Total s | Archive | Evidence |
 |---|---|---|---|---|---|---:|---:|---|---|
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.602367162704468 | 13.88767320000261 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.602367162704468 | 13.88767320000261 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -12502,7 +12502,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 14.89318585395813 | 15.443632700000308 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 14.89318585395813 | 15.443632700000308 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -12857,7 +12857,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.526072978973389 | 13.512804099998903 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.526072978973389 | 13.512804099998903 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -13212,7 +13212,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 14.959155321121216 | 49.19529500000135 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 14.959155321121216 | 49.19529500000135 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -13569,7 +13569,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.586597442626953 | 14.05181679999805 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.586597442626953 | 14.05181679999805 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -13924,7 +13924,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 17.40198016166687 | 18.110931600000185 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 17.40198016166687 | 18.110931600000185 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -14279,7 +14279,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 14.237517833709717 | 14.935181099997862 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 14.237517833709717 | 14.935181099997862 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -14634,7 +14634,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 14.598653554916382 | 15.270657600001869 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 14.598653554916382 | 15.270657600001869 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -14989,7 +14989,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 10.697665452957153 | 40.309002100002544 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 10.697665452957153 | 40.309002100002544 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -15346,7 +15346,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.592441320419312 | 12.118992199997592 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.592441320419312 | 12.118992199997592 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -15701,7 +15701,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.007425785064697 | 7.736843099999533 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.007425785064697 | 7.736843099999533 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed0</summary>
 
@@ -16055,7 +16055,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.557875633239746 | 8.733155400001124 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.557875633239746 | 8.733155400001124 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed1</summary>
 
@@ -16409,7 +16409,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.592201232910156 | 9.3094577999982 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.592201232910156 | 9.3094577999982 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed2</summary>
 
@@ -16763,7 +16763,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.895105600357056 | 10.495542200002092 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.895105600357056 | 10.495542200002092 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed3</summary>
 
@@ -17117,7 +17117,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.047000169754028 | 7.982328100002633 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.047000169754028 | 7.982328100002633 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed4</summary>
 
@@ -17471,7 +17471,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.690618276596069 | 8.159760599999572 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.690618276596069 | 8.159760599999572 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed5</summary>
 
@@ -17825,7 +17825,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.79145860671997 | 9.973385900000721 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.79145860671997 | 9.973385900000721 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed6</summary>
 
@@ -18179,7 +18179,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.4183244705200195 | 7.853619100002106 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.4183244705200195 | 7.853619100002106 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed7</summary>
 
@@ -18533,7 +18533,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.528934955596924 | 9.719483400000172 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.528934955596924 | 9.719483400000172 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed8</summary>
 
@@ -18887,7 +18887,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.392337799072266 | 9.515777500000695 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.392337799072266 | 9.515777500000695 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/bfgs/default/local_numpy_fp64/seed9</summary>
 
@@ -19241,7 +19241,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: TracerBoolConversionError: Attempted boolean conversion of traced array with shape bool[]. The error occurred while tracing the function log_l at &lt;workspace&gt;/PyAutoFit/autofit/non_linear/search/mcmc/blackjax/nuts/search.py:730 for jit. This concrete value was not available in Python because it depends on the value of the argument params. See https://docs.jax.dev/en/latest/errors.html#jax.errors.TracerBoolConversionError | not_converged | not_assessed | unknown | 42.179321799998434 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: TracerBoolConversionError: Attempted boolean conversion of traced array with shape bool[]. The error occurred while tracing the function log_l at &lt;workspace&gt;/PyAutoFit/autofit/non_linear/search/mcmc/blackjax/nuts/search.py:730 for jit. This concrete value was not available in Python because it depends on the value of the argument params. See https://docs.jax.dev/en/latest/errors.html#jax.errors.TracerBoolConversionError | not_converged | not_assessed | unknown | 42.179321799998434 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -19401,7 +19401,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: TracerBoolConversionError: Attempted boolean conversion of traced array with shape bool[]. The error occurred while tracing the function log_l at &lt;workspace&gt;/PyAutoFit/autofit/non_linear/search/mcmc/blackjax/nuts/search.py:730 for jit. This concrete value was not available in Python because it depends on the value of the argument params. See https://docs.jax.dev/en/latest/errors.html#jax.errors.TracerBoolConversionError | not_converged | not_assessed | unknown | 9.702254300005734 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: TracerBoolConversionError: Attempted boolean conversion of traced array with shape bool[]. The error occurred while tracing the function log_l at &lt;workspace&gt;/PyAutoFit/autofit/non_linear/search/mcmc/blackjax/nuts/search.py:730 for jit. This concrete value was not available in Python because it depends on the value of the argument params. See https://docs.jax.dev/en/latest/errors.html#jax.errors.TracerBoolConversionError | not_converged | not_assessed | unknown | 9.702254300005734 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -19561,7 +19561,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: TracerBoolConversionError: Attempted boolean conversion of traced array with shape bool[]. The error occurred while tracing the function log_l at &lt;workspace&gt;/PyAutoFit/autofit/non_linear/search/mcmc/blackjax/nuts/search.py:730 for jit. This concrete value was not available in Python because it depends on the value of the argument params. See https://docs.jax.dev/en/latest/errors.html#jax.errors.TracerBoolConversionError | not_converged | not_assessed | unknown | 1233.7245691000026 (incl. nautilus warm-start provider 1166.1726357000007) | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/blackjax_nuts_warm/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: TracerBoolConversionError: Attempted boolean conversion of traced array with shape bool[]. The error occurred while tracing the function log_l at &lt;workspace&gt;/PyAutoFit/autofit/non_linear/search/mcmc/blackjax/nuts/search.py:730 for jit. This concrete value was not available in Python because it depends on the value of the argument params. See https://docs.jax.dev/en/latest/errors.html#jax.errors.TracerBoolConversionError | not_converged | not_assessed | unknown | 1233.7245691000026 (incl. nautilus warm-start provider 1166.1726357000007) | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/blackjax_nuts_warm/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/blackjax_nuts_warm/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -19729,7 +19729,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 1060.3719758987427 | 1217.4585422000018 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 1060.3719758987427 | 1217.4585422000018 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -20094,7 +20094,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 425.34087324142456 | 466.02419519999967 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 425.34087324142456 | 466.02419519999967 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -20459,7 +20459,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | accepted | 672.3160562515259 | 771.8162669000012 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | accepted | 672.3160562515259 | 771.8162669000012 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_numpy_fp64/seed0</summary>
 
@@ -20850,7 +20850,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | accepted | 315.00353145599365 | 343.018189800001 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | accepted | 315.00353145599365 | 343.018189800001 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_dynamic/default/local_numpy_fp64/seed1</summary>
 
@@ -21241,7 +21241,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 215.17351412773132 | 240.3866175999974 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 215.17351412773132 | 240.3866175999974 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -21608,7 +21608,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 81.47776985168457 | 93.20188630000484 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 81.47776985168457 | 93.20188630000484 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -21975,7 +21975,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | rejected | 212.0218162536621 | 234.44073229999776 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | rejected | 212.0218162536621 | 234.44073229999776 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_numpy_fp64/seed0</summary>
 
@@ -22368,7 +22368,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | rejected | 98.54750156402588 | 111.4136942000041 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | rejected | 98.54750156402588 | 111.4136942000041 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/dynesty_static/nlive_200/local_numpy_fp64/seed1</summary>
 
@@ -22761,7 +22761,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | not_assessed | unknown | 1795.8331753999992 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | not_assessed | unknown | 1795.8331753999992 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -22921,7 +22921,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_converged | not_assessed | 1189.765033006668 | 1203.6711538000018 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_converged | not_assessed | 1189.765033006668 | 1203.6711538000018 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -23283,7 +23283,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_converged | rejected | 295.3115873336792 | 330.9503074000022 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_converged | rejected | 295.3115873336792 | 330.9503074000022 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_numpy_fp64/seed0</summary>
 
@@ -23665,7 +23665,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_converged | rejected | 123.25966548919678 | 137.76389390000259 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_converged | rejected | 123.25966548919678 | 137.76389390000259 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/emcee/walkers_50_steps_2000/local_numpy_fp64/seed1</summary>
 
@@ -24047,7 +24047,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.974738359451294 | 14.374400400000013 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.974738359451294 | 14.374400400000013 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -24402,7 +24402,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.769869804382324 | 14.289665199998126 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 13.769869804382324 | 14.289665199998126 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -24757,7 +24757,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.956000089645386 | 12.529035600000498 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.956000089645386 | 12.529035600000498 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -25112,7 +25112,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.87224006652832 | 13.62152530000094 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.87224006652832 | 13.62152530000094 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -25467,7 +25467,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.408082723617554 | 13.009582200000295 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.408082723617554 | 13.009582200000295 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -25822,7 +25822,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.67526912689209 | 12.173313899998902 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.67526912689209 | 12.173313899998902 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -26177,7 +26177,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 12.08863091468811 | 44.38298600000053 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 12.08863091468811 | 44.38298600000053 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -26534,7 +26534,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.243628978729248 | 11.868792099998245 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.243628978729248 | 11.868792099998245 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -26889,7 +26889,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.564369678497314 | 12.047185200000968 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 11.564369678497314 | 12.047185200000968 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -27244,7 +27244,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.380045652389526 | 13.176392600002146 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | not_assessed | 12.380045652389526 | 13.176392600002146 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -27599,7 +27599,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 5.06874942779541 | 5.31315320000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 5.06874942779541 | 5.31315320000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed0</summary>
 
@@ -27953,7 +27953,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | rejected | 5.958038568496704 | 47.26345769999898 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | rejected | 5.958038568496704 | 47.26345769999898 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed1</summary>
 
@@ -28318,7 +28318,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.270204067230225 | 6.865790799998649 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.270204067230225 | 6.865790799998649 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed2</summary>
 
@@ -28672,7 +28672,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | rejected | 6.6285240650177 | 47.91288179999901 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | rejected | 6.6285240650177 | 47.91288179999901 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed3</summary>
 
@@ -29037,7 +29037,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.367263793945312 | 9.059081399998831 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 8.367263793945312 | 9.059081399998831 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed4</summary>
 
@@ -29391,7 +29391,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.120396852493286 | 6.557287499999802 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.120396852493286 | 6.557287499999802 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed5</summary>
 
@@ -29745,7 +29745,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.90315055847168 | 7.540862599998945 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.90315055847168 | 7.540862599998945 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed6</summary>
 
@@ -30099,7 +30099,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.1200034618377686 | 7.6342595999994955 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 7.1200034618377686 | 7.6342595999994955 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed7</summary>
 
@@ -30453,7 +30453,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.682949542999268 | 7.215508900000714 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.682949542999268 | 7.215508900000714 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed8</summary>
 
@@ -30807,7 +30807,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.283073663711548 | 6.717486000001372 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | failed: non-finite result (max_log_likelihood=inf, max_log_posterior=inf) | not_assessed | rejected | 6.283073663711548 | 6.717486000001372 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/lbfgs/default/local_numpy_fp64/seed9</summary>
 
@@ -31161,7 +31161,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 42.75408911705017 | 66.62464159999945 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 42.75408911705017 | 66.62464159999945 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -31521,7 +31521,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 46.91754961013794 | 84.93421459999809 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 46.91754961013794 | 84.93421459999809 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -31881,7 +31881,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 47.391913175582886 | 85.02850259999832 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 47.391913175582886 | 85.02850259999832 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -32241,7 +32241,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 52.38439393043518 | 86.50476509999862 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 52.38439393043518 | 86.50476509999862 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -32601,7 +32601,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 44.39306879043579 | 77.74526429999969 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 44.39306879043579 | 77.74526429999969 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -32961,7 +32961,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 45.0077223777771 | 87.0768444000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 45.0077223777771 | 87.0768444000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -33321,7 +33321,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 44.35686373710632 | 89.26296160000129 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 44.35686373710632 | 89.26296160000129 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -33681,7 +33681,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 58.39590382575989 | 96.53807249999954 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 58.39590382575989 | 96.53807249999954 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -34041,7 +34041,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 52.8014702796936 | 89.89449640000021 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 52.8014702796936 | 89.89449640000021 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -34401,7 +34401,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 58.66784691810608 | 97.28379209999912 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 58.66784691810608 | 97.28379209999912 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -34761,7 +34761,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 50.210081338882446 | 73.01708489999874 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 50.210081338882446 | 73.01708489999874 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -35121,7 +35121,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 61.374370098114014 | 101.33558860000267 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 61.374370098114014 | 101.33558860000267 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -35481,7 +35481,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 60.523629903793335 | 93.01852740000322 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 60.523629903793335 | 93.01852740000322 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -35841,7 +35841,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 59.28629660606384 | 105.02813040000183 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 59.28629660606384 | 105.02813040000183 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -36201,7 +36201,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 66.96934843063354 | 118.99275859999761 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 66.96934843063354 | 118.99275859999761 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -36561,7 +36561,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 70.12560486793518 | 121.24009080000178 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 70.12560486793518 | 121.24009080000178 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -36921,7 +36921,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 55.055872678756714 | 101.3846784999987 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 55.055872678756714 | 101.3846784999987 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -37281,7 +37281,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 60.17712759971619 | 104.5712495000007 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 60.17712759971619 | 104.5712495000007 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -37641,7 +37641,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 43.64214777946472 | 88.50154900000052 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 43.64214777946472 | 88.50154900000052 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -38001,7 +38001,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 56.54618835449219 | 103.19699949999995 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 56.54618835449219 | 103.19699949999995 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -38361,7 +38361,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 12.806059122085571 | 40.01358629999959 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 12.806059122085571 | 40.01358629999959 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -38721,7 +38721,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 24.233888626098633 | 64.74037789999784 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 24.233888626098633 | 64.74037789999784 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -39081,7 +39081,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 20.030954122543335 | 63.29675309999948 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 20.030954122543335 | 63.29675309999948 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -39441,7 +39441,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 19.255404472351074 | 56.37117980000039 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 19.255404472351074 | 56.37117980000039 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -39801,7 +39801,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 19.382005214691162 | 56.04738290000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 19.382005214691162 | 56.04738290000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -40161,7 +40161,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 17.368966579437256 | 55.27895879999778 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 17.368966579437256 | 55.27895879999778 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -40521,7 +40521,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 18.489012956619263 | 58.40842210000119 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 18.489012956619263 | 58.40842210000119 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -40881,7 +40881,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 19.86878275871277 | 55.071547499999724 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 19.86878275871277 | 55.071547499999724 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -41241,7 +41241,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 22.026405334472656 | 58.25300219999917 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 22.026405334472656 | 58.25300219999917 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -41601,7 +41601,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 18.530749082565308 | 55.998511300000246 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 18.530749082565308 | 55.998511300000246 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -41961,7 +41961,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 26.227704763412476 | 62.796811200001684 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 26.227704763412476 | 62.796811200001684 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -42321,7 +42321,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 38.20957946777344 | 84.69817429999966 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 38.20957946777344 | 84.69817429999966 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -42681,7 +42681,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 34.58620238304138 | 72.76758209999753 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_blend/data_seed1/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 34.58620238304138 | 72.76758209999753 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -43041,7 +43041,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 35.95253539085388 | 75.61778259999846 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_blend/data_seed1/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 35.95253539085388 | 75.61778259999846 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -43401,7 +43401,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 36.77666425704956 | 75.63471070000014 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_blend/data_seed1/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 36.77666425704956 | 75.63471070000014 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -43761,7 +43761,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 34.36550045013428 | 75.39922420000221 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_blend/data_seed1/seed5 | unknown | 5 | complete | not_assessed | not_assessed | 34.36550045013428 | 75.39922420000221 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -44121,7 +44121,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 38.66318106651306 | 77.15030770000158 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_blend/data_seed1/seed6 | unknown | 6 | complete | not_assessed | not_assessed | 38.66318106651306 | 77.15030770000158 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -44481,7 +44481,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 38.90722846984863 | 80.35257060000004 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_blend/data_seed1/seed7 | unknown | 7 | complete | not_assessed | not_assessed | 38.90722846984863 | 80.35257060000004 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -44841,7 +44841,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 31.977991104125977 | 67.9591193999986 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_blend/data_seed1/seed8 | unknown | 8 | complete | not_assessed | not_assessed | 31.977991104125977 | 67.9591193999986 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -45201,7 +45201,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 29.517099142074585 | 66.04237690000082 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_blend/data_seed1/seed9 | unknown | 9 | complete | not_assessed | not_assessed | 29.517099142074585 | 66.04237690000082 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -45561,7 +45561,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | not_assessed | 1172.9075465202332 | 1212.1641402999994 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | not_assessed | 1172.9075465202332 | 1212.1641402999994 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -45936,7 +45936,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | not_assessed | 853.1675035953522 | 870.6330551000065 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | not_assessed | 853.1675035953522 | 870.6330551000065 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -46311,7 +46311,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | accepted | 1202.6175909042358 | 1253.6145966999975 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | accepted | 1202.6175909042358 | 1253.6145966999975 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_numpy_fp64/seed0</summary>
 
@@ -46712,7 +46712,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | accepted | 850.1547207832336 | 871.8810075000001 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | accepted | 850.1547207832336 | 871.8810075000001 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_100/local_numpy_fp64/seed1</summary>
 
@@ -47113,7 +47113,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | not_assessed | 1194.6219098567963 | 1231.3208968000035 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | not_assessed | 1194.6219098567963 | 1231.3208968000035 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -47488,7 +47488,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | not_assessed | 789.4343991279602 | 811.4343360000057 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | not_assessed | 789.4343991279602 | 811.4343360000057 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -47863,7 +47863,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | rejected | unknown | 1797.7244747000004 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | rejected | unknown | 1797.7244747000004 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_numpy_fp64/seed0</summary>
 
@@ -48023,7 +48023,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | accepted | 1087.1292757987976 | 1113.0054554000017 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | accepted | 1087.1292757987976 | 1113.0054554000017 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_200/local_numpy_fp64/seed1</summary>
 
@@ -48424,7 +48424,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | not_assessed | 1662.0906918048859 | 1705.6011811000062 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | not_assessed | 1662.0906918048859 | 1705.6011811000062 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -48799,7 +48799,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | not_assessed | 1439.2584722042084 | 1480.9580088000002 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | not_assessed | 1439.2584722042084 | 1480.9580088000002 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -49174,7 +49174,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | accepted | 3338.29270362854 | 3415.3513821000015 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | converged | accepted | 3338.29270362854 | 3415.3513821000015 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_numpy_fp64/seed0</summary>
 
@@ -49575,7 +49575,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | accepted | 1534.3508150577545 | 1572.1778831999982 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | converged | accepted | 1534.3508150577545 | 1572.1778831999982 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/nautilus/n_live_400/local_numpy_fp64/seed1</summary>
 
@@ -49976,7 +49976,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 607.1887984275818 | 631.6644508999998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/smc/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 607.1887984275818 | 631.6644508999998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/smc/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/smc/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -50325,7 +50325,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 118.236243724823 | 126.58793900000455 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/smc/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 118.236243724823 | 126.58793900000455 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/smc/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/smc/default/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -50674,7 +50674,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | not_assessed | unknown | 1792.2593608999996 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | not_assessed | unknown | 1792.2593608999996 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -50834,7 +50834,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | rejected | unknown | 1797.1518088000012 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_blend/data_seed1/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | rejected | unknown | 1797.1518088000012 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_numpy_fp64/seed0</summary>
 
@@ -50995,7 +50995,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_converged | rejected | 576.4422044754028 | 769.202040199998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_blend/data_seed1/seed1 | unknown | 1 | complete | not_converged | rejected | 576.4422044754028 | 769.202040199998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_blend/data_seed1/zeus/walkers_50_steps_2000/local_numpy_fp64/seed1</summary>
 
@@ -51379,7 +51379,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 9.604505777359009 | 35.51664779999919 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 9.604505777359009 | 35.51664779999919 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -51749,7 +51749,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 10.11128854751587 | 35.4059699999998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 10.11128854751587 | 35.4059699999998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -52119,7 +52119,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 10.3093740940094 | 35.63130570000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 10.3093740940094 | 35.63130570000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -52489,7 +52489,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 9.723163366317749 | 33.614381200000935 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 9.723163366317749 | 33.614381200000935 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -52859,7 +52859,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 9.393560886383057 | 37.432726700000785 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 9.393560886383057 | 37.432726700000785 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -53229,7 +53229,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 9.351167917251587 | 35.949477500002104 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 9.351167917251587 | 35.949477500002104 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -53599,7 +53599,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 9.539642095565796 | 35.63403749999998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 9.539642095565796 | 35.63403749999998 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -53969,7 +53969,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 12.72422981262207 | 38.80845849999969 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 12.72422981262207 | 38.80845849999969 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -54339,7 +54339,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 13.053674221038818 | 37.34510069999669 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 13.053674221038818 | 37.34510069999669 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -54709,7 +54709,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 12.723978519439697 | 36.24774569999863 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 12.723978519439697 | 36.24774569999863 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -55079,7 +55079,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 5.204809665679932 | 32.55018890000065 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 5.204809665679932 | 32.55018890000065 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed0</summary>
 
@@ -55445,7 +55445,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 5.040853500366211 | 31.91465529999914 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 5.040853500366211 | 31.91465529999914 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed1</summary>
 
@@ -55811,7 +55811,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 5.120853662490845 | 33.129444300000614 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 5.120853662490845 | 33.129444300000614 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed2</summary>
 
@@ -56177,7 +56177,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 4.8808605670928955 | 34.58994910000183 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 4.8808605670928955 | 34.58994910000183 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed3</summary>
 
@@ -56543,7 +56543,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 4.955255031585693 | 32.91801210000267 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 4.955255031585693 | 32.91801210000267 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed4</summary>
 
@@ -56909,7 +56909,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 4.787359714508057 | 30.714918900001067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 4.787359714508057 | 30.714918900001067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed5</summary>
 
@@ -57275,7 +57275,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 4.975747108459473 | 32.5895182000022 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 4.975747108459473 | 32.5895182000022 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed6</summary>
 
@@ -57641,7 +57641,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 5.492554664611816 | 30.9177978000007 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 5.492554664611816 | 30.9177978000007 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed7</summary>
 
@@ -58007,7 +58007,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 4.864222288131714 | 31.769841900000756 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 4.864222288131714 | 31.769841900000756 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed8</summary>
 
@@ -58373,7 +58373,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 5.788815498352051 | 30.78151880000223 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 5.788815498352051 | 30.78151880000223 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/bfgs/default/local_numpy_fp64/seed9</summary>
 
@@ -58739,7 +58739,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | rejected | 32.58207988739014 | 88.30002569999851 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | rejected | 32.58207988739014 | 88.30002569999851 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -59126,7 +59126,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | rejected | 81.05208730697632 | 243.72252129999833 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | rejected | 81.05208730697632 | 243.72252129999833 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/blackjax_nuts/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -59514,7 +59514,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | accepted | 28.724010229110718 | 1150.158048399997 (incl. nautilus warm-start provider 1076.4696579999982) | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/blackjax_nuts_warm/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | accepted | 28.724010229110718 | 1150.158048399997 (incl. nautilus warm-start provider 1076.4696579999982) | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/blackjax_nuts_warm/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/blackjax_nuts_warm/warmup_200_samples_500/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -59909,7 +59909,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 842.160876750946 | 902.1001149999975 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 842.160876750946 | 902.1001149999975 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -60303,7 +60303,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | accepted | 687.870174407959 | 742.6943207000004 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | accepted | 687.870174407959 | 742.6943207000004 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -60700,7 +60700,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | accepted | 895.0377156734467 | 960.5190024000003 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | accepted | 895.0377156734467 | 960.5190024000003 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_numpy_fp64/seed0</summary>
 
@@ -61090,7 +61090,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 694.9827127456665 | 739.827999699999 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 694.9827127456665 | 739.827999699999 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_dynamic/default/local_numpy_fp64/seed1</summary>
 
@@ -61483,7 +61483,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 234.2811517715454 | 261.77806319999945 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 234.2811517715454 | 261.77806319999945 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -61879,7 +61879,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 139.55722427368164 | 148.89553829999932 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 139.55722427368164 | 148.89553829999932 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -62278,7 +62278,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | accepted | 257.3085255622864 | 282.2910640000009 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | accepted | 257.3085255622864 | 282.2910640000009 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_numpy_fp64/seed0</summary>
 
@@ -62670,7 +62670,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 133.28381752967834 | 175.2136848999944 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 133.28381752967834 | 175.2136848999944 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/dynesty_static/nlive_200/local_numpy_fp64/seed1</summary>
 
@@ -63065,7 +63065,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | rejected | 2094.306672811508 | 2115.7031529999986 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | rejected | 2094.306672811508 | 2115.7031529999986 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -63452,7 +63452,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | rejected | 1339.852593421936 | 1399.974675599995 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | rejected | 1339.852593421936 | 1399.974675599995 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -63840,7 +63840,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | rejected | 198.5872824192047 | 235.45428900000115 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | rejected | 198.5872824192047 | 235.45428900000115 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_numpy_fp64/seed0</summary>
 
@@ -64223,7 +64223,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | rejected | 101.92550444602966 | 162.00015110000095 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | rejected | 101.92550444602966 | 162.00015110000095 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/emcee/walkers_50_steps_2000/local_numpy_fp64/seed1</summary>
 
@@ -64607,7 +64607,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 13.764072179794312 | 43.526067599999806 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 13.764072179794312 | 43.526067599999806 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -64966,7 +64966,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 13.084800243377686 | 42.901174400001764 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 13.084800243377686 | 42.901174400001764 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -65325,7 +65325,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 11.801484823226929 | 38.502016299997194 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 11.801484823226929 | 38.502016299997194 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -65695,7 +65695,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 10.508004188537598 | 38.706144899999344 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 10.508004188537598 | 38.706144899999344 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -66054,7 +66054,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 11.786317348480225 | 39.096697799999674 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 11.786317348480225 | 39.096697799999674 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -66424,7 +66424,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 10.832493543624878 | 39.4540765999991 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 10.832493543624878 | 39.4540765999991 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -66783,7 +66783,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 11.700316190719604 | 37.866031899997324 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 11.700316190719604 | 37.866031899997324 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -67153,7 +67153,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 10.31349229812622 | 37.942452800001774 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 10.31349229812622 | 37.942452800001774 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -67512,7 +67512,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 10.63364052772522 | 36.1579410000013 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 10.63364052772522 | 36.1579410000013 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -67882,7 +67882,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 10.358617067337036 | 35.33663040000101 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 10.358617067337036 | 35.33663040000101 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -68252,7 +68252,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 5.519446134567261 | 34.52072530000078 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 5.519446134567261 | 34.52072530000078 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed0</summary>
 
@@ -68618,7 +68618,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 5.025460958480835 | 35.27510240000265 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 5.025460958480835 | 35.27510240000265 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed1</summary>
 
@@ -68984,7 +68984,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 5.480762481689453 | 34.57888639999874 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 5.480762481689453 | 34.57888639999874 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed2</summary>
 
@@ -69350,7 +69350,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 5.053187847137451 | 35.91091159999996 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 5.053187847137451 | 35.91091159999996 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed3</summary>
 
@@ -69716,7 +69716,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 5.380961656570435 | 35.74183179999818 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 5.380961656570435 | 35.74183179999818 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed4</summary>
 
@@ -70082,7 +70082,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 5.40047287940979 | 33.06302860000142 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 5.40047287940979 | 33.06302860000142 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed5</summary>
 
@@ -70448,7 +70448,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 4.744291543960571 | 34.46254409999892 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 4.744291543960571 | 34.46254409999892 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed6</summary>
 
@@ -70814,7 +70814,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 4.08138370513916 | 33.406229500000336 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 4.08138370513916 | 33.406229500000336 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed7</summary>
 
@@ -71180,7 +71180,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 4.812617301940918 | 38.17318169999999 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 4.812617301940918 | 38.17318169999999 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed8</summary>
 
@@ -71546,7 +71546,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 5.9577507972717285 | 41.799129099999845 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 5.9577507972717285 | 41.799129099999845 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/lbfgs/default/local_numpy_fp64/seed9</summary>
 
@@ -71912,7 +71912,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 37.67281889915466 | 67.39908149999974 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 37.67281889915466 | 67.39908149999974 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -72285,7 +72285,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 41.13613772392273 | 71.6484696999978 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 41.13613772392273 | 71.6484696999978 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -72658,7 +72658,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 36.38263964653015 | 70.3149568000008 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 36.38263964653015 | 70.3149568000008 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -73031,7 +73031,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 35.07384967803955 | 69.95025100000203 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 35.07384967803955 | 69.95025100000203 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -73404,7 +73404,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 32.418938636779785 | 66.09587459999966 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 32.418938636779785 | 66.09587459999966 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -73777,7 +73777,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 46.72064423561096 | 76.39157249999698 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 46.72064423561096 | 76.39157249999698 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -74150,7 +74150,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 36.79949069023132 | 69.4737989000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 36.79949069023132 | 69.4737989000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -74523,7 +74523,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 41.33697509765625 | 72.52666970000064 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 41.33697509765625 | 72.52666970000064 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -74896,7 +74896,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 43.09970784187317 | 75.81179469999915 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 43.09970784187317 | 75.81179469999915 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -75269,7 +75269,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 40.89294385910034 | 72.26421920000212 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 40.89294385910034 | 72.26421920000212 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adabelief/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -75642,7 +75642,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 29.253676414489746 | 60.81400339999891 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 29.253676414489746 | 60.81400339999891 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -76015,7 +76015,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 34.504186153411865 | 73.01839280000058 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 34.504186153411865 | 73.01839280000058 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -76388,7 +76388,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 51.67526197433472 | 82.4103772999988 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 51.67526197433472 | 82.4103772999988 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -76761,7 +76761,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 49.98350238800049 | 80.03578670000206 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 49.98350238800049 | 80.03578670000206 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -77134,7 +77134,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 35.18105459213257 | 65.21333360000062 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 35.18105459213257 | 65.21333360000062 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -77507,7 +77507,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 37.90468192100525 | 70.18662419999964 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 37.90468192100525 | 70.18662419999964 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -77880,7 +77880,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 39.10858368873596 | 69.44771910000054 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 39.10858368873596 | 69.44771910000054 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -78253,7 +78253,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 39.06850242614746 | 68.53761809999924 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 39.06850242614746 | 68.53761809999924 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -78626,7 +78626,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 39.247535705566406 | 68.20075240000006 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 39.247535705566406 | 68.20075240000006 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -78999,7 +78999,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 16.770323276519775 | 44.422194700000546 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 16.770323276519775 | 44.422194700000546 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_adam/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -79372,7 +79372,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 13.258063316345215 | 42.91295490000266 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 13.258063316345215 | 42.91295490000266 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -79745,7 +79745,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 13.4433274269104 | 41.49851040000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | rejected | 13.4433274269104 | 41.49851040000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -80118,7 +80118,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 11.954776287078857 | 40.6737910999982 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | rejected | 11.954776287078857 | 40.6737910999982 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -80491,7 +80491,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 11.134676456451416 | 45.69898980000289 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | rejected | 11.134676456451416 | 45.69898980000289 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -80864,7 +80864,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 14.793117761611938 | 54.98624759999802 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | rejected | 14.793117761611938 | 54.98624759999802 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -81237,7 +81237,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 14.56837010383606 | 53.62827560000005 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | rejected | 14.56837010383606 | 53.62827560000005 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -81610,7 +81610,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 16.532872438430786 | 59.055008200000884 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | rejected | 16.532872438430786 | 59.055008200000884 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -81983,7 +81983,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 18.481870412826538 | 58.15068059999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | rejected | 18.481870412826538 | 58.15068059999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -82356,7 +82356,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 18.540297746658325 | 57.2234529999987 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | rejected | 18.540297746658325 | 57.2234529999987 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -82729,7 +82729,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 20.229004859924316 | 57.85879399999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | rejected | 20.229004859924316 | 57.85879399999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_lion/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -83102,7 +83102,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | accepted | 28.12601065635681 | 62.29774589999943 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | accepted | 28.12601065635681 | 62.29774589999943 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -83475,7 +83475,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | accepted | 32.699156761169434 | 65.10632629999964 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_assessed | accepted | 32.699156761169434 | 65.10632629999964 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -83848,7 +83848,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | accepted | 29.28856658935547 | 62.10333900000114 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
+| gaussian_x3_separated/data_seed2/seed2 | unknown | 2 | complete | not_assessed | accepted | 29.28856658935547 | 62.10333900000114 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed2.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed2</summary>
 
@@ -84221,7 +84221,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | accepted | 29.550021409988403 | 61.99807940000028 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
+| gaussian_x3_separated/data_seed2/seed3 | unknown | 3 | complete | not_assessed | accepted | 29.550021409988403 | 61.99807940000028 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed3.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed3</summary>
 
@@ -84594,7 +84594,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | accepted | 29.636699676513672 | 70.64360240000315 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
+| gaussian_x3_separated/data_seed2/seed4 | unknown | 4 | complete | not_assessed | accepted | 29.636699676513672 | 70.64360240000315 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed4.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed4</summary>
 
@@ -84967,7 +84967,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | accepted | 30.909284353256226 | 72.11290390000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
+| gaussian_x3_separated/data_seed2/seed5 | unknown | 5 | complete | not_assessed | accepted | 30.909284353256226 | 72.11290390000067 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed5.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed5</summary>
 
@@ -85340,7 +85340,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | accepted | 33.87304711341858 | 74.53829150000092 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
+| gaussian_x3_separated/data_seed2/seed6 | unknown | 6 | complete | not_assessed | accepted | 33.87304711341858 | 74.53829150000092 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed6.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed6</summary>
 
@@ -85713,7 +85713,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | accepted | 33.903998374938965 | 75.23567380000168 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
+| gaussian_x3_separated/data_seed2/seed7 | unknown | 7 | complete | not_assessed | accepted | 33.903998374938965 | 75.23567380000168 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed7.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed7</summary>
 
@@ -86086,7 +86086,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | accepted | 28.21795678138733 | 59.957627600000706 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
+| gaussian_x3_separated/data_seed2/seed8 | unknown | 8 | complete | not_assessed | accepted | 28.21795678138733 | 59.957627600000706 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed8.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed8</summary>
 
@@ -86459,7 +86459,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | accepted | 27.5706946849823 | 58.49343260000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
+| gaussian_x3_separated/data_seed2/seed9 | unknown | 9 | complete | not_assessed | accepted | 27.5706946849823 | 58.49343260000023 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/search_seed9.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/multi_start_prodigy/starts_48_steps_300/local_jax_cpu_fp64_cache_warm/seed9</summary>
 
@@ -86832,7 +86832,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1730.5798144340515 | 1774.5028984000019 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1730.5798144340515 | 1774.5028984000019 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -87236,7 +87236,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 729.0834815502167 | 748.2426526999989 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 729.0834815502167 | 748.2426526999989 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -87643,7 +87643,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1615.767944097519 | 1677.0303433000008 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1615.767944097519 | 1677.0303433000008 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_numpy_fp64/seed0</summary>
 
@@ -88043,7 +88043,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 652.5374209880829 | 669.7351828999963 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 652.5374209880829 | 669.7351828999963 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_100/local_numpy_fp64/seed1</summary>
 
@@ -88446,7 +88446,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1759.387672662735 | 1814.4274729999997 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1759.387672662735 | 1814.4274729999997 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -88850,7 +88850,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 986.7114496231079 | 1091.1838473000025 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 986.7114496231079 | 1091.1838473000025 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -89257,7 +89257,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1864.9279971122742 | 1934.5378005999992 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 1864.9279971122742 | 1934.5378005999992 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_numpy_fp64/seed0</summary>
 
@@ -89657,7 +89657,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 785.3532800674438 | 952.1634601999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 785.3532800674438 | 952.1634601999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_200/local_numpy_fp64/seed1</summary>
 
@@ -90060,7 +90060,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 2195.45845246315 | 2254.955941400003 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 2195.45845246315 | 2254.955941400003 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -90464,7 +90464,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 1428.2137711048126 | 1459.2848690000028 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 1428.2137711048126 | 1459.2848690000028 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_jax_cpu_fp64_cache_warm/seed1</summary>
 
@@ -90871,7 +90871,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 2294.555377483368 | 2358.5320723999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | converged | accepted | 2294.555377483368 | 2358.5320723999976 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_numpy_fp64/seed0</summary>
 
@@ -91271,7 +91271,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 1480.3648838996887 | 1566.2881358000013 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | converged | accepted | 1480.3648838996887 | 1566.2881358000013 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/nautilus/n_live_400/local_numpy_fp64/seed1</summary>
 
@@ -91674,7 +91674,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 305.73389434814453 | 322.3606273000041 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/smc/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_assessed | rejected | 305.73389434814453 | 322.3606273000041 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/smc/default/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/smc/default/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -92048,7 +92048,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | rejected | unknown | 3595.491131699997 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | failed: Terminated: signal SIGTERM (e.g. the SLURM time limit) | not_converged | rejected | unknown | 3595.491131699997 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_jax_cpu_fp64_cache_warm/seed0</summary>
 
@@ -92212,7 +92212,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | accepted | 1260.3301208019257 | 1577.4509614000017 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
+| gaussian_x3_separated/data_seed2/seed0 | unknown | 0 | complete | not_converged | accepted | 1260.3301208019257 | 1577.4509614000017 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed0.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_numpy_fp64/seed0</summary>
 
@@ -92595,7 +92595,7 @@ Sample archives remain in project storage; current availability unknown
 
 </details>
 
-| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | accepted | 736.7897136211395 | 1596.5888223000002 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/6df69441bba42917bcb000f4170299361029dacf/results/searches/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
+| gaussian_x3_separated/data_seed2/seed1 | unknown | 1 | complete | not_converged | accepted | 736.7897136211395 | 1596.5888223000002 | False | [result](https://github.com/PyAutoLabs/autofit_inference/blob/3463aa19014b6bd83563018568f0fb4a2376f8eb/results/searches/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_numpy_fp64/search_seed1.json) |
 
 <details><summary>Provenance: gaussian_x3/gaussian_x3_separated/data_seed2/zeus/walkers_50_steps_2000/local_numpy_fp64/seed1</summary>
 
