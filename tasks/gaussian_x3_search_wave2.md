@@ -87,3 +87,33 @@ When 409930 finishes:
 1. Pull the remainder and judge the Zeus JAX and NSS cells. This closes the wave.
 2. Refresh the `fit` snapshot from `main`.
 3. Apply the human's choice of summary form for the wave-2 records.
+
+## Remainder judged; records published (B5b-2, 2026-10-15, autofit_inference#12)
+
+- **Remainder.** RAL job 409930 finished: all 20 array tasks `COMPLETED`, 16:08–17:38
+  UTC. Its 980 rows (and the 20 probe rows, byte-identical) were pulled by the B5b tar
+  pattern. All 12,750 wave-2 rows are admitted at the pin `df6d218f10cd`, with 0 refused
+  and 0 missing, so every leg of the wave is closed (250 blend warm-NUTS runs stay
+  deferred).
+- **Probe-first legs.** NSS 50-step: 158/250 on the blend and 210/250 on the separated
+  control; it leads both evidence rankings. Zeus JAX: 0/250 on the blend and 190/250 on
+  the control. The verdicts and ranks are in the `gaussian_x3@2` section of
+  `catalogue/search_catalogue.json`; this task only records them.
+- **Ordering convention.** The catalogue ranks only legs with a success rate ≥ 50 % over
+  ≥ 20 attempts, and lists the rest as unreliable with their numbers. This is a post-hoc
+  presentation convention (protocol §8 note), not a verdict.
+- **Summary records.** `fit` moves to **`inference-summary@3`**: the index carries
+  `record_shards`, and 101 per-protocol, per-leg record files hold the 12,973 records
+  (largest 1.6 MB). The ruling said `@2`, but `@2` is already the setups contract
+  (`lens`), so the split took the next version. The registry pins `@3` with
+  `migrating_from: inference-summary@1`, so the committed `@1` snapshot stays valid
+  until the first `@3` capture.
+- **Insight snapshot.** It is not refreshed in this task. A local read of the B5b-2
+  branch (`check --from fit=<checkout>`) validates all 12,973 records in 101 shards.
+
+## Next
+
+1. After autofit_inference#12's PR and this repository's PR merge, the push-triggered
+   Dashboard Refresh (or `bin/pyauto-insight board` with a commit) captures `fit` under
+   `@3` from `main`. Then run `bin/pyauto-insight check` online and drop `migrating_from`.
+2. B5c, a second model family.
