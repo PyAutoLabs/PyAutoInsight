@@ -93,8 +93,9 @@ campaigns:
   title: PyAutoFit search benchmark on gaussian_x3 (autofit_inference)
   status: running
   updated: '2026-10-15'
-  next: After the B5b-2 PRs merge, capture the fit snapshot from main under inference-summary@3, run
-    pyauto-insight check online and drop the registry's migrating_from; then B5c (a second model family).
+  next: 'B5c-2: when RAL 409957 (the correlated_nd pilot, 930 runs) finishes, pull results/ only, judge
+    under correlated_nd@1, freeze correlated_nd@2 from the pilot and submit its scored wave; the family is
+    catalogued apart from gaussian_x3 and ranks nothing across families.'
   recent_progress: Wave 2 closed (B5b-2, 2026-10-15, autofit_inference#12) — RAL 409930 pulled, 12,750 rows
     admitted at the pin df6d218f10cd with 0 missing; NSS 50-step leads both evidence rankings; the catalogue
     ranks only legs with success rate >= 50 % over >= 20 attempts (post-hoc presentation convention); fit
@@ -175,6 +176,16 @@ tasks:
   next: Pilot stopped at 223 of 520 runs and is not restarted; freeze gaussian_x3@2 from its 17-row calibration
     before any scored run; the deferred cells move to scored wave 2 (after A2 and A4).
   evidence: https://github.com/PyAutoLabs/autofit_inference/issues/4
+- id: correlated_nd_pilot
+  campaign: gaussian-x3-search-benchmark
+  title: correlated_nd search benchmark — the pilot (wave 1, second model family)
+  status: running
+  priority: normal
+  path: tasks/correlated_nd_pilot.md
+  updated: '2026-10-15'
+  next: RAL 409957 runs the 930-run correlated_nd@1 pilot (protocol first committed 9ec37795f404, A1 before
+    any row); B5c-2 pulls it, judges it and freezes correlated_nd@2.
+  evidence: https://github.com/PyAutoLabs/autofit_inference/issues/14
 - id: gaussian_x3_search_wave2
   campaign: gaussian-x3-search-benchmark
   title: gaussian_x3 search benchmark — wave 2 (scored)
