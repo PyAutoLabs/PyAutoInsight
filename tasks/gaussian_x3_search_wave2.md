@@ -4,7 +4,7 @@ Type: research
 Target: autofit_inference
 Campaign: gaussian-x3-search-benchmark
 Epic: search-extensibility (phase B5)
-Issue: https://github.com/PyAutoLabs/autofit_inference/issues/8
+Issue: https://github.com/PyAutoLabs/autofit_inference/issues/8 (B5a); B5b: https://github.com/PyAutoLabs/autofit_inference/issues/10
 Filed: 2026-10-14
 
 ## Intent
@@ -53,13 +53,37 @@ All jobs ran on RAL `--partition=ral` only, with job ids on the Cortex ledger
 This task authorizes nothing further: B5a submitted the wave. Nothing has been pulled or
 scored yet.
 
-## Next (B5b, a separate Mind task)
+## Pulled and judged (B5b, 2026-10-15, autofit_inference#10)
 
-When the arrays finish:
+- **Rows.** All 11,770 rows are admitted under `gaussian_x3@2` at the pin `df6d218f10cd`,
+  with none refused (11,750 from the scored arrays and 20 from the probe). The accounting
+  (`results/accounting/gaussian_x3_wave2.json`) breaks down as:
+  - scored: 10,580 rows and 1,170 failed attempts, with 0 missing and 0 operational
+    kills;
+  - probe: 20 rows;
+  - remainder: 980 missing (submitted);
+  - deferred: 250.
+- **References.** All 20 per-realisation references are complete. They include only the
+  Nautilus runs, because DynestyStatic's ln Z disagrees with Nautilus on every one.
+- **Probe timeouts.** The probe-first timeouts, from the probe medians by the frozen
+  rule, are 600 s for NSS 50-step and 1168 s for Zeus JAX. Their remaining 980 runs are
+  RAL job **409930** on `--partition=ral`.
+- **Results.** The results are the `gaussian_x3@2` section of
+  `catalogue/search_catalogue.json`: success rate and expected wall per right answer, per
+  leg. Legs are ordered within one task and one dataset only.
+- **Summary.** `dashboard/summary.json` stays `inference-summary@1`. It carries the
+  `protocols` list and the wave-2 accounting, but withholds the wave-2 records: at
+  ~84 MB they exceed GitHub's 50 MB warning. That question is open on
+  autofit_inference#10.
+- **Insight snapshot.** The `fit` snapshot is unchanged in this task. The board's local
+  read of the B5b branch (`board --from fit=<checkout>`) ingests it as valid (223 records,
+  clean). The receipt and snapshot are refreshed from `main` once autofit_inference PR 1
+  merges.
 
-1. Pull the results.
-2. Build the JAX blend realisation-1 reference on the laptop. Any re-judging of the
-   pilot's `@1` rows against it is a reassessment and must be decided explicitly.
-3. Set the probe-first timeouts and submit the rest of those cells.
-4. Judge every row under `@2`, catalogue it, and publish the wave-2 summary.
-5. Refresh the Insight `fit` snapshot only then.
+## Next (B5b-2, a separate Mind task)
+
+When 409930 finishes:
+
+1. Pull the remainder and judge the Zeus JAX and NSS cells. This closes the wave.
+2. Refresh the `fit` snapshot from `main`.
+3. Apply the human's choice of summary form for the wave-2 records.
