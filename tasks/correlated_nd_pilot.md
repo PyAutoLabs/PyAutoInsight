@@ -54,8 +54,11 @@ Every dataset × backend has an exact reference, complete in `results/reference/
 
 ## Submission (2026-10-15, B5c)
 
-- RAL job **409957_[0-929]** (`hpc/batch_cpu/submit_correlated_nd_pilot`): 930 one-run array
-  tasks, `%100`.
+- RAL job **410866_[0-929]** (`hpc/batch_cpu/submit_correlated_nd_pilot`): 930 one-run array
+  tasks, `%100`, from the private copy `/mnt/ral/jnightin/inference/autofit_inference_b5c`.
+  It was pending at submission.
+- The first submission, 409957, failed at import in every task: the shared RAL clone had
+  been switched by another session. It was cancelled and wrote no row.
 
 This task authorises nothing further. Pulling, judging and the `correlated_nd@2` freeze
 are B5c-2.
