@@ -195,7 +195,8 @@ the same project-owned catalogue rather than independently reconstructing it.
 
 V3 is v1's envelope and record contract with the records held in shard files, so
 a producer with many records never commits one large file and a refresh copies
-only what changed. Live producer: `fit` (autofit_inference, 2026-10-15, B5b-2).
+only what changed. First producer: `fit` (autofit_inference, B5b-2; pinned 2026-10-15,
+first capture pending the producer's merge).
 It does not add v2's setups; v1 and v2 remain valid for the instances pinned to
 them.
 
@@ -212,8 +213,10 @@ shard's. The producer chooses the split (autofit_inference: one shard per protoc
 
 The reader verifies every shard's digest, header and count, then assembles the
 records in index order and validates the result exactly as v1, with record ids
-unique across shards and comparisons resolved across them. A missing, altered or
-mismatched shard invalidates the whole capture; no partial capture is shown. The
+unique across shards and comparisons resolved across them. An altered or
+mismatched shard makes the capture `invalid` and a shard that cannot be fetched
+makes it `unavailable`; either way the whole capture is refused and the last
+good one stays shown. No partial capture is shown. The
 board lists one row per shard (protocol, records, execution, convergence and
 acceptance counts, a link to the shard at the captured commit), never every
 record; each shard file holds the full record provenance.
@@ -221,8 +224,10 @@ record; each shard file holds the full record provenance.
 A capture keeps the index in `snapshots/<instance>.json` (no inline records) and
 each shard's bytes, unchanged, at `snapshots/<instance>/<path>`. A refresh reuses
 every kept shard whose digest is unchanged and fetches only the others, at the same
-resolved commit; it writes shards only after the whole capture validates and then
-removes kept shards the new index no longer names. Offline reads re-verify the
+resolved commit; it writes shards only after the whole capture validates, then
+the index, then removes kept shards the new index no longer names. An interrupted
+write leaves digests that no longer match (offline: `invalid`), and the next
+refresh re-fetches the mismatched shards. Offline reads re-verify the
 kept shards. A local `--from` read takes shards from beside the index.
 
 **Pin migration.** A row moving to a new version may declare `migrating_from:

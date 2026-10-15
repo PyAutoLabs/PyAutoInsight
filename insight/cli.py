@@ -227,6 +227,11 @@ def cmd_check(args) -> int:
         )
         if s.migrating:
             print(f"note {key}: {s.migrating}")
+        elif s.instance.migrating_from and s.source == "remote":
+            print(
+                f"note {key}: the capture is already {s.instance.supported_schema}; "
+                "drop migrating_from from registry.yaml"
+            )
     out = Path(args.out)
     md, page = out / "dashboard.md", out / "dashboard.html"
     if not md.is_file() or not page.is_file():

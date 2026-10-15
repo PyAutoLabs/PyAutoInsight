@@ -17,3 +17,4 @@ _mind/
 # Half-written receipt/snapshot files (written then renamed into place)
 receipts/*.tmp
 snapshots/*.tmp
+snapshots/**/*.tmp

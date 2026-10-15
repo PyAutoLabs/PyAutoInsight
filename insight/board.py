@@ -324,7 +324,7 @@ def _shard_html(s):
             ],
             rows,
         )
-        + "<h3>Comparisons and parity groups</h3>"
+        + "<h3>Comparisons and parity groups</h3><p>Targets, seeds and stages are retained. No best-seed selection, cross-target ranking or automatic convergence threshold. Declared groups do not themselves certify parity.</p>"
         + (
             "<p>No certified comparison pairs supplied by this producer.</p>"
             if not comparisons(s)

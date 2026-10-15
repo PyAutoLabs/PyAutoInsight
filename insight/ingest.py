@@ -146,7 +146,7 @@ def shard_dir(out_dir: Path, name: str) -> Path:
     return Path(out_dir) / "snapshots" / name
 
 
-def _kept_shards(out_dir: Path, name: str, index: dict):
+def _kept_shards(out_dir: Path, name: str):
     """``read(path) -> bytes`` over the kept shards of a v3 capture."""
     base = shard_dir(out_dir, name)
     return lambda path: (base / path).read_bytes()
@@ -257,9 +257,7 @@ def _from_files(inst: Instance, out_dir: Path) -> Snapshot:
     if snap is not None:
         doc, errors = snap["summary"], []
         if doc.get("version") == summary_mod.SHARDED:
-            doc, errors = summary_mod.load_sharded(
-                doc, _kept_shards(out_dir, inst.instance, snap["summary"])
-            )
+            doc, errors = summary_mod.load_sharded(doc, _kept_shards(out_dir, inst.instance))
             errors = [f"cached {e}" for e in errors]
         if errors:
             view.outcome, view.errors = "invalid", errors
@@ -335,6 +333,10 @@ def ingest(
         outcome, errors = "unavailable", [str(exc)]
 
     snap_file = snapshot_path(out_dir, inst.instance)
+    # Order: changed shards, then the index, then the pruning of shards the new index
+    # no longer names. An interrupted refresh leaves a capture whose digests no longer
+    # match (offline: invalid, never a silently mixed capture); the next refresh
+    # re-fetches every mismatched shard and repairs it.
     if outcome == "ok" and index is not None:
         _keep_shards(out_dir, inst.instance, shard_bytes)
     if outcome == "ok":
@@ -350,6 +352,8 @@ def ingest(
                 "summary": summary_mod.index_of(doc),
             },
         )
+    if outcome == "ok" and index is not None:
+        _prune_shards(out_dir, inst.instance, shard_bytes)
     last_good = read_snapshot(out_dir, inst.instance)
     receipt = {
         "instance": inst.instance,
@@ -414,8 +418,7 @@ def _fetch_shards(inst: Instance, out_dir: Path, commit: str, index: dict):
 
 
 def _keep_shards(out_dir: Path, name: str, shards: dict[str, bytes]) -> None:
-    """Write a validated capture's shards (only those that changed) and remove
-    kept shards its index no longer names."""
+    """Write a validated capture's shards (only those that changed)."""
     base = shard_dir(out_dir, name)
     for path, body in shards.items():
         target = base / path
@@ -428,6 +431,11 @@ def _keep_shards(out_dir: Path, name: str, shards: dict[str, bytes]) -> None:
         tmp = target.with_name(target.name + ".tmp")
         tmp.write_bytes(body)
         tmp.replace(target)
+
+
+def _prune_shards(out_dir: Path, name: str, shards: dict[str, bytes]) -> None:
+    """Remove kept shards (and emptied folders) the current index no longer names."""
+    base = shard_dir(out_dir, name)
     if base.is_dir():
         wanted = {(base / p).resolve() for p in shards}
         for path in sorted(base.rglob("*"), reverse=True):
