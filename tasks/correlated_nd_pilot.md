@@ -57,6 +57,12 @@ Every dataset × backend has an exact reference, complete in `results/reference/
 - RAL job **410866_[0-929]** (`hpc/batch_cpu/submit_correlated_nd_pilot`): 930 one-run array
   tasks, `%100`, from the private copy `/mnt/ral/jnightin/inference/autofit_inference_b5c`.
   It was pending at submission.
+- **Finished 2026-10-16** (wall 4:16): 926 of 930 tasks COMPLETED, 4 OUT_OF_MEMORY at the
+  8 G request, all on `corr_gaussian_d50`: task 263 (`nautilus` `n_live_100`, numpy, seed
+  3), 273 (`nautilus` `n_live_100`, jax_cpu, seed 3), 304 (`nautilus` `n_live_400`, numpy,
+  seed 4) and 383 (`blackjax_nuts_warm` `warmup_200_samples_500`, jax_cpu, seed 3). By the
+  human's decision they are not rerun in stage 1; B5c-2 raises their memory or excludes
+  them, with the reason recorded. The results stay unpulled in the private copy.
 - The first submission, 409957, failed at import in every task: the shared RAL clone had
   been switched by another session. It was cancelled and wrote no row.
 
@@ -65,7 +71,8 @@ are B5c-2.
 
 ## Next (B5c-2)
 
-1. Pull the pilot's rows (`results/` only) and judge them under `correlated_nd@1`.
+1. Pull the pilot's rows (`results/` only) and judge them under `correlated_nd@1`; settle
+   the 4 OOM cells (more memory or excluded).
 2. Calibrate the PLACEHOLDERs and timeouts, then freeze `correlated_nd@2` before any
    scored row.
 3. Submit the scored wave: 50 seeds × realisations 1–3 × every non-deferred cell.
