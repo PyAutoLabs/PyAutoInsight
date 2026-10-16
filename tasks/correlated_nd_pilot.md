@@ -66,13 +66,42 @@ Every dataset × backend has an exact reference, complete in `results/reference/
 - The first submission, 409957, failed at import in every task: the shared RAL clone had
   been switched by another session. It was cancelled and wrote no row.
 
-This task authorises nothing further. Pulling, judging and the `correlated_nd@2` freeze
-are B5c-2.
+## Judged and closed (2026-10-16, B5c-2a, autofit_inference#17)
 
-## Next (B5c-2)
+**Status: complete.** `results/` of 410866 was pulled from the private copy (930 rows; the
+8 exact references there are byte-identical to the committed ones) and judged under
+`correlated_nd@1` (`results/accounting/correlated_nd_pilot.json`, reconciled with the
+committed `sacct` extract):
 
-1. Pull the pilot's rows (`results/` only) and judge them under `correlated_nd@1`; settle
-   the 4 OOM cells (more memory or excluded).
-2. Calibrate the PLACEHOLDERs and timeouts, then freeze `correlated_nd@2` before any
-   scored row.
-3. Submit the scored wave: 50 seeds × realisations 1–3 × every non-deferred cell.
+- **1040 expected = 749 completed rows + 177 failed + 4 `oom` + 0 missing + 110 deferred**;
+  930 admitted, 0 refused.
+- Under `@1`: **307 accepted, 623 rejected**. The pilot ranks nothing.
+- `oom` is a new attempt class. The submit had written cap stubs for the 4 OUT_OF_MEMORY
+  tasks, because SLURM's OOM SIGKILL exits 137 under `timeout`. They were rewritten from
+  sacct, with MaxRSS 7.6 / 7.7 / 3.1 / 8.4 G at the 8 G request.
+- The failures:
+  - 80 Emcee/Zeus rows (d20, banana) crashed in the harness's chain diagnostics after the
+    search. That bug is fixed.
+  - 60 d100 Nautilus rows, which fail at the pin.
+  - 10 d100 warm NUTS rows.
+  - 27 rows stopped at the 4 h cap (d50 Nautilus `n_live_100`, d50 warm NUTS).
+
+**Calibration and freeze.** The calibration is
+[`results/calibration/correlated_nd_wave1.json`](https://github.com/PyAutoLabs/autofit_inference/blob/main/results/calibration/correlated_nd_wave1.json).
+`correlated_nd@2` (protocol §11 A2) was frozen in autofit_inference `44c5e77f1fb0` before any
+scored row:
+- σ-ratio bands are per task. The evidence band is [0.85, 1.1] (79 rows). The posterior
+  band is kept at [0.5, 2.0] (1 row, < 20).
+- The ESS and R-hat bars are kept.
+- 75 timed cells and 8 probe-first cells.
+- 21 cells are deferred, each with its reason. They include the OOM cells d50 Nautilus
+  `n_live_100` and d50 warm NUTS (by the cap rule) and every d100 Nautilus cell.
+- Memory is `max(8 G, ceil(2 × the pilot peak))`: 16 G for d50 Nautilus `n_live_400`,
+  17 G for d100 cold NUTS.
+
+## Next
+
+B5c-2b (`draft/research/autofit_inference/search_ext_b5c2b_scored_wave_submit.md`):
+realisations 2–3 and their exact references, then the scored-wave manifest (83 cells × 50
+seeds × 3 realisations = 12 450 runs) and its probe, then the submit. Nothing is submitted
+by this task.
