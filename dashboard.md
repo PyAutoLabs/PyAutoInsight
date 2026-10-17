@@ -1,13 +1,13 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:157112b9f31c28531cc96c03732e267c99733668549b37007de35b011c1ce8bf -->
+<!-- insight-inputs:a3405247194601ecd3c7e71f598d282a173950fdee567b3ee2c1e5a2c1fc8262 -->
 
 | Where | Count |
 |---|---:|
 | [Projects](#evidence) | 2 |
 | [Records](#evidence) | 13101 |
 | [Comparisons](#evidence) | 0 |
-| [Cached](#evidence) | 0 |
+| [Cached](#evidence) | 1 |
 | [Failed](#evidence) | 0 |
 
 <!-- insight-campaigns:cde3bababeb5724ac12b65df7a47ec22b884eb3c47d39324a5e1dad9e1a8aa90 -->
@@ -67,10 +67,31 @@ Last check-in: 2026-10-17T11:18:53Z.
 ## Inference Results
 
 
-<!-- insight:instance name=lens receipt=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 outcome=ok shown=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 -->
+<!-- insight:instance name=lens receipt=c37705003c471e9d432b76ee666c1dc4a9dbb519 outcome=invalid shown=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 -->
 ## autolens_inference
-Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/128 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: 26b099cb14d099ad7b8c9b20ec5098de5f93dbd7; fetched 2026-10-17T13:17:23Z; latest attempt 2026-10-17T13:17:23Z.
+Integrity: cached · latest fetch invalid. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/128 accepted by producer; remaining assessments shown below.
+Capture source branch: main; revision: 26b099cb14d099ad7b8c9b20ec5098de5f93dbd7; fetched 2026-10-17T13:17:23Z; latest attempt 2026-10-17T16:26:54Z.
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed0.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed1.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed2.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed3.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed4.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed0.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed1.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed2.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed3.json: dependency revisions must be text
+results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed4.json: dependency revisions must be text
+Cached: original evidence and capture times retained.
 - [imaging / rectangular / HST rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fhst)
 - [imaging / delaunay / HST Delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fhst)
 - [point_source / simple / Simple point source](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=point_source%2Fsimple%2Fsimple)
