@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:21c6d053a3d7bc73edf7abcd656b7667a7d422b6675932af6707bd9f878cb0cf -->
+<!-- insight-inputs:cd98f2a347be4cf14a4152e6ad1a4b598d85cc93b893570bc50fe2a89e0e3a06 -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 0 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:b37ae307e11195828ad1d4de11bba09e8d75633d472bf898f5cc9606d2d952a7 -->
+<!-- insight-campaigns:cde3bababeb5724ac12b65df7a47ec22b884eb3c47d39324a5e1dad9e1a8aa90 -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -39,9 +39,7 @@ Last check-in: 2026-10-17T11:18:53Z.
 
 | Campaign | Recent progress | Next steps |
 |---|---|---|
-| [HST SLaM base backend parity](https://github.com/PyAutoLabs/autolens_inference/pull/23) | The 2026-09-24 slam_base re-runs landed as 6 rows (A100 jax_gpu dense and sparse, numba_cpu sparse; seeds 0-1) in autolens_inference PR #23, pending merge. A100 walls are clean single-attempt; the numba_cpu sparse rows carry a resumed source_pix[1] stage. | Human reads the parity view, then decides whether the remaining CPU legs (jax_cpu dense and sparse, numba_cpu dense) are still wanted. |
-| [HST SLaM Delaunay variant](https://github.com/PyAutoLabs/autolens_inference/pull/23) | The 2026-09-24 delaunay_1250 re-runs landed as 6 rows (A100 jax_gpu dense and sparse, numba_cpu sparse; seeds 0-1) in autolens_inference PR #23, pending merge. A100 walls are clean single-attempt; the numba_cpu sparse rows carry a resumed mass_total[1] stage. | Human reads the seed-0 mass_total[1] offset. |
-| [HST imaging: Nautilus base on CPU and A100, mass stage with and without linear lens light, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/23) | Campaign opened 2026-10-17 from the human&#x27;s direction; the Nautilus A100 base (slam_base, dense and sparse, seeds 0-1, linear lens light) already exists as the 2026-09-24 re-run rows; the CPU base exists only as numba_cpu sparse with resumed stages. | Decide the three open choices, then start_dev the runner change (lens-light mode as a run variant, prerequisites resumed from the slam_base trees, --export-prepared on both light modes); no compute until then. |
+| [HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/23) | Opened 2026-10-17 as a fresh start by human decision: the base is re-measured from scratch on PyAuto release 2026.10.17.1 (PyAutoLens tag v2026.10.17.1, released 2026-10-17) in fresh output trees; the 2026-09-24 rows and both earlier campaigns are superseded history. | Phase 1 via Mind start_dev: lens-light mode as a run variant (--lens-light linear\|fixed\|both, fixed = ordinary profiles with intensities from the light[1] fit), both rows from one chain, --export-prepared for both modes, library revisions and SLURM job id recorded in every row, submit scripts for A100 dense/sparse and ral jax_cpu dense/sparse against a private pinned checkout; then phase 2 compute by separate authorisation. |
 | [Point-source sampler admission](https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md) | 2 October project record reports five Nautilus seeds; no gradient-sampler admission measurement. | Assess a bounded gradient-sampler admission proposal with the human; no new job is authorized. |
 | [Graphical and EP inference coordination](https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md) | Mind campaign map and two scoping contracts preserved verbatim; implementation work remains in Mind. | Reconcile current Cortex observations and shipped fixes, then select one bounded phase. |
 | [Analytic Gaussian ensemble and control calibration](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/analytic_gaussian.md) | Cortex records accepted wave-1 baseline and 30 September independent-review caveats. | Use Cortex planned diagnostic on passing, edge and worst seeds; retain the human conclusion there. |
@@ -54,15 +52,15 @@ Last check-in: 2026-10-17T11:18:53Z.
 
 | Task | Campaign | Status | Priority | Next step |
 |---|---|---|---|---|
-| [Drop the 1e-3 prior centring for shear / multipole / ell_comps in the benchmark](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/drop_1e3_prior_centring_after_631.md) | slam-hst-base | blocked | normal | Verify the release containing Galaxy#634 and Lens#754 before changing priors; retain zero-centre gradient witness. |
+| [Drop the 1e-3 prior centring for shear / multipole / ell_comps in the benchmark](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/drop_1e3_prior_centring_after_631.md) | slam-hst-base | blocked | normal | Verify the release containing Galaxy#634 and Lens#754 before changing priors; retain zero-centre gradient witness. Carried into hst-imaging-mass-samplers phase 1 as a prior-identity question for the frozen model. |
 | [EP campaign — phase map for the 2026 Q3 graphical/EP push](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/ep_campaign.md) | graphical-ep | needs-decision | high | Reconcile current Cortex records and human gates; this campaign map is never issued or bulk scheduled. |
 | [Expectation Propagation Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/ep_scoping.md) | graphical-ep | needs-slicing | high | Reconcile completed wrapper work and Pulse profiling ownership before selecting a bounded remaining inference phase. |
 | [Graphical Model Scale-Up — Scoping](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/graphical_scoping.md) | graphical-ep | needs-slicing | high | Reconcile current Cortex scale results and library dependencies; select one bounded inference phase with a witness. |
 | [NUTS/HMC trial on validated likelihoods](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gradient_sampler_validated_likelihoods.md) | point-source-admission | needs-decision | normal | An unscoped idea, not permission to submit: reconcile point-source admission with imaging and weak-lensing candidate targets. |
 | [gaussian_x3 search benchmark — wave 1 (the pilot)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave1.md) | gaussian-x3-search-benchmark | blocked | normal | Pilot stopped at 223 of 520 runs and is not restarted; freeze gaussian_x3@2 from its 17-row calibration before any scored run; the deferred cells move to scored wave 2 (after A2 and A4). |
 | [gaussian_x3 search benchmark — wave 2 (scored)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave2.md) | gaussian-x3-search-benchmark | running | high | Wave 2 is closed and judged (B5b-2); the fit snapshot is captured from main under inference-summary@3 after the B5b-2 PRs merge. |
-| [HST imaging mass stage: Nautilus base on CPU and A100, with and without linear lens light](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_base_light_modes.md) | hst-imaging-mass-samplers | needs-decision | high | Decide the three open choices, then start_dev the runner change (lens-light mode as a run variant, prerequisites resumed from the slam_base trees, --export-prepared on both light modes); no compute until then. |
-| [HST imaging mass stage: sampler comparison, wave 1](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_samplers_wave1.md) | hst-imaging-mass-samplers | needs-slicing | normal | Depends on the frozen mass_total[1] problems from hst_mass_base_light_modes; candidate samplers from the experiments runner (nautilus, emcee, nuts, smc) and the promoted PyAutoFit catalogue (NSS, DynestyStatic/Dynamic, Zeus) are not yet sliced |
+| [HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear and fixed lens light](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_base_light_modes.md) | hst-imaging-mass-samplers | needs-slicing | high | Phase 1 via Mind start_dev: --lens-light linear\|fixed\|both, both rows from one chain, --export-prepared for both modes, library revisions and SLURM job id in every row, A100 and ral jax_cpu submit scripts against a private pinned checkout; no compute until phase 1 ships and phase 2 is authorised. |
+| [HST imaging mass stage: sampler comparison, wave 1](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_samplers_wave1.md) | hst-imaging-mass-samplers | needs-slicing | normal | Depends on the frozen mass_total[1] problems (both light modes, A100 and jax_cpu) from the pinned base in hst_mass_base_light_modes; candidate samplers from the experiments runner (nautilus, emcee, nuts, smc) and the promoted PyAutoFit catalogue (NSS, DynestyStatic/Dynamic, Zeus) are not yet sliced. |
 
 [Ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml)
 

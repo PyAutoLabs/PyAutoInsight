@@ -26,10 +26,12 @@ def test_current_ledger_and_migration_validate():
     data = campaigns.load()
     migration = campaigns.validate_migration()
     assert len(data["campaigns"]) >= 8 and len(migration["tasks"]) >= 6
-    assert data["last_checkin"] is None
+    assert data["last_checkin"] is None or (
+        Path(campaigns.ORGAN_ROOT, data["last_checkin_report"]).is_file()
+    )
     assert any(c["status"] == "blocked" for c in data["campaigns"])
     assert any(c["status"] == "needs-decision" for c in data["campaigns"])
-    assert all(c["job_status"].startswith("unknown") for c in data["campaigns"])
+    assert all(c["job_status"].strip() for c in data["campaigns"])
 
 
 @pytest.mark.parametrize(
