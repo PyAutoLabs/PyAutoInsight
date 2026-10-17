@@ -39,14 +39,36 @@ their output trees.
     inversion carries no lens-light columns.
   Both modes use the same dataset, the same mask and the same priors on mass and source.
 - Backends: A100 `jax_gpu` dense and sparse, and ral `jax_cpu` dense and sparse (human
-  decision 2026-10-17). `numba_cpu` is not in this campaign.
+  decision 2026-10-17). Later the same day the human added ral `numba_cpu` dense and
+  sparse on 8 CPUs, sharing the `jax_cpu` dense `source_lp[1]` (see "Shared stage rule").
 - Seeds: 0 and 1 for the base.
 - Job shape: one job per (backend, inversion, seed), producing both light-mode rows from
   one chain.
 - CPU containment: CPU jobs run on `--partition=ral` only, with 8 CPUs per job, and each
   submission states its containment (array size, concurrency cap and wall limit) before
   it is authorised.
-- Config grammar: `{local,hpc_a100}_{jax_cpu,jax_gpu}_{dense,sparse}_{fp64,mp}`.
+- Config grammar: `{local,hpc_a100}_{jax_cpu,numba_cpu,jax_gpu}_{dense,sparse}_{fp64,mp}`.
+
+## Shared stage rule (numba_cpu legs)
+
+The numba_cpu chains do not fit `source_lp[1]`. They load the completed `jax_cpu` dense fit
+of the same seed (`--stages-from hpc_a100_jax_cpu_dense_fp64:source_lp`,
+autolens_inference#32). That stage is parametric and has no inversion, so both CPU backends
+fit the same likelihood there, and the numba and jax_cpu chains are identical through
+stage 1. Both numba legs share the dense stage, including the sparse leg.
+
+- Provenance:
+  - In each numba row, the `source_lp[1]` entry carries `shared_from_config` and
+    `fitted_backend: jax_cpu`, and keeps that fit's wall and evals for the record.
+  - The row's `chain_wall_s` sums only the stages the numba job fitted, and
+    `chain_wall_excludes` names the shared stage.
+  - A numba chain wall is never compared with a jax_cpu chain wall that includes stage 1.
+  - Stage 1 is not a numba measurement and is never cited as one.
+- Never a refit: when the stage is not complete, the runner exits 3 and fits nothing. Each
+  job waits in-job for the stage first (`hpc/wait_for_stage.sh`: 5 min polls, 8 h cap,
+  exit 4 on timeout).
+- Only `source_lp` may be shared. A pixelized stage's inversion is what the backend
+  comparison measures.
 
 ## Phases
 
@@ -79,6 +101,18 @@ their output trees.
 
    All four (seeds 0-1) were RUNNING at 16:47Z and had started a fresh `source_lp[1]` under
    the pin.
+2b. numba_cpu base legs, human-authorised 2026-10-17 (in-job wait, submit now):
+   `submit_hst_cleanslate_numba_cpu_{dense,sparse}`.
+   - Setup: `ral` only, 8 CPUs, 48 GB / 64 GB, seeds 0-1, `--lens-light both`, the same pin,
+     output root, results tag and prepared export as phase 2, config names
+     `hpc_a100_numba_cpu_{dense,sparse}_fp64`.
+   - Shipped in autolens_inference#32 (issue #31, merge b91ce9c).
+   - **Not yet submitted.** The RAL checkout's fast-forward to b91ce9c was cut off by a
+     timeout mid-checkout. HEAD is still dabb652, and the files the pull had already written
+     are untracked or modified. They were verified identical to b91ce9c, plus one empty
+     file. A plain `--ff-only` now refuses, and completing it needs a human-run
+     `git reset --mixed b91ce9c && git checkout -- .` in that checkout. Then submit with
+     `hpc/sync submit --cpu submit_hst_cleanslate_numba_cpu_dense` (and `_sparse`).
 3. Sampler waves on the frozen problems: `tasks/hst_mass_samplers_wave1.md`.
 
 ## Decisions
@@ -90,6 +124,10 @@ Recorded in the Insight chat on 2026-10-17, in the human's words:
 - Clean slate: "Yes, supersede and re-run on the pin".
 - CPU backend: "jax_cpu, dense + sparse".
 - Light mode: "Fix lens light to ordinary profiles".
+- numba_cpu base (later on 2026-10-17): add numba_cpu legs on 8 CPUs that "spawn off" the
+  jax_cpu `source_lp[1]`. The human chose an in-job wait for that stage and an immediate
+  submit, with rows marking the stage as shared and excluding its wall from the numba chain
+  wall.
 
 ## Acceptance
 
@@ -101,4 +139,5 @@ autolens_inference.
 
 This task authorises nothing: no compute, no default change. Phase 1 shipped through Mind
 `start_dev` (autolens_inference#26); phase 2 was separately authorised by the human on
-2026-10-17 and submitted as above.
+2026-10-17 and submitted as above. The numba_cpu legs (2b) shipped in autolens_inference#32
+under the human's 2026-10-17 authorisation, and are awaiting submission.

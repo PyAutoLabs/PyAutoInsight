@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:913dbcb17ca7a864cc4a6c2e7c86988ab787fbcc6a2b9b2bb574824799901fc2 -->
+<!-- insight-inputs:f228df77cd5b2f87c97d3ef9af0d3a468abc962cd6aecf4c91ccaa090cb6b177 -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 1 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:0911e479f3421d593f52b991f1942246e86aff7c5d4b3192fe162f10d5edf088 -->
+<!-- insight-campaigns:979665fd567b7f14f1ca53193bb4cce244d6baa4c74dbda447beec67fc16e204 -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -39,7 +39,7 @@ Last check-in: 2026-10-17T11:18:53Z.
 
 | Campaign | Recent progress | Next steps |
 |---|---|---|
-| [HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/28) | Phase 1 (lens-light mode, --export-prepared, pinned submits) merged in autolens_inference#26. Phase 3 wave 1 sliced and merged in autolens_inference#28 (issue #27): wave cleanslate_2026_10_17_wave1, nautilus/emcee/nuts/smc cold x sampler seeds 0-2 x both light modes on the base-seed-0 problems, 24 arms per config, arm table and row/failed/missing accounting in scripts/misc/experiments/wave.py. Pin directory /mnt/ral/jnightin/inference/pins/2026.10.17.1 built and verified 2026-10-17. Phase 2 submitted 2026-10-17T16:46Z (412535, 412537, 412539, 412541) and the GPU wave queued behind base seed 0 (412543). | Pull when the base arrays finish (hpc/sync pull) and read both light-mode rows per config/seed; account GPU wave 1 (412543) with wave.py --account --config hpc_a100_jax_gpu_dense_fp64 once it runs; queue the CPU wave (submit_hst_cleanslate_mass_samplers_jax_cpu_dense) once the CPU dense base rows land (needs authorisation). |
+| [HST imaging, clean slate: Nautilus base on A100, jax_cpu and numba_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/32) | Phase 1 (lens-light mode, --export-prepared, pinned submits) merged in autolens_inference#26. Phase 3 wave 1 sliced and merged in autolens_inference#28 (issue #27): wave cleanslate_2026_10_17_wave1, nautilus/emcee/nuts/smc cold x sampler seeds 0-2 x both light modes on the base-seed-0 problems, 24 arms per config, arm table and row/failed/missing accounting in scripts/misc/experiments/wave.py. Pin directory /mnt/ral/jnightin/inference/pins/2026.10.17.1 built and verified 2026-10-17. Phase 2 submitted 2026-10-17T16:46Z (412535, 412537, 412539, 412541) and the GPU wave queued behind base seed 0 (412543). numba_cpu dense and sparse legs (8 ral CPUs, seeds 0-1, both light modes) merged in autolens_inference#32 (issue #31). They share the jax_cpu dense source_lp[1] via --stages-from, with the stage marked shared_from_config and excluded from chain_wall_s (human decision 2026-10-17). Not yet submitted. | Finish the RAL checkout fast-forward to b91ce9c (a timed-out pull left it half-applied; the human runs git reset --mixed b91ce9c &amp;&amp; git checkout -- .), then submit the numba_cpu legs (hpc/sync submit --cpu submit_hst_cleanslate_numba_cpu_dense and _sparse; each waits in-job for the jax_cpu dense source_lp[1]). Pull when the base arrays finish (hpc/sync pull) and read both light-mode rows per config/seed; account GPU wave 1 (412543) with wave.py --account --config hpc_a100_jax_gpu_dense_fp64 once it runs; queue the CPU wave (submit_hst_cleanslate_mass_samplers_jax_cpu_dense) once the CPU dense base rows land (needs authorisation). |
 | [Point-source sampler admission](https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md) | 2 October project record reports five Nautilus seeds; no gradient-sampler admission measurement. | Assess a bounded gradient-sampler admission proposal with the human; no new job is authorized. |
 | [Graphical and EP inference coordination](https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md) | Mind campaign map and two scoping contracts preserved verbatim; implementation work remains in Mind. | Reconcile current Cortex observations and shipped fixes, then select one bounded phase. |
 | [Analytic Gaussian ensemble and control calibration](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/analytic_gaussian.md) | Cortex records accepted wave-1 baseline and 30 September independent-review caveats. | Use Cortex planned diagnostic on passing, edge and worst seeds; retain the human conclusion there. |
