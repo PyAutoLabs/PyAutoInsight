@@ -1,16 +1,16 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:a3405247194601ecd3c7e71f598d282a173950fdee567b3ee2c1e5a2c1fc8262 -->
+<!-- insight-inputs:d273027ca9ccb45e17f8c6976ed711647fa936b4557c47a3235757d31b5c8cf0 -->
 
 | Where | Count |
 |---|---:|
 | [Projects](#evidence) | 2 |
 | [Records](#evidence) | 13101 |
 | [Comparisons](#evidence) | 0 |
-| [Cached](#evidence) | 1 |
+| [Cached](#evidence) | 0 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:cde3bababeb5724ac12b65df7a47ec22b884eb3c47d39324a5e1dad9e1a8aa90 -->
+<!-- insight-campaigns:0c60970537411880ac1ab007813a43e65118d4c75e4273f02e233f120c52ba52 -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -39,7 +39,7 @@ Last check-in: 2026-10-17T11:18:53Z.
 
 | Campaign | Recent progress | Next steps |
 |---|---|---|
-| [HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/23) | Opened 2026-10-17 as a fresh start by human decision: the base is re-measured from scratch on PyAuto release 2026.10.17.1 (PyAutoLens tag v2026.10.17.1, released 2026-10-17) in fresh output trees; the 2026-09-24 rows and both earlier campaigns are superseded history. | Phase 1 via Mind start_dev: lens-light mode as a run variant (--lens-light linear\|fixed\|both, fixed = ordinary profiles with intensities from the light[1] fit), both rows from one chain, --export-prepared for both modes, library revisions and SLURM job id recorded in every row, submit scripts for A100 dense/sparse and ral jax_cpu dense/sparse against a private pinned checkout; then phase 2 compute by separate authorisation. |
+| [HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/28) | Phase 1 (lens-light mode, --export-prepared, pinned submits) merged in autolens_inference#26. Phase 3 wave 1 sliced and merged in autolens_inference#28 (issue #27): wave cleanslate_2026_10_17_wave1, nautilus/emcee/nuts/smc cold x sampler seeds 0-2 x both light modes on the base-seed-0 problems, 24 arms per config, arm table and row/failed/missing accounting in scripts/misc/experiments/wave.py. Pin directory /mnt/ral/jnightin/inference/pins/2026.10.17.1 built and verified 2026-10-17. | Phase 2: update the RAL autolens_inference checkout to main (dabb652 or later) and submit the four pinned clean-slate base arrays (submit_hst_cleanslate_jax_{gpu,cpu}_{dense,sparse}). Then queue the phase-3 wave-1 GPU array: hpc/sync submit --dependency afterok:&lt;GPU dense base array id&gt; submit_hst_cleanslate_mass_samplers_jax_gpu_dense. The CPU wave (submit_hst_cleanslate_mass_samplers_jax_cpu_dense) waits for the CPU dense base rows. |
 | [Point-source sampler admission](https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md) | 2 October project record reports five Nautilus seeds; no gradient-sampler admission measurement. | Assess a bounded gradient-sampler admission proposal with the human; no new job is authorized. |
 | [Graphical and EP inference coordination](https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md) | Mind campaign map and two scoping contracts preserved verbatim; implementation work remains in Mind. | Reconcile current Cortex observations and shipped fixes, then select one bounded phase. |
 | [Analytic Gaussian ensemble and control calibration](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/analytic_gaussian.md) | Cortex records accepted wave-1 baseline and 30 September independent-review caveats. | Use Cortex planned diagnostic on passing, edge and worst seeds; retain the human conclusion there. |
@@ -60,38 +60,17 @@ Last check-in: 2026-10-17T11:18:53Z.
 | [gaussian_x3 search benchmark — wave 1 (the pilot)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave1.md) | gaussian-x3-search-benchmark | blocked | normal | Pilot stopped at 223 of 520 runs and is not restarted; freeze gaussian_x3@2 from its 17-row calibration before any scored run; the deferred cells move to scored wave 2 (after A2 and A4). |
 | [gaussian_x3 search benchmark — wave 2 (scored)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave2.md) | gaussian-x3-search-benchmark | running | high | Wave 2 is closed and judged (B5b-2); the fit snapshot is captured from main under inference-summary@3 after the B5b-2 PRs merge. |
 | [HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear and fixed lens light](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_base_light_modes.md) | hst-imaging-mass-samplers | needs-slicing | high | Phase 1 via Mind start_dev: --lens-light linear\|fixed\|both, both rows from one chain, --export-prepared for both modes, library revisions and SLURM job id in every row, A100 and ral jax_cpu submit scripts against a private pinned checkout; no compute until phase 1 ships and phase 2 is authorised. |
-| [HST imaging mass stage: sampler comparison, wave 1](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_samplers_wave1.md) | hst-imaging-mass-samplers | needs-slicing | normal | Depends on the frozen mass_total[1] problems (both light modes, A100 and jax_cpu) from the pinned base in hst_mass_base_light_modes; candidate samplers from the experiments runner (nautilus, emcee, nuts, smc) and the promoted PyAutoFit catalogue (NSS, DynestyStatic/Dynamic, Zeus) are not yet sliced. |
+| [HST imaging mass stage: sampler comparison, wave 1](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_samplers_wave1.md) | hst-imaging-mass-samplers | ready | normal | Sliced and shipped (autolens_inference#28). Submit the GPU wave with --dependency afterok on the phase-2 GPU dense base array once that array is queued; the CPU wave waits for the CPU dense base rows. Account with wave.py --account --config &lt;config&gt;. |
 
 [Ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml)
 
 ## Inference Results
 
 
-<!-- insight:instance name=lens receipt=c37705003c471e9d432b76ee666c1dc4a9dbb519 outcome=invalid shown=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 -->
+<!-- insight:instance name=lens receipt=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 outcome=ok shown=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 -->
 ## autolens_inference
-Integrity: cached · latest fetch invalid. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/128 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: 26b099cb14d099ad7b8c9b20ec5098de5f93dbd7; fetched 2026-10-17T13:17:23Z; latest attempt 2026-10-17T16:26:54Z.
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed0.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed1.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed2.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed3.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed4.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed3.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed4.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed0.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed1.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed2.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed3.json: dependency revisions must be text
-results/searches/point_source/multi_start_adam_n3000/simple/source_plane_solved/hpc_a100_jax_gpu_dense_fp64/search_seed4.json: dependency revisions must be text
-Cached: original evidence and capture times retained.
+Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/128 accepted by producer; remaining assessments shown below.
+Capture source branch: main; revision: 26b099cb14d099ad7b8c9b20ec5098de5f93dbd7; fetched 2026-10-17T13:17:23Z; latest attempt 2026-10-17T13:17:23Z.
 - [imaging / rectangular / HST rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fhst)
 - [imaging / delaunay / HST Delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fhst)
 - [point_source / simple / Simple point source](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=point_source%2Fsimple%2Fsimple)
