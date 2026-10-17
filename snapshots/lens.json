@@ -3,8 +3,8 @@
   "repo": "autolens_inference",
   "github": "PyAutoLabs/autolens_inference",
   "summary_path": "dashboard/catalogue.json",
-  "commit": "df5fd2c03cce7c97f93d6283de904acc4e546e5f",
-  "fetched_at": "2026-10-15T17:53:40Z",
+  "commit": "31dcd0d8077574ae3954339383e26845ebe0d4ea",
+  "fetched_at": "2026-10-17T13:11:41Z",
   "summary": {
     "comparison_policy": {
       "id": "declared-target-seed-stage-v1",
@@ -28,7 +28,7 @@
     },
     "evidence_updated_at": null,
     "evidence_updated_at_reason": "Legacy result rows do not record measurement timestamps",
-    "generated_at": "2026-10-08T08:36:56Z",
+    "generated_at": "2026-10-17T12:35:51Z",
     "generation_basis": "Source commit timestamp; not a measurement or check-in time",
     "limitations": [
       "No scientific acceptance or convergence inferred from process completion",
@@ -37,7 +37,7 @@
       "Archived rows belong to this project's September 2026 runs and are historical, not current baselines"
     ],
     "prepared_problems": [],
-    "producer_revision": "c19374fb377ad1f86054ce76cc19dc95b0cfd1f4",
+    "producer_revision": "8e833a08c6741be55669504aee48c2f15c0e35c1",
     "project": "autolens_inference",
     "records": [
       {
@@ -56,6 +56,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -203,6 +204,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -474,6 +476,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -703,6 +706,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -879,6 +883,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -1073,6 +1078,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -1290,6 +1296,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -1437,6 +1444,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -1708,6 +1716,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -1937,6 +1946,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -2113,6 +2123,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -2307,6 +2318,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -2524,6 +2536,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -2671,6 +2684,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -2942,6 +2956,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -3171,6 +3186,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -3347,6 +3363,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -3541,6 +3558,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -3758,6 +3776,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -3905,6 +3924,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -4176,6 +4196,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -4405,6 +4426,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -4581,6 +4603,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -4775,6 +4798,7 @@
           "image_mesh_weight_floor": 0.01,
           "image_mesh_weight_power": 3.5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh": "delaunay",
           "mesh_areas_factor": 0.5,
@@ -4988,6 +5012,7 @@
           "config_name": "hpc_a100_jax_gpu_dense_fp64",
           "cores": 4,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -5128,6 +5153,7 @@
           "cores": 4,
           "free_parameters": 17,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -5392,6 +5418,7 @@
           "cores": 4,
           "free_parameters": 10,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -5614,6 +5641,7 @@
           "cores": 4,
           "free_parameters": 5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -5795,6 +5823,7 @@
           "cores": 4,
           "free_parameters": 6,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -5982,6 +6011,7 @@
           "cores": 4,
           "free_parameters": 8,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -6192,6 +6222,7 @@
           "config_name": "hpc_a100_jax_gpu_dense_fp64",
           "cores": 4,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -6332,6 +6363,7 @@
           "cores": 4,
           "free_parameters": 17,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -6596,6 +6628,7 @@
           "cores": 4,
           "free_parameters": 10,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -6818,6 +6851,7 @@
           "cores": 4,
           "free_parameters": 5,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -6999,6 +7033,7 @@
           "cores": 4,
           "free_parameters": 6,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -7186,6 +7221,7 @@
           "cores": 4,
           "free_parameters": 8,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -7396,6 +7432,7 @@
           "config_name": "hpc_a100_jax_gpu_dense_fp64",
           "cores": 4,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -7536,6 +7573,7 @@
           "cores": 4,
           "free_parameters": 17,
           "inversion": "dense",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -7799,6 +7837,7 @@
           "config_name": "hpc_a100_jax_gpu_sparse_fp64",
           "cores": 4,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -7939,6 +7978,7 @@
           "cores": 4,
           "free_parameters": 17,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -8203,6 +8243,7 @@
           "cores": 4,
           "free_parameters": 10,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -8425,6 +8466,7 @@
           "cores": 4,
           "free_parameters": 5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -8606,6 +8648,7 @@
           "cores": 4,
           "free_parameters": 6,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -8793,6 +8836,7 @@
           "cores": 4,
           "free_parameters": 8,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -9003,6 +9047,7 @@
           "config_name": "hpc_a100_jax_gpu_sparse_fp64",
           "cores": 4,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -9143,6 +9188,7 @@
           "cores": 4,
           "free_parameters": 17,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -9407,6 +9453,7 @@
           "cores": 4,
           "free_parameters": 10,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -9629,6 +9676,7 @@
           "cores": 4,
           "free_parameters": 5,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -9810,6 +9858,7 @@
           "cores": 4,
           "free_parameters": 6,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -9997,6 +10046,7 @@
           "cores": 4,
           "free_parameters": 8,
           "inversion": "sparse",
+          "lens_light_mode": "linear",
           "memo": "off",
           "mesh_shape": [
             28,
@@ -11673,7 +11723,7 @@
         "reference_record_id_reason": "No explicitly accepted current baseline with frozen model/prior identities"
       }
     ],
-    "source_commit": "c19374fb377ad1f86054ce76cc19dc95b0cfd1f4",
+    "source_commit": "8e833a08c6741be55669504aee48c2f15c0e35c1",
     "valid_until": null,
     "version": 2
   }
