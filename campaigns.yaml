@@ -1,29 +1,57 @@
 version: 1
-last_checkin: null
+last_checkin: '2026-10-17T11:18:53Z'
+last_checkin_report: checkins/2026-10-17T111853Z.md
 campaigns:
 - id: slam-hst-base
   title: HST SLaM base backend parity
-  status: active
-  updated: '2026-10-04'
-  next: Reconcile all seeds and stages with current project rows and Cortex before proposing another run.
-  recent_progress: Project and Cortex ledgers retain the 24 September rerun submissions; published rows require
-    coverage reconciliation.
-  blockers: Live RAL status and output/archive availability unverified.
-  job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
-  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/autolens_inference.md
+  status: superseded
+  updated: '2026-10-17'
+  next: 'Superseded 2026-10-17 by hst-imaging-mass-samplers (human: clean slate). The 2026-09-24 re-run rows
+    stay as history in autolens_inference PR #23; no further run under these campaigns.'
+  recent_progress: 'The 2026-09-24 slam_base re-runs landed as 6 rows (A100 jax_gpu dense and sparse, numba_cpu
+    sparse; seeds 0-1) in autolens_inference PR #23, pending merge. A100 walls are clean single-attempt; the numba_cpu
+    sparse rows carry a resumed source_pix[1] stage.'
+  blockers: The three CPU legs jax_cpu dense, jax_cpu sparse and numba_cpu dense have not run; numba_cpu sparse
+    chain walls are multi-attempt.
+  job_status: 'All 2026-09-24 re-runs COMPLETED 0:0 per sacct queried 2026-10-17T11:10Z: 350674 and 350675 (gpu),
+    350682 (ral).'
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
   project: autolens_inference
+  checkin_report: checkins/2026-10-17T111853Z.md
 - id: slam-hst-delaunay
   title: HST SLaM Delaunay variant
-  status: active
-  updated: '2026-10-04'
-  next: Retrieve or account for every rerun, failed seed and missing stage; preserve the archived comparison
-    context.
-  recent_progress: Delaunay is a separate target/recipe; pre-speedup runs are archived, reruns recorded on
-    24 September.
-  blockers: Do not merge the Delaunay target with rectangular comparisons; current job status unknown.
-  job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
-  evidence: https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md
+  status: superseded
+  updated: '2026-10-17'
+  next: 'Superseded 2026-10-17 by hst-imaging-mass-samplers (human: clean slate). The 2026-09-24 re-run rows
+    stay as history in autolens_inference PR #23; no further run under these campaigns.'
+  recent_progress: 'The 2026-09-24 delaunay_1250 re-runs landed as 6 rows (A100 jax_gpu dense and sparse, numba_cpu
+    sparse; seeds 0-1) in autolens_inference PR #23, pending merge. A100 walls are clean single-attempt; the numba_cpu
+    sparse rows carry a resumed mass_total[1] stage.'
+  blockers: The seed-0 mass_total[1] offset (5.98, 5.12 and 6.62 sigma on dense, sparse and numba_cpu) reproduces
+    on three backends; human reading pending in Cortex. Do not merge the Delaunay target with rectangular comparisons.
+  job_status: 'All 2026-09-24 re-runs COMPLETED 0:0 per sacct queried 2026-10-17T11:10Z: 350678 and 350679 (gpu),
+    350684 (ral).'
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
   project: autolens_inference
+  checkin_report: checkins/2026-10-17T111853Z.md
+- id: hst-imaging-mass-samplers
+  title: 'HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear
+    lens light and with it fixed, then other samplers on the mass stage'
+  status: needs-slicing
+  updated: '2026-10-17'
+  next: 'Phase 1 via Mind start_dev: lens-light mode as a run variant (--lens-light linear|fixed|both, fixed = ordinary
+    profiles with intensities from the light[1] fit), both rows from one chain, --export-prepared for both modes,
+    library revisions and SLURM job id recorded in every row, submit scripts for A100 dense/sparse and ral jax_cpu
+    dense/sparse against a private pinned checkout; then phase 2 compute by separate authorisation.'
+  recent_progress: 'Opened 2026-10-17 as a fresh start by human decision: the base is re-measured from scratch on
+    PyAuto release 2026.10.17.1 (PyAutoLens tag v2026.10.17.1, released 2026-10-17) in fresh output trees; the
+    2026-09-24 rows and both earlier campaigns are superseded history.'
+  blockers: Phase 1 runner change not started (Mind start_dev pending); no pinned private checkout exists on RAL
+    yet; compute not authorised until phase 1 ships.
+  job_status: none submitted
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
+  project: autolens_inference
+  checkin_report: checkins/2026-10-17T111853Z.md
 - id: point-source-admission
   title: Point-source sampler admission
   status: needs-decision
@@ -116,7 +144,7 @@ tasks:
   path: tasks/drop_1e3_prior_centring_after_631.md
   updated: '2026-10-04'
   next: Verify the release containing Galaxy#634 and Lens#754 before changing priors; retain zero-centre gradient
-    witness.
+    witness. Carried into hst-imaging-mass-samplers phase 1 as a prior-identity question for the frozen model.
   evidence: https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/feature/autolens_inference/drop_1e3_prior_centring_after_631.md
 - id: reconcile_cortex_ledger_references
   campaign: slam-hst-base
@@ -199,3 +227,26 @@ tasks:
   next: Wave 2 is closed and judged (B5b-2); the fit snapshot is captured from main under inference-summary@3
     after the B5b-2 PRs merge.
   evidence: https://github.com/PyAutoLabs/autofit_inference/issues/12
+- id: hst_mass_base_light_modes
+  campaign: hst-imaging-mass-samplers
+  title: 'HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear
+    and fixed lens light'
+  status: needs-slicing
+  priority: high
+  path: tasks/hst_mass_base_light_modes.md
+  updated: '2026-10-17'
+  next: 'Phase 1 via Mind start_dev: --lens-light linear|fixed|both, both rows from one chain, --export-prepared
+    for both modes, library revisions and SLURM job id in every row, A100 and ral jax_cpu submit scripts against
+    a private pinned checkout; no compute until phase 1 ships and phase 2 is authorised.'
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
+- id: hst_mass_samplers_wave1
+  campaign: hst-imaging-mass-samplers
+  title: 'HST imaging mass stage: sampler comparison, wave 1'
+  status: needs-slicing
+  priority: normal
+  path: tasks/hst_mass_samplers_wave1.md
+  updated: '2026-10-17'
+  next: Depends on the frozen mass_total[1] problems (both light modes, A100 and jax_cpu) from the pinned base
+    in hst_mass_base_light_modes; candidate samplers from the experiments runner (nautilus, emcee, nuts, smc) and
+    the promoted PyAutoFit catalogue (NSS, DynestyStatic/Dynamic, Zeus) are not yet sliced.
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
