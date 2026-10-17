@@ -100,19 +100,25 @@ stage 1. Both numba legs share the dense stage, including the sparse leg.
    | 412541 | `submit_hst_cleanslate_jax_cpu_sparse` | ral | euclid-ral-compute-10-1 |
 
    All four (seeds 0-1) were RUNNING at 16:47Z and had started a fresh `source_lp[1]` under
-   the pin.
+   the pin. State read 2026-10-17T19:40Z:
+   - 412535 (A100 dense) COMPLETED 0:0, elapsed 01:00:33 (seed 0) and 00:58:35 (seed 1),
+     ended around 17:46Z. Rows on RAL at
+     `results/slam/imaging/hst/{slam_base,slam_base_lightfixed}/hpc_a100_jax_gpu_dense_fp64__cleanslate_2026_10_17/stages_seed{0,1}.json`;
+     prepared problems at
+     `output/prepared/cleanslate_2026_10_17/hpc_a100_jax_gpu_dense_fp64/seed_0/{slam_base,slam_base_lightfixed}/`.
+     Not yet pulled or committed; no walls read yet.
+   - 412537, 412539 and 412541 RUNNING.
 2b. numba_cpu base legs, human-authorised 2026-10-17 (in-job wait, submit now):
    `submit_hst_cleanslate_numba_cpu_{dense,sparse}`.
    - Setup: `ral` only, 8 CPUs, 48 GB / 64 GB, seeds 0-1, `--lens-light both`, the same pin,
      output root, results tag and prepared export as phase 2, config names
      `hpc_a100_numba_cpu_{dense,sparse}_fp64`.
    - Shipped in autolens_inference#32 (issue #31, merge b91ce9c).
-   - **Not yet submitted.** The RAL checkout's fast-forward to b91ce9c was cut off by a
-     timeout mid-checkout. HEAD is still dabb652, and the files the pull had already written
-     are untracked or modified. They were verified identical to b91ce9c, plus one empty
-     file. A plain `--ff-only` now refuses, and completing it needs a human-run
-     `git reset --mixed b91ce9c && git checkout -- .` in that checkout. Then submit with
-     `hpc/sync submit --cpu submit_hst_cleanslate_numba_cpu_dense` (and `_sparse`).
+   - **Submitted 2026-10-17T18:58Z** by the architect from autolens_inference main b91ce9c:
+     412563 (dense, 48gb) and 412565 (sparse, 64gb), both `ral`, 8 CPUs, seeds 0-1. The
+     first logs show the pin line, "Shared: source_lp[1] from hpc_a100_jax_cpu_dense_fp64",
+     and the in-job wait on that stage. Their rows mark the stage as shared and exclude its
+     wall from the numba chain wall.
 3. Sampler waves on the frozen problems: `tasks/hst_mass_samplers_wave1.md`.
 
 ## Decisions
@@ -140,4 +146,5 @@ autolens_inference.
 This task authorises nothing: no compute, no default change. Phase 1 shipped through Mind
 `start_dev` (autolens_inference#26); phase 2 was separately authorised by the human on
 2026-10-17 and submitted as above. The numba_cpu legs (2b) shipped in autolens_inference#32
-under the human's 2026-10-17 authorisation, and are awaiting submission.
+under the human's 2026-10-17 authorisation and were submitted 2026-10-17T18:58Z (412563,
+412565).

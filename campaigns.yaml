@@ -39,24 +39,10 @@ campaigns:
     lens light and with it fixed, then other samplers on the mass stage'
   status: running
   updated: '2026-10-17'
-  next: 'Finish the RAL checkout fast-forward to b91ce9c (a timed-out pull left it half-applied; the human runs
-    git reset --mixed b91ce9c && git checkout -- .), then submit the numba_cpu legs (hpc/sync submit --cpu
-    submit_hst_cleanslate_numba_cpu_dense and _sparse; each waits in-job for the jax_cpu dense source_lp[1]). Pull when the base arrays finish (hpc/sync pull) and read both light-mode rows per config/seed; account
-    GPU wave 1 (412543) with wave.py --account --config hpc_a100_jax_gpu_dense_fp64 once it runs; queue the CPU
-    wave (submit_hst_cleanslate_mass_samplers_jax_cpu_dense) once the CPU dense base rows land (needs authorisation).'
-  recent_progress: 'Phase 1 (lens-light mode, --export-prepared, pinned submits) merged in autolens_inference#26. Phase
-    3 wave 1 sliced and merged in autolens_inference#28 (issue #27): wave cleanslate_2026_10_17_wave1, nautilus/emcee/nuts/smc
-    cold x sampler seeds 0-2 x both light modes on the base-seed-0 problems, 24 arms per config, arm table and
-    row/failed/missing accounting in scripts/misc/experiments/wave.py. Pin directory /mnt/ral/jnightin/inference/pins/2026.10.17.1
-    built and verified 2026-10-17. Phase 2 submitted 2026-10-17T16:46Z (412535, 412537, 412539, 412541)
-    and the GPU wave queued behind base seed 0 (412543). numba_cpu dense and sparse legs (8 ral CPUs, seeds 0-1,
-    both light modes) merged in autolens_inference#32 (issue #31). They share the jax_cpu dense source_lp[1] via --stages-from,
-    with the stage marked shared_from_config and excluded from chain_wall_s (human decision 2026-10-17). Not yet submitted.'
-  job_status: 'Submitted 2026-10-17T16:46Z, pin 2026.10.17.1: base arrays 412535 (jax_gpu dense) and 412537 (jax_gpu
-    sparse) RUNNING on gpu (gres/gpu:a100=1, euclid-ral-gpu-1), 412539 (jax_cpu dense) and 412541 (jax_cpu sparse)
-    RUNNING on ral (euclid-ral-compute-10-1), seeds 0-1 each; GPU wave 1 412543 (0-23%4) PD (Dependency) afterok:412535_0.
-    squeue read 2026-10-17T16:47Z. At 17:58Z 412535 was no longer in squeue (exit state not read), 412537, 412539
-    and 412541 were RUNNING, and GPU wave tasks 412543_0-4 were RUNNING. numba_cpu legs not submitted.'
+  next: 'Pull the A100 dense base rows of 412535 (hpc/sync pull) and read both light-mode rows per seed; pull and read 412537, 412539 and 412541 when they finish. GPU wave 1 attempt 2 (nautilus and emcee arms) after the row-writer fix in the filed Mind task draft/bug/autolens_inference/wave1_row_writer_tuple_keys_and_gpu_oom_reslice.md merges; NUTS and SMC deferred with the A100 OOM evidence (proposed, see tasks/hst_mass_samplers_wave1.md). Queue the CPU wave (submit_hst_cleanslate_mass_samplers_jax_cpu_dense) once the CPU dense base rows land (needs authorisation).'
+  recent_progress: 'Phase 1 merged in autolens_inference#26; wave 1 sliced in #28; numba_cpu legs merged in #32 (b91ce9c). Base array 412535 (A100 jax_gpu dense, seeds 0-1, both light modes) COMPLETED 0:0 around 17:46Z, elapsed 01:00:33 and 00:58:35; rows and prepared problems are on RAL, not yet pulled or read. The numba_cpu dense and sparse legs (412563, 412565) were submitted 18:58Z from autolens_inference main b91ce9c and wait in-job on the shared jax_cpu dense source_lp[1]. GPU wave 1 (412543) attempt 1 started around 17:46Z and failed on every arm in two classes (row-writer TypeError after completed nautilus and emcee fits; A100 OOM for NUTS and SMC); pending arms 18-23 cancelled 19:40Z.'
+  blockers: 'wave 1 attempt 1 failed on every arm: row-writer TypeError after completed nautilus/emcee fits, A100 OOM for NUTS/SMC; fix task filed'
+  job_status: 'Read 2026-10-17T19:40Z (sacct/squeue by the architect), pin 2026.10.17.1. 412535 (jax_gpu dense, gpu) COMPLETED 0:0 both seeds. 412537 (jax_gpu sparse, gpu), 412539 (jax_cpu dense, ral) and 412541 (jax_cpu sparse, ral) RUNNING since 16:46Z. 412563 (numba_cpu dense, 48gb) and 412565 (numba_cpu sparse, 64gb), ral, 8 CPUs, seeds 0-1, submitted 18:58Z, waiting in-job on hpc_a100_jax_cpu_dense_fp64 source_lp[1]. 412543 (GPU wave 1, 24 arms): arms 2, 6, 10, 14 (nuts) and 3, 7, 11, 15 (smc) FAILED OOM; arms 0, 1, 4, 5, 8, 12, 16 FAILED in the row writer after completed fits; arms 9, 13, 17 RUNNING; arms 18-23 cancelled while pending.'
   evidence: https://github.com/PyAutoLabs/autolens_inference/pull/32
   project: autolens_inference
   checkin_report: checkins/2026-10-17T111853Z.md
@@ -243,16 +229,14 @@ tasks:
   priority: high
   path: tasks/hst_mass_base_light_modes.md
   updated: '2026-10-17'
-  next: 'Phase 2 running since 2026-10-17T16:46Z: 412535/412537 on gpu, 412539/412541 on ral (pin 2026.10.17.1,
-    seeds 0-1, --lens-light both). Pull and read the rows when they finish.'
+  next: '412535 (A100 jax_gpu dense) COMPLETED 0:0 (seeds 0-1, ended around 17:46Z): pull and read its rows. 412537, 412539, 412541 RUNNING at 19:40Z. numba_cpu legs 412563 (dense) and 412565 (sparse) submitted 2026-10-17T18:58Z on ral, 8 CPUs, waiting in-job on the shared jax_cpu dense source_lp[1]; their rows mark the stage shared and exclude its wall from the numba chain wall. Pull and read each array''s rows when it finishes.'
   evidence: https://github.com/PyAutoLabs/autolens_inference/pull/26
 - id: hst_mass_samplers_wave1
   campaign: hst-imaging-mass-samplers
   title: 'HST imaging mass stage: sampler comparison, wave 1'
-  status: running
+  status: blocked
   priority: normal
   path: tasks/hst_mass_samplers_wave1.md
   updated: '2026-10-17'
-  next: GPU wave 412543 (24 arms, %4, 6 h) queued 2026-10-17T16:46Z afterok:412535_0 on gpu; account with wave.py
-    --account --config hpc_a100_jax_gpu_dense_fp64. The CPU wave waits for the CPU dense base rows (412539).
+  next: 'Attempt 1 of GPU wave 412543 failed on every arm: nautilus/emcee fits completed, then the row writer raised TypeError on tuple-keyed parameter names (no rows); NUTS and SMC ran out of A100 memory. Pending arms 18-23 cancelled 19:40Z. Blocked until the writer fix in Mind draft/bug/autolens_inference/wave1_row_writer_tuple_keys_and_gpu_oom_reslice.md merges; then attempt 2 re-runs nautilus and emcee, NUTS and SMC deferred with the OOM evidence.'
   evidence: https://github.com/PyAutoLabs/autolens_inference/pull/28
