@@ -65,7 +65,20 @@ their output trees.
      (`tasks/drop_1e3_prior_centring_after_631.md`) is dropped, stated before the pin.
 2. Compute, decision-gated and separately authorised: the base above (2 devices x 2
    inversions x 2 seeds, both light modes per job) plus the prepared-problem exports.
-   Nothing is submitted.
+   **Submitted 2026-10-17T16:45:58-16:46:08Z** (human-authorised "go on 2"), pin
+   `/mnt/ral/jnightin/inference/pins/2026.10.17.1` (tag commits verified), output root
+   `output/cleanslate_2026_10_17`, results tag `cleanslate_2026_10_17`, prepared export
+   `output/prepared/cleanslate_2026_10_17/<config>/seed_<n>/<variant>/`:
+
+   | array | submit | partition | node / device |
+   |---|---|---|---|
+   | 412535 | `submit_hst_cleanslate_jax_gpu_dense` | gpu | euclid-ral-gpu-1, gres/gpu:a100=1 |
+   | 412537 | `submit_hst_cleanslate_jax_gpu_sparse` | gpu | euclid-ral-gpu-1, gres/gpu:a100=1 |
+   | 412539 | `submit_hst_cleanslate_jax_cpu_dense` | ral | euclid-ral-compute-10-1 |
+   | 412541 | `submit_hst_cleanslate_jax_cpu_sparse` | ral | euclid-ral-compute-10-1 |
+
+   All four (seeds 0-1) were RUNNING at 16:47Z and had started a fresh `source_lp[1]` under
+   the pin.
 3. Sampler waves on the frozen problems: `tasks/hst_mass_samplers_wave1.md`.
 
 ## Decisions
@@ -86,5 +99,6 @@ autolens_inference.
 
 ## Authorisation
 
-This task authorises nothing: no compute, no default change. Phase 1 needs Mind
-`start_dev`; phase 2 needs a separate compute authorisation.
+This task authorises nothing: no compute, no default change. Phase 1 shipped through Mind
+`start_dev` (autolens_inference#26); phase 2 was separately authorised by the human on
+2026-10-17 and submitted as above.

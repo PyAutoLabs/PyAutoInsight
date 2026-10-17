@@ -37,21 +37,21 @@ campaigns:
 - id: hst-imaging-mass-samplers
   title: 'HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear
     lens light and with it fixed, then other samplers on the mass stage'
-  status: ready
+  status: running
   updated: '2026-10-17'
-  next: 'Phase 2: update the RAL autolens_inference checkout to main (dabb652 or later) and submit the four pinned
-    clean-slate base arrays (submit_hst_cleanslate_jax_{gpu,cpu}_{dense,sparse}). Then queue the phase-3 wave-1
-    GPU array: hpc/sync submit --dependency afterok:<GPU dense base array id> submit_hst_cleanslate_mass_samplers_jax_gpu_dense.
-    The CPU wave (submit_hst_cleanslate_mass_samplers_jax_cpu_dense) waits for the CPU dense base rows.'
+  next: 'Pull when the base arrays finish (hpc/sync pull) and read both light-mode rows per config/seed; account
+    GPU wave 1 (412543) with wave.py --account --config hpc_a100_jax_gpu_dense_fp64 once it runs; queue the CPU
+    wave (submit_hst_cleanslate_mass_samplers_jax_cpu_dense) once the CPU dense base rows land (needs authorisation).'
   recent_progress: 'Phase 1 (lens-light mode, --export-prepared, pinned submits) merged in autolens_inference#26. Phase
     3 wave 1 sliced and merged in autolens_inference#28 (issue #27): wave cleanslate_2026_10_17_wave1, nautilus/emcee/nuts/smc
     cold x sampler seeds 0-2 x both light modes on the base-seed-0 problems, 24 arms per config, arm table and
     row/failed/missing accounting in scripts/misc/experiments/wave.py. Pin directory /mnt/ral/jnightin/inference/pins/2026.10.17.1
-    built and verified 2026-10-17.'
-  blockers: The RAL project checkout is still at df5fd2c with untracked results/slam/imaging/ (rows main now tracks);
-    its fast-forward needs a human-approved move-aside, so no base array is submitted and the wave has nothing
-    to depend on.
-  job_status: 'none submitted: squeue --me read 2026-10-17T14:09Z shows no hst_cleanslate base or wave job'
+    built and verified 2026-10-17. Phase 2 submitted 2026-10-17T16:46Z (412535, 412537, 412539, 412541)
+    and the GPU wave queued behind base seed 0 (412543).'
+  job_status: 'Submitted 2026-10-17T16:46Z, pin 2026.10.17.1: base arrays 412535 (jax_gpu dense) and 412537 (jax_gpu
+    sparse) RUNNING on gpu (gres/gpu:a100=1, euclid-ral-gpu-1), 412539 (jax_cpu dense) and 412541 (jax_cpu sparse)
+    RUNNING on ral (euclid-ral-compute-10-1), seeds 0-1 each; GPU wave 1 412543 (0-23%4) PD (Dependency) afterok:412535_0.
+    squeue read 2026-10-17T16:47Z.'
   evidence: https://github.com/PyAutoLabs/autolens_inference/pull/28
   project: autolens_inference
   checkin_report: checkins/2026-10-17T111853Z.md
@@ -234,22 +234,20 @@ tasks:
   campaign: hst-imaging-mass-samplers
   title: 'HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear
     and fixed lens light'
-  status: needs-slicing
+  status: running
   priority: high
   path: tasks/hst_mass_base_light_modes.md
   updated: '2026-10-17'
-  next: 'Phase 1 via Mind start_dev: --lens-light linear|fixed|both, both rows from one chain, --export-prepared
-    for both modes, library revisions and SLURM job id in every row, A100 and ral jax_cpu submit scripts against
-    a private pinned checkout; no compute until phase 1 ships and phase 2 is authorised.'
-  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
+  next: 'Phase 2 running since 2026-10-17T16:46Z: 412535/412537 on gpu, 412539/412541 on ral (pin 2026.10.17.1,
+    seeds 0-1, --lens-light both). Pull and read the rows when they finish.'
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/26
 - id: hst_mass_samplers_wave1
   campaign: hst-imaging-mass-samplers
   title: 'HST imaging mass stage: sampler comparison, wave 1'
-  status: ready
+  status: running
   priority: normal
   path: tasks/hst_mass_samplers_wave1.md
   updated: '2026-10-17'
-  next: Sliced and shipped (autolens_inference#28). Submit the GPU wave with --dependency afterok on the phase-2
-    GPU dense base array once that array is queued; the CPU wave waits for the CPU dense base rows. Account with
-    wave.py --account --config <config>.
+  next: GPU wave 412543 (24 arms, %4, 6 h) queued 2026-10-17T16:46Z afterok:412535_0 on gpu; account with wave.py
+    --account --config hpc_a100_jax_gpu_dense_fp64. The CPU wave waits for the CPU dense base rows (412539).
   evidence: https://github.com/PyAutoLabs/autolens_inference/pull/28
