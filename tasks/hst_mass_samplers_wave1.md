@@ -69,18 +69,19 @@ Wave id `cleanslate_2026_10_17_wave1`; the arm table is data in autolens_inferen
 
 ## Jobs
 
-- **GPU wave:** not yet submitted. It is submitted with
-  `hpc/sync submit --dependency afterok:<GPU dense base array id> submit_hst_cleanslate_mass_samplers_jax_gpu_dense`
-  once the phase-2 GPU dense base array is queued. As of 2026-10-17T14:09Z no base array
-  exists: the RAL project checkout still needs its fast-forward to main (blocked on a
-  human-approved move-aside of untracked rows).
+- **GPU wave:** array **412543** (`submit_hst_cleanslate_mass_samplers_jax_gpu_dense`,
+  `0-23%4`, 6 h containment, gpu), submitted 2026-10-17T16:46:15Z with
+  `--dependency afterok:412535_0`: it starts when seed 0 of the GPU dense base array
+  (412535) completes cleanly, because the base-seed-0 problems are the only ones the wave
+  reads. squeue at 16:47Z: PD (Dependency).
 - **CPU wave:** waits for the CPU dense base rows (days), then the same submit with `--cpu`.
 
 ## Status
 
-ready. Sliced and shipped in autolens_inference#28 (issue #27); witnessed on the euclid
+running. Sliced and shipped in autolens_inference#28 (issue #27); witnessed on the euclid
 test-mode cell (both light-mode problems exported, all 24 arms `--validate-only` through the
-resolver). Waits for the phase-2 base arrays.
+resolver). The GPU wave 412543 is queued behind base array 412535 seed 0; the base arrays
+412535, 412537 (gpu) and 412539, 412541 (ral) run since 2026-10-17T16:46Z.
 
 ## Authorisation
 
