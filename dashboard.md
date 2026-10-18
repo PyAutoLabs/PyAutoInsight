@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:4e6ee605d8281a14cd2a4805e8b0af9e40b8bfb7b16110c3b39527be89be9f34 -->
+<!-- insight-inputs:ed96feedb8ad2d17318d3f13b01ff46763293c6c19e3e210ab1bd9735ef864e2 -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 1 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:0edeea0eaa120c99ecb196aa80c33c45aceb887547261d709ec622055be6545f -->
+<!-- insight-campaigns:f96e56bb8c333b2b086cb9c884e66375e2393f01a041cfa229119f212f3f0f1e -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -39,7 +39,7 @@ Last check-in: 2026-10-18T17:00:00Z.
 
 | Campaign | Recent progress | Next steps |
 |---|---|---|
-| [HST imaging, clean slate: Nautilus base on A100, jax_cpu and numba_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/34) | Read 2026-10-18 (checkins/2026-10-18T170000Z.md). A100 base complete: 412535 (dense) and 412537 (sparse) rows for both light modes and seeds read. Dense fixed-light mass_total[1] is the best-recovered row (worst abs delta-sigma 0.24 / 0.34). Sparse fixed-light mass_total[1] diverged on both seeds (log Z -43567 / -43202, max logL ~-43500 vs ~+31649 linear; slope pinned at 2.96); observation recorded in Cortex, human reading pending. jax_cpu dense seed 1 linear row written (chain ~21 h vs ~40 min on A100; worst 1.29 sigma). numba_cpu dense 412563 FAILED at the first source_pix[1] batch (two Nautilus pool workers SIGSEGV, MaxRSS 356 MB, not OOM). Wave-1 fix merged as autolens_inference#34 (ca505be) 2026-10-17T19:25Z; attempt 2 not submitted. | (1) Human decision on filing a Mind bug task for the jax_gpu sparse fixed-light mass_total[1] divergence (both seeds) and reproducing it on the laptop from the exported prepared problem, before any CPU or sampler wave uses the sparse fixed-light problem. (2) Human authorisation for GPU wave 1 attempt 2 (nautilus+emcee, --array=0-11%4) after git pull of autolens_inference on the RAL login node to ca505be. (3) Human decision on the numba_cpu dense rerun (--cores 1, or NUMBA_THREADING_LAYER=workqueue before the fork). (4) Wait for 412539, 412541 and 412565 to finish (jax_cpu sparse source_pix[1] near its end), then pull and read. |
+| [HST imaging, clean slate: Nautilus base on A100, jax_cpu and numba_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/34) | Read 2026-10-18 (checkins/2026-10-18T170000Z.md). A100 base complete: 412535 (dense) and 412537 (sparse) rows for both light modes and seeds read. Dense fixed-light mass_total[1] is the best-recovered row (worst abs delta-sigma 0.24 / 0.34). Sparse fixed-light mass_total[1] diverged on both seeds (log Z -43567 / -43202, max logL ~-43500 vs ~+31649 linear; slope pinned at 2.96); observation recorded in Cortex, human reading pending. jax_cpu dense seed 1 linear row written (chain ~21 h vs ~40 min on A100; worst 1.29 sigma). numba_cpu dense 412563 FAILED at the first source_pix[1] batch (two Nautilus pool workers SIGSEGV, MaxRSS 356 MB, not OOM). Wave-1 fix merged as autolens_inference#34 (ca505be) 2026-10-17T19:25Z; attempt 2 not submitted. | (1) Human decision on filing a Mind bug task for the jax_gpu sparse fixed-light mass_total[1] divergence (both seeds) and reproducing it on the laptop from the exported prepared problem, before any CPU or sampler wave uses the sparse fixed-light problem. (2) Human authorisation for GPU wave 1 attempt 2 (nautilus+emcee, --array=0-11%4) after git pull of autolens_inference on the RAL login node to ca505be. (3) numba_cpu dense DROPPED by human decision 2026-10-18 (decisions/hst-cleanslate-drop-numba-dense.md): no rerun. (4) Wait for 412539, 412541 and 412565 to finish (jax_cpu sparse source_pix[1] near its end), then pull and read. |
 | [Point-source sampler admission](https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md) | 2 October project record reports five Nautilus seeds; no gradient-sampler admission measurement. | Assess a bounded gradient-sampler admission proposal with the human; no new job is authorized. |
 | [Graphical and EP inference coordination](https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md) | Mind campaign map and two scoping contracts preserved verbatim; implementation work remains in Mind. | Reconcile current Cortex observations and shipped fixes, then select one bounded phase. |
 | [Analytic Gaussian ensemble and control calibration](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/analytic_gaussian.md) | Cortex records accepted wave-1 baseline and 30 September independent-review caveats. | Use Cortex planned diagnostic on passing, edge and worst seeds; retain the human conclusion there. |
@@ -28006,10 +28006,10 @@ gaussian_x3@2 timeouts are 10 x the laptop pilot medians while RAL ran 4-7 x fas
 | gaussian_x3@2 | gaussian_x3@2/gaussian_x3_separated/zeus/walkers_50_steps_2000/ral_numpy_fp64 | 250 | complete 250 | not_converged 250 | accepted 198, rejected 52 | [records](https://github.com/PyAutoLabs/autofit_inference/blob/6d26b5571fac7824c9c6c8188818e68889233b89/dashboard/records/gaussian_x3%402/gaussian_x3_separated/zeus/walkers_50_steps_2000/ral_numpy_fp64.json) |
 
 
-<!-- decision-history:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945 -->
+<!-- decision-history:ea457cc1e93b234e71ba912e59e2cd8feaef29a9781a0b1e265b4c004f04d0bd -->
 ## Decision History
 
-No decisions recorded yet.
+- <a href="https://github.com/PyAutoLabs/PyAutoInsight/blob/main/decisions/hst-cleanslate-drop-numba-dense.md">Drop the numba_cpu dense leg from the HST clean-slate campaign</a>
 
 ## Sampler candidates
 
