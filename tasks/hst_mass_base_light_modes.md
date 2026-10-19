@@ -148,3 +148,15 @@ This task authorises nothing: no compute, no default change. Phase 1 shipped thr
 2026-10-17 and submitted as above. The numba_cpu legs (2b) shipped in autolens_inference#32
 under the human's 2026-10-17 authorisation and were submitted 2026-10-17T18:58Z (412563,
 412565).
+
+## Layout change and cancellation (2026-10-19)
+
+The paths named in phase 2 above describe what was submitted on 2026-10-17. On 2026-10-19
+autolens_inference#36 (merge `c3ca4de`) and `scripts/misc/flatten_cleanslate.py --apply`
+moved them, on RAL and on the laptop mirror, to the flat layout:
+`output/autolens/imaging/hst/slam/<variant>/<config>/seed_<n>/<stage>/` for stage output,
+`output/autolens/prepared/<config>/seed_<n>/<variant>/` for prepared problems and
+`results/slam/imaging/hst/<variant>/<config>/` for rows (no `__cleanslate_2026_10_17`
+suffix). On the human's decision, 412541 and 412565 were cancelled the same day before
+their fixed-light mass stages finished. Stage-level detail is in
+`checkins/2026-10-19T171637Z.md`.

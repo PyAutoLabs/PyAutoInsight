@@ -48,7 +48,8 @@ Wave id `cleanslate_2026_10_17_wave1`; the arm table is data in autolens_inferen
 
 - **Problems:** the frozen `mass_total[1]` problems of base seed 0, both light modes
   (`slam_base`, `slam_base_lightfixed`), read from
-  `output/prepared/cleanslate_2026_10_17/<config>/seed_0/<variant>/manifest.json`. The
+  `output/autolens/prepared/<config>/seed_0/<variant>/manifest.json` (flat layout since
+  2026-10-19, autolens_inference#36; originally `output/prepared/cleanslate_2026_10_17/...`). The
   problem id is read from the manifest at run time; the leaf refuses any identity, artifact
   digest or library-revision mismatch, and any existing run id.
 - **Configs:** `hpc_a100_jax_gpu_dense_fp64` (A100, hardware id `ral-a100-1gpu-4cpu`,
