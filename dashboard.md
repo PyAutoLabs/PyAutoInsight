@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:57568d5d217901bb6508e19d7ababe1dec159f54ce3de2dbd1d9258e34271207 -->
+<!-- insight-inputs:e0df37ad42573be10ddde9ce1ea9016c6092761c0a7a7c5507b127c3426c5d6c -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 0 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:cde3bababeb5724ac12b65df7a47ec22b884eb3c47d39324a5e1dad9e1a8aa90 -->
+<!-- insight-campaigns:7234e7ceb35114d659abb8135cbde602400d825ae298311a66bcdcb6f4ce7d09 -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -33,13 +33,13 @@ Carry clearly authorized work through the appropriate procedure, retaining decis
 After taking action, report what changed, what the evidence supports and what remains unresolved. Continue subsequent inference work in this chat and stop at the session deliverable without scheduling background follow-up.
 ```
 
-Last check-in: 2026-10-17T11:18:53Z.
+Last check-in: 2026-10-18T17:00:00Z.
 
 ## Active campaigns
 
 | Campaign | Recent progress | Next steps |
 |---|---|---|
-| [HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/23) | Opened 2026-10-17 as a fresh start by human decision: the base is re-measured from scratch on PyAuto release 2026.10.17.1 (PyAutoLens tag v2026.10.17.1, released 2026-10-17) in fresh output trees; the 2026-09-24 rows and both earlier campaigns are superseded history. | Phase 1 via Mind start_dev: lens-light mode as a run variant (--lens-light linear\|fixed\|both, fixed = ordinary profiles with intensities from the light[1] fit), both rows from one chain, --export-prepared for both modes, library revisions and SLURM job id recorded in every row, submit scripts for A100 dense/sparse and ral jax_cpu dense/sparse against a private pinned checkout; then phase 2 compute by separate authorisation. |
+| [HST imaging, clean slate: Nautilus base on A100, jax_cpu and numba_cpu at a pinned release, mass stage with linear lens light and with it fixed, then other samplers on the mass stage](https://github.com/PyAutoLabs/autolens_inference/pull/34) | Read 2026-10-18 (checkins/2026-10-18T170000Z.md). A100 base complete: 412535 (dense) and 412537 (sparse) rows for both light modes and seeds read. Dense fixed-light mass_total[1] is the best-recovered row (worst abs delta-sigma 0.24 / 0.34). Sparse fixed-light mass_total[1] diverged on both seeds (log Z -43567 / -43202, max logL ~-43500 vs ~+31649 linear; slope pinned at 2.96); observation recorded in Cortex, human reading pending. jax_cpu dense seed 1 linear row written (chain ~21 h vs ~40 min on A100; worst 1.29 sigma). numba_cpu dense 412563 FAILED at the first source_pix[1] batch (two Nautilus pool workers SIGSEGV, MaxRSS 356 MB, not OOM). Wave-1 fix merged as autolens_inference#34 (ca505be) 2026-10-17T19:25Z; attempt 2 not submitted. | (1) Human decision on filing a Mind bug task for the jax_gpu sparse fixed-light mass_total[1] divergence (both seeds) and reproducing it on the laptop from the exported prepared problem, before any CPU or sampler wave uses the sparse fixed-light problem. (2) Human authorisation for GPU wave 1 attempt 2 (nautilus+emcee, --array=0-11%4) after git pull of autolens_inference on the RAL login node to ca505be. (3) numba_cpu dense DROPPED by human decision 2026-10-18 (decisions/hst-cleanslate-drop-numba-dense.md): no rerun. (4) Wait for 412539, 412541 and 412565 to finish (jax_cpu sparse source_pix[1] near its end), then pull and read. (5) Then start_dev the filed Mind prompt draft/refactor/autolens_inference/flatten_cleanslate_output_layout.md (Mind 734e1bf8; human 2026-10-18: flat output/autolens/imaging/... layout, no dated folder; blocked until those arrays finish). |
 | [Point-source sampler admission](https://github.com/PyAutoLabs/autolens_inference/blob/146a84346eaa51eda158634cae520d677f3e6213/wiki/project/state.md) | 2 October project record reports five Nautilus seeds; no gradient-sampler admission measurement. | Assess a bounded gradient-sampler admission proposal with the human; no new job is authorized. |
 | [Graphical and EP inference coordination](https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md) | Mind campaign map and two scoping contracts preserved verbatim; implementation work remains in Mind. | Reconcile current Cortex observations and shipped fixes, then select one bounded phase. |
 | [Analytic Gaussian ensemble and control calibration](https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/analytic_gaussian.md) | Cortex records accepted wave-1 baseline and 30 September independent-review caveats. | Use Cortex planned diagnostic on passing, edge and worst seeds; retain the human conclusion there. |
@@ -59,8 +59,8 @@ Last check-in: 2026-10-17T11:18:53Z.
 | [NUTS/HMC trial on validated likelihoods](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gradient_sampler_validated_likelihoods.md) | point-source-admission | needs-decision | normal | An unscoped idea, not permission to submit: reconcile point-source admission with imaging and weak-lensing candidate targets. |
 | [gaussian_x3 search benchmark — wave 1 (the pilot)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave1.md) | gaussian-x3-search-benchmark | blocked | normal | Pilot stopped at 223 of 520 runs and is not restarted; freeze gaussian_x3@2 from its 17-row calibration before any scored run; the deferred cells move to scored wave 2 (after A2 and A4). |
 | [gaussian_x3 search benchmark — wave 2 (scored)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave2.md) | gaussian-x3-search-benchmark | running | high | Wave 2 is closed and judged (B5b-2); the fit snapshot is captured from main under inference-summary@3 after the B5b-2 PRs merge. |
-| [HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear and fixed lens light](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_base_light_modes.md) | hst-imaging-mass-samplers | needs-slicing | high | Phase 1 via Mind start_dev: --lens-light linear\|fixed\|both, both rows from one chain, --export-prepared for both modes, library revisions and SLURM job id in every row, A100 and ral jax_cpu submit scripts against a private pinned checkout; no compute until phase 1 ships and phase 2 is authorised. |
-| [HST imaging mass stage: sampler comparison, wave 1](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_samplers_wave1.md) | hst-imaging-mass-samplers | needs-slicing | normal | Depends on the frozen mass_total[1] problems (both light modes, A100 and jax_cpu) from the pinned base in hst_mass_base_light_modes; candidate samplers from the experiments runner (nautilus, emcee, nuts, smc) and the promoted PyAutoFit catalogue (NSS, DynestyStatic/Dynamic, Zeus) are not yet sliced. |
+| [HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear and fixed lens light](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_base_light_modes.md) | hst-imaging-mass-samplers | running | high | A100 rows of 412535 and 412537 (both light modes, seeds 0-1) read 2026-10-18; jax_gpu sparse fixed-light mass_total[1] diverged on both seeds (Cortex observation, human reading pending). 412539 (jax_cpu dense) has the seed-1 linear row; 412541 (jax_cpu sparse) and 412565 (numba_cpu sparse) RUNNING in source_pix[1] at ~16:55Z; 412563 (numba_cpu dense) FAILED (pool-worker SIGSEGV, not OOM), rerun with --cores 1 or NUMBA_THREADING_LAYER=workqueue needs a human decision. Pull and read 412539, 412541 and 412565 when they finish. |
+| [HST imaging mass stage: sampler comparison, wave 1](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_samplers_wave1.md) | hst-imaging-mass-samplers | blocked | normal | Fix merged as autolens_inference#34 (ca505be, 2026-10-17T19:25Z): row writer keyed by dotted path, --attempt, --sampler-filter, NUTS/SMC deferred, GPU submit defaults attempt 2 nautilus+emcee --array=0-11%4 with no dependency. Attempt 2 NOT submitted; blocked on git pull of autolens_inference on the RAL login node (at b91ce9c) to ca505be and human authorisation. Attempt-1 NUTS/SMC rows exist on RAL as failed: RESOURCE_EXHAUSTED (385.32 GiB / 48.45 GiB); no nautilus/emcee rows. |
 
 [Ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml)
 
@@ -32095,10 +32095,10 @@ gaussian_x3@2 timeouts are 10 x the laptop pilot medians while RAL ran 4-7 x fas
 | gaussian_x3@2 | gaussian_x3@2/gaussian_x3_separated/zeus/walkers_50_steps_2000/ral_numpy_fp64 | 250 | complete 250 | not_converged 250 | accepted 198, rejected 52 | [records](https://github.com/PyAutoLabs/autofit_inference/blob/6d26b5571fac7824c9c6c8188818e68889233b89/dashboard/records/gaussian_x3%402/gaussian_x3_separated/zeus/walkers_50_steps_2000/ral_numpy_fp64.json) |
 
 
-<!-- decision-history:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945 -->
+<!-- decision-history:ea457cc1e93b234e71ba912e59e2cd8feaef29a9781a0b1e265b4c004f04d0bd -->
 ## Decision History
 
-No decisions recorded yet.
+- <a href="https://github.com/PyAutoLabs/PyAutoInsight/blob/main/decisions/hst-cleanslate-drop-numba-dense.md">Drop the numba_cpu dense leg from the HST clean-slate campaign</a>
 
 ## Sampler candidates
 

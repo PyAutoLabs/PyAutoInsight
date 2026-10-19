@@ -1,2 +1,6 @@
 # Human decisions only; see decisions/README.md for capture and record format.
-decisions: []
+decisions:
+- id: hst-cleanslate-drop-numba-dense
+  title: Drop the numba_cpu dense leg from the HST clean-slate campaign
+  date: '2026-10-18'
+  url: https://github.com/PyAutoLabs/PyAutoInsight/blob/main/decisions/hst-cleanslate-drop-numba-dense.md

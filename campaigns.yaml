@@ -1,6 +1,6 @@
 version: 1
-last_checkin: '2026-10-17T11:18:53Z'
-last_checkin_report: checkins/2026-10-17T111853Z.md
+last_checkin: '2026-10-18T17:00:00Z'
+last_checkin_report: checkins/2026-10-18T170000Z.md
 campaigns:
 - id: slam-hst-base
   title: HST SLaM base backend parity
@@ -35,23 +35,17 @@ campaigns:
   project: autolens_inference
   checkin_report: checkins/2026-10-17T111853Z.md
 - id: hst-imaging-mass-samplers
-  title: 'HST imaging, clean slate: Nautilus base on A100 and jax_cpu at a pinned release, mass stage with linear
+  title: 'HST imaging, clean slate: Nautilus base on A100, jax_cpu and numba_cpu at a pinned release, mass stage with linear
     lens light and with it fixed, then other samplers on the mass stage'
-  status: needs-slicing
-  updated: '2026-10-17'
-  next: 'Phase 1 via Mind start_dev: lens-light mode as a run variant (--lens-light linear|fixed|both, fixed = ordinary
-    profiles with intensities from the light[1] fit), both rows from one chain, --export-prepared for both modes,
-    library revisions and SLURM job id recorded in every row, submit scripts for A100 dense/sparse and ral jax_cpu
-    dense/sparse against a private pinned checkout; then phase 2 compute by separate authorisation.'
-  recent_progress: 'Opened 2026-10-17 as a fresh start by human decision: the base is re-measured from scratch on
-    PyAuto release 2026.10.17.1 (PyAutoLens tag v2026.10.17.1, released 2026-10-17) in fresh output trees; the
-    2026-09-24 rows and both earlier campaigns are superseded history.'
-  blockers: Phase 1 runner change not started (Mind start_dev pending); no pinned private checkout exists on RAL
-    yet; compute not authorised until phase 1 ships.
-  job_status: none submitted
-  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
+  status: running
+  updated: '2026-10-18'
+  next: '(1) Human decision on filing a Mind bug task for the jax_gpu sparse fixed-light mass_total[1] divergence (both seeds) and reproducing it on the laptop from the exported prepared problem, before any CPU or sampler wave uses the sparse fixed-light problem. (2) Human authorisation for GPU wave 1 attempt 2 (nautilus+emcee, --array=0-11%4) after git pull of autolens_inference on the RAL login node to ca505be. (3) numba_cpu dense DROPPED by human decision 2026-10-18 (decisions/hst-cleanslate-drop-numba-dense.md): no rerun. (4) Wait for 412539, 412541 and 412565 to finish (jax_cpu sparse source_pix[1] near its end), then pull and read. (5) Then start_dev the filed Mind prompt draft/refactor/autolens_inference/flatten_cleanslate_output_layout.md (Mind 734e1bf8; human 2026-10-18: flat output/autolens/imaging/... layout, no dated folder; blocked until those arrays finish).'
+  recent_progress: 'Read 2026-10-18 (checkins/2026-10-18T170000Z.md). A100 base complete: 412535 (dense) and 412537 (sparse) rows for both light modes and seeds read. Dense fixed-light mass_total[1] is the best-recovered row (worst abs delta-sigma 0.24 / 0.34). Sparse fixed-light mass_total[1] diverged on both seeds (log Z -43567 / -43202, max logL ~-43500 vs ~+31649 linear; slope pinned at 2.96); observation recorded in Cortex, human reading pending. jax_cpu dense seed 1 linear row written (chain ~21 h vs ~40 min on A100; worst 1.29 sigma). numba_cpu dense 412563 FAILED at the first source_pix[1] batch (two Nautilus pool workers SIGSEGV, MaxRSS 356 MB, not OOM). Wave-1 fix merged as autolens_inference#34 (ca505be) 2026-10-17T19:25Z; attempt 2 not submitted.'
+  blockers: 'Sparse fixed-light mass-stage divergence unexplained (needs reproduction); wave 1 attempt 2 needs RAL checkout pull (b91ce9c -> ca505be) and human authorisation; numba_cpu dense dropped 2026-10-18 (human decision), no longer a blocker.'
+  job_status: 'Read 2026-10-18 ~16:55Z (sacct/squeue by the architect), pin 2026.10.17.1. 412535 (jax_gpu dense) and 412537 (jax_gpu sparse) COMPLETED 0:0 both seeds. 412539 (jax_cpu dense) RUNNING 23 h: seed 1 linear row written, seed 1 on fixed mass_total[1], seed 0 in linear mass_total[1]. 412541 (jax_cpu sparse) RUNNING 23 h, both seeds in source_pix[1], no row. 412563 (numba_cpu dense) FAILED 1:0 both seeds after 00:00:57 (pool-worker SIGSEGV; failed rows). 412565 (numba_cpu sparse) RUNNING 21 h, both seeds in source_pix[1], no row. 412543 wave 1 attempt 1: 18 arms FAILED, 18-23 cancelled; attempt 2 not submitted.'
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/34
   project: autolens_inference
-  checkin_report: checkins/2026-10-17T111853Z.md
+  checkin_report: checkins/2026-10-18T170000Z.md
 - id: point-source-admission
   title: Point-source sampler admission
   status: needs-decision
@@ -231,22 +225,20 @@ tasks:
   campaign: hst-imaging-mass-samplers
   title: 'HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear
     and fixed lens light'
-  status: needs-slicing
+  status: running
   priority: high
   path: tasks/hst_mass_base_light_modes.md
-  updated: '2026-10-17'
-  next: 'Phase 1 via Mind start_dev: --lens-light linear|fixed|both, both rows from one chain, --export-prepared
-    for both modes, library revisions and SLURM job id in every row, A100 and ral jax_cpu submit scripts against
-    a private pinned checkout; no compute until phase 1 ships and phase 2 is authorised.'
-  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
+  updated: '2026-10-18'
+  next: 'A100 rows of 412535 and 412537 (both light modes, seeds 0-1) read 2026-10-18; jax_gpu sparse fixed-light mass_total[1] diverged on both seeds (Cortex observation, human reading pending). 412539 (jax_cpu dense) has the seed-1 linear row; 412541 (jax_cpu sparse) and 412565 (numba_cpu sparse) RUNNING in source_pix[1] at ~16:55Z; 412563 (numba_cpu dense) FAILED (pool-worker SIGSEGV, not OOM), rerun with --cores 1 or NUMBA_THREADING_LAYER=workqueue needs a human decision. Pull and read 412539, 412541 and 412565 when they finish.'
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/26
+  checkin_report: checkins/2026-10-18T170000Z.md
 - id: hst_mass_samplers_wave1
   campaign: hst-imaging-mass-samplers
   title: 'HST imaging mass stage: sampler comparison, wave 1'
-  status: needs-slicing
+  status: blocked
   priority: normal
   path: tasks/hst_mass_samplers_wave1.md
-  updated: '2026-10-17'
-  next: Depends on the frozen mass_total[1] problems (both light modes, A100 and jax_cpu) from the pinned base
-    in hst_mass_base_light_modes; candidate samplers from the experiments runner (nautilus, emcee, nuts, smc) and
-    the promoted PyAutoFit catalogue (NSS, DynestyStatic/Dynamic, Zeus) are not yet sliced.
-  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/23
+  updated: '2026-10-18'
+  next: 'Fix merged as autolens_inference#34 (ca505be, 2026-10-17T19:25Z): row writer keyed by dotted path, --attempt, --sampler-filter, NUTS/SMC deferred, GPU submit defaults attempt 2 nautilus+emcee --array=0-11%4 with no dependency. Attempt 2 NOT submitted; blocked on git pull of autolens_inference on the RAL login node (at b91ce9c) to ca505be and human authorisation. Attempt-1 NUTS/SMC rows exist on RAL as failed: RESOURCE_EXHAUSTED (385.32 GiB / 48.45 GiB); no nautilus/emcee rows.'
+  evidence: https://github.com/PyAutoLabs/autolens_inference/pull/34
+  checkin_report: checkins/2026-10-18T170000Z.md
