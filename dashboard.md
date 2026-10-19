@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:d5dd5496489eed8a8586574c3f34a93f66324d4482be10b35341d4783d021eb0 -->
+<!-- insight-inputs:4589a6469baa898d8f698643d4dec43c0d2297aa4cba8a98723a8724868c6401 -->
 
 | Where | Count |
 |---|---:|
@@ -67,10 +67,10 @@ Last check-in: 2026-10-17T11:18:53Z.
 ## Inference Results
 
 
-<!-- insight:instance name=lens receipt=ca505be2d191da70321daa264b487c80c66b789d outcome=invalid shown=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 -->
+<!-- insight:instance name=lens receipt=c3ca4de16cb5e62de7ff1542635d4e43bbd2d84e outcome=invalid shown=26b099cb14d099ad7b8c9b20ec5098de5f93dbd7 -->
 ## autolens_inference
 Integrity: cached · latest fetch invalid. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/128 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: 26b099cb14d099ad7b8c9b20ec5098de5f93dbd7; fetched 2026-10-17T13:17:23Z; latest attempt 2026-10-18T08:23:17Z.
+Capture source branch: main; revision: 26b099cb14d099ad7b8c9b20ec5098de5f93dbd7; fetched 2026-10-17T13:17:23Z; latest attempt 2026-10-19T15:54:01Z.
 results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed0.json: dependency revisions must be text
 results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed1.json: dependency revisions must be text
 results/searches/point_source/multi_start_adam/simple/source_plane_solved/hpc_a100_jax_cpu_dense_fp64/search_seed2.json: dependency revisions must be text
