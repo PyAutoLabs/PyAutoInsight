@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:311cc0fe1c4d8a3137aef8ca1575f46bc92489f405788d4674b3f25e617aeae3 -->
+<!-- insight-inputs:89aaba445e21d196650b27f73a3f065b391c41ede885f899e1018d52faadc1bb -->
 
 | Where | Count |
 |---|---:|
@@ -10,7 +10,7 @@
 | [Cached](#evidence) | 1 |
 | [Failed](#evidence) | 0 |
 
-<!-- insight-campaigns:08d07ff9c5245a1253774d75c17d6815f86ab37859d196cbdeee741a05df566a -->
+<!-- insight-campaigns:f8ae53d4aa25b718344a1dce331a578c59efb2d6e2e11abc5719c64885bfa31d -->
 ## Check in on all inference work
 
 Copy this into one chat. Add a campaign focus or idea before or after it, or leave it unchanged.
@@ -59,7 +59,7 @@ Last check-in: 2026-10-18T17:00:00Z.
 | [NUTS/HMC trial on validated likelihoods](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gradient_sampler_validated_likelihoods.md) | point-source-admission | needs-decision | normal | An unscoped idea, not permission to submit: reconcile point-source admission with imaging and weak-lensing candidate targets. |
 | [gaussian_x3 search benchmark — wave 1 (the pilot)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave1.md) | gaussian-x3-search-benchmark | blocked | normal | Pilot stopped at 223 of 520 runs and is not restarted; freeze gaussian_x3@2 from its 17-row calibration before any scored run; the deferred cells move to scored wave 2 (after A2 and A4). |
 | [gaussian_x3 search benchmark — wave 2 (scored)](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/gaussian_x3_search_wave2.md) | gaussian-x3-search-benchmark | running | high | Wave 2 is closed and judged (B5b-2); the fit snapshot is captured from main under inference-summary@3 after the B5b-2 PRs merge. |
-| [HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear and fixed lens light](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_base_light_modes.md) | hst-imaging-mass-samplers | needs-decision | high | A100 legs complete; jax_gpu sparse fixed-light mass_total[1] diverged (Cortex observation, human reading pending). 412539 (jax_cpu dense) COMPLETED 2026-10-18; its rows were not re-read in the 2026-10-19 record. 412541 (jax_cpu sparse) and 412565 (numba_cpu sparse) were CANCELLED 2026-10-19 ~15:51Z on the human&#x27;s decision. Completed at cancel: jax_cpu sparse seed 0 slam_base; jax_cpu sparse seed 1 source_lp[1] and source_pix[1]; numba sparse slam_base on both seeds. Every lightfixed mass_total[1] is incomplete. The partial stage dirs stay under output/autolens/imaging/hst/slam/&lt;variant&gt;/&lt;config&gt;/seed_&lt;n&gt;/. A rerun of the remainder under the flat layout needs human authorisation. numba_cpu dense dropped (2026-10-18 decision). |
+| [HST imaging mass stage, clean slate: Nautilus base on A100 and jax_cpu at release 2026.10.17.1, linear and fixed lens light](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_base_light_modes.md) | hst-imaging-mass-samplers | needs-decision | high | A100 legs complete; jax_gpu sparse fixed-light mass_total[1] diverged (Cortex observation, human reading pending). 412539 (jax_cpu dense) COMPLETED 2026-10-18, elapsed 1-05:59:53 / 1-02:57:03 (sacct 2026-10-19 ~17:25Z, Cortex PR #73 e3ab356); its rows were not re-read in the 2026-10-19 record. 412541 (jax_cpu sparse) and 412565 (numba_cpu sparse) were CANCELLED 2026-10-19 ~15:51Z on the human&#x27;s decision. Completed at cancel: jax_cpu sparse seed 0 slam_base; jax_cpu sparse seed 1 source_lp[1] and source_pix[1]; numba sparse slam_base on both seeds. Every lightfixed mass_total[1] is incomplete. The partial stage dirs stay under output/autolens/imaging/hst/slam/&lt;variant&gt;/&lt;config&gt;/seed_&lt;n&gt;/. A rerun of the remainder under the flat layout needs human authorisation. numba_cpu dense dropped (2026-10-18 decision). |
 | [HST imaging mass stage: sampler comparison, wave 1](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/tasks/hst_mass_samplers_wave1.md) | hst-imaging-mass-samplers | needs-decision | normal | Fix merged as autolens_inference#34; the RAL checkout was fast-forwarded to c3ca4de (includes #34 and the #36 flat layout) on 2026-10-19, so the pull blocker is cleared. Attempt 2 (nautilus+emcee, --array=0-11%4, NUTS/SMC deferred) is NOT submitted and needs human authorisation. It reads output/autolens/prepared/&lt;config&gt;/seed_0/&lt;variant&gt;/manifest.json. Attempt-1 material (output/experiments 341M, output/experiment_sources 76M, the 8 failed NUTS/SMC rows from results/searches/experiments) was moved aside 2026-10-19 on the human&#x27;s decision to /mnt/ral/jnightin/inference/aside/autolens_inference_cleanslate_wave1_attempt1/ (RAL) and /mnt/c/Users/Jammy/Science/inference/aside/autolens_inference_cleanslate_wave1_attempt1/ (laptop), so attempt 2 starts clean. |
 
 [Ledger](https://github.com/PyAutoLabs/PyAutoInsight/blob/main/campaigns.yaml)
