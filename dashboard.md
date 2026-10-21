@@ -1,13 +1,13 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:a87bb419fe0690ce8c978e9f3d47d8b0947eb72c7904be6bbe20e8f56c65aeb9 -->
+<!-- insight-inputs:4033626d99de6910cc698ef93358a7eeb7adb361251b544ae3988b1d96f95a3c -->
 
 | Where | Count |
 |---|---:|
 | [Projects](#evidence) | 2 |
 | [Records](#evidence) | 13121 |
 | [Comparisons](#evidence) | 0 |
-| [Cached](#evidence) | 0 |
+| [Cached](#evidence) | 1 |
 | [Failed](#evidence) | 0 |
 
 <!-- insight-campaigns:f8ae53d4aa25b718344a1dce331a578c59efb2d6e2e11abc5719c64885bfa31d -->
@@ -67,10 +67,68 @@ Last check-in: 2026-10-18T17:00:00Z.
 ## Inference Results
 
 
-<!-- insight:instance name=lens receipt=71bfd57bc34df4a3d8ae79a382389a3d7c4c8f1c outcome=ok shown=71bfd57bc34df4a3d8ae79a382389a3d7c4c8f1c -->
+<!-- insight:instance name=lens receipt=bdc8b2dcba590a5cbc0ce0898b55102a4b10ae6d outcome=invalid shown=71bfd57bc34df4a3d8ae79a382389a3d7c4c8f1c -->
 ## autolens_inference
-Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/148 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: 71bfd57bc34df4a3d8ae79a382389a3d7c4c8f1c; fetched 2026-10-21T08:57:09Z; latest attempt 2026-10-21T08:57:09Z.
+Integrity: cached · latest fetch invalid. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/148 accepted by producer; remaining assessments shown below.
+Capture source branch: main; revision: 71bfd57bc34df4a3d8ae79a382389a3d7c4c8f1c; fetched 2026-10-21T08:57:09Z; latest attempt 2026-10-21T19:08:07Z.
+prepared-220cf1733b869232eca7067acf8835f825f330c2169c127e7c2ff215ca3225d1: artifact source record unresolved
+prepared-220cf1733b869232eca7067acf8835f825f330c2169c127e7c2ff215ca3225d1: artifact source record unresolved
+prepared-220cf1733b869232eca7067acf8835f825f330c2169c127e7c2ff215ca3225d1: artifact source record unresolved
+prepared-220cf1733b869232eca7067acf8835f825f330c2169c127e7c2ff215ca3225d1: artifact source record unresolved
+prepared-220cf1733b869232eca7067acf8835f825f330c2169c127e7c2ff215ca3225d1: artifact source record unresolved
+prepared-220cf1733b869232eca7067acf8835f825f330c2169c127e7c2ff215ca3225d1: artifact source record unresolved
+prepared-220cf1733b869232eca7067acf8835f825f330c2169c127e7c2ff215ca3225d1: baseline record unresolved or wrong problem
+prepared-380a72d19ae6e7d875436b78600eb74aa16db3bf17c18084acd8255adc5f07f6: artifact source record unresolved
+prepared-380a72d19ae6e7d875436b78600eb74aa16db3bf17c18084acd8255adc5f07f6: artifact source record unresolved
+prepared-380a72d19ae6e7d875436b78600eb74aa16db3bf17c18084acd8255adc5f07f6: artifact source record unresolved
+prepared-380a72d19ae6e7d875436b78600eb74aa16db3bf17c18084acd8255adc5f07f6: artifact source record unresolved
+prepared-380a72d19ae6e7d875436b78600eb74aa16db3bf17c18084acd8255adc5f07f6: artifact source record unresolved
+prepared-380a72d19ae6e7d875436b78600eb74aa16db3bf17c18084acd8255adc5f07f6: artifact source record unresolved
+prepared-380a72d19ae6e7d875436b78600eb74aa16db3bf17c18084acd8255adc5f07f6: baseline record unresolved or wrong problem
+prepared-4677f0827b60836a1d8abc9ac4d983a7e2b509bba1348a407cc72a03d3d4410c: artifact source record unresolved
+prepared-4677f0827b60836a1d8abc9ac4d983a7e2b509bba1348a407cc72a03d3d4410c: artifact source record unresolved
+prepared-4677f0827b60836a1d8abc9ac4d983a7e2b509bba1348a407cc72a03d3d4410c: artifact source record unresolved
+prepared-4677f0827b60836a1d8abc9ac4d983a7e2b509bba1348a407cc72a03d3d4410c: artifact source record unresolved
+prepared-4677f0827b60836a1d8abc9ac4d983a7e2b509bba1348a407cc72a03d3d4410c: artifact source record unresolved
+prepared-4677f0827b60836a1d8abc9ac4d983a7e2b509bba1348a407cc72a03d3d4410c: artifact source record unresolved
+prepared-4677f0827b60836a1d8abc9ac4d983a7e2b509bba1348a407cc72a03d3d4410c: baseline record unresolved or wrong problem
+prepared-b844493131720724d41739442300e7ef8d95ccb4fd3401ce61f6bbe322b4868c: artifact source record unresolved
+prepared-b844493131720724d41739442300e7ef8d95ccb4fd3401ce61f6bbe322b4868c: artifact source record unresolved
+prepared-b844493131720724d41739442300e7ef8d95ccb4fd3401ce61f6bbe322b4868c: artifact source record unresolved
+prepared-b844493131720724d41739442300e7ef8d95ccb4fd3401ce61f6bbe322b4868c: artifact source record unresolved
+prepared-b844493131720724d41739442300e7ef8d95ccb4fd3401ce61f6bbe322b4868c: artifact source record unresolved
+prepared-b844493131720724d41739442300e7ef8d95ccb4fd3401ce61f6bbe322b4868c: artifact source record unresolved
+prepared-b844493131720724d41739442300e7ef8d95ccb4fd3401ce61f6bbe322b4868c: baseline record unresolved or wrong problem
+prepared-cb66d102cc82b91f083d03a57edd9239ef22517df93c7776c45be21242df9206: artifact source record unresolved
+prepared-cb66d102cc82b91f083d03a57edd9239ef22517df93c7776c45be21242df9206: artifact source record unresolved
+prepared-cb66d102cc82b91f083d03a57edd9239ef22517df93c7776c45be21242df9206: artifact source record unresolved
+prepared-cb66d102cc82b91f083d03a57edd9239ef22517df93c7776c45be21242df9206: artifact source record unresolved
+prepared-cb66d102cc82b91f083d03a57edd9239ef22517df93c7776c45be21242df9206: artifact source record unresolved
+prepared-cb66d102cc82b91f083d03a57edd9239ef22517df93c7776c45be21242df9206: artifact source record unresolved
+prepared-cb66d102cc82b91f083d03a57edd9239ef22517df93c7776c45be21242df9206: baseline record unresolved or wrong problem
+prepared-ee74b3ebf1f06e4d9ad478499711523081a25f653a5da89dac6f16dc057e8882: artifact source record unresolved
+prepared-ee74b3ebf1f06e4d9ad478499711523081a25f653a5da89dac6f16dc057e8882: artifact source record unresolved
+prepared-ee74b3ebf1f06e4d9ad478499711523081a25f653a5da89dac6f16dc057e8882: artifact source record unresolved
+prepared-ee74b3ebf1f06e4d9ad478499711523081a25f653a5da89dac6f16dc057e8882: artifact source record unresolved
+prepared-ee74b3ebf1f06e4d9ad478499711523081a25f653a5da89dac6f16dc057e8882: artifact source record unresolved
+prepared-ee74b3ebf1f06e4d9ad478499711523081a25f653a5da89dac6f16dc057e8882: artifact source record unresolved
+prepared-ee74b3ebf1f06e4d9ad478499711523081a25f653a5da89dac6f16dc057e8882: baseline record unresolved or wrong problem
+results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726: problem unresolved
+results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726: problem unresolved
+archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726: problem unresolved
+archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726: problem unresolved
+Cached: original evidence and capture times retained.
 - [imaging / rectangular / HST rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fhst)
 - [imaging / delaunay / HST Delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fhst)
 - [point_source / simple / Simple point source](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=point_source%2Fsimple%2Fsimple)
