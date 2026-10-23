@@ -23,8 +23,10 @@ All merged and released in PyAutoFit 2026.10.7.1:
 | #1656 | `LaplaceOptimiser(projection="moments")` | the hierarchical-scatter cure; `analytic_gaussian.py` un-parked PARITY 41/41; record `complete/2026/09/ep-moment-projection.md` |
 
 The shared RAL PyAutoFit mirror is still 404b3e5f7 (2026-09-27), kept frozen for
-euclid_dr1; it lacks #1655 and #1656, so every rerun below needs a private
-PyAutoFit checkout on RAL. Project `output/` was vaulted to `z_vault/` on
+euclid_dr1; it lacks #1655 and #1656, so the slope_hierarchy_scale and ic50
+reruns below need a private PyAutoFit checkout on RAL (ep_toy_gaussian wave 2
+only needs #1632/#1634, already in the mirror; a private checkout is optional
+there). Project `output/` was vaulted to `z_vault/` on
 2026-10-14.
 
 ## Phases (State (updated 2026-10-23))
