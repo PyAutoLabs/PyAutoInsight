@@ -3,14 +3,14 @@
   "organ": "insight",
   "repo": "PyAutoInsight",
   "status": "yellow",
-  "headline": "2 projects \u00b7 13121 records \u00b7 1 cached",
-  "updated": "2026-10-21T19:08:12Z",
+  "headline": "2 projects \u00b7 13257 records \u00b7 0 cached",
+  "updated": "2026-10-23T14:20:11Z",
   "pages_url": "https://pyautolabs.github.io/PyAutoInsight/",
   "items": [
     {
       "id": "insight:lens",
       "severity": "yellow",
-      "text": "lens: cached \u00b7 latest fetch invalid \u00b7 148 records \u00b7 0/148 accepted by producer; remaining assessments shown below \u00b7 freshness policy unspecified \u00b7 evidence time unknown",
+      "text": "lens: ok \u00b7 284 records \u00b7 0/284 accepted by producer; remaining assessments shown below \u00b7 freshness policy unspecified \u00b7 evidence time unknown",
       "url": "https://pyautolabs.github.io/PyAutoInsight/#lens",
       "prompt": null
     },
