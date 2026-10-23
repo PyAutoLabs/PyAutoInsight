@@ -58,58 +58,53 @@ campaigns:
   project: autolens_inference
 - id: graphical-ep
   title: Graphical and EP inference coordination
-  status: needs-slicing
-  updated: '2026-10-04'
-  next: Reconcile current Cortex observations and shipped fixes, then select one bounded phase.
-  recent_progress: Mind campaign map and two scoping contracts preserved verbatim; implementation work remains
-    in Mind.
-  blockers: Old scoping contains completed phases and decision gates; not a bulk runnable queue.
+  status: active
+  updated: '2026-10-23'
+  next: 'Dev: PyAutoFit#1711 (EP counts zero-iteration Laplace convergence NO_CHANGE as a stale/skipped update; Mind active/ep_factors_end_the_run_with_zero.md, worktree ep-zero-success-factors, tier glance), the first of three wave-1 ruling findings. Science, all human-gated: (1) slope_hierarchy_scale N=25 EP rerun with projection=moments, (2) ic50 EP ladder rerun from N=50 with mean-field hill_coef widths, (3) ep_toy_gaussian wave-2 go. Each rerun needs a private PyAutoFit checkout on RAL.'
+  recent_progress: '2026-10-23 reconciliation (tasks/ep_campaign_state_2026-10-23.md): shipped since the 2026-09-10 table, all released in PyAutoFit 2026.10.7.1: #1632/#1634 (EMFILE, Pool per single-core Dynesty fit), #1643/#1644/#1645 (per-factor-search overhead 2.45 s to ~0.95 s), #1655 (ProjectionException recovery, the IC50 N=50 assert cure), #1656 (LaplaceOptimiser(projection=moments), the hierarchical-scatter cure; analytic_gaussian.py un-parked PARITY 41/41). Cortex Now states read from PyAutoCortex origin/main 5fa4eb98. PyAutoFit#1711 issued 2026-10-23; the other two wave-1 findings stay filed in Mind.'
+  blockers: 'Three science reruns await human go. The shared RAL PyAutoFit mirror 404b3e5f7 is frozen for euclid_dr1 and lacks #1655/#1656, so the reruns need a private PyAutoFit checkout on RAL; output/ was vaulted to z_vault/ 2026-10-14. NaN in EP evidence accumulation and the moments loggaussian scatter Jacobian stay filed in Mind (the latter is the human''s call, overlapping PyAutoFit#1498/#1331).'
   job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
   evidence: https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md
   project: graphical_ep
 - id: analytic-gaussian
   title: Analytic Gaussian ensemble and control calibration
   status: blocked
-  updated: '2026-10-04'
-  next: Use Cortex planned diagnostic on passing, edge and worst seeds; retain the human conclusion there.
-  recent_progress: Cortex records accepted wave-1 baseline and 30 September independent-review caveats.
-  blockers: N=25 stays unsubmitted until control/threshold diagnostic is resolved.
+  updated: '2026-10-23'
+  next: 'Run the planned diagnostic (archive/tasks/analytic_gaussian/minimal_ep_legb_mu_threshold.md) on a passing, an edge and the worst mu seed; N=25 stays written but unsubmitted until it lands.'
+  recent_progress: '2026-10-23 reconciled against Cortex 5fa4eb98: wave 1 (342413, 200 seeds at N=5) accepted as the baseline R-20260910-04 — autofit EP exact on the Gaussian leg, leg B sigma misses as pre-registered (78/200), collapse 0/200. Astra and an independent Opus review favour an under-calibrated mu threshold on criterion 2 and flag the per-site sigma>0 clip (analytic_ep_minimal.py:333) as the one audit target.'
+  blockers: 'The criterion-2 mu-threshold diagnostic is unrun; N=25 is unsubmitted until it lands. The shared RAL PyAutoFit mirror 404b3e5f7 is frozen for euclid_dr1 and lacks #1655/#1656, so the reruns need a private PyAutoFit checkout on RAL; output/ was vaulted to z_vault/ 2026-10-14.'
   job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
-  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/analytic_gaussian.md
+  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/5fa4eb98d10ba1297dd13d950a6a122bd504a5c7/projects/analytic_gaussian.md
   project: analytic_gaussian
 - id: ep-toy-gaussian
   title: N=50 NUTS versus three EP repeats
   status: needs-decision
-  updated: '2026-10-04'
-  next: Present the existing wave-2 proposal with current dependency evidence for decision.
-  recent_progress: Cortex records failed wave 1 (EMFILE/OOM), wave-2 preparation and no submission.
-  blockers: Explicit human go; sample entry/export and resource settings must be verified.
+  updated: '2026-10-23'
+  next: 'Human go; then add the n50_seed42_w2 toy.SAMPLES entry, push, and submit NUTS (64 GB) then EP with SAMPLE=n50_seed42_w2 exported.'
+  recent_progress: '2026-10-23 reconciled against Cortex 5fa4eb98: wave 1 (342639 + 342640_[0-2]) failed on infrastructure — EP x3 on EMFILE (fixed by PyAutoFit#1632/#1634, in the RAL mirror 404b3e5f7), NUTS on OOM at 8 GB during XLA compilation. Wave 2 is prepared but not submitted (submit_nuts raised to 64 GB, submit_ep unchanged at 8 GB). The N=50 collapse question is unanswered.'
+  blockers: 'Explicit human go; the n50_seed42_w2 sample entry is not yet added.'
   job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
-  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/ep_toy_gaussian.md
+  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/5fa4eb98d10ba1297dd13d950a6a122bd504a5c7/projects/ep_toy_gaussian.md
   project: ep_toy_gaussian
 - id: slope-hierarchy-scale
   title: Hierarchical slope recovery at scale
   status: blocked
-  updated: '2026-10-04'
-  next: Verify the moments fix release and project mirror; recover missing summaries from existing samples
-    before a proposed rerun.
-  recent_progress: Cortex retains graphical baseline, post-processing OOM and stale EP hierarchical factor;
-    Mind records later moments fix.
-  blockers: Summary/sample retrieval and release/RAL mirror reconciliation outstanding; no reclassification
-    from stale prose.
+  updated: '2026-10-23'
+  next: 'Rerun the N=25 EP arm with projection=moments on a private PyAutoFit checkout on RAL and compare its scatter against the NUTS baseline (human-gated); write the NUTS summary JSON offline from z_vault/sample_n25_seed42 samples.csv.'
+  recent_progress: '2026-10-23 reconciled against Cortex 5fa4eb98: N=25 graphical baselines in — joint NUTS (342350_0) mean 1.994 [1.976, 2.014], sigma 0.087 [0.074, 0.104] vs truth 2.0/0.1; per-lens naive parent 1.999/0.089. The EP arm returned the prior on the Laplace projection (343299: hierarchical factor 0/50 SUCCESS). The cure PyAutoFit#1656 (projection=moments) is released in 2026.10.7.1.'
+  blockers: 'The EP arm needs a moments rerun (human go). The shared RAL PyAutoFit mirror 404b3e5f7 is frozen for euclid_dr1 and lacks #1655/#1656, so the reruns need a private PyAutoFit checkout on RAL; output/ was vaulted to z_vault/ 2026-10-14.'
   job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
-  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/slope_hierarchy_scale.md
+  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/5fa4eb98d10ba1297dd13d950a6a122bd504a5c7/projects/slope_hierarchy_scale.md
   project: slope_hierarchy_scale
 - id: ic50-scale
   title: IC50 EP and graphical scale ladder
   status: blocked
-  updated: '2026-10-04'
-  next: Check implementation close-outs, then propose a seeded ladder with appropriate output and mean-field
-    diagnostics.
-  recent_progress: Cortex records N=5/10/25 results, failed N=50 EP rung and width-interpretation caveat.
-  blockers: Projection fix and mean-field width reporting require reconciliation before scientific comparison.
+  updated: '2026-10-23'
+  next: 'Rerun the EP ladder on a private PyAutoFit checkout with output on and a fixed seed, report hill_coef widths from the mean field (human-gated), then give ep_lbfgs_jax a witness as the scale lever.'
+  recent_progress: '2026-10-23 reconciled against Cortex 5fa4eb98: EP passes N=5/10/25 (coef_mean within 3 sigma; 26/50/140 s per sweep) and died at N=50 on a projection assert, now cured by PyAutoFit#1655 (ProjectionException recovery, released 2026.10.7.1). Graphical is cheaper but overconfident beyond N=25; EP hill_coef widths are not yet comparable because util.py reports factor-message widths.'
+  blockers: 'The N=50 rung needs a rerun with mean-field hill_coef widths (human go). The shared RAL PyAutoFit mirror 404b3e5f7 is frozen for euclid_dr1 and lacks #1655/#1656, so the reruns need a private PyAutoFit checkout on RAL; output/ was vaulted to z_vault/ 2026-10-14.'
   job_status: unknown — live scheduler not queried; historical ledger states are not current job evidence
-  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/d45f198804615c090e6b6694cf725ddb0be2354e/projects/ic50_workspace.md
+  evidence: https://github.com/PyAutoLabs/PyAutoCortex/blob/5fa4eb98d10ba1297dd13d950a6a122bd504a5c7/projects/ic50_workspace.md
   project: ic50_workspace
 - id: gaussian-x3-search-benchmark
   title: PyAutoFit search benchmark on gaussian_x3 (autofit_inference)
@@ -157,8 +152,8 @@ tasks:
   status: needs-decision
   priority: high
   path: tasks/ep_campaign.md
-  updated: '2026-10-04'
-  next: Reconcile current Cortex records and human gates; this campaign map is never issued or bulk scheduled.
+  updated: '2026-10-23'
+  next: 'Reconciled 2026-10-23 in tasks/ep_campaign_state_2026-10-23.md (the original map stays byte-preserved); human gates: three EP reruns and PyAutoFit#1711 review. This campaign map is never issued or bulk scheduled.'
   evidence: https://github.com/PyAutoLabs/PyAutoMind/blob/8dd1edc7e04c960daae3663513c61395823eddb0/draft/research/graphical_ep/ep_campaign.md
 - id: ep_scoping
   campaign: graphical-ep
