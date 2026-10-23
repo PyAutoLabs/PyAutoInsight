@@ -363,6 +363,21 @@
           "retained_samples": "Stored posterior samples after warmup",
           "effective_sample_size": "Sampler-reported posterior ESS"
         }
+      },
+      "setup_mode": "auto",
+      "setup_resolved": {
+        "backend": "jax",
+        "device": "cpu",
+        "operator": "dense",
+        "precision": "fp64",
+        "transformer": "na",
+        "threads": null
+      },
+      "host_class": "local_laptop",
+      "model_variant": "default",
+      "likelihood": {
+        "dataset_type": "imaging",
+        "variant": "delaunay"
       }
     },
     {

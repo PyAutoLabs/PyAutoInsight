@@ -271,3 +271,42 @@ def test_v2_empty_and_unmapped_legacy_records_are_valid():
     assert summary.classify(doc) == ("ok", [])
     doc["records"] = []
     assert summary.classify(doc) == ("ok", [])
+
+
+def test_lifecycle_setup_fields_are_accepted_as_declarations():
+    doc = document()
+    auto = next(r for r in doc["records"] if r["id"] == "experiment-cold")
+    assert auto["setup_mode"] == "auto" and auto["setup_resolved"]["backend"] == "jax"
+    assert summary.classify(doc) == ("ok", [])
+    # Absent fields stay valid: a pre-lifecycle record declares none of them.
+    assert "setup_mode" not in doc["records"][0]
+    # Declarations never become acceptance.
+    assert summary.qualified_records(doc) == 0
+
+
+@pytest.mark.parametrize("mode", ["automatic", "", None, 1])
+def test_setup_mode_outside_auto_and_explicit_is_refused_by_name(mode):
+    doc = document()
+    doc["records"][2]["setup_mode"] = mode
+    status, errors = summary.classify(doc)
+    assert status == "invalid"
+    assert "experiment-cold: setup_mode must be auto or explicit" in errors
+
+
+@pytest.mark.parametrize(
+    "key, value, needle",
+    [
+        ("setup_resolved", "jax/cpu", "setup_resolved must be an object"),
+        ("setup_resolved", {"backend": 3}, "setup_resolved.backend must be text or null"),
+        ("setup_resolved", {"threads": "8"}, "setup_resolved.threads must be integer or null"),
+        ("setup_resolved", {"threads": True}, "setup_resolved.threads must be integer or null"),
+        ("host_class", "", "host_class must be text or null"),
+        ("model_variant", 7, "model_variant must be text or null"),
+        ("likelihood", {"dataset_type": "imaging"}, "likelihood must name dataset_type"),
+    ],
+)
+def test_malformed_lifecycle_fields_are_refused(key, value, needle):
+    doc = document()
+    doc["records"][2][key] = value
+    status, errors = summary.classify(doc)
+    assert status == "invalid" and any(needle in e for e in errors), errors

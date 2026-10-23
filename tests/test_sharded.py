@@ -84,6 +84,42 @@ def test_assembled_v3_validates_like_v1():
     assert summary.classify(index, ("inference-summary", 3))[0] == "invalid"
 
 
+def test_v3_shard_records_accept_lifecycle_fields_and_refuse_a_bad_mode():
+    def declare(mode):
+        def tweak(index, files):
+            path = "records/proto@1/leg0.json"
+            shard = json.loads(files[path])
+            shard["records"][0].update(
+                setup_mode=mode,
+                setup_resolved={
+                    "backend": "jax",
+                    "device": "gpu",
+                    "operator": "dense",
+                    "precision": "fp64",
+                    "transformer": "na",
+                    "threads": None,
+                },
+                host_class="hpc_a100",
+                model_variant="light_fixed",
+                likelihood={"dataset_type": "imaging", "variant": "rectangular"},
+            )
+            body = json.dumps(shard, sort_keys=True).encode()
+            files[path] = body
+            index["record_shards"][0]["sha256"] = hashlib.sha256(body).hexdigest()
+
+        return tweak
+
+    index, files = make_v3(tweak=declare("auto"))
+    doc, errors = summary.load_sharded(index, files.__getitem__)
+    assert errors == []
+    assert summary.classify(doc, ("inference-summary", 3)) == ("ok", [])
+    index, files = make_v3(tweak=declare("chosen"))
+    doc, errors = summary.load_sharded(index, files.__getitem__)
+    status, errors = summary.classify(doc, ("inference-summary", 3))
+    assert status == "invalid"
+    assert f"{doc['records'][0]['id']}: setup_mode must be auto or explicit" in errors
+
+
 @pytest.mark.parametrize(
     "tweak, needle",
     [

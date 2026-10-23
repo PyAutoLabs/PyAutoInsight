@@ -101,6 +101,8 @@ may have their own maintained contract. For mixed campaign maps, completed
 phases remain historical and are not reissued; deferred human gates survive.
 The EP map's profiling bootstrap/scoping references route to Pulse; library
 implementation phases route to Mind. Neither constitutes another organ queue.
+Full-fit wall-time validation (`walltime-validation@1`, instance `lens-walltime`)
+is read on the Pulse board, not here.
 
 Mind retains bounded implementation prompts, issue/PR lifecycle and repository
 claims. Reuse existing issues; a broad campaign map is never issued wholesale.

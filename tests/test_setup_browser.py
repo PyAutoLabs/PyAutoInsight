@@ -142,3 +142,18 @@ def test_home_keeps_actionable_warnings_outside_collapsed_provenance(registry_fi
     assert "past its declared freshness" in prefix
     assert "Integrity:" not in prefix
     assert '<h2 id="lens">' not in detail
+
+
+def test_record_disclosure_shows_declared_setup_as_provenance(registry_file, fake_mind):
+    snapshot = view(registry_file, fake_mind, "lens_summary_v2.json")
+    _, pages = setup_browser.render(snapshot)
+    assert "Setup: auto · jax/cpu/dense/fp64 · local_laptop · default" in pages
+    # A record without lifecycle fields renders no provenance line.
+    assert setup_browser.provenance(snapshot.doc["records"][0]) == ""
+
+
+def test_provenance_line_omits_missing_parts():
+    row = {"setup_mode": "explicit", "setup_resolved": {"backend": "numba", "device": None}}
+    assert setup_browser.provenance(row) == (
+        '<p class="setup-provenance">Setup: explicit · numba</p>'
+    )
