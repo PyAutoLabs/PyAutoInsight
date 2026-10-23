@@ -72,6 +72,47 @@ def supported(doc, wanted=None):
     return None
 
 
+#: ``setup_mode`` values: ``explicit`` = the producer named the setup;
+#: ``auto`` = the library chose it, and ``setup_resolved`` records what it chose.
+SETUP_MODES = ("auto", "explicit")
+#: Text-or-null members of a record's ``setup_resolved`` object.
+SETUP_RESOLVED_TEXT = ("backend", "device", "operator", "precision", "transformer")
+
+
+def lifecycle_errors(r, rid):
+    """Optional additive lifecycle fields, validated as declarations only.
+
+    Absent is allowed (pre-lifecycle producers). Nothing is cross-checked against
+    Pulse, an ``auto`` resolution is never inferred, and none of these fields
+    feeds acceptance, ranking or setup selection. ``host_class`` is provenance,
+    never identity.
+    """
+    errors = []
+    if "setup_mode" in r and r["setup_mode"] not in SETUP_MODES:
+        errors.append(f"{rid}: setup_mode must be auto or explicit")
+    if "setup_resolved" in r:
+        resolved = r["setup_resolved"]
+        if not isinstance(resolved, dict):
+            errors.append(f"{rid}: setup_resolved must be an object")
+        else:
+            for key in SETUP_RESOLVED_TEXT:
+                if resolved.get(key) is not None and not _text(resolved[key]):
+                    errors.append(f"{rid}: setup_resolved.{key} must be text or null")
+            threads = resolved.get("threads")
+            if threads is not None and (type(threads) is not int or threads < 0):
+                errors.append(f"{rid}: setup_resolved.threads must be integer or null")
+    for key in ("host_class", "model_variant"):
+        if r.get(key) is not None and not _text(r[key]):
+            errors.append(f"{rid}: {key} must be text or null")
+    if r.get("likelihood") is not None:
+        likelihood = r["likelihood"]
+        if not isinstance(likelihood, dict) or not all(
+            _text(likelihood.get(k)) for k in ("dataset_type", "variant")
+        ):
+            errors.append(f"{rid}: likelihood must name dataset_type and variant as text")
+    return errors
+
+
 def validate(doc):
     if not isinstance(doc, dict):
         return ["summary is not an object"]
@@ -284,6 +325,7 @@ def validate(doc):
             or not isinstance(diagnostics.get("values"), dict)
         ):
             errors.append(f"{rid}: diagnostics require status and values")
+        errors += lifecycle_errors(r, rid)
     by_id = {r["id"]: r for r in recs if isinstance(r, dict) and _text(r.get("id"))}
     for r in by_id.values():
         parent = r.get("parent_run_id")

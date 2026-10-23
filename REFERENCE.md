@@ -10,8 +10,9 @@ There is no inference conductor and no new scientific execution engine.
 `registry.yaml` version `schema: 1` lists instances with `instance`, `repo`,
 `summary_path`, `supported_schema`, `dashboard_url`, `library_refs` and
 `cortex_project`, plus an optional `migrating_from` (below). Repository identity/location resolves from Mind's `repos.yaml`.
-A source is registered once. A fixture demonstrates generic reading without being
-registered as a real second adopter. Initial real producer: autolens_inference.
+A source is registered once. Two live producers are registered:
+autolens_inference (`lens`) and autofit_inference (`fit`). Fixtures demonstrate
+generic reading and are never registered as adopters.
 
 The reader supports `schema: inference-summary`, integer `version: 1`, `2` or `3`.
 Required envelope keys: project, scope, generated_at, evidence_updated_at,
@@ -65,8 +66,8 @@ experiments. Its measurements are test data, not scientific recommendations.
 
 The reader accepts both versions, but a registry row still pins **one exact
 version**. Deploy this reader first, then the project producer, then change the
-registry pin with its consumer. The live registry remains `inference-summary@1`
-in this phase. Rendering and scientific execution are unchanged. There is no
+registry pin with its consumer. The live pins are `lens` at `inference-summary@2`
+and `fit` at `inference-summary@3`. Rendering and scientific execution are unchanged. There is no
 automatic v1 conversion and no inferred baseline, start state or acceptance.
 
 ### Identity and ownership
@@ -76,6 +77,7 @@ automatic v1 conversion and no inferred baseline, start state or acceptance.
 | Setup | `id`, `label`, `dataset_family`, `model_family`, `instrument`, `reference_record_id` | Stable navigable setup, e.g. imaging/delaunay/HST; IDs are independent of script paths. Multiple exact configurations can live under the family. |
 | Prepared problem | `id`, `setup_id`, `dataset_id`, `model_id`, `priors_id`, `stage`, `baseline_record_id`, `artifacts` | Exact scientific problem shared by baseline and experiments. Model and prior IDs identify frozen definitions, not display names. |
 | Run record | All v1 fields plus `setup_id`, `problem_id`, `experiment_protocol`, `initialization`, `environment`, `work` | A particular measurement with its own seed, sampler, hardware, revisions, diagnostics and clocks. |
+| Run record lifecycle (optional, additive) | `setup_mode`, `setup_resolved`, `host_class`, `model_variant`, `likelihood` | Provenance of how the likelihood setup was chosen; declarations only, never identity, acceptance or ranking. `setup_mode` is `explicit` (the producer named the setup) or `auto` (the library chose it: phase 5 of the likelihood-lifecycle epic); any other value is refused. `setup_resolved` records what was used or chosen: text-or-null `backend`, `device`, `operator`, `precision`, `transformer` and integer-or-null `threads`. `host_class` is text provenance, never identity. `model_variant` is text; `likelihood` names `dataset_type` and `variant`. Absent is allowed; nothing is cross-checked against Pulse or inferred. |
 
 `instrument` and `reference_record_id` may be null with a sibling `<field>_reason`.
 Prepared problem `dataset_id`, `model_id`, `priors_id`, `stage`, and
@@ -309,6 +311,15 @@ Baseline manifests, archived results, comparison refusals and provenance remain
 available in disclosures. Unmapped records remain reachable from the project.
 Without JavaScript, setup content remains accessible as ordinary disclosures.
 Images, when declared, resolve at the captured producer revision.
+A record that declares lifecycle fields shows one provenance line in its
+disclosure, `Setup: <setup_mode> · <backend>/<device>/<operator>/<precision> ·
+<host_class> · <model_variant>`, with missing parts omitted. The line filters
+and ranks nothing.
+
+Full-fit wall-time validation is not an Insight artefact. It is a PyAutoPulse
+evidence axis (`walltime-validation@1`, Pulse registry instance `lens-walltime`),
+produced by autolens_inference as `dashboard/walltime_validation.json`. Insight
+neither hosts nor validates it; read it on the Pulse board.
 
 `sampler_candidates.json` is a manually reviewed public handoff from literature
 curation. Each entry records primary paper and official code URLs, review date,
