@@ -75,6 +75,27 @@ def seconds(value):
     return f"{value:,.3g} s" if value < 60 else f"{value / 60:,.3g} min ({value:,.3g} s)"
 
 
+def provenance(row):
+    """The record's declared setup as one line; empty when nothing is declared.
+
+    Provenance only: the line shows what the producer declared (or, under
+    ``auto``, what the library chose) and never filters or ranks records.
+    """
+    resolved = row.get("setup_resolved")
+    resolved = resolved if isinstance(resolved, dict) else {}
+    tuple_ = "/".join(
+        str(resolved[k])
+        for k in ("backend", "device", "operator", "precision")
+        if resolved.get(k) is not None
+    )
+    parts = [
+        str(x)
+        for x in (row.get("setup_mode"), tuple_, row.get("host_class"), row.get("model_variant"))
+        if x
+    ]
+    return f'<p class="setup-provenance">Setup: {e(" · ".join(parts))}</p>' if parts else ""
+
+
 def record(snapshot, row):
     init = row.get("initialization", {})
     env = row.get("environment", {})
@@ -90,7 +111,7 @@ def record(snapshot, row):
             "archived" if row["archived"] else row["execution"]["status"],
         )
     )
-    body = metrics(
+    body = provenance(row) + metrics(
         [
             ("Sampling", seconds(timing["sampling_s"])),
             ("Fit call", seconds(timing["total_s"])),

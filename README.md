@@ -18,8 +18,9 @@ bin/pyauto-insight check --offline
 bin/pyauto-insight census
 ```
 
-The first real producer is autolens_inference. A second-producer fixture tests
-interoperability; it is not a claim of a second adopter.
+Two live producers are registered: autolens_inference (`lens`) and
+autofit_inference (`fit`). Test fixtures exercise generic reading only and are
+never registered as adopters.
 
 ### Shared board presentation
 
