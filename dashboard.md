@@ -1,13 +1,13 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:846a2a4bace5199c518e9c9e801352957f1c6133f749c9f1df1ffbb752bcb39b -->
+<!-- insight-inputs:3bbe2c70e088cf35bd9d015302a94f556fd0350e7c5861c3040737239fd0e303 -->
 
 | Where | Count |
 |---|---:|
 | [Projects](#evidence) | 2 |
 | [Records](#evidence) | 13257 |
 | [Comparisons](#evidence) | 0 |
-| [Cached](#evidence) | 0 |
+| [Cached](#evidence) | 1 |
 | [Failed](#evidence) | 0 |
 
 <!-- insight-campaigns:1354ac8da146582c4bed2681c9f57fa874e06dd491705eae1d6ff7321081dc4d -->
@@ -67,10 +67,19 @@ Last check-in: 2026-10-18T17:00:00Z.
 ## Inference Results
 
 
-<!-- insight:instance name=lens receipt=a24e993cd7887188ef1d95a07fe5e8a4b75e121a outcome=ok shown=a24e993cd7887188ef1d95a07fe5e8a4b75e121a -->
+<!-- insight:instance name=lens receipt=3a7261bd05fb6000c95928d1476ac96d2c67ed95 outcome=invalid shown=a24e993cd7887188ef1d95a07fe5e8a4b75e121a -->
 ## autolens_inference
-Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/284 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: a24e993cd7887188ef1d95a07fe5e8a4b75e121a; fetched 2026-11-02T20:06:33Z; latest attempt 2026-11-02T20:06:33Z.
+Integrity: cached · latest fetch invalid. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/284 accepted by producer; remaining assessments shown below.
+Capture source branch: main; revision: a24e993cd7887188ef1d95a07fe5e8a4b75e121a; fetched 2026-11-02T20:06:33Z; latest attempt 2026-11-09T17:43:03Z.
+results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json: dataset family differs from setup
+results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45: dataset family differs from setup
+results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json: dataset family differs from setup
+results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45: dataset family differs from setup
+results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json: dataset family differs from setup
+results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45: dataset family differs from setup
+results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json: dataset family differs from setup
+results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45: dataset family differs from setup
+Cached: original evidence and capture times retained.
 - [imaging / rectangular / HST rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fhst)
 - [imaging / delaunay / HST Delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fhst)
 - [point_source / simple / Simple point source](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=point_source%2Fsimple%2Fsimple)
