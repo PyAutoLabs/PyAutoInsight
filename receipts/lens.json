@@ -3,24 +3,15 @@
   "repo": "autolens_inference",
   "github": "PyAutoLabs/autolens_inference",
   "branch": "main",
-  "resolved_commit": "3a7261bd05fb6000c95928d1476ac96d2c67ed95",
+  "resolved_commit": "e744a4a785eacb0f1800dc34287b31b307c0182d",
   "summary_path": "dashboard/catalogue.json",
   "source": "remote",
-  "fetched_at": "2026-11-09T17:43:03Z",
-  "outcome": "invalid",
+  "fetched_at": "2026-11-11T09:26:02Z",
+  "outcome": "ok",
   "schema": "inference-summary",
   "version": 2,
   "record_count": 759,
-  "errors": [
-    "results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json: dataset family differs from setup",
-    "results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45: dataset family differs from setup",
-    "results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json: dataset family differs from setup",
-    "results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45: dataset family differs from setup",
-    "results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json: dataset family differs from setup",
-    "results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45: dataset family differs from setup",
-    "results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json: dataset family differs from setup",
-    "results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45: dataset family differs from setup"
-  ],
-  "cached_from": "2026-11-02T20:06:33Z",
-  "refreshed_at": null
+  "errors": [],
+  "cached_from": null,
+  "refreshed_at": "2026-11-11T09:26:02Z"
 }
