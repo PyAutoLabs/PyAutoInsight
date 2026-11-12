@@ -1,6 +1,6 @@
 # PyAutoInsight — inference control room
 
-<!-- insight-inputs:bb482eb844f6347ac1151af561c2e65c45a8256750703fe94a869f606a540847 -->
+<!-- insight-inputs:ae4e98e9d20a7399bed881c07b79cb431a18ac7f2cee26a81ee1ace4298252e1 -->
 
 | Where | Count |
 |---|---:|
@@ -67,10 +67,10 @@ Last check-in: 2026-10-18T17:00:00Z.
 ## Inference Results
 
 
-<!-- insight:instance name=lens receipt=e4f2f4a955467227819d99fe7835bf4bcdd75e8c outcome=ok shown=e4f2f4a955467227819d99fe7835bf4bcdd75e8c -->
+<!-- insight:instance name=lens receipt=6807e1ec67b84eabacb7144f3fff9cb761697d35 outcome=ok shown=6807e1ec67b84eabacb7144f3fff9cb761697d35 -->
 ## autolens_inference
 Integrity: ok. Freshness: freshness policy unspecified · evidence time unknown. Qualification: 0/823 accepted by producer; remaining assessments shown below.
-Capture source branch: main; revision: e4f2f4a955467227819d99fe7835bf4bcdd75e8c; fetched 2026-11-12T11:57:25Z; latest attempt 2026-11-12T11:57:25Z.
+Capture source branch: main; revision: 6807e1ec67b84eabacb7144f3fff9cb761697d35; fetched 2026-11-12T14:39:53Z; latest attempt 2026-11-12T14:39:53Z.
 - [imaging / rectangular / HST rectangular SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Frectangular%2Fhst)
 - [imaging / delaunay / HST Delaunay SLaM](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=imaging%2Fdelaunay%2Fhst)
 - [point_source / simple / Simple point source](https://pyautolabs.github.io/PyAutoInsight/?view=setup&instance=lens&setup=point_source%2Fsimple%2Fsimple)
@@ -111,7 +111,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 | Target | Stage | Seed | Execution | Convergence | Acceptance | Sampling s | Total s | Archive | Evidence |
 |---|---|---|---|---|---|---:|---:|---|---|
-| cluster/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json</summary>
 
@@ -280,7 +280,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 597.6517686843872 | 1002.0476798749996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 597.6517686843872 | 1002.0476798749996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -545,7 +545,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json</summary>
 
@@ -714,7 +714,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 330.22371196746826 | 772.0991412980002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 330.22371196746826 | 772.0991412980002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -979,7 +979,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json</summary>
 
@@ -1149,7 +1149,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 318.17142057418823 | 1222.5675961710513 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 318.17142057418823 | 1222.5675961710513 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -1415,7 +1415,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json</summary>
 
@@ -1585,7 +1585,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 334.867228269577 | 1223.2681212900206 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| cluster/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 334.867228269577 | 1223.2681212900206 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -1851,7 +1851,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json</summary>
 
@@ -2020,7 +2020,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 119.20907831192017 | 377.13893770199957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 119.20907831192017 | 377.13893770199957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -2285,7 +2285,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json</summary>
 
@@ -2454,7 +2454,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 145.59749102592468 | 382.3084712609998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 145.59749102592468 | 382.3084712609998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -2719,7 +2719,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json</summary>
 
@@ -2889,7 +2889,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 140.1526894569397 | 497.0519410209963 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 140.1526894569397 | 497.0519410209963 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -3155,7 +3155,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json</summary>
 
@@ -3325,7 +3325,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| cluster/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 165.25040435791016 | 509.0757238420192 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| cluster/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 165.25040435791016 | 509.0757238420192 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/cluster/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -3591,7 +3591,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -3771,7 +3771,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 481.74327087402344 | 778.6764255550224 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 481.74327087402344 | 778.6764255550224 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -4048,7 +4048,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 318.3843991756439 | 558.0970610919176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 318.3843991756439 | 558.0970610919176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -4315,7 +4315,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1979.0558869838715 | 2240.439100068994 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1979.0558869838715 | 2240.439100068994 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -4591,7 +4591,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 82.26126027107239 | 213.1334429680137 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 82.26126027107239 | 213.1334429680137 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -4805,7 +4805,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1752.5287227630615 | 2160.43941009196 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1752.5287227630615 | 2160.43941009196 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -5085,7 +5085,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2168.949049949646 | 2464.1551250090124 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2168.949049949646 | 2464.1551250090124 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -5350,7 +5350,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -5530,7 +5530,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 439.86032938957214 | 754.7709942490328 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 439.86032938957214 | 754.7709942490328 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -5807,7 +5807,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 319.0140860080719 | 557.1314469859935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 319.0140860080719 | 557.1314469859935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -6074,7 +6074,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1974.1655571460724 | 2227.3872290180298 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1974.1655571460724 | 2227.3872290180298 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -6350,7 +6350,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 411.3477041721344 | 544.5082898680121 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 411.3477041721344 | 544.5082898680121 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -6564,7 +6564,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1557.6453695297241 | 1945.1149499330204 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1557.6453695297241 | 1945.1149499330204 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -6844,7 +6844,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1521.226152896881 | 1809.4012962159468 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1521.226152896881 | 1809.4012962159468 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -7109,7 +7109,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -7288,7 +7288,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4101.688727378845 | 4387.196862757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4101.688727378845 | 4387.196862757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -7564,7 +7564,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.84631562233 | 4672.511602923001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.84631562233 | 4672.511602923001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -7830,7 +7830,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11299.073632001877 | 11733.747875242 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11299.073632001877 | 11733.747875242 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -8105,7 +8105,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 455.3094084262848 | 782.4412237720026 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 455.3094084262848 | 782.4412237720026 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -8318,7 +8318,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 15048.62286233902 | 15575.151437023003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 15048.62286233902 | 15575.151437023003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -8597,7 +8597,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 10397.995869398117 | 10796.522482025997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 10397.995869398117 | 10796.522482025997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -8861,7 +8861,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -9040,7 +9040,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 3877.5041892528534 | 4164.891140572001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 3877.5041892528534 | 4164.891140572001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -9316,7 +9316,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4402.530539035797 | 4699.082050227 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4402.530539035797 | 4699.082050227 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -9582,7 +9582,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 11402.903443336487 | 11836.704098834001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 11402.903443336487 | 11836.704098834001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -9857,7 +9857,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 462.1030693054199 | 795.6872131520031 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 462.1030693054199 | 795.6872131520031 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -10070,7 +10070,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15005.31375169754 | 15532.448980889003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15005.31375169754 | 15532.448980889003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -10349,7 +10349,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 10783.92421078682 | 11180.985689920999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 10783.92421078682 | 11180.985689920999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -10613,7 +10613,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -10793,7 +10793,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 481.74327087402344 | 778.6764255550224 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 481.74327087402344 | 778.6764255550224 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -11070,7 +11070,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 318.3843991756439 | 558.0970610919176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 318.3843991756439 | 558.0970610919176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -11337,7 +11337,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1979.0558869838715 | 2240.439100068994 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1979.0558869838715 | 2240.439100068994 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -11613,7 +11613,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 82.26126027107239 | 213.1334429680137 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 82.26126027107239 | 213.1334429680137 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -11827,7 +11827,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1752.5287227630615 | 2160.43941009196 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1752.5287227630615 | 2160.43941009196 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -12107,7 +12107,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1771.8298349380493 | 2029.2161050019786 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1771.8298349380493 | 2029.2161050019786 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -12372,7 +12372,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -12552,7 +12552,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 439.86032938957214 | 754.7709942490328 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 439.86032938957214 | 754.7709942490328 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -12829,7 +12829,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 319.0140860080719 | 557.1314469859935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 319.0140860080719 | 557.1314469859935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -13096,7 +13096,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1974.1655571460724 | 2227.3872290180298 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1974.1655571460724 | 2227.3872290180298 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -13372,7 +13372,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 411.3477041721344 | 544.5082898680121 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 411.3477041721344 | 544.5082898680121 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -13586,7 +13586,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1557.6453695297241 | 1945.1149499330204 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1557.6453695297241 | 1945.1149499330204 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -13866,7 +13866,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1125.7320680618286 | 1372.0427595120855 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1125.7320680618286 | 1372.0427595120855 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -14131,7 +14131,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -14310,7 +14310,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4101.688727378845 | 4387.196862757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4101.688727378845 | 4387.196862757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -14586,7 +14586,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.84631562233 | 4672.511602923001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.84631562233 | 4672.511602923001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -14852,7 +14852,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11299.073632001877 | 11733.747875242 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11299.073632001877 | 11733.747875242 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -15127,7 +15127,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 455.3094084262848 | 782.4412237720026 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 455.3094084262848 | 782.4412237720026 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -15340,7 +15340,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 15048.62286233902 | 15575.151437023003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 15048.62286233902 | 15575.151437023003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -15619,7 +15619,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 8113.051924228668 | 8333.126634425003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 8113.051924228668 | 8333.126634425003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -15883,7 +15883,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -16062,7 +16062,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 3877.5041892528534 | 4164.891140572001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 3877.5041892528534 | 4164.891140572001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -16338,7 +16338,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4402.530539035797 | 4699.082050227 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4402.530539035797 | 4699.082050227 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -16604,7 +16604,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 11402.903443336487 | 11836.704098834001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 11402.903443336487 | 11836.704098834001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -16879,7 +16879,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 462.1030693054199 | 795.6872131520031 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 462.1030693054199 | 795.6872131520031 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -17092,7 +17092,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15005.31375169754 | 15532.448980889003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15005.31375169754 | 15532.448980889003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -17371,7 +17371,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 7086.097369432449 | 7309.475318391 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/delaunay/euclid/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 7086.097369432449 | 7309.475318391 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/delaunay/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -17635,7 +17635,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -17807,7 +17807,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 5034.717159032822 | 5813.395450721001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 5034.717159032822 | 5813.395450721001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -18129,7 +18129,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 460.03975224494934 | 553.9307164479997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 460.03975224494934 | 553.9307164479997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -18365,7 +18365,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1684.1785526275635 | 1910.157818874999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1684.1785526275635 | 1910.157818874999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -18646,7 +18646,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -18818,7 +18818,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4997.0479526519775 | 5792.106247297 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4997.0479526519775 | 5792.106247297 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -19140,7 +19140,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.0584943294525 | 551.1568446130004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.0584943294525 | 551.1568446130004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -19376,7 +19376,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1737.0946354866028 | 1964.5384104109999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1737.0946354866028 | 1964.5384104109999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -19657,7 +19657,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -19830,7 +19830,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 768.5778567790985 | 1946.8382031520596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 768.5778567790985 | 1946.8382031520596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -20153,7 +20153,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 143.1471962928772 | 275.170149071957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 143.1471962928772 | 275.170149071957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -20390,7 +20390,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 411.27239441871643 | 815.1891477449099 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 411.27239441871643 | 815.1891477449099 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -20672,7 +20672,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -20845,7 +20845,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 750.7052075862885 | 1927.6907144360011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 750.7052075862885 | 1927.6907144360011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -21168,7 +21168,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 138.1588749885559 | 268.02012398000807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 138.1588749885559 | 268.02012398000807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -21405,7 +21405,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 430.9224143028259 | 835.4063219919335 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 430.9224143028259 | 835.4063219919335 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -21687,7 +21687,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -21859,7 +21859,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 5034.717159032822 | 5813.395450721001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 5034.717159032822 | 5813.395450721001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -22181,7 +22181,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 460.03975224494934 | 553.9307164479997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 460.03975224494934 | 553.9307164479997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -22417,7 +22417,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1619.45694565773 | 1833.670791384 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1619.45694565773 | 1833.670791384 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -22698,7 +22698,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -22870,7 +22870,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4997.0479526519775 | 5792.106247297 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 4997.0479526519775 | 5792.106247297 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -23192,7 +23192,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.0584943294525 | 551.1568446130004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.0584943294525 | 551.1568446130004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -23428,7 +23428,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1495.5103979110718 | 1706.872760467999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1495.5103979110718 | 1706.872760467999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -23709,7 +23709,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -23882,7 +23882,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 768.5778567790985 | 1946.8382031520596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 768.5778567790985 | 1946.8382031520596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -24205,7 +24205,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 143.1471962928772 | 275.170149071957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 143.1471962928772 | 275.170149071957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -24442,7 +24442,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 407.52117109298706 | 791.1320830750046 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 407.52117109298706 | 791.1320830750046 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -24724,7 +24724,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -24897,7 +24897,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 750.7052075862885 | 1927.6907144360011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 750.7052075862885 | 1927.6907144360011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -25220,7 +25220,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 138.1588749885559 | 268.02012398000807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 138.1588749885559 | 268.02012398000807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -25457,7 +25457,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/mge/euclid/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 417.8834002017975 | 801.1120292609558 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/mge/euclid/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 417.8834002017975 | 801.1120292609558 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/mge/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -25739,7 +25739,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -25922,7 +25922,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 478.35019731521606 | 787.8831595650408 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 478.35019731521606 | 787.8831595650408 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -26202,7 +26202,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 338.14680433273315 | 580.521666495013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 338.14680433273315 | 580.521666495013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -26472,7 +26472,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1304.6773319244385 | 1550.3826763279503 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1304.6773319244385 | 1550.3826763279503 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -26751,7 +26751,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 159.17121362686157 | 288.57296815607697 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 159.17121362686157 | 288.57296815607697 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -26980,7 +26980,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 929.1954765319824 | 1287.0665409279754 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 929.1954765319824 | 1287.0665409279754 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -27263,7 +27263,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 866.5492784976959 | 1143.0940381629625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 866.5492784976959 | 1143.0940381629625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -27531,7 +27531,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -27714,7 +27714,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 447.66320967674255 | 770.499862452969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 447.66320967674255 | 770.499862452969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -27994,7 +27994,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 332.2938632965088 | 576.0440542809665 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 332.2938632965088 | 576.0440542809665 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -28264,7 +28264,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1291.996128320694 | 1544.1448880929966 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1291.996128320694 | 1544.1448880929966 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -28543,7 +28543,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 153.17133283615112 | 284.1108915710356 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 153.17133283615112 | 284.1108915710356 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -28772,7 +28772,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 931.5473520755768 | 1300.507996055996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 931.5473520755768 | 1300.507996055996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -29055,7 +29055,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 889.9405424594879 | 1171.891933973995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 889.9405424594879 | 1171.891933973995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -29323,7 +29323,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -29505,7 +29505,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4107.246548652649 | 4395.861681044001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4107.246548652649 | 4395.861681044001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -29784,7 +29784,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.915421009064 | 4669.905312781 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.915421009064 | 4669.905312781 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -30053,7 +30053,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11118.064943790436 | 11588.842493939997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11118.064943790436 | 11588.842493939997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -30331,7 +30331,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 979.4872725009918 | 1338.678324649998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 979.4872725009918 | 1338.678324649998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -30559,7 +30559,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12370.534252405167 | 12918.207768727003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12370.534252405167 | 12918.207768727003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -30841,7 +30841,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 7039.925471067429 | 7464.859059039001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 7039.925471067429 | 7464.859059039001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -31108,7 +31108,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -31290,7 +31290,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 4657.860300779343 | 4992.095566065 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 4657.860300779343 | 4992.095566065 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -31569,7 +31569,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 5148.667865276337 | 5465.125755449 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 5148.667865276337 | 5465.125755449 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -31838,7 +31838,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 13840.141072511673 | 14339.951943066002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 13840.141072511673 | 14339.951943066002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -32116,7 +32116,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 1334.8110909461975 | 1734.543327124 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 1334.8110909461975 | 1734.543327124 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -32344,7 +32344,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15010.899091243744 | 15580.380900009 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15010.899091243744 | 15580.380900009 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -32626,7 +32626,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 8166.75873708725 | 8627.067901935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 8166.75873708725 | 8627.067901935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -32893,7 +32893,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -33076,7 +33076,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 478.35019731521606 | 787.8831595650408 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 478.35019731521606 | 787.8831595650408 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -33356,7 +33356,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 338.14680433273315 | 580.521666495013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 338.14680433273315 | 580.521666495013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -33626,7 +33626,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1304.6773319244385 | 1550.3826763279503 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1304.6773319244385 | 1550.3826763279503 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -33905,7 +33905,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 159.17121362686157 | 288.57296815607697 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 159.17121362686157 | 288.57296815607697 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -34134,7 +34134,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 929.1954765319824 | 1287.0665409279754 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 929.1954765319824 | 1287.0665409279754 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -34417,7 +34417,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 772.9820458889008 | 1010.1474354210077 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 772.9820458889008 | 1010.1474354210077 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -34685,7 +34685,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -34868,7 +34868,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 447.66320967674255 | 770.499862452969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 447.66320967674255 | 770.499862452969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -35148,7 +35148,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 332.2938632965088 | 576.0440542809665 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 332.2938632965088 | 576.0440542809665 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -35418,7 +35418,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1291.996128320694 | 1544.1448880929966 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1291.996128320694 | 1544.1448880929966 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -35697,7 +35697,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 153.17133283615112 | 284.1108915710356 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 153.17133283615112 | 284.1108915710356 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -35926,7 +35926,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 931.5473520755768 | 1300.507996055996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 931.5473520755768 | 1300.507996055996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -36209,7 +36209,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 767.3903646469116 | 1012.5493739770027 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 767.3903646469116 | 1012.5493739770027 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -36477,7 +36477,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -36659,7 +36659,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4107.246548652649 | 4395.861681044001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[0] | 0 | complete | not_assessed | not_assessed | 4107.246548652649 | 4395.861681044001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -36938,7 +36938,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.915421009064 | 4669.905312781 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 4372.915421009064 | 4669.905312781 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -37207,7 +37207,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11118.064943790436 | 11588.842493939997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 11118.064943790436 | 11588.842493939997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -37485,7 +37485,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 979.4872725009918 | 1338.678324649998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 979.4872725009918 | 1338.678324649998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -37713,7 +37713,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12370.534252405167 | 12918.207768727003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12370.534252405167 | 12918.207768727003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -37995,7 +37995,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3677.2354443073273 | 3893.19881935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3677.2354443073273 | 3893.19881935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -38262,7 +38262,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -38444,7 +38444,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 4657.860300779343 | 4992.095566065 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[0] | 1 | complete | not_assessed | not_assessed | 4657.860300779343 | 4992.095566065 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-8aa7eb7fa0146754</summary>
 
@@ -38723,7 +38723,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 5148.667865276337 | 5465.125755449 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 5148.667865276337 | 5465.125755449 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -38992,7 +38992,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 13840.141072511673 | 14339.951943066002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 13840.141072511673 | 14339.951943066002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -39270,7 +39270,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 1334.8110909461975 | 1734.543327124 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 1334.8110909461975 | 1734.543327124 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -39498,7 +39498,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15010.899091243744 | 15580.380900009 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 15010.899091243744 | 15580.380900009 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -39780,7 +39780,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 4059.151791334152 | 4295.103136584003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| group/rectangular/euclid/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 4059.151791334152 | 4295.103136584003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/group/rectangular/euclid/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -40047,7 +40047,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -40231,7 +40231,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -40542,7 +40542,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2064.645541906357 | 2217.346033858019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2064.645541906357 | 2217.346033858019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -40809,7 +40809,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 80.03889107704163 | 151.4688285680022 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 80.03889107704163 | 151.4688285680022 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -41023,7 +41023,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 374.7560715675354 | 463.12847465090454 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 374.7560715675354 | 463.12847465090454 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -41255,7 +41255,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1274.3060207366943 | 1404.4866310600191 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1274.3060207366943 | 1404.4866310600191 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -41516,7 +41516,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -41700,7 +41700,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -42011,7 +42011,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2464.934133052826 | 2620.8439685859485 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2464.934133052826 | 2620.8439685859485 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -42278,7 +42278,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 84.56782126426697 | 157.09290251194034 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 84.56782126426697 | 157.09290251194034 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -42492,7 +42492,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 387.9056556224823 | 475.7439508010866 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 387.9056556224823 | 475.7439508010866 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -42724,7 +42724,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1048.3929250240326 | 1178.69610679592 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1048.3929250240326 | 1178.69610679592 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -42985,7 +42985,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -43168,7 +43168,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -43478,7 +43478,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 12051.909335374832 | 12233.919191415001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 12051.909335374832 | 12233.919191415001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -43744,7 +43744,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 490.4735291004181 | 595.7970125059983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 490.4735291004181 | 595.7970125059983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -43957,7 +43957,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2888.071978330612 | 3008.3154251580017 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2888.071978330612 | 3008.3154251580017 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -44188,7 +44188,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 6938.346698522568 | 7081.053836889001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 6938.346698522568 | 7081.053836889001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -44448,7 +44448,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -44631,7 +44631,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -44941,7 +44941,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12609.190230846405 | 12737.133806166705 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12609.190230846405 | 12737.133806166705 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -45207,7 +45207,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 453.9056279659271 | 553.3710738909431 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 453.9056279659271 | 553.3710738909431 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -45420,7 +45420,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2269.41446018219 | 2377.7882701652125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2269.41446018219 | 2377.7882701652125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -45651,7 +45651,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 8648.197281122208 | 8770.862935086247 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 8648.197281122208 | 8770.862935086247 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -45911,7 +45911,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -46095,7 +46095,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -46406,7 +46406,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2064.645541906357 | 2217.346033858019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2064.645541906357 | 2217.346033858019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -46673,7 +46673,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 80.03889107704163 | 151.4688285680022 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 80.03889107704163 | 151.4688285680022 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -46887,7 +46887,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 374.7560715675354 | 463.12847465090454 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 374.7560715675354 | 463.12847465090454 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -47119,7 +47119,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 963.278388261795 | 1081.5160561490338 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 963.278388261795 | 1081.5160561490338 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -47380,7 +47380,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -47564,7 +47564,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -47875,7 +47875,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2464.934133052826 | 2620.8439685859485 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2464.934133052826 | 2620.8439685859485 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -48142,7 +48142,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 84.56782126426697 | 157.09290251194034 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 84.56782126426697 | 157.09290251194034 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -48356,7 +48356,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 387.9056556224823 | 475.7439508010866 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 387.9056556224823 | 475.7439508010866 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -48588,7 +48588,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 820.1177315711975 | 941.9046807880513 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 820.1177315711975 | 941.9046807880513 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -48849,7 +48849,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -49032,7 +49032,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -49342,7 +49342,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 12051.909335374832 | 12233.919191415001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 12051.909335374832 | 12233.919191415001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -49608,7 +49608,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 490.4735291004181 | 595.7970125059983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 490.4735291004181 | 595.7970125059983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -49821,7 +49821,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2888.071978330612 | 3008.3154251580017 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2888.071978330612 | 3008.3154251580017 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -50052,7 +50052,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4262.899814605713 | 4376.689779913002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4262.899814605713 | 4376.689779913002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -50312,7 +50312,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -50495,7 +50495,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -50805,7 +50805,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12609.190230846405 | 12737.133806166705 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12609.190230846405 | 12737.133806166705 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -51071,7 +51071,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 453.9056279659271 | 553.3710738909431 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 453.9056279659271 | 553.3710738909431 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -51284,7 +51284,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2269.41446018219 | 2377.7882701652125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2269.41446018219 | 2377.7882701652125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -51515,7 +51515,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 4563.577402114868 | 4653.316399578005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 4563.577402114868 | 4653.316399578005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -51775,7 +51775,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -51959,7 +51959,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -52270,7 +52270,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2205.92954993248 | 2610.5091054240474 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2205.92954993248 | 2610.5091054240474 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -52537,7 +52537,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 92.03995943069458 | 425.3447639379883 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 92.03995943069458 | 425.3447639379883 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -52751,7 +52751,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 379.4560179710388 | 785.3401705619181 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 379.4560179710388 | 785.3401705619181 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -52983,7 +52983,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1083.3840832710266 | 1497.2989298129687 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1083.3840832710266 | 1497.2989298129687 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -53244,7 +53244,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -53428,7 +53428,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -53739,7 +53739,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1876.061419725418 | 2267.1881955940044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1876.061419725418 | 2267.1881955940044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -54006,7 +54006,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 88.80328416824341 | 416.5799208970275 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 88.80328416824341 | 416.5799208970275 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -54220,7 +54220,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 452.1931674480438 | 853.5710391859757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 452.1931674480438 | 853.5710391859757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -54452,7 +54452,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1073.0062079429626 | 1481.125689566019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1073.0062079429626 | 1481.125689566019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -54713,7 +54713,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -54896,7 +54896,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -55206,7 +55206,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 13769.189081430435 | 11143.97679487 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 13769.189081430435 | 11143.97679487 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -55472,7 +55472,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 597.3879120349884 | 719.3904743259991 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 597.3879120349884 | 719.3904743259991 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -55685,7 +55685,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 3176.2419171333313 | 3309.937791725999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 3176.2419171333313 | 3309.937791725999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -55916,7 +55916,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 7211.574230194092 | 7372.551753969998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 7211.574230194092 | 7372.551753969998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -56176,7 +56176,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -56359,7 +56359,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -56669,7 +56669,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12510.381192445755 | 9880.105237829 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12510.381192445755 | 9880.105237829 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -56935,7 +56935,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 669.921941280365 | 796.1699266639989 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 669.921941280365 | 796.1699266639989 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -57148,7 +57148,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 3054.2808454036713 | 3184.7762909189987 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 3054.2808454036713 | 3184.7762909189987 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -57379,7 +57379,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 6400.229223489761 | 6555.964645633998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 6400.229223489761 | 6555.964645633998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -57639,7 +57639,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -57823,7 +57823,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -58134,7 +58134,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2205.92954993248 | 2610.5091054240474 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2205.92954993248 | 2610.5091054240474 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -58401,7 +58401,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 92.03995943069458 | 425.3447639379883 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 92.03995943069458 | 425.3447639379883 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -58615,7 +58615,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 379.4560179710388 | 785.3401705619181 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 379.4560179710388 | 785.3401705619181 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -58847,7 +58847,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 873.8061718940735 | 1174.8917299959576 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 873.8061718940735 | 1174.8917299959576 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -59108,7 +59108,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -59292,7 +59292,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -59603,7 +59603,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1876.061419725418 | 2267.1881955940044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1876.061419725418 | 2267.1881955940044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -59870,7 +59870,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 88.80328416824341 | 416.5799208970275 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 88.80328416824341 | 416.5799208970275 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -60084,7 +60084,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 452.1931674480438 | 853.5710391859757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 452.1931674480438 | 853.5710391859757 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -60316,7 +60316,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 850.3884706497192 | 1148.1707964289235 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 850.3884706497192 | 1148.1707964289235 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -60577,7 +60577,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -60760,7 +60760,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -61070,7 +61070,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 13769.189081430435 | 11143.97679487 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 13769.189081430435 | 11143.97679487 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -61336,7 +61336,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 597.3879120349884 | 719.3904743259991 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 597.3879120349884 | 719.3904743259991 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -61549,7 +61549,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 3176.2419171333313 | 3309.937791725999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 3176.2419171333313 | 3309.937791725999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -61780,7 +61780,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3787.5030105113983 | 3907.4032958440002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3787.5030105113983 | 3907.4032958440002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -62040,7 +62040,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -62223,7 +62223,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -62533,7 +62533,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12510.381192445755 | 9880.105237829 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 12510.381192445755 | 9880.105237829 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -62799,7 +62799,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 669.921941280365 | 796.1699266639989 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 669.921941280365 | 796.1699266639989 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -63012,7 +63012,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 3054.2808454036713 | 3184.7762909189987 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 3054.2808454036713 | 3184.7762909189987 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -63243,7 +63243,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3730.9459545612335 | 3850.310006060001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_delaunay_nn_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3730.9459545612335 | 3850.310006060001 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/delaunay_nn/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -63503,7 +63503,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -63674,7 +63674,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 2163.7077894210815 | 2464.4738597289997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 2163.7077894210815 | 2464.4738597289997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -63962,7 +63962,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 135.846195936203 | 183.09010674599995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 135.846195936203 | 183.09010674599995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -64173,7 +64173,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1374.0330109596252 | 1528.2321771509996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1374.0330109596252 | 1528.2321771509996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -64444,7 +64444,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -64615,7 +64615,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 2225.297098875046 | 2513.992280287999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 2225.297098875046 | 2513.992280287999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -64903,7 +64903,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 137.051344871521 | 183.80458949700005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 137.051344871521 | 183.80458949700005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -65114,7 +65114,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1451.1034269332886 | 1613.1481165100004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1451.1034269332886 | 1613.1481165100004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -65385,7 +65385,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -65557,7 +65557,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 477.8967523574829 | 864.5374977890169 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 477.8967523574829 | 864.5374977890169 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -65846,7 +65846,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 66.48903226852417 | 126.65298408304807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 66.48903226852417 | 126.65298408304807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -66058,7 +66058,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 402.19718527793884 | 614.9739671669668 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 402.19718527793884 | 614.9739671669668 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -66330,7 +66330,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -66502,7 +66502,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 480.45287227630615 | 847.0626760479063 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 480.45287227630615 | 847.0626760479063 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -66791,7 +66791,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 71.35836482048035 | 131.03622933698352 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 71.35836482048035 | 131.03622933698352 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -67003,7 +67003,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 451.6630346775055 | 667.7028761529364 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 451.6630346775055 | 667.7028761529364 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -67275,7 +67275,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -67446,7 +67446,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 2163.7077894210815 | 2464.4738597289997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 2163.7077894210815 | 2464.4738597289997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -67734,7 +67734,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 135.846195936203 | 183.09010674599995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 135.846195936203 | 183.09010674599995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -67945,7 +67945,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1388.771903038025 | 1536.900560786 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1388.771903038025 | 1536.900560786 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -68216,7 +68216,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -68387,7 +68387,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 2225.297098875046 | 2513.992280287999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 2225.297098875046 | 2513.992280287999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -68675,7 +68675,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 137.051344871521 | 183.80458949700005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 137.051344871521 | 183.80458949700005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -68886,7 +68886,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1302.7269530296326 | 1447.9656006000005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1302.7269530296326 | 1447.9656006000005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -69157,7 +69157,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -69329,7 +69329,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 477.8967523574829 | 864.5374977890169 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 477.8967523574829 | 864.5374977890169 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -69618,7 +69618,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 66.48903226852417 | 126.65298408304807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 66.48903226852417 | 126.65298408304807 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -69830,7 +69830,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 434.8656346797943 | 642.6389609570615 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 434.8656346797943 | 642.6389609570615 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -70102,7 +70102,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -70274,7 +70274,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 480.45287227630615 | 847.0626760479063 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 480.45287227630615 | 847.0626760479063 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -70563,7 +70563,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 71.35836482048035 | 131.03622933698352 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 71.35836482048035 | 131.03622933698352 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -70775,7 +70775,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| imaging/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 372.3030025959015 | 579.6630296029616 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| imaging/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 372.3030025959015 | 579.6630296029616 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -71047,7 +71047,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -71228,7 +71228,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | 3489.395369769074 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | 3489.395369769074 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -71534,7 +71534,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 38212.712732076645 | 38374.91969979787 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 38212.712732076645 | 38374.91969979787 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -71798,7 +71798,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 5783.566254377365 | 5936.190000778995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 5783.566254377365 | 5936.190000778995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -72021,7 +72021,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 5446.4585750103 | 5607.766917131143 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 5446.4585750103 | 5607.766917131143 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -72250,7 +72250,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 32440.87102484703 | 32594.943321760045 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 32440.87102484703 | 32594.943321760045 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -72508,7 +72508,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -72689,7 +72689,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | 3509.7387492221314 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | 3509.7387492221314 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -72995,7 +72995,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 38641.76520562172 | 38813.32885967102 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 38641.76520562172 | 38813.32885967102 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -73259,7 +73259,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 4042.287693500519 | 4203.35837216489 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 4042.287693500519 | 4203.35837216489 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -73482,7 +73482,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 5703.012356042862 | 5867.149315200048 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 5703.012356042862 | 5867.149315200048 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -73711,7 +73711,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 24129.204991340637 | 24287.544877897948 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 24129.204991340637 | 24287.544877897948 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -73969,7 +73969,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -74150,7 +74150,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3471.9577021598816 | 3573.0902988619637 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3471.9577021598816 | 3573.0902988619637 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -74456,7 +74456,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 83132.6692700386 | 83437.9060737209 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 83132.6692700386 | 83437.9060737209 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -74720,7 +74720,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 6332.766473293304 | 6558.085268893046 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 6332.766473293304 | 6558.085268893046 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -74943,7 +74943,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 3972.188988685608 | 4188.83041865495 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 3972.188988685608 | 4188.83041865495 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -75172,7 +75172,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 36050.4700050354 | 36260.53076645685 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 36050.4700050354 | 36260.53076645685 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -75430,7 +75430,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -75611,7 +75611,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.9393587112427 | 886.5116025358438 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.9393587112427 | 886.5116025358438 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -75917,7 +75917,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 700.8667027950287 | 786.8701392610092 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 700.8667027950287 | 786.8701392610092 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -76181,7 +76181,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 181.06282258033752 | 258.48262187396176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 181.06282258033752 | 258.48262187396176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -76404,7 +76404,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 234.4628677368164 | 314.99105002894066 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 234.4628677368164 | 314.99105002894066 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -76633,7 +76633,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 558.6179111003876 | 657.5337306840811 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 558.6179111003876 | 657.5337306840811 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -76891,7 +76891,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -77072,7 +77072,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 712.3624505996704 | 880.1818957091309 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 712.3624505996704 | 880.1818957091309 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -77378,7 +77378,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 732.5671072006226 | 818.5344852558337 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 732.5671072006226 | 818.5344852558337 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -77642,7 +77642,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 130.3421642780304 | 206.25635422184132 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 130.3421642780304 | 206.25635422184132 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -77865,7 +77865,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 219.77784371376038 | 299.90816889703274 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 219.77784371376038 | 299.90816889703274 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -78094,7 +78094,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 524.995144367218 | 622.1010400119703 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 524.995144367218 | 622.1010400119703 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -78352,7 +78352,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -78533,7 +78533,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.965235710144 | 884.8289679950103 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.965235710144 | 884.8289679950103 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -78839,7 +78839,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1786.1555726528168 | 1878.3021167800762 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1786.1555726528168 | 1878.3021167800762 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -79103,7 +79103,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 298.14068365097046 | 379.2244302830659 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 298.14068365097046 | 379.2244302830659 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -79326,7 +79326,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 221.9318356513977 | 306.5630112909712 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 221.9318356513977 | 306.5630112909712 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -79555,7 +79555,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 826.8618957996368 | 931.3515635451768 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 826.8618957996368 | 931.3515635451768 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -79813,7 +79813,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -79994,7 +79994,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 719.88591837883 | 885.7352682480123 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 719.88591837883 | 885.7352682480123 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -80300,7 +80300,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1648.602859735489 | 1739.6825300571509 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1648.602859735489 | 1739.6825300571509 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -80564,7 +80564,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 226.34285354614258 | 306.9743541041389 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 226.34285354614258 | 306.9743541041389 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -80787,7 +80787,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 196.74390411376953 | 278.5578172940295 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 196.74390411376953 | 278.5578172940295 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -81016,7 +81016,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 811.5136122703552 | 914.4145925419871 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 811.5136122703552 | 914.4145925419871 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/jax_gpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -81274,7 +81274,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -81460,7 +81460,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -81773,7 +81773,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4961.520958900452 | 5065.897615490016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4961.520958900452 | 5065.897615490016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -82042,7 +82042,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 579.7866718769073 | 657.4148408081383 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 579.7866718769073 | 657.4148408081383 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -82270,7 +82270,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1275.32878780365 | 1360.4122419506311 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1275.32878780365 | 1360.4122419506311 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -82504,7 +82504,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2605.161903142929 | 2691.817201151047 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2605.161903142929 | 2691.817201151047 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -82767,7 +82767,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -82953,7 +82953,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -83266,7 +83266,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 4867.771735191345 | 4975.446513095871 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 4867.771735191345 | 4975.446513095871 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -83535,7 +83535,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 939.1733293533325 | 1014.3637290941551 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 939.1733293533325 | 1014.3637290941551 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -83763,7 +83763,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1478.9101498126984 | 1565.1803016928025 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1478.9101498126984 | 1565.1803016928025 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -83997,7 +83997,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2562.1093657016754 | 2649.867620902136 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2562.1093657016754 | 2649.867620902136 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -84260,7 +84260,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json</summary>
 
@@ -84446,7 +84446,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -84759,7 +84759,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 20245.19472336769 | 20381.724093445 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 20245.19472336769 | 20381.724093445 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_1/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -85028,7 +85028,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json</summary>
 
@@ -85214,7 +85214,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -85527,7 +85527,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 3482.1046192646027 | 3618.7638257789995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 3482.1046192646027 | 3618.7638257789995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_16/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -85796,7 +85796,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json</summary>
 
@@ -85982,7 +85982,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -86295,7 +86295,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 14885.529279470444 | 15025.325211468 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 14885.529279470444 | 15025.325211468 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_2/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -86564,7 +86564,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json</summary>
 
@@ -86750,7 +86750,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -87063,7 +87063,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2267.548382997513 | 2420.7047272160007 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2267.548382997513 | 2420.7047272160007 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_32/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -87332,7 +87332,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json</summary>
 
@@ -87518,7 +87518,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -87831,7 +87831,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 8193.345833778381 | 8429.175880892 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 8193.345833778381 | 8429.175880892 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_4/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -88100,7 +88100,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json</summary>
 
@@ -88286,7 +88286,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -88599,7 +88599,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4635.358402252197 | 4772.877679823 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4635.358402252197 | 4772.877679823 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/default/numba_cpu_sparse_fp64__cores_8/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -88868,7 +88868,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -89049,7 +89049,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | 3489.395369769074 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | 3489.395369769074 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -89355,7 +89355,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 38212.712732076645 | 38374.91969979787 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 38212.712732076645 | 38374.91969979787 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -89619,7 +89619,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 5783.566254377365 | 5936.190000778995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 5783.566254377365 | 5936.190000778995 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -89842,7 +89842,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 5446.4585750103 | 5607.766917131143 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 5446.4585750103 | 5607.766917131143 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -90071,7 +90071,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 21738.99609732628 | 21879.372669008095 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 21738.99609732628 | 21879.372669008095 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -90329,7 +90329,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -90510,7 +90510,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | 3509.7387492221314 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | 3509.7387492221314 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -90816,7 +90816,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 38641.76520562172 | 38813.32885967102 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 38641.76520562172 | 38813.32885967102 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -91080,7 +91080,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 4042.287693500519 | 4203.35837216489 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 4042.287693500519 | 4203.35837216489 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -91303,7 +91303,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 5703.012356042862 | 5867.149315200048 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 5703.012356042862 | 5867.149315200048 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -91532,7 +91532,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 20092.072603940964 | 20235.040485661943 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 20092.072603940964 | 20235.040485661943 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -91790,7 +91790,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -91971,7 +91971,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.9393587112427 | 886.5116025358438 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.9393587112427 | 886.5116025358438 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -92277,7 +92277,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 700.8667027950287 | 786.8701392610092 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 700.8667027950287 | 786.8701392610092 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -92541,7 +92541,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 181.06282258033752 | 258.48262187396176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 181.06282258033752 | 258.48262187396176 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -92764,7 +92764,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 234.4628677368164 | 314.99105002894066 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 234.4628677368164 | 314.99105002894066 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -92993,7 +92993,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 490.45253920555115 | 580.9962097681127 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 490.45253920555115 | 580.9962097681127 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -93251,7 +93251,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -93432,7 +93432,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 712.3624505996704 | 880.1818957091309 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 712.3624505996704 | 880.1818957091309 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -93738,7 +93738,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 732.5671072006226 | 818.5344852558337 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 732.5671072006226 | 818.5344852558337 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -94002,7 +94002,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 130.3421642780304 | 206.25635422184132 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 130.3421642780304 | 206.25635422184132 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -94225,7 +94225,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 219.77784371376038 | 299.90816889703274 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 219.77784371376038 | 299.90816889703274 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -94454,7 +94454,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 449.70745611190796 | 539.0765018309467 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 449.70745611190796 | 539.0765018309467 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -94712,7 +94712,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -94893,7 +94893,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.965235710144 | 884.8289679950103 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 714.965235710144 | 884.8289679950103 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -95199,7 +95199,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1786.1555726528168 | 1878.3021167800762 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1786.1555726528168 | 1878.3021167800762 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -95463,7 +95463,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 298.14068365097046 | 379.2244302830659 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 298.14068365097046 | 379.2244302830659 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -95686,7 +95686,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 221.9318356513977 | 306.5630112909712 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 221.9318356513977 | 306.5630112909712 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -95915,7 +95915,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1624.8536005020142 | 1724.6327966379467 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1624.8536005020142 | 1724.6327966379467 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -96173,7 +96173,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -96354,7 +96354,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 719.88591837883 | 885.7352682480123 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 719.88591837883 | 885.7352682480123 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -96660,7 +96660,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1648.602859735489 | 1739.6825300571509 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1648.602859735489 | 1739.6825300571509 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -96924,7 +96924,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 226.34285354614258 | 306.9743541041389 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 226.34285354614258 | 306.9743541041389 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -97147,7 +97147,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 196.74390411376953 | 278.5578172940295 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 196.74390411376953 | 278.5578172940295 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -97376,7 +97376,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1396.915834903717 | 1495.4526844238862 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1396.915834903717 | 1495.4526844238862 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/jax_gpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -97634,7 +97634,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -97820,7 +97820,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -98133,7 +98133,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4961.520958900452 | 5065.897615490016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4961.520958900452 | 5065.897615490016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -98402,7 +98402,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 579.7866718769073 | 657.4148408081383 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 579.7866718769073 | 657.4148408081383 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -98630,7 +98630,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1275.32878780365 | 1360.4122419506311 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1275.32878780365 | 1360.4122419506311 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -98864,7 +98864,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2329.3615324497223 | 2407.74233310204 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2329.3615324497223 | 2407.74233310204 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -99127,7 +99127,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -99313,7 +99313,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -99626,7 +99626,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 4867.771735191345 | 4975.446513095871 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 4867.771735191345 | 4975.446513095871 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -99895,7 +99895,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 939.1733293533325 | 1014.3637290941551 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 939.1733293533325 | 1014.3637290941551 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -100123,7 +100123,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1478.9101498126984 | 1565.1803016928025 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1478.9101498126984 | 1565.1803016928025 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -100357,7 +100357,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2076.24631023407 | 2152.6802170779556 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2076.24631023407 | 2152.6802170779556 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/imaging/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -100620,7 +100620,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json</summary>
 
@@ -100800,7 +100800,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 43.777095079422 | 138.25496209599078 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 43.777095079422 | 138.25496209599078 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -101067,7 +101067,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 185.7382791042328 | 265.9716833360726 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 185.7382791042328 | 265.9716833360726 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -101331,7 +101331,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 34.40894603729248 | 60.04601006896701 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 34.40894603729248 | 60.04601006896701 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -101545,7 +101545,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 164.40640783309937 | 221.76436463708524 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 164.40640783309937 | 221.76436463708524 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -101798,7 +101798,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json</summary>
 
@@ -101978,7 +101978,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 34.54752588272095 | 125.55518323404249 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 34.54752588272095 | 125.55518323404249 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -102245,7 +102245,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 205.83026576042175 | 285.7595852590166 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 205.83026576042175 | 285.7595852590166 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -102509,7 +102509,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 31.978473663330078 | 57.57551874802448 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 31.978473663330078 | 57.57551874802448 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -102723,7 +102723,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 220.3309190273285 | 277.2324858920183 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 220.3309190273285 | 277.2324858920183 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -102976,7 +102976,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json</summary>
 
@@ -103155,7 +103155,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 77.51142454147339 | 154.02234519300055 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 77.51142454147339 | 154.02234519300055 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -103421,7 +103421,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1206.578362941742 | 1271.7072581890006 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1206.578362941742 | 1271.7072581890006 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -103684,7 +103684,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 572.9680252075195 | 590.4748364280003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 572.9680252075195 | 590.4748364280003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -103897,7 +103897,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 333.34604263305664 | 370.35291406000033 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 333.34604263305664 | 370.35291406000033 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -104149,7 +104149,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json</summary>
 
@@ -104328,7 +104328,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 78.77263927459717 | 149.58267878100014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 78.77263927459717 | 149.58267878100014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -104594,7 +104594,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1553.7669389247894 | 1615.7180837619999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1553.7669389247894 | 1615.7180837619999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -104857,7 +104857,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 1004.8982827663422 | 1023.799282772 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 1004.8982827663422 | 1023.799282772 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -105070,7 +105070,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/delaunay/sma/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1994.3546509742737 | 2043.8307941560006 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/delaunay/sma/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1994.3546509742737 | 2043.8307941560006 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/delaunay/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -105322,7 +105322,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json) |
+| interferometer/mge/sma/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json</summary>
 
@@ -105493,7 +105493,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 736.6337335109711 | 820.0007979929997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json) |
+| interferometer/mge/sma/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 736.6337335109711 | 820.0007979929997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -105754,7 +105754,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 562.4994268417358 | 664.6734196830002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json) |
+| interferometer/mge/sma/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 562.4994268417358 | 664.6734196830002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -106022,7 +106022,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json) |
+| interferometer/mge/sma/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json</summary>
 
@@ -106193,7 +106193,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 692.9569590091705 | 779.6750416599998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json) |
+| interferometer/mge/sma/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 692.9569590091705 | 779.6750416599998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -106454,7 +106454,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 598.4044983386993 | 703.1221083360006 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json) |
+| interferometer/mge/sma/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 598.4044983386993 | 703.1221083360006 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_cpu_dense_fp64_nufft/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -106722,7 +106722,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json) |
+| interferometer/mge/sma/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json</summary>
 
@@ -106894,7 +106894,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 49.8508517742157 | 146.31684592191596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json) |
+| interferometer/mge/sma/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 49.8508517742157 | 146.31684592191596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -107156,7 +107156,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 38.54839563369751 | 161.52408175508026 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json) |
+| interferometer/mge/sma/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 38.54839563369751 | 161.52408175508026 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -107425,7 +107425,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json) |
+| interferometer/mge/sma/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json</summary>
 
@@ -107597,7 +107597,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 42.55604147911072 | 138.02395615004934 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json) |
+| interferometer/mge/sma/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 42.55604147911072 | 138.02395615004934 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -107859,7 +107859,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/mge/sma/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 44.48150849342346 | 167.44339877401944 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json) |
+| interferometer/mge/sma/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 44.48150849342346 | 167.44339877401944 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/mge/sma/validation/default/jax_gpu_dense_fp64_nufft/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -108128,7 +108128,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json</summary>
 
@@ -108311,7 +108311,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 39.209694385528564 | 132.72019228409044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 39.209694385528564 | 132.72019228409044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -108581,7 +108581,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 169.17081308364868 | 249.56274061789736 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 169.17081308364868 | 249.56274061789736 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -108848,7 +108848,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 50.16826105117798 | 77.17833297897596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 50.16826105117798 | 77.17833297897596 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -109077,7 +109077,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 182.17607855796814 | 237.91111666394863 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 182.17607855796814 | 237.91111666394863 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -109333,7 +109333,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json</summary>
 
@@ -109516,7 +109516,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 35.762391328811646 | 128.71697766100988 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 35.762391328811646 | 128.71697766100988 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -109786,7 +109786,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 199.851660490036 | 280.66411899006926 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 199.851660490036 | 280.66411899006926 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -110053,7 +110053,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 33.33343482017517 | 59.99972953891847 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 33.33343482017517 | 59.99972953891847 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -110282,7 +110282,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 198.77251291275024 | 255.84364179708064 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 198.77251291275024 | 255.84364179708064 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/jax_gpu_sparse_fp64_wtilde/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -110538,7 +110538,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json</summary>
 
@@ -110720,7 +110720,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 78.67802405357361 | 149.42171539799983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 78.67802405357361 | 149.42171539799983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -110989,7 +110989,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2354.73993062973 | 2423.225356117 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2354.73993062973 | 2423.225356117 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -111255,7 +111255,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 2700.5549790859222 | 2727.9332770250003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 2700.5549790859222 | 2727.9332770250003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -111483,7 +111483,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| interferometer/rectangular/sma/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1371.2001962661743 | 1414.7393986730003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
+| interferometer/rectangular/sma/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1371.2001962661743 | 1414.7393986730003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json) |
 
 <details><summary>Provenance: results/interferometer/rectangular/sma/validation/default/numba_cpu_sparse_fp64_wtilde/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -111738,7 +111738,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -111918,7 +111918,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 875.8242135047913 | 1589.112308296957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 875.8242135047913 | 1589.112308296957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -112224,7 +112224,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 9061.179710626602 | 9469.143424429 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 9061.179710626602 | 9469.143424429 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -112521,7 +112521,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 695.5006010532379 | 816.188367625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 695.5006010532379 | 816.188367625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -112765,7 +112765,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2919.731695175171 | 3089.0654072470497 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2919.731695175171 | 3089.0654072470497 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -113009,7 +113009,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4755.069710969925 | 4923.719599633012 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4755.069710969925 | 4923.719599633012 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -113277,7 +113277,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -113457,7 +113457,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 841.2936277389526 | 1519.5485307580093 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 841.2936277389526 | 1519.5485307580093 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -113763,7 +113763,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 8010.58056139946 | 8411.058731102967 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 8010.58056139946 | 8411.058731102967 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -114060,7 +114060,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 679.8803794384003 | 803.4479546459625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 679.8803794384003 | 803.4479546459625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -114304,7 +114304,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2227.986144065857 | 2386.5672076640185 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2227.986144065857 | 2386.5672076640185 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -114548,7 +114548,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3504.142878293991 | 3667.052124606911 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3504.142878293991 | 3667.052124606911 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -114816,7 +114816,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -114995,7 +114995,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 9916.85923576355 | 10869.84474088595 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 9916.85923576355 | 10869.84474088595 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -115300,7 +115300,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 56078.52078104019 | 56487.22513050004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 56078.52078104019 | 56487.22513050004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -115596,7 +115596,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 4592.293142318726 | 4669.373580052983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 4592.293142318726 | 4669.373580052983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -115839,7 +115839,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 14693.644456386566 | 14803.679767549038 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 14693.644456386566 | 14803.679767549038 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -116082,7 +116082,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 18440.470727682114 | 18546.614500149037 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 18440.470727682114 | 18546.614500149037 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -116349,7 +116349,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -116528,7 +116528,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 9271.084071159363 | 10119.749991509016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 9271.084071159363 | 10119.749991509016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -116833,7 +116833,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 62438.60830807686 | 62848.646679872996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 62438.60830807686 | 62848.646679872996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -117129,7 +117129,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 5034.6416828632355 | 5102.757000759011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 5034.6416828632355 | 5102.757000759011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -117372,7 +117372,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 23953.37257194519 | 24073.159103001002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 23953.37257194519 | 24073.159103001002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -117615,7 +117615,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 24358.081278800964 | 24470.349842443014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 24358.081278800964 | 24470.349842443014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -117882,7 +117882,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -118062,7 +118062,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 875.8242135047913 | 1589.112308296957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 875.8242135047913 | 1589.112308296957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -118368,7 +118368,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 9061.179710626602 | 9469.143424429 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 9061.179710626602 | 9469.143424429 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -118665,7 +118665,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 695.5006010532379 | 816.188367625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 695.5006010532379 | 816.188367625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -118909,7 +118909,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2919.731695175171 | 3089.0654072470497 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2919.731695175171 | 3089.0654072470497 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -119153,7 +119153,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3577.379830598831 | 3735.9285011269385 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3577.379830598831 | 3735.9285011269385 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -119421,7 +119421,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -119601,7 +119601,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 841.2936277389526 | 1519.5485307580093 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 841.2936277389526 | 1519.5485307580093 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -119907,7 +119907,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 8010.58056139946 | 8411.058731102967 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 8010.58056139946 | 8411.058731102967 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -120204,7 +120204,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 679.8803794384003 | 803.4479546459625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 679.8803794384003 | 803.4479546459625 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -120448,7 +120448,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2227.986144065857 | 2386.5672076640185 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2227.986144065857 | 2386.5672076640185 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -120692,7 +120692,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3064.306955099106 | 3219.0325627380516 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3064.306955099106 | 3219.0325627380516 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -120960,7 +120960,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -121139,7 +121139,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 9916.85923576355 | 10869.84474088595 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 9916.85923576355 | 10869.84474088595 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -121444,7 +121444,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 56078.52078104019 | 56487.22513050004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 56078.52078104019 | 56487.22513050004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -121740,7 +121740,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 4592.293142318726 | 4669.373580052983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 4592.293142318726 | 4669.373580052983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -121983,7 +121983,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 14693.644456386566 | 14803.679767549038 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 14693.644456386566 | 14803.679767549038 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -122226,7 +122226,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 11133.759752511978 | 11235.277748523979 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 11133.759752511978 | 11235.277748523979 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -122493,7 +122493,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -122672,7 +122672,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 9271.084071159363 | 10119.749991509016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 9271.084071159363 | 10119.749991509016 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -122977,7 +122977,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 62438.60830807686 | 62848.646679872996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 62438.60830807686 | 62848.646679872996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -123273,7 +123273,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 5034.6416828632355 | 5102.757000759011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 5034.6416828632355 | 5102.757000759011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -123516,7 +123516,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 23953.37257194519 | 24073.159103001002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 23953.37257194519 | 24073.159103001002 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -123759,7 +123759,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 18929.564668655396 | 19048.426496715983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_dataset/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 18929.564668655396 | 19048.426496715983 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_dataset/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -124026,7 +124026,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -124206,7 +124206,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1777.917733669281 | 4251.118635883089 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1777.917733669281 | 4251.118635883089 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -124549,7 +124549,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 3161.027355670929 | 3558.9162828230765 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 3161.027355670929 | 3558.9162828230765 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -124841,7 +124841,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 99.05785059928894 | 206.77543958695605 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 99.05785059928894 | 206.77543958695605 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -125055,7 +125055,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1431.4985597133636 | 1716.9116910520243 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1431.4985597133636 | 1716.9116910520243 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -125323,7 +125323,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3951.32044506073 | 4347.877683275961 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3951.32044506073 | 4347.877683275961 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -125609,7 +125609,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -125789,7 +125789,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1910.4586589336395 | 4358.357782269013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1910.4586589336395 | 4358.357782269013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -126132,7 +126132,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 3845.409453868866 | 4270.4251815069 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 3845.409453868866 | 4270.4251815069 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -126424,7 +126424,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 101.25833487510681 | 208.3833936098963 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 101.25833487510681 | 208.3833936098963 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -126638,7 +126638,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1449.510118484497 | 1736.757442588918 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1449.510118484497 | 1736.757442588918 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -126906,7 +126906,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3213.7161774635315 | 3612.400742433034 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3213.7161774635315 | 3612.400742433034 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -127192,7 +127192,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -127371,7 +127371,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 22226.595534563065 | 24966.934006516996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 22226.595534563065 | 24966.934006516996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -127713,7 +127713,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 21604.544736862183 | 22141.605613120948 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 21604.544736862183 | 22141.605613120948 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -128004,7 +128004,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 451.1260726451874 | 621.6356076060329 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 451.1260726451874 | 621.6356076060329 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -128217,7 +128217,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12922.660428524017 | 13320.972800558957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12922.660428524017 | 13320.972800558957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -128484,7 +128484,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 17909.323271751404 | 18387.219086510013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 17909.323271751404 | 18387.219086510013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -128769,7 +128769,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -128948,7 +128948,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 21710.641706228256 | 24677.066480784968 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 21710.641706228256 | 24677.066480784968 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -129290,7 +129290,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 21742.345500469208 | 22256.048994628014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 21742.345500469208 | 22256.048994628014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -129581,7 +129581,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 398.65002846717834 | 563.4060957920155 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 398.65002846717834 | 563.4060957920155 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -129794,7 +129794,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 12554.120557785034 | 12920.01679472602 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 12554.120557785034 | 12920.01679472602 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -130061,7 +130061,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 17193.62120461464 | 17634.52411750902 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 17193.62120461464 | 17634.52411750902 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -130346,7 +130346,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -130526,7 +130526,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1777.917733669281 | 4251.118635883089 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1777.917733669281 | 4251.118635883089 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -130869,7 +130869,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 3161.027355670929 | 3558.9162828230765 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 3161.027355670929 | 3558.9162828230765 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -131161,7 +131161,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 99.05785059928894 | 206.77543958695605 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 99.05785059928894 | 206.77543958695605 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -131375,7 +131375,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1431.4985597133636 | 1716.9116910520243 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1431.4985597133636 | 1716.9116910520243 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -131643,7 +131643,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3494.591876745224 | 3879.316739895032 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 3494.591876745224 | 3879.316739895032 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -131929,7 +131929,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -132109,7 +132109,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1910.4586589336395 | 4358.357782269013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1910.4586589336395 | 4358.357782269013 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -132452,7 +132452,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 3845.409453868866 | 4270.4251815069 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 3845.409453868866 | 4270.4251815069 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -132744,7 +132744,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 101.25833487510681 | 208.3833936098963 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 101.25833487510681 | 208.3833936098963 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -132958,7 +132958,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1449.510118484497 | 1736.757442588918 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1449.510118484497 | 1736.757442588918 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -133226,7 +133226,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2630.34712433815 | 2997.0273897650186 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2630.34712433815 | 2997.0273897650186 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -133512,7 +133512,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -133691,7 +133691,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 22226.595534563065 | 24966.934006516996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 22226.595534563065 | 24966.934006516996 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -134033,7 +134033,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 21604.544736862183 | 22141.605613120948 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 21604.544736862183 | 22141.605613120948 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -134324,7 +134324,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 451.1260726451874 | 621.6356076060329 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 451.1260726451874 | 621.6356076060329 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -134537,7 +134537,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12922.660428524017 | 13320.972800558957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12922.660428524017 | 13320.972800558957 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -134804,7 +134804,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 12079.931829690933 | 12440.386778404994 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 12079.931829690933 | 12440.386778404994 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -135089,7 +135089,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -135268,7 +135268,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 21710.641706228256 | 24677.066480784968 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 21710.641706228256 | 24677.066480784968 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -135610,7 +135610,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 21742.345500469208 | 22256.048994628014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 21742.345500469208 | 22256.048994628014 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -135901,7 +135901,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 398.65002846717834 | 563.4060957920155 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 398.65002846717834 | 563.4060957920155 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -136114,7 +136114,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 12554.120557785034 | 12920.01679472602 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 12554.120557785034 | 12920.01679472602 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -136381,7 +136381,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 11377.977051019669 | 11751.227462511044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/delaunay/hst/slam_delaunay_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 11377.977051019669 | 11751.227462511044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/delaunay/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -136666,7 +136666,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -136838,7 +136838,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 15320.96480512619 | 18406.98387582501 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 15320.96480512619 | 18406.98387582501 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -137176,7 +137176,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2937.334569454193 | 3229.578373547003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2937.334569454193 | 3229.578373547003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -137436,7 +137436,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4169.588402748108 | 5010.240729959973 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4169.588402748108 | 5010.240729959973 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -137738,7 +137738,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -137910,7 +137910,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 15260.362382173538 | 18208.567835816997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 15260.362382173538 | 18208.567835816997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -138248,7 +138248,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2995.1115288734436 | 3270.1966994450195 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2995.1115288734436 | 3270.1966994450195 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -138508,7 +138508,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3816.31813120842 | 4524.254057659011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3816.31813120842 | 4524.254057659011 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -138810,7 +138810,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -138983,7 +138983,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1774.2958393096924 | 4207.807416505064 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1774.2958393096924 | 4207.807416505064 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -139322,7 +139322,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 644.2173838615417 | 945.1621805100003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 644.2173838615417 | 945.1621805100003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -139583,7 +139583,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1294.780100107193 | 2097.195977626019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1294.780100107193 | 2097.195977626019 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -139886,7 +139886,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -140059,7 +140059,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1873.1232416629791 | 4275.120821367949 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1873.1232416629791 | 4275.120821367949 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -140398,7 +140398,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 731.7352526187897 | 1043.977134258952 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 731.7352526187897 | 1043.977134258952 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -140659,7 +140659,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1306.8924691677094 | 2097.705143017927 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1306.8924691677094 | 2097.705143017927 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -140962,7 +140962,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -141134,7 +141134,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 15320.96480512619 | 18406.98387582501 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 15320.96480512619 | 18406.98387582501 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -141472,7 +141472,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2937.334569454193 | 3229.578373547003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 2937.334569454193 | 3229.578373547003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -141732,7 +141732,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4050.92853307724 | 4963.419927380979 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 4050.92853307724 | 4963.419927380979 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -142034,7 +142034,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -142206,7 +142206,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 15260.362382173538 | 18208.567835816997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 15260.362382173538 | 18208.567835816997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -142544,7 +142544,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2995.1115288734436 | 3270.1966994450195 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 2995.1115288734436 | 3270.1966994450195 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -142804,7 +142804,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3271.2880420684814 | 3972.431401530979 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 3271.2880420684814 | 3972.431401530979 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_cpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -143106,7 +143106,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -143279,7 +143279,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1774.2958393096924 | 4207.807416505064 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1774.2958393096924 | 4207.807416505064 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -143618,7 +143618,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 644.2173838615417 | 945.1621805100003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 644.2173838615417 | 945.1621805100003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -143879,7 +143879,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1287.2988770008087 | 2077.7956174699357 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1287.2988770008087 | 2077.7956174699357 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -144182,7 +144182,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -144355,7 +144355,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1873.1232416629791 | 4275.120821367949 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1873.1232416629791 | 4275.120821367949 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -144694,7 +144694,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 731.7352526187897 | 1043.977134258952 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 731.7352526187897 | 1043.977134258952 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -144955,7 +144955,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1231.188642501831 | 2009.060022199992 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/mge/hst/slam_mge_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1231.188642501831 | 2009.060022199992 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/mge/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -145258,7 +145258,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -145441,7 +145441,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1782.963297843933 | 4254.538485220051 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1782.963297843933 | 4254.538485220051 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -145787,7 +145787,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2084.6327996253967 | 2481.681553488015 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2084.6327996253967 | 2481.681553488015 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -146082,7 +146082,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 174.13177251815796 | 279.62148770003114 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 174.13177251815796 | 279.62148770003114 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -146311,7 +146311,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1359.2541394233704 | 1648.749012551969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1359.2541394233704 | 1648.749012551969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -146582,7 +146582,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2152.2358973026276 | 2534.144264098024 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 2152.2358973026276 | 2534.144264098024 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -146871,7 +146871,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -147054,7 +147054,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1884.7365698814392 | 4271.071823381004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1884.7365698814392 | 4271.071823381004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -147400,7 +147400,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2183.4586119651794 | 2577.0089675160125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2183.4586119651794 | 2577.0089675160125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -147695,7 +147695,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 145.428808927536 | 248.3343444939237 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 145.428808927536 | 248.3343444939237 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -147924,7 +147924,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1106.2464714050293 | 1378.6804502289742 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1106.2464714050293 | 1378.6804502289742 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -148195,7 +148195,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2053.1789712905884 | 2430.7822508229874 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 2053.1789712905884 | 2430.7822508229874 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -148484,7 +148484,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -148666,7 +148666,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 17454.846411943436 | 19315.486082715 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 17454.846411943436 | 19315.486082715 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -149011,7 +149011,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 17944.50110220909 | 18310.078497569 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 17944.50110220909 | 18310.078497569 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -149305,7 +149305,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 732.7968819141388 | 891.1522846330045 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 732.7968819141388 | 891.1522846330045 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -149533,7 +149533,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12446.23351931572 | 12748.478223723003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12446.23351931572 | 12748.478223723003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -149803,7 +149803,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 17641.254463672638 | 17976.218187814004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 17641.254463672638 | 17976.218187814004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -150091,7 +150091,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -150273,7 +150273,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 20314.697552919388 | 22408.334537906 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 20314.697552919388 | 22408.334537906 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -150618,7 +150618,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 17311.087898015976 | 17678.754799412003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 17311.087898015976 | 17678.754799412003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -150912,7 +150912,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 749.8570883274078 | 909.3735972899958 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 749.8570883274078 | 909.3735972899958 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -151140,7 +151140,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 13839.42073893547 | 14145.131211911998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 13839.42073893547 | 14145.131211911998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -151410,7 +151410,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 16812.657058000565 | 17146.070096386997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 16812.657058000565 | 17146.070096386997 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/default/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -151698,7 +151698,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -151881,7 +151881,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1782.963297843933 | 4254.538485220051 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 1782.963297843933 | 4254.538485220051 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -152227,7 +152227,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2084.6327996253967 | 2481.681553488015 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2084.6327996253967 | 2481.681553488015 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -152522,7 +152522,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 174.13177251815796 | 279.62148770003114 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 174.13177251815796 | 279.62148770003114 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -152751,7 +152751,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1359.2541394233704 | 1648.749012551969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 1359.2541394233704 | 1648.749012551969 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -153022,7 +153022,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1873.0904748439789 | 2230.7893658300163 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1873.0904748439789 | 2230.7893658300163 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -153311,7 +153311,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -153494,7 +153494,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1884.7365698814392 | 4271.071823381004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 1884.7365698814392 | 4271.071823381004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -153840,7 +153840,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2183.4586119651794 | 2577.0089675160125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2183.4586119651794 | 2577.0089675160125 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -154135,7 +154135,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 145.428808927536 | 248.3343444939237 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 145.428808927536 | 248.3343444939237 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -154364,7 +154364,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1106.2464714050293 | 1378.6804502289742 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 1106.2464714050293 | 1378.6804502289742 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -154635,7 +154635,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1867.4563632011414 | 2226.5583346210187 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1867.4563632011414 | 2226.5583346210187 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/jax_gpu_dense_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -154924,7 +154924,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json</summary>
 
@@ -155106,7 +155106,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 17454.846411943436 | 19315.486082715 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 17454.846411943436 | 19315.486082715 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-9b14006556621cdb</summary>
 
@@ -155451,7 +155451,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 17944.50110220909 | 18310.078497569 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 17944.50110220909 | 18310.078497569 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -155745,7 +155745,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 732.7968819141388 | 891.1522846330045 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 732.7968819141388 | 891.1522846330045 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-122202734335fe14</summary>
 
@@ -155973,7 +155973,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12446.23351931572 | 12748.478223723003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 12446.23351931572 | 12748.478223723003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -156243,7 +156243,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 8425.10415840149 | 8688.626439917003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 8425.10415840149 | 8688.626439917003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_0/stages.json#stage-03dd03936a025726</summary>
 
@@ -156531,7 +156531,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json</summary>
 
@@ -156713,7 +156713,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 20314.697552919388 | 22408.334537906 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 20314.697552919388 | 22408.334537906 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-9b14006556621cdb</summary>
 
@@ -157058,7 +157058,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 17311.087898015976 | 17678.754799412003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 17311.087898015976 | 17678.754799412003 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -157352,7 +157352,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 749.8570883274078 | 909.3735972899958 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 749.8570883274078 | 909.3735972899958 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-122202734335fe14</summary>
 
@@ -157580,7 +157580,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 13839.42073893547 | 14145.131211911998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 13839.42073893547 | 14145.131211911998 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -157850,7 +157850,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 8685.975778102875 | 8939.115932973 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
+| multi_galaxy/rectangular/hst/slam_rectangular_light_fixed/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 8685.975778102875 | 8939.115932973 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/multi_galaxy/rectangular/hst/validation/light_fixed/numba_cpu_sparse_fp64/seed_1/stages.json#stage-03dd03936a025726</summary>
 
@@ -158138,7 +158138,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json</summary>
 
@@ -158307,7 +158307,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 55.469083070755005 | 72.9382984720005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 55.469083070755005 | 72.9382984720005 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -158528,7 +158528,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json</summary>
 
@@ -158697,7 +158697,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 50.486804485321045 | 71.3221768809999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 50.486804485321045 | 71.3221768809999 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -158918,7 +158918,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json</summary>
 
@@ -159088,7 +159088,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 58.451995611190796 | 98.97390138497576 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 58.451995611190796 | 98.97390138497576 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -159310,7 +159310,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json</summary>
 
@@ -159480,7 +159480,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_image/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 49.03866934776306 | 83.79871146997903 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| point_source_image/image_plane/simple/modeling_image_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 49.03866934776306 | 83.79871146997903 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_image/image_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -159702,7 +159702,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 9.278261423110962 | 15.062871138099581 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_0/search.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 9.278261423110962 | 15.062871138099581 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_0/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_0/search.json</summary>
 
@@ -159922,7 +159922,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 9.233149528503418 | 14.96879301709123 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_1/search.json) |
+| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 9.233149528503418 | 14.96879301709123 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_1/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_1/search.json</summary>
 
@@ -160142,7 +160142,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 7.516764402389526 | 12.892311723902822 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_2/search.json) |
+| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 7.516764402389526 | 12.892311723902822 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_2/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_2/search.json</summary>
 
@@ -160362,7 +160362,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 7.597434997558594 | 12.991334571968764 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_3/search.json) |
+| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 7.597434997558594 | 12.991334571968764 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_3/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_3/search.json</summary>
 
@@ -160582,7 +160582,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 7.05592942237854 | 12.43586680595763 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_4/search.json) |
+| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 7.05592942237854 | 12.43586680595763 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_4/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_cpu_dense_fp64/seed_4/search.json</summary>
 
@@ -160802,7 +160802,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 36.98870587348938 | 44.85737360618077 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_0/search.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 36.98870587348938 | 44.85737360618077 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_0/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_0/search.json</summary>
 
@@ -161023,7 +161023,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 19.21393585205078 | 25.198120431043208 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_1/search.json) |
+| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 19.21393585205078 | 25.198120431043208 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_1/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_1/search.json</summary>
 
@@ -161244,7 +161244,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 19.545353651046753 | 25.660742588108405 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_2/search.json) |
+| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 19.545353651046753 | 25.660742588108405 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_2/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_2/search.json</summary>
 
@@ -161465,7 +161465,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 20.262277126312256 | 26.272511888993904 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_3/search.json) |
+| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 20.262277126312256 | 26.272511888993904 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_3/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_3/search.json</summary>
 
@@ -161686,7 +161686,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 18.600459575653076 | 24.687780508073047 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_4/search.json) |
+| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 18.600459575653076 | 24.687780508073047 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_4/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam/explicit/jax_gpu_dense_fp64/seed_4/search.json</summary>
 
@@ -161907,7 +161907,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 7.831670045852661 | 13.218872852157801 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_0/search.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 7.831670045852661 | 13.218872852157801 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_0/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_0/search.json</summary>
 
@@ -162127,7 +162127,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 8.773845672607422 | 14.814029730856419 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_1/search.json) |
+| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 8.773845672607422 | 14.814029730856419 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_1/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_1/search.json</summary>
 
@@ -162347,7 +162347,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 9.432680606842041 | 15.450706155970693 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_2/search.json) |
+| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 9.432680606842041 | 15.450706155970693 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_2/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_2/search.json</summary>
 
@@ -162567,7 +162567,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 8.789172410964966 | 14.14808831200935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_3/search.json) |
+| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 8.789172410964966 | 14.14808831200935 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_3/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_3/search.json</summary>
 
@@ -162787,7 +162787,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 7.429260969161987 | 13.157052749069408 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_4/search.json) |
+| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 7.429260969161987 | 13.157052749069408 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_4/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_cpu_dense_fp64/seed_4/search.json</summary>
 
@@ -163007,7 +163007,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 20.67960000038147 | 26.893733385019004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_0/search.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 20.67960000038147 | 26.893733385019004 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_0/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_0/search.json</summary>
 
@@ -163228,7 +163228,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 21.967339038848877 | 28.002735085086897 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_1/search.json) |
+| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 21.967339038848877 | 28.002735085086897 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_1/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_1/search.json</summary>
 
@@ -163449,7 +163449,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 24.200235605239868 | 30.311015208950266 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_2/search.json) |
+| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 24.200235605239868 | 30.311015208950266 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_2/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_2/search.json</summary>
 
@@ -163670,7 +163670,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 23.469216346740723 | 29.453690645983443 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_3/search.json) |
+| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 23.469216346740723 | 29.453690645983443 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_3/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_3/search.json</summary>
 
@@ -163891,7 +163891,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 19.094735145568848 | 25.102053588954732 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_4/search.json) |
+| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 19.094735145568848 | 25.102053588954732 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_4/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/multi_start_adam_n3000/explicit/jax_gpu_dense_fp64/seed_4/search.json</summary>
 
@@ -164112,7 +164112,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 56.56000781059265 | 65.21035292901797 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_0/search.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 56.56000781059265 | 65.21035292901797 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_0/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_0/search.json</summary>
 
@@ -164366,7 +164366,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 60.43147277832031 | 69.44111120000161 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_0/search_local_laptop.json) |
+| simple/source_plane_solved/seed0 | unknown | 0 | complete | not_assessed | not_assessed | 60.43147277832031 | 69.44111120000161 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_0/search_local_laptop.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_0/search_local_laptop.json</summary>
 
@@ -164619,7 +164619,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 54.18134164810181 | 62.80253079999238 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_1/search.json) |
+| simple/source_plane_solved/seed1 | unknown | 1 | complete | not_assessed | not_assessed | 54.18134164810181 | 62.80253079999238 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_1/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_1/search.json</summary>
 
@@ -164873,7 +164873,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 53.764665603637695 | 62.157571617048234 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_2/search.json) |
+| simple/source_plane_solved/seed2 | unknown | 2 | complete | not_assessed | not_assessed | 53.764665603637695 | 62.157571617048234 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_2/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_2/search.json</summary>
 
@@ -165127,7 +165127,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 50.38304305076599 | 58.97957983799279 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_3/search.json) |
+| simple/source_plane_solved/seed3 | unknown | 3 | complete | not_assessed | not_assessed | 50.38304305076599 | 58.97957983799279 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_3/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_3/search.json</summary>
 
@@ -165381,7 +165381,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 58.50750803947449 | 67.16032414801884 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_4/search.json) |
+| simple/source_plane_solved/seed4 | unknown | 4 | complete | not_assessed | not_assessed | 58.50750803947449 | 67.16032414801884 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_4/search.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/samplers/default/nautilus/explicit/jax_cpu_dense_fp64/seed_4/search.json</summary>
 
@@ -165635,7 +165635,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json</summary>
 
@@ -165804,7 +165804,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 34.87976408004761 | 47.98112270100046 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 34.87976408004761 | 47.98112270100046 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -166025,7 +166025,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json</summary>
 
@@ -166194,7 +166194,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 42.82549786567688 | 56.32418026600044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 42.82549786567688 | 56.32418026600044 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_cpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -166415,7 +166415,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json</summary>
 
@@ -166585,7 +166585,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 43.12638878822327 | 62.016027239966206 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 43.12638878822327 | 62.016027239966206 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -166807,7 +166807,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json</summary>
 
@@ -166977,7 +166977,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| point_source_source/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 43.7527642250061 | 63.338530282024294 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
+| point_source_source/source_plane/simple/modeling_source_plane/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 43.7527642250061 | 63.338530282024294 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/point_source_source/source_plane/simple/validation/default/jax_gpu_na_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -167199,7 +167199,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -167367,7 +167367,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 12.39682936668396 | 27.121580760000143 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 12.39682936668396 | 27.121580760000143 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -167587,7 +167587,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -167755,7 +167755,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 12.029149532318115 | 27.124296310000318 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 12.029149532318115 | 27.124296310000318 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_cpu_dense_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -167975,7 +167975,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_0/stages.json</summary>
 
@@ -168144,7 +168144,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 13.593306541442871 | 29.251810443005525 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed0 | modeling[1] | 0 | complete | not_assessed | not_assessed | 13.593306541442871 | 29.251810443005525 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_0/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_0/stages.json#stage-4066153148bc7e45</summary>
 
@@ -168365,7 +168365,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_1/stages.json</summary>
 
@@ -168534,7 +168534,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| weak/isothermal/simple/modeling_isothermal/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 12.924139022827148 | 28.443839132902212 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
+| weak/isothermal/simple/modeling_isothermal/seed1 | modeling[1] | 1 | complete | not_assessed | not_assessed | 12.924139022827148 | 28.443839132902212 | False | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_1/stages.json) |
 
 <details><summary>Provenance: results/weak/isothermal/simple/validation/default/jax_gpu_dense_fp64/seed_1/stages.json#stage-4066153148bc7e45</summary>
 
@@ -168755,7 +168755,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json</summary>
 
@@ -168926,7 +168926,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 820.3699300289154 | 965.2785516558215 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 820.3699300289154 | 965.2785516558215 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -169222,7 +169222,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2047.43035531044 | 2128.72460657591 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 2047.43035531044 | 2128.72460657591 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -169476,7 +169476,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 111.54320764541626 | 176.4244288089685 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 111.54320764541626 | 176.4244288089685 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -169677,7 +169677,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 406.49094557762146 | 472.91616048291326 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 406.49094557762146 | 472.91616048291326 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -169896,7 +169896,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1383.843026638031 | 1475.3449251349084 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1383.843026638031 | 1475.3449251349084 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -170139,7 +170139,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json</summary>
 
@@ -170310,7 +170310,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 882.9330096244812 | 1023.6260516527109 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 882.9330096244812 | 1023.6260516527109 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -170606,7 +170606,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2589.473468542099 | 2668.5737252449617 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2589.473468542099 | 2668.5737252449617 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -170860,7 +170860,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 116.28890442848206 | 176.19057126017287 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 116.28890442848206 | 176.19057126017287 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -171061,7 +171061,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.26988673210144 | 530.5928531419486 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 457.26988673210144 | 530.5928531419486 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -171280,7 +171280,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1048.9292471408844 | 1138.162050106097 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1048.9292471408844 | 1138.162050106097 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -171523,7 +171523,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -171694,7 +171694,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 749.7595109939575 | 888.2430416657589 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 749.7595109939575 | 888.2430416657589 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -171990,7 +171990,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 6124.670238494873 | 6221.422692308202 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 6124.670238494873 | 6221.422692308202 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -172244,7 +172244,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 112.84573483467102 | 178.6054911534302 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 112.84573483467102 | 178.6054911534302 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -172445,7 +172445,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 353.50146985054016 | 426.6312530930154 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 353.50146985054016 | 426.6312530930154 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -172664,7 +172664,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1771.1247885227203 | 1861.7668606671505 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1771.1247885227203 | 1861.7668606671505 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -172907,7 +172907,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -173078,7 +173078,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 831.8062770366669 | 973.6843929146416 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 831.8062770366669 | 973.6843929146416 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -173374,7 +173374,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 5258.141222238541 | 5348.343995480798 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 5258.141222238541 | 5348.343995480798 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -173628,7 +173628,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 115.64004683494568 | 182.61417358601466 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 115.64004683494568 | 182.61417358601466 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -173829,7 +173829,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 379.8856680393219 | 453.2077537388541 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 379.8856680393219 | 453.2077537388541 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -174048,7 +174048,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1900.1771788597107 | 1995.9051318671554 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1900.1771788597107 | 1995.9051318671554 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -174291,7 +174291,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json</summary>
 
@@ -174455,7 +174455,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 923.2988793849945 | 1110.2745820698328 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 923.2988793849945 | 1110.2745820698328 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -174744,7 +174744,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 761.8690450191498 | 1096.6811571302824 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 761.8690450191498 | 1096.6811571302824 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -174991,7 +174991,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 131.4924976825714 | 457.5962234721519 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 131.4924976825714 | 457.5962234721519 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -175197,7 +175197,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 237.3431966304779 | 585.0465070647188 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 237.3431966304779 | 585.0465070647188 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -175409,7 +175409,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 516.6248600482941 | 894.5935196429491 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 516.6248600482941 | 894.5935196429491 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -175645,7 +175645,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json</summary>
 
@@ -175809,7 +175809,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 834.8256509304047 | 1005.474559458904 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 834.8256509304047 | 1005.474559458904 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -176098,7 +176098,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 748.7339024543762 | 1097.2968472116627 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 748.7339024543762 | 1097.2968472116627 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -176345,7 +176345,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 362.2842011451721 | 719.2182216290385 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 362.2842011451721 | 719.2182216290385 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -176551,7 +176551,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 267.35919713974 | 618.7239170190878 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 267.35919713974 | 618.7239170190878 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -176763,7 +176763,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 650.228832244873 | 1043.753492906224 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 650.228832244873 | 1043.753492906224 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -176999,7 +176999,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | stopped_early | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json</summary>
 
@@ -177163,7 +177163,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 855.3723487854004 | 1041.4455565372482 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 855.3723487854004 | 1041.4455565372482 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64__rate_probe_342695/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -177452,7 +177452,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -177616,7 +177616,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 808.1857154369354 | 960.966922598891 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 808.1857154369354 | 960.966922598891 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -177905,7 +177905,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1930.764386177063 | 2279.775213385001 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1930.764386177063 | 2279.775213385001 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -178152,7 +178152,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 178.61591696739197 | 535.9517216398381 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 178.61591696739197 | 535.9517216398381 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -178358,7 +178358,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 267.51912546157837 | 621.3747416636907 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 267.51912546157837 | 621.3747416636907 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -178570,7 +178570,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 800.279230594635 | 1168.8711764230393 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 800.279230594635 | 1168.8711764230393 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -178806,7 +178806,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -178970,7 +178970,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 798.179591178894 | 944.8778721541166 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 798.179591178894 | 944.8778721541166 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -179259,7 +179259,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1904.31116771698 | 2245.7180267861113 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1904.31116771698 | 2245.7180267861113 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -179506,7 +179506,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 187.7734875679016 | 523.5104860081337 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 187.7734875679016 | 523.5104860081337 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -179712,7 +179712,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 253.89728569984436 | 606.7501009167172 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 253.89728569984436 | 606.7501009167172 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -179924,7 +179924,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 868.1189360618591 | 1255.2648063716479 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 868.1189360618591 | 1255.2648063716479 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_pre_likelihood_speedup/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -180160,7 +180160,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json</summary>
 
@@ -180331,7 +180331,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 751.0382809638977 | 900.1706711351871 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 751.0382809638977 | 900.1706711351871 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -180627,7 +180627,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1877.93514418602 | 1951.5986129129305 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1877.93514418602 | 1951.5986129129305 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -180881,7 +180881,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 109.37053751945496 | 167.72618970414624 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 109.37053751945496 | 167.72618970414624 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -181082,7 +181082,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 435.187650680542 | 499.306112869177 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 435.187650680542 | 499.306112869177 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -181301,7 +181301,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1216.873480796814 | 1305.8679552585818 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1216.873480796814 | 1305.8679552585818 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -181544,7 +181544,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json</summary>
 
@@ -181715,7 +181715,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 773.9373073577881 | 907.6869193231687 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 773.9373073577881 | 907.6869193231687 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -182011,7 +182011,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2384.0357789993286 | 2462.9112002910115 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 2384.0357789993286 | 2462.9112002910115 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -182265,7 +182265,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 109.63551092147827 | 168.51771915098652 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 109.63551092147827 | 168.51771915098652 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -182466,7 +182466,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 405.00592613220215 | 469.9198690932244 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 405.00592613220215 | 469.9198690932244 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -182685,7 +182685,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1537.5900526046753 | 1629.6955882809125 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1537.5900526046753 | 1629.6955882809125 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -182928,7 +182928,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -183099,7 +183099,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 751.3046290874481 | 902.5312480432913 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 751.3046290874481 | 902.5312480432913 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -183395,7 +183395,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4755.296514749527 | 4839.97054987587 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 4755.296514749527 | 4839.97054987587 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -183649,7 +183649,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 109.54265427589417 | 171.0151487402618 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 109.54265427589417 | 171.0151487402618 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -183850,7 +183850,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 346.34841108322144 | 411.7766737882048 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 346.34841108322144 | 411.7766737882048 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -184069,7 +184069,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1491.92165517807 | 1583.521521865856 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 1491.92165517807 | 1583.521521865856 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -184312,7 +184312,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -184483,7 +184483,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 757.1603317260742 | 902.504134169314 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 757.1603317260742 | 902.504134169314 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -184779,7 +184779,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 5076.578243732452 | 5161.596268678084 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 5076.578243732452 | 5161.596268678084 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -185033,7 +185033,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 111.2535092830658 | 171.40864105988294 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 111.2535092830658 | 171.40864105988294 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -185234,7 +185234,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 368.3656544685364 | 433.8950488483533 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 368.3656544685364 | 433.8950488483533 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -185453,7 +185453,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1699.159012079239 | 1790.2508917441592 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 1699.159012079239 | 1790.2508917441592 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -185696,7 +185696,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -185867,7 +185867,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 7900.500896692276 | 4.085322799044661 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 7900.500896692276 | 4.085322799044661 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -186163,7 +186163,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 346332.0099835396 | 1.6234535770490766 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 346332.0099835396 | 1.6234535770490766 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -186417,7 +186417,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 11564.947468996048 | 1.1947200829163194 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 11564.947468996048 | 1.1947200829163194 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -186618,7 +186618,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 61044.94187378883 | 1.333965227007866 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 61044.94187378883 | 1.333965227007866 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -186837,7 +186837,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 345641.17379689217 | 34426.707667709095 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5_delaunay_1250/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 345641.17379689217 | 34426.707667709095 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -187080,7 +187080,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -187251,7 +187251,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 6774.42250919342 | 3.516567241982557 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 6774.42250919342 | 3.516567241982557 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -187547,7 +187547,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 317440.73724889755 | 1.5301763539901003 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 317440.73724889755 | 1.5301763539901003 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -187801,7 +187801,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 11611.587435483932 | 1.2844083650270477 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 11611.587435483932 | 1.2844083650270477 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -188002,7 +188002,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 61477.65350985527 | 1.3072121350560337 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 61477.65350985527 | 1.3072121350560337 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -188221,7 +188221,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 360537.71647143364 | 20066.8123392649 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5_delaunay_1250/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 360537.71647143364 | 20066.8123392649 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/delaunay_1250/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -188464,7 +188464,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json</summary>
 
@@ -188638,7 +188638,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 771.524888753891 | 923.1474472577684 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 771.524888753891 | 923.1474472577684 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -188937,7 +188937,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 755.8119986057281 | 1065.918208786752 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 755.8119986057281 | 1065.918208786752 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -189194,7 +189194,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 137.63165855407715 | 428.7992847599089 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 137.63165855407715 | 428.7992847599089 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -189410,7 +189410,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 241.43384170532227 | 558.495173452422 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 241.43384170532227 | 558.495173452422 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -189632,7 +189632,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 562.0709278583527 | 911.7249815296382 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 562.0709278583527 | 911.7249815296382 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -189878,7 +189878,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json</summary>
 
@@ -190052,7 +190052,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 774.4585044384003 | 924.6256044520997 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 774.4585044384003 | 924.6256044520997 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -190351,7 +190351,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 693.2113356590271 | 998.5423687249422 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 693.2113356590271 | 998.5423687249422 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -190608,7 +190608,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 137.01234674453735 | 432.084179838188 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 137.01234674453735 | 432.084179838188 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -190824,7 +190824,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 239.68147468566895 | 554.1739502879791 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 239.68147468566895 | 554.1739502879791 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -191046,7 +191046,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 521.094354391098 | 869.0844426243566 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 521.094354391098 | 869.0844426243566 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_dense_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -191292,7 +191292,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -191466,7 +191466,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 766.8562622070312 | 919.1029084231704 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 766.8562622070312 | 919.1029084231704 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -191765,7 +191765,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1856.5211601257324 | 2163.7220616508275 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 1856.5211601257324 | 2163.7220616508275 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -192022,7 +192022,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 238.29729223251343 | 560.5901961019263 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 238.29729223251343 | 560.5901961019263 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -192238,7 +192238,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 231.2066535949707 | 549.9727530139498 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 231.2066535949707 | 549.9727530139498 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -192460,7 +192460,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 837.194344997406 | 1188.7660076911561 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 837.194344997406 | 1188.7660076911561 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -192706,7 +192706,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -192880,7 +192880,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 777.8847448825836 | 928.5865912209265 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 777.8847448825836 | 928.5865912209265 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -193179,7 +193179,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1837.757915019989 | 2156.0940178940073 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 1837.757915019989 | 2156.0940178940073 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -193436,7 +193436,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 182.30453252792358 | 480.4021203573793 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 182.30453252792358 | 480.4021203573793 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -193652,7 +193652,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 292.04643845558167 | 612.964942149818 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 292.04643845558167 | 612.964942149818 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -193874,7 +193874,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 824.5428845882416 | 1174.01254018303 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 824.5428845882416 | 1174.01254018303 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_jax_gpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -194120,7 +194120,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -194294,7 +194294,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 7948.219101905823 | 3.92172900099996 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 7948.219101905823 | 3.92172900099996 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -194593,7 +194593,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 87927.41093611717 | 47864.463907751 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 87927.41093611717 | 47864.463907751 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -194850,7 +194850,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 6459.992527484894 | 6539.8722747779975 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 6459.992527484894 | 6539.8722747779975 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -195066,7 +195066,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 22267.358624219894 | 22356.78290929299 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 22267.358624219894 | 22356.78290929299 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -195288,7 +195288,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 44220.52763605118 | 44301.807136838994 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 44220.52763605118 | 44301.807136838994 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -195534,7 +195534,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -195708,7 +195708,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 7664.504469633102 | 3.8993427209999822 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 7664.504469633102 | 3.8993427209999822 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -196007,7 +196007,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 84822.05542731285 | 44472.602328039 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 84822.05542731285 | 44472.602328039 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -196264,7 +196264,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 15316.213679552078 | 15398.034453553002 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 15316.213679552078 | 15398.034453553002 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -196480,7 +196480,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 19851.046674489975 | 19939.33803059299 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 19851.046674489975 | 19939.33803059299 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -196702,7 +196702,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 50085.93653225899 | 50168.457273721 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 50085.93653225899 | 50168.457273721 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/09/2026-09-24_superseded_by_cleanslate/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -196948,7 +196948,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815460 (exit code -11, killed by signal 11), pid 1815462 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815460 (exit code -11, killed by signal 11), pid 1815462 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json</summary>
 
@@ -197135,7 +197135,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -197449,7 +197449,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815461 (exit code -11, killed by signal 11), pid 1815463 (exit code -11, killed by signal 11), pid 1815473 (exit code -11, killed by signal 11), pid 1815475 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815461 (exit code -11, killed by signal 11), pid 1815463 (exit code -11, killed by signal 11), pid 1815473 (exit code -11, killed by signal 11), pid 1815475 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json</summary>
 
@@ -197636,7 +197636,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -197950,7 +197950,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | unknown | 0 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json</summary>
 
@@ -198137,7 +198137,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -198451,7 +198451,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 84600.1615998745 | 84719.96719771903 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[1] | 0 | complete | not_assessed | not_assessed | 84600.1615998745 | 84719.96719771903 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -198721,7 +198721,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 5815.0517637729645 | 5893.068397540133 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | source_pix[2] | 0 | complete | not_assessed | not_assessed | 5815.0517637729645 | 5893.068397540133 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-122202734335fe14</summary>
 
@@ -198950,7 +198950,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 18487.78364086151 | 18577.198668214027 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | light[1] | 0 | complete | not_assessed | not_assessed | 18487.78364086151 | 18577.198668214027 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -199185,7 +199185,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 43480.67478251457 | 43569.44718228094 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
+| hst/slam5/seed0 | mass_total[1] | 0 | complete | not_assessed | not_assessed | 43480.67478251457 | 43569.44718228094 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed0.json#stage-03dd03936a025726</summary>
 
@@ -199449,7 +199449,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | unknown | 1 | complete | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json</summary>
 
@@ -199636,7 +199636,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 
@@ -199950,7 +199950,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 85284.96819758415 | 85403.70044963411 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[1] | 1 | complete | not_assessed | not_assessed | 85284.96819758415 | 85403.70044963411 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-1ad2b0be53ac3cb8</summary>
 
@@ -200220,7 +200220,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 5864.975368738174 | 5944.154671733035 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | source_pix[2] | 1 | complete | not_assessed | not_assessed | 5864.975368738174 | 5944.154671733035 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-122202734335fe14</summary>
 
@@ -200449,7 +200449,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 19218.6940369606 | 19304.6791905181 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | light[1] | 1 | complete | not_assessed | not_assessed | 19218.6940369606 | 19304.6791905181 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-7f695c3cdb0cdedb</summary>
 
@@ -200684,7 +200684,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 43216.587233781815 | 43306.57839302602 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
+| hst/slam5/seed1 | mass_total[1] | 1 | complete | not_assessed | not_assessed | 43216.587233781815 | 43306.57839302602 | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base/hpc_a100_numba_cpu_sparse_fp64/stages_seed1.json#stage-03dd03936a025726</summary>
 
@@ -200948,7 +200948,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815460 (exit code -11, killed by signal 11), pid 1815462 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | unknown | 0 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815460 (exit code -11, killed by signal 11), pid 1815462 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json</summary>
 
@@ -201135,7 +201135,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
+| hst/slam5_slam_base_light_fixed/seed0 | source_lp[1] | 0 | complete | not_assessed | not_assessed | 3367.1460740566254 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed0.json#stage-9b14006556621cdb</summary>
 
@@ -201449,7 +201449,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815461 (exit code -11, killed by signal 11), pid 1815463 (exit code -11, killed by signal 11), pid 1815473 (exit code -11, killed by signal 11), pid 1815475 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | unknown | 1 | failed: SearchException: A Nautilus likelihood worker died mid-fit: pid 1815461 (exit code -11, killed by signal 11), pid 1815463 (exit code -11, killed by signal 11), pid 1815473 (exit code -11, killed by signal 11), pid 1815475 (exit code -11, killed by signal 11).  A negative exit code is the signal that killed the worker (-11 SIGSEGV, -9 SIGKILL — typically an out-of-memory kill on a cluster).  `multiprocessing.Pool` has already replaced the worker, but it never re-issues the task that worker was running, so the `Pool.map` driving this fit would otherwise block forever and the fit would hang to the wall clock rather than fail (RAL job 342351_0 hung 27 hours this way). Failing now instead.  Fix, either of:   - run the search with number_of_cores=1, which builds no pool at all;   - get parallelism from a vectorised JAX likelihood instead, `Analysis(use_jax=True)` — Nautilus then takes `fit_x1_cpu` with vectorized=True and no pool. | not_assessed | not_assessed | unknown | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json</summary>
 
@@ -201636,7 +201636,7 @@ Archived rows belong to this project's September 2026 runs and are historical, n
 
 </details>
 
-| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/e4f2f4a955467227819d99fe7835bf4bcdd75e8c/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
+| hst/slam5_slam_base_light_fixed/seed1 | source_lp[1] | 1 | complete | not_assessed | not_assessed | 3410.500566005707 | unknown | True | [result](https://github.com/PyAutoLabs/autolens_inference/blob/6807e1ec67b84eabacb7144f3fff9cb761697d35/archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json) |
 
 <details><summary>Provenance: archive/2026/10/2026-10-19_numba_thread_oversubscription/slam/imaging/hst/slam_base_light_fixed/hpc_a100_numba_cpu_dense_fp64/stages_seed1.json#stage-9b14006556621cdb</summary>
 

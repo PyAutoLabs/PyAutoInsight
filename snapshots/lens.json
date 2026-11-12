@@ -3,8 +3,8 @@
   "repo": "autolens_inference",
   "github": "PyAutoLabs/autolens_inference",
   "summary_path": "dashboard/catalogue.json",
-  "commit": "e4f2f4a955467227819d99fe7835bf4bcdd75e8c",
-  "fetched_at": "2026-11-12T11:57:25Z",
+  "commit": "6807e1ec67b84eabacb7144f3fff9cb761697d35",
+  "fetched_at": "2026-11-12T14:39:53Z",
   "summary": {
     "comparison_policy": {
       "id": "declared-target-seed-stage-v1",
@@ -35,7 +35,7 @@
     },
     "evidence_updated_at": null,
     "evidence_updated_at_reason": "Legacy result rows do not record measurement timestamps",
-    "generated_at": "2026-11-11T13:24:21Z",
+    "generated_at": "2026-11-12T14:36:53Z",
     "generation_basis": "Source commit timestamp; not a measurement or check-in time",
     "limitations": [
       "No scientific acceptance or convergence inferred from process completion",
@@ -363,7 +363,7 @@
         "stage": "mass_total[1]"
       }
     ],
-    "producer_revision": "d029159b6da758447cb951babf99a60db680f7a2",
+    "producer_revision": "0b43083200219f560d9fc8e67d0ca868ddad5139",
     "project": "autolens_inference",
     "records": [
       {
@@ -195055,7 +195055,7 @@
         "reference_record_id_reason": "No explicitly accepted current baseline with frozen model/prior identities"
       }
     ],
-    "source_commit": "d029159b6da758447cb951babf99a60db680f7a2",
+    "source_commit": "0b43083200219f560d9fc8e67d0ca868ddad5139",
     "valid_until": null,
     "version": 2
   }
