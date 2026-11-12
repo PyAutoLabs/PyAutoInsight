@@ -29,3 +29,5 @@ repo, at `_brain/`, or selected with `PYAUTO_BRAIN`. The banner, logo, responsiv
 layout and section navigation come from its `board/_theme.py`; CI and dashboard
 refresh workflows check it out automatically. Counts and section links remain
 owned by this board.
+
+<sub><i><a href="https://music.apple.com/us/song/1635570436">turn on the lights</a></i></sub>
