@@ -3,8 +3,8 @@
   "repo": "autofit_inference",
   "github": "PyAutoLabs/autofit_inference",
   "summary_path": "dashboard/summary.json",
-  "commit": "6d26b5571fac7824c9c6c8188818e68889233b89",
-  "fetched_at": "2026-10-16T16:00:02Z",
+  "commit": "9eceb1f88af3bdf56c0c50a03734a161ec8d6fa6",
+  "fetched_at": "2026-11-12T11:57:26Z",
   "summary": {
     "comparison_policy": {
       "id": "gaussian_x3-task-groups-v1",
