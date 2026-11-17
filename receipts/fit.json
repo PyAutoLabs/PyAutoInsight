@@ -3,10 +3,10 @@
   "repo": "autofit_inference",
   "github": "PyAutoLabs/autofit_inference",
   "branch": "main",
-  "resolved_commit": "9eceb1f88af3bdf56c0c50a03734a161ec8d6fa6",
+  "resolved_commit": "c00248ff9c09818e43260aec508b12835017c43f",
   "summary_path": "dashboard/summary.json",
   "source": "remote",
-  "fetched_at": "2026-11-12T11:57:26Z",
+  "fetched_at": "2026-11-17T12:35:21Z",
   "outcome": "ok",
   "schema": "inference-summary",
   "version": 3,
@@ -14,5 +14,5 @@
   "record_shards": 101,
   "errors": [],
   "cached_from": null,
-  "refreshed_at": "2026-11-16T12:10:44Z"
+  "refreshed_at": "2026-11-17T12:35:21Z"
 }
