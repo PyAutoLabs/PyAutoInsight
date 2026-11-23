@@ -3,8 +3,8 @@
   "repo": "autolens_inference",
   "github": "PyAutoLabs/autolens_inference",
   "summary_path": "dashboard/catalogue.json",
-  "commit": "22b2395fb96dd3297a32d869c0c81640bb095429",
-  "fetched_at": "2026-11-20T12:17:54Z",
+  "commit": "0af93f6092ca4b147c570814a535cb34f7c700de",
+  "fetched_at": "2026-11-23T13:47:38Z",
   "summary": {
     "comparison_policy": {
       "id": "declared-target-seed-stage-v1",
